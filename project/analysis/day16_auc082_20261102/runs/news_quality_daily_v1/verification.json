@@ -1,0 +1,1063 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7970909507358184,
+      "best": {
+        "name": "day15_poisson_l15_trees1600",
+        "objective": "poisson",
+        "recipe": "replace_daily_correction_on_original_augmented",
+        "power": 0.125,
+        "auc": 0.7970909507358184
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "power": 0.0,
+          "auc": 0.7969912107210707
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968647337547332
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7967809570746658
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7966407639443523
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7967036469904757
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.795912028383867
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7961883394155822
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7934489662287377
+        },
+        {
+          "name": "day15_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7938836418149215
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968939004807039
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7968136107896607
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7966771802384218
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7967452570452017
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.795926210153527
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7962035184304125
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7932642467753898
+        },
+        {
+          "name": "day15_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7936978611040444
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968759568057836
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7968003386693112
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7966132406514695
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7966845497454667
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7956915819484827
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7959758028863148
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7924669748667689
+        },
+        {
+          "name": "day15_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7928889665724909
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968793016199895
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7967944495322927
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7966527046076367
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7967245756627636
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7959020505416506
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7961900010416563
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7933202151391235
+        },
+        {
+          "name": "day15_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7937539925308399
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968727171066091
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.796796900194917
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7966134657054471
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7966877800112409
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7957081490207796
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7959967686183893
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7925604032629293
+        },
+        {
+          "name": "day15_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7929816436657021
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968816148244958
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7968112908470114
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7965899596934458
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7966620638883218
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7954949568701942
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7957684897655333
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7915580168896016
+        },
+        {
+          "name": "day15_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7919593481011288
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7968885881287298
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7968195053171937
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7967019712143012
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7967941153203979
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7961064581751525
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7964298620885869
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7940481003459571
+        },
+        {
+          "name": "day15_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7945519086059355
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7969844422563852
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7969267334303037
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.7968985551899171
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7970084334146855
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.7965109199279369
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7968679000081486
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.7949437282547448
+        },
+        {
+          "name": "day15_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7954898453148826
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.7970256695845865
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.7969723587444684
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.796981364946458
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.7970909507358184
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.79665532574528
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.7970092190821643
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.795155130080724
+        },
+        {
+          "name": "day15_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.7956963714205568
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8100732824828686,
+      "best": {
+        "name": "day16_binary_l15_trees900",
+        "objective": "binary",
+        "recipe": "replace_daily_correction_on_original_augmented",
+        "power": 0.125,
+        "auc": 0.8100732824828686
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "power": 0.0,
+          "auc": 0.8099929054412446
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.810005898536563
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099143189788697
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099482218538809
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100066310754382
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8096051760172273
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8099182275649106
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8080184743428124
+        },
+        {
+          "name": "day16_binary_l15_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8085759434890775
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8100294168223473
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099481460961357
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099838928376237
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100732824828686
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8096740089909138
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8100215322387123
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8081213854615479
+        },
+        {
+          "name": "day16_binary_l15_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8087288617818146
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8099942690806584
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099178821609537
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8098993118831552
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100049278102006
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8094665804324385
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8098365517273666
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.807565165676064
+        },
+        {
+          "name": "day16_binary_l15_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8081970314961849
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8099944969959088
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099060966954551
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099233123220468
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.809990599966134
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8095439284482837
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8098726040678945
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.807876864498585
+        },
+        {
+          "name": "day16_binary_l31_trees400",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8084491487781422
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8100162446049025
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099411571231326
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.809946476857682
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100455063549975
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8095573266549345
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8099212103656246
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8077083542346598
+        },
+        {
+          "name": "day16_binary_l31_trees900",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.808336748038797
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8100184666180904
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099516084818977
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099316687865524
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100444033735884
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8094361938724316
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8098284180419931
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8071276512151623
+        },
+        {
+          "name": "day16_binary_l31_trees1600",
+          "objective": "binary",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8077801231419807
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8099055760214605
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8097779499013723
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8097384050003872
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.809735997444925
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8091630583102819
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8093657699860957
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8069956189475709
+        },
+        {
+          "name": "day16_poisson_l15_trees400",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.807420632738498
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8099816066229568
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8098618997553022
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099023877760138
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.80991205651875
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8095050249200737
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8097352539917982
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.8078164746614007
+        },
+        {
+          "name": "day16_poisson_l15_trees900",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8082688665310291
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.0625,
+          "auc": 0.8100308221927225
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.0625,
+          "auc": 0.8099136776060945
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.125,
+          "auc": 0.8099928714144607
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.125,
+          "auc": 0.8100117036342934
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.25,
+          "auc": 0.8096897691699767
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.25,
+          "auc": 0.8099261859802465
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "correct_current_best",
+          "power": 0.5,
+          "auc": 0.808187753098441
+        },
+        {
+          "name": "day16_poisson_l15_trees1600",
+          "objective": "poisson",
+          "recipe": "replace_daily_correction_on_original_augmented",
+          "power": 0.5,
+          "auc": 0.8086450628013603
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

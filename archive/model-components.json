@@ -1,0 +1,422 @@
+[
+  {
+    "path": "analysis/day16_auc082_20261102/runs/augmented_rows_v1_day16/depth8_weight5_trees1200.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 8528884,
+    "sha256": "d264b6523194dc8ff0892f3294c551862bb0ff203868e40c4c104b4ba97335c2"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/bayesian_daily_offset_v1/day16_binary_l15_trees1000.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 2242940,
+    "sha256": "98e3ef2934a8288f45580b6930a49ea3e5543bc1242a1e7c9721c506e2dc0803"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/catboost_daily_history_v1/identity1_poisson.cbm",
+    "role": "用户分组校准与残差修正",
+    "bytes": 1386644,
+    "sha256": "f980ef72f3de444ef2b07a5281c40a24658f8e7291437d885180173687eb9a91"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/catboost_global_rows_v1/depth8_weight5_trees1200.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 6833952,
+    "sha256": "f85dc72ed82b4392baf9dc16dbe3a768ceaa448fe948ea62f6f468557e922fd0"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/catboost_userday_residual_v1/poisson_d6.cbm",
+    "role": "用户分组校准与残差修正",
+    "bytes": 268828,
+    "sha256": "1536f58e6bf2eba5ecad1c21975fc1d19bf323add6cb3876db32f6e8a01f0da0"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/catboost_within_ranker_v2/day16_pairlogit_d6_trees1600.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 2075724,
+    "sha256": "ce43c5751fef9318fc1e82adc933120459fdb1e509a3cdc8ede2816a9bdd8343"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/cold_task_ranker_v1/day16_cold_task_d6_trees1600.cbm",
+    "role": "冷广告分支中的四模型平均",
+    "bytes": 2089168,
+    "sha256": "0c0eada58329fefd4e252bc08f8d40af0ece308e6c72afd036b287e4ab62a5eb"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/cold_task_ranker_v1/day16_cold_task_d6_trees600.cbm",
+    "role": "冷广告分支中的四模型平均",
+    "bytes": 999992,
+    "sha256": "3d6756b6bbb7958f799723579602dd6a5a668e26355836701fcb0701ae6d02fd"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/cold_task_ranker_v1/day16_cold_task_d8_trees1600.cbm",
+    "role": "冷广告分支中的四模型平均",
+    "bytes": 7036152,
+    "sha256": "79aadd156d211ff7c36719c7347788fd218b03fb21ea239508288fbfc559089f"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/cold_task_ranker_v1/day16_cold_task_d8_trees600.cbm",
+    "role": "冷广告分支中的四模型平均",
+    "bytes": 2856208,
+    "sha256": "a9da7deda924defe9d6c5f596022ded61760d18715c39fed24eab128b2186aab"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/compact_full_sample_ranker_v1/day16_full_sample_d6_trees1600.cbm",
+    "role": "全样本分支中的四模型平均",
+    "bytes": 3153000,
+    "sha256": "38f85adc590fb3601429837dd2dd5e7a882f334edd73025ee8492594ccd36719"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/compact_full_sample_ranker_v1/day16_full_sample_d6_trees2400.cbm",
+    "role": "全样本分支中的四模型平均",
+    "bytes": 4024344,
+    "sha256": "26cfc4d0156bca349c50a12cf4895e65aa2f70612d273a8272871bd362fd4b2a"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/compact_full_sample_ranker_v1/day16_full_sample_d8_trees1600.cbm",
+    "role": "全样本分支中的四模型平均",
+    "bytes": 8114456,
+    "sha256": "98c9a933d9073c48c07621bfc89d24c43c405255bd63bc86e16f26f4287669db"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/compact_full_sample_ranker_v1/day16_full_sample_d8_trees2400.cbm",
+    "role": "全样本分支中的四模型平均",
+    "bytes": 11457296,
+    "sha256": "72e6d95e855caa532c633e7d5b9b0c194e85e2c72d5ebd38d3878a6a3904ecf9"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/compact_quality_daily_catboost_v1/day16_poisson_d7_top192_trees3200.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 7475908,
+    "sha256": "c5006d10e45aed712492b36651d85e4313eba4c533cc91f23d11cad112bc664d"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/context_rank_boost_v1/t0.5_l15.txt",
+    "role": "用户分组校准与残差修正",
+    "bytes": 168924,
+    "sha256": "b86f88b2f2372954196d7a25ef2dcacb5e738d27aa17a151309be913474a8336"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/cross_user_pair_ranker_v1/day16_global_pair_d8_trees1600.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 8516528,
+    "sha256": "8ade64dc1d3d8d4dde4ce49032efea8ccba3244bf5bc342887b6cd2fcf4191a3"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/daily_binomial_rate_v1/day16_binomial_recent2_d7_top192_trees1600.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 3496080,
+    "sha256": "8ceaa2b96b97cff1cfc0ca0c234d565dc3c3f790fd4018aa28fd21fedd26bd64"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/dense_context_rows_v1/day16_context_numeric_trees1400.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 6815172,
+    "sha256": "86310858beabf4beaa5f4b4f815616932521002dbff933b7efb3d32ce4a73802"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/extended_history_residual_v1/binary_7.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 103119,
+    "sha256": "00d452c12ab805a6a81171a57ab07fe9991ba078a2fe3b0d66c72c8f26413076"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/extended_history_residual_v1/poisson_15.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 100550,
+    "sha256": "5076241006d911989eba386ec7ce078246521ea4c163e6cdb1166ce626b3f326"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_class_balance_v1/day16_positive25_d6_trees3200.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 5128056,
+    "sha256": "04816704f344e882df25ede7e72e87c0c09255e706522abc1e3d8f9fa4e2b6d0"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_context_v2/day16_all_negative_d6_trees2400.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 4692112,
+    "sha256": "80ad391137298afd5b8f38d99a01d02c12cf18ecb3249689d9f1704a9fc9fd73"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_context_v2/day16_all_negative_d8_recent2_trees2400.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 12115152,
+    "sha256": "7c6f1f0fbda255a4a3ff7b2fe8597ff22dab12936b098eac6be30bad70a3e36a"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_history_dot_embeddings_v1/day16_history_dot_d6_trees2400.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 4228744,
+    "sha256": "0a1fdebd9cde4960330beebf1b64c84d3f76ed575e8e960f18032ac3c0b25d9b"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_neural_embeddings_v2/day16_neural_embedding_d6_trees2400.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 4671388,
+    "sha256": "3bf32fcaf3b9bc93e8714492764ff1fd1dae8397a446382ccd1e5b76590400ce"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_neural_embeddings_v2/neural_tables_day16.npz",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 1055464,
+    "sha256": "5de70cb4e805fb90e5c9210cda23a20a979867af042bb13e640263dc75341690"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_negative_semantic_embeddings_v1/day16_semantic_d6_trees2400.cbm",
+    "role": "最终整合使用的上下文与关系修正",
+    "bytes": 5119196,
+    "sha256": "40cd88c5e446efcff44438aa1ebc6d1eac0a2daf60cc158270ad319e24d9a87d"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/full_quality_row_catboost_v1/day16_recent2_quality_depth8_trees3600.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 18866472,
+    "sha256": "5cab082a64ab8fe30c13c8845c56a0e7b7dfbcb1741e298538ab778119bf9b6e"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/group_meta_calibration_v1/models.npz",
+    "role": "用户分组校准与残差修正",
+    "bytes": 6562,
+    "sha256": "39ae79b978b9e7e94536105ff625680b58968842e8ee50928b8468ca520a1492"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/group_score_calibration_v1/model.npz",
+    "role": "用户分组校准与残差修正",
+    "bytes": 1244,
+    "sha256": "9f72867e1bf6588815cf16e0f9e94df6e286426f7d3c49332bfffe39edbde161"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/news_quality_daily_v1/day16_binary_l15_trees1600.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 3476498,
+    "sha256": "c3f96a3cd305858d4388fa1f4fc92e5f588652f75f8d1b645b52341aa4e0c8b9"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/news_quality_daily_v1/day16_binary_l15_trees900.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 2070126,
+    "sha256": "3b64a7d8c9706c373bfb02cd98e4c55d76ccd26f7caaa6a8b07a2d3e8c936440"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/news_quality_daily_v1/day16_poisson_l15_trees1600.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 3462892,
+    "sha256": "80eb38f0c86c8b26ba25bd119ecd968c8c97b66075ac82e4e3d090c0ea01ff33"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/pairwise_group_boost_v1/t0.5_l3.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 57833,
+    "sha256": "03f1a0b64fc52e71e442892b37214eb65c7cbe1f9f0f5dc4b4ca1daeab859c24"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/pairwise_group_boost_v1/t1_l3.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 83652,
+    "sha256": "442ef27e2e04ff893742cc31523b60953905cca3ff2a3a5758e200cce6a70633"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/pairwise_group_boost_v1/t1_l7.txt",
+    "role": "用户分组校准与残差修正",
+    "bytes": 70819,
+    "sha256": "991e9ab4aafaa1b7acc6964e174d1a4eb2334bb4de95543a93a49a3152fac90f"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/personal_context_residual_v1/binary_7.txt",
+    "role": "用户分组校准与残差修正",
+    "bytes": 173748,
+    "sha256": "fc4d19e4a40d36e711e57b63b62b58e907bbb91df674c0d1cc8ff08d98fef656"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/quality_daily_catboost_v1/day16_poisson_d5_offset_trees1600.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 1696432,
+    "sha256": "49d5302622037543e64d2602aa05a3ac2dc8363ab9495a9c65654c9ec8cfab1d"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rank_finetune_v1_day16/t1_bce025/best.pt",
+    "role": "用户日状态与排序神经网络",
+    "bytes": 2374754,
+    "sha256": "58f519129cb4b266ed35d6714d10ffddf339880982ae4dd467a63d03538a4482"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_binary16_cpu_v1/binary_offset_trees1200.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 2058516,
+    "sha256": "dd8b3b1fd754c26da5ec0b7a2ae0cb3349f865e07f3802893ee26c972a68b74e"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_group_residual_v1/binary_7.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 92502,
+    "sha256": "29ab83d0bf0567ccf257b44c52b47294b699922018d7d20b8ffb6b51316900c0"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_group_residual_v1/poisson_15.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 112294,
+    "sha256": "b6ea3b264426e324c00349d57b5e0ca69ccc9aa8b703c088ab338c47b3b2872e"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_row_catboost_v1/day16_depth6_weight5_trees2400.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 6146640,
+    "sha256": "d00e145f028fea0d536afd0eecc89ceef192a40094871cd07518ecff5f8c44e1"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_row_catboost_v1/day16_depth8_weight5_trees2400.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 13562464,
+    "sha256": "d5fd59f96953e1682af36acdadeea8696f18cc0b37c5cf695099d4ff1d7a0e9e"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rich_userday_activity_v1/context_history_binary_15.txt",
+    "role": "用户分组校准与残差修正",
+    "bytes": 670178,
+    "sha256": "efaa591362010ad4975502df353e39df410f675fdb07a2fba83da80b9cedf980"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/rolling_rich_count_v1/day16_poisson_d8_bins8_trees1200.cbm",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 5768356,
+    "sha256": "e7ea7fefa10a9e124d578bedae797730362e9313c905f02c8e95b95ab2abeba4"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/slot_id_binary_7.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 137118,
+    "sha256": "4324d05c6e54f65a074fda490a2adce0b79c3b2e411213bf87cccff76279358f"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/slot_id_poisson_15.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 206353,
+    "sha256": "cd919fda873a953ad773661b1c197361d896bdf8f75443bf52fb9ac4f37b5089"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/spread_app_id_binary_15.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 378823,
+    "sha256": "812dd65f5c6283ab13ae79ac06ff6a5ea4479b5a69a40c4fd8eadc888e1cf6d7"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/spread_app_id_poisson_15.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 318952,
+    "sha256": "0dda3bfd055c71d09025f4781648dd520e5b4c35c3c387f393d616c00e820773"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/task_id_binary_7.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 162367,
+    "sha256": "a901dd2c38eb27733683070970bfa4b328a21fd7ab168b8fcae119d99c5e6e4d"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/subgroup_residual_v1/task_id_poisson_7.txt",
+    "role": "元校准实际使用的十二个残差预测分量",
+    "bytes": 150796,
+    "sha256": "42adeef6b733198a676b21b88d103ac23c09f4e8da1377b402f3932c6116bb9c"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/task_audience_rate_v1/day16_audience_d6_trees200.cbm",
+    "role": "广告受众与快照特征模块",
+    "bytes": 362100,
+    "sha256": "9781aab48263082a98a2eb0c424ec4a9f2a3b765659668102b49257158070137"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/task_audience_row_ranker_v1/day16_audience_row_d6_trees1600.cbm",
+    "role": "广告受众与快照特征模块",
+    "bytes": 3184344,
+    "sha256": "91729db104765f884ede06afa0fa3ffacbdfe415c1968dd68f4051ab4c6f5c22"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/unordered_snapshot_ranker_v1/day16_unordered_d8_trees600.cbm",
+    "role": "广告受众与快照特征模块",
+    "bytes": 3910244,
+    "sha256": "9b52315387ad4ffd76b3525300f1d3973a6f0233f99ac036a1566d792cc8d934"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/weighted_v1_day16/positive_weight_5/ema_best.pt",
+    "role": "用户日状态与排序神经网络",
+    "bytes": 2388130,
+    "sha256": "a59ac5127aed6411c668ec8dde23e4b1b1871a4c08270c961bc44b36b281e780"
+  },
+  {
+    "path": "analysis/day16_auc082_20261102/runs/within_user_ranker_v1/day16_lambdarank_trees600.txt",
+    "role": "已整合的广告样本与日统计修正",
+    "bytes": 2715461,
+    "sha256": "2e9779abdb9e59e8e80f6b5f44d21d2cb348b162b839227ec11f8f7f89cb376b"
+  },
+  {
+    "path": "analysis/final_daystate_20261101/full_refit_seed42_epoch1/model.pt",
+    "role": "基础预测中的用户日状态神经网络",
+    "bytes": 2465314,
+    "sha256": "529aa471dd5586c201c4544648e3af319b786c2938f303e4073a4587af66371b"
+  },
+  {
+    "path": "analysis/userday_aux_20261101/runs/protected_day_aux_v1_day16_seed42/both/final_model.pt",
+    "role": "冻结类别与历史向量的来源网络",
+    "bytes": 2387746,
+    "sha256": "852f6454e5ee05a73355ec0f96b82a4e97609b8439e80f4790e1831f375dc35e"
+  },
+  {
+    "path": "compact_final/models/allocated.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 1674527,
+    "sha256": "2608eb2ed028f0d5a0170b1bc591943b21ee969f52d06472425b625d16a5bc47"
+  },
+  {
+    "path": "compact_final/models/dcn.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 3318692,
+    "sha256": "3813c5357052b4256b28a59909db3978ef230eec3cbcad47661f4446fe40c2a6"
+  },
+  {
+    "path": "compact_final/models/gated166.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 2289338,
+    "sha256": "744458e3621a1cb1a28166aa3b187ce541ef507c0e0682c770a7d490555094c9"
+  },
+  {
+    "path": "compact_final/models/gated500.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 3012218,
+    "sha256": "981ea1eebc3f3290ad7281a92b9f17d856fc63e21f4679b994b696779b507e21"
+  },
+  {
+    "path": "compact_final/models/lgb.txt",
+    "role": "十路基础预测整合模块",
+    "bytes": 2830650,
+    "sha256": "0cdd8c7df04c4452300ff7230e152a5d87fe066d077e10491876d38468019d7a"
+  },
+  {
+    "path": "compact_final/models/multiscale_dcn.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 4837476,
+    "sha256": "bffab478d29037e916e6406ec3b288dfdab4568caa074e2a18a8f99dbce44eca"
+  },
+  {
+    "path": "compact_final/models/oof.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 3313764,
+    "sha256": "5e33adb21e522c778cd6f0405f3b7f7e0665e7247b386c36cc80388700c04185"
+  },
+  {
+    "path": "compact_final/models/shared_lgb.txt",
+    "role": "十路基础预测整合模块",
+    "bytes": 1114625,
+    "sha256": "28aac65a2a49e1d293f75d34215b210628cb5d66b89d6f778a0e49d164b4da47"
+  },
+  {
+    "path": "compact_final/models/tabm.pt",
+    "role": "十路基础预测整合模块",
+    "bytes": 2839881,
+    "sha256": "eaf799cd8c616b6c6478f922f449fe63ae08ebadf13da2ecea3ce565d40a71a9"
+  },
+  {
+    "path": "compact_final/models/tree.cbm",
+    "role": "十路基础预测整合模块",
+    "bytes": 7507260,
+    "sha256": "88d764aefc534271be1e4d8df59a71e442c62d8d0c17501c0768f79df2fba528"
+  }
+]

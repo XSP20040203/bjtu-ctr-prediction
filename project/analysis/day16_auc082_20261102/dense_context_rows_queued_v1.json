@@ -1,0 +1,77 @@
+{
+  "status": "queued_waiting_for_source_independent_verification",
+  "frozen_utc": "2026-11-02T20:35:26.203112+00:00",
+  "wait_for_process_id": 97416,
+  "source_run": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1",
+  "output_run": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\dense_context_rows_v1",
+  "arms": [
+    {
+      "name": "dense_regularized",
+      "focus": false,
+      "num_leaves": 31,
+      "min_data_in_leaf": 700,
+      "lambda_l2": 60.0,
+      "cat_l2": 200.0,
+      "cat_smooth": 250.0,
+      "min_data_per_group": 300
+    },
+    {
+      "name": "context_numeric",
+      "focus": true,
+      "num_leaves": 31,
+      "min_data_in_leaf": 350,
+      "lambda_l2": 40.0,
+      "cat_l2": 60.0,
+      "cat_smooth": 100.0,
+      "min_data_per_group": 120
+    }
+  ],
+  "params": {
+    "objective": "binary",
+    "learning_rate": 0.025,
+    "max_bin": 63,
+    "max_cat_threshold": 24,
+    "max_cat_to_onehot": 4,
+    "feature_fraction": 0.9,
+    "bagging_fraction": 0.9,
+    "bagging_freq": 1,
+    "scale_pos_weight": 5.0,
+    "num_threads": 4,
+    "seed": 151637,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true,
+    "feature_pre_filter": false
+  },
+  "checkpoints": [
+    600,
+    1400,
+    2600
+  ],
+  "blend_weights": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "targets": {
+    "20191115": 0.815,
+    "20191116": 0.82
+  },
+  "preflight_shape": [
+    994037,
+    694
+  ],
+  "preflight_maximum_serialization_error": 0.0,
+  "inferred17_labels_used": false,
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\dense_context_rows.py": "a467d4fc05762f46124bca18487c7c31d6ebf596e087f20b716b8f49270cd168",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_dense_context_rows.py": "d14fdd982354ab3bc428a70f83108f1ef74add2ea7fecbe27d7ba2060de2a0de",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_dense_context_rows.ps1": "ebcbe879d187224d7a89368b5cf991ff9406f60ba0c3f4e92040da8784286fd8",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\check_dense_context_preflight.py": "638c730f101e90e2e4a1f960e6b1f6567947bbd37e4ea681915475e27ad7ede5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\dense_context_rows_preflight_v1\\verification.json": "405bcd1dd73fd4ef6085787bba5e0d95ac0322aa79ef0d9f97d018f952fdc2a2",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_row_capacity_diagnostic.json": "e686e3342f732ba0bd117134ace756e030198f2994589a0abea5da14c877b0b8"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "input_fields": [
+    "user_id",
+    "age",
+    "sex",
+    "residence",
+    "city",
+    "city_rank",
+    "series_dev",
+    "series_group",
+    "device_dev",
+    "device_name",
+    "device_size",
+    "net_type",
+    "task_id",
+    "adv_id",
+    "creat_type_cd",
+    "adv_prim_id",
+    "inter_type_cd",
+    "slot_id",
+    "site_id",
+    "spread_app_id",
+    "hispace_app_tags",
+    "app_second_class",
+    "app_score",
+    "ad_click_list_v001",
+    "ad_click_list_v002",
+    "ad_click_list_v003",
+    "ad_close_list_v001",
+    "ad_close_list_v002",
+    "ad_close_list_v003",
+    "pt_d",
+    "u_newsCatInterestsST",
+    "u_refreshTimes",
+    "u_feedLifeCycle"
+  ],
+  "labels_or_logid_in_keys": false,
+  "availability": "Complete supplied same-day input exposures; pt_d is part of exact context key",
+  "hash_note": "64-bit pandas hashes; collisions may merge keys, no target-bearing hash input",
+  "candidate_exponents": [
+    0.0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "base": ".9 original best groupedOOF blend + .1 response TabM",
+  "development_caveat": "Days15/16 repeatedly used development dates; checkpoints selected on own labels",
+  "source_sha256": "dc1e334c125afb83db65fa378f60664f072bfb697c21d1962aa4f697f5b96b0d",
+  "selected_exponent": 0.1,
+  "day15_candidates": [
+    {
+      "exponent": 0.0,
+      "auc": 0.7896107252197929
+    },
+    {
+      "exponent": 0.1,
+      "auc": 0.7905480723412239
+    },
+    {
+      "exponent": 0.25,
+      "auc": 0.7898865322384085
+    },
+    {
+      "exponent": 0.5,
+      "auc": 0.7830383586898044
+    }
+  ],
+  "day16_labels_used_for_selection": false
+}

@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "date": 20191117,
+  "rows": 404182,
+  "development16_auc": 0.8127918767763859,
+  "selected_model": {
+    "name": "day16_cold_task_d8_trees1600",
+    "mode": "replace_global",
+    "weight": 0.2,
+    "auc": 0.8127918767763859
+  },
+  "inferred_label_auc": 0.8041662779233099,
+  "independent_rank_auc": 0.8041662779233099,
+  "inferred_positive_count": 3459,
+  "labels_are_inferred_not_observed": true,
+  "platform_auc": null,
+  "new_model_training": false,
+  "inferred_labels_used_for_training_tuning_feature_or_model_selection": false,
+  "development_dates_repeatedly_reused": true,
+  "correction_training_max_date": 20191115,
+  "inherited_reference_training_max_date": 20191116,
+  "ad_history_max_date": 20191116,
+  "day16_winning_forecasts_replayed": true,
+  "inherited_base_and_features_independently_verified": true,
+  "day17_full1017_feature_frame_and_model_margins_replayed_exactly": true,
+  "day17_group_correction_independently_replayed": true,
+  "maximum_prediction_replay_error": 5.551115123125783e-17,
+  "csv_roundtrip_exact": true,
+  "original_row_order_verified": true,
+  "repeated_log_ids_preserved": 858,
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "inferred_label_sha256": "ab29c227c97efcc4fbef4dd57d92a8657ce5c078f1cbd03f037d8183f0ca7e24",
+  "protocol_sha256": "9de2096ccfa2cad0f4fc064b4c28b79165edf4e697bc5f327fe7aeae133ae5c8",
+  "submission_sha256": "7ac6ed8050a67cd3e7ec477d3dcc82269cf64405c2a3525f93788551e51686c8"
+}

@@ -1,0 +1,2869 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8016827654481293,
+      "best": {
+        "name": "cold_task_ranker_v1__late_mean",
+        "mask": "changed_click",
+        "weight": 0.35,
+        "auc": 0.8016827654481293
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "weight": 0.0,
+          "auc": 0.801647173228954
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8016162134831197
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015724735013782
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8014412326679101
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8010201148993408
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7999559067374188
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.798378554618334
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.801636609168293
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016227306150698
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015891093027341
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8014944660193832
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.801279028045722
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8009736271028667
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016458498576605
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.801643806178876
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016366098421073
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016145848739465
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8015569131076518
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8014690659153729
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8016221039677669
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015782622400655
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8014378582058748
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8009301714707615
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7995918906882429
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7975372388377204
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016358423676149
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016207981156455
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015821373461288
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.801468977645699
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8011973273875258
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.800818833090396
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016459179129053
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016440662711973
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016345587513654
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016062026240026
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8015285866281183
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8014079765629273
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015920336568143
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015211686064436
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8013419326539031
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.800811589586626
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7995879475269347
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7978242891218157
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.801629573873143
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016100009152353
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015630913110068
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8014409671850743
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8011821348964094
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8008380516219799
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016481617145382
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016477897690423
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016451046190401
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016290112381991
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8015831157244985
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.801514603633678
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015922438868772
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.801519718558061
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.801319322141112
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8006854198796112
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7991479366790905
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7968742662056943
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016225756377798
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8015946312109569
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015287341934509
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8013592260980198
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8009994207144308
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8005235797909617
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016486293416653
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016485505053917
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016443149086756
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016229394975041
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8015609600363627
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8014608595309622
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015873385187428
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015176203003178
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8013465449128152
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8008906212663633
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7998989161973855
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7985335763800395
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016284580366554
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016082186764006
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015628136995134
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8014523580158864
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8012397776886891
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8009735320950498
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016370457999621
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016261320296774
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.801601693458679
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8015482350532283
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8014477612547033
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8013231696207889
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8016017810545385
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015448221837775
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.801394693661549
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8009461280672988
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7998955707093652
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7983874058430337
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016300098309979
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016109557101042
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015656464148483
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8014507671403143
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8012210288056754
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8009207475039033
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016381784818074
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016271440987622
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016036933395339
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8015465794914829
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8014344729628106
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8012954994363877
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015556746369606
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8014570962780734
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8012329829452458
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8007008475319197
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7996716783876294
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7983580807707015
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016436815232297
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016400193424864
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8016269668856002
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8015902561346798
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8015077623970477
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.801390046364293
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016465128909358
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016442812179604
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016403299708806
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016275416492017
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8015992704224412
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8015571523117297
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.801580343652451
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015046615036198
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8013326117806333
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8008953137091777
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8000288424191462
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7988872689202611
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016437051067303
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016390915001896
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8016255370516467
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8015866599877385
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8014986989208421
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8013726410670018
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016502579508384
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016520988115176
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016556484652719
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016561201352849
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016475040717773
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8016252574187105
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015598367879176
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8014652939028981
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8012461587101498
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8007171464261236
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7996663202162826
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7983041796692528
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016489702917032
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016499008292572
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8016479083603598
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8016282471327781
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8015684366798819
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8014712207735176
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016489103222301
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016492937225692
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016496993587803
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016455378816377
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016241867277811
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8015871869105243
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015873452568858
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.801518604069202
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8013535492125071
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8009356650787836
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.80005619052031
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7988715993686174
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016504796357445
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016534174661107
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8016534599164119
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8016408387006804
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8015875965896212
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.801489840284185
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016532025193478
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016575775956248
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016658129540505
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016762644877227
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016778169558795
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8016634835780009
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8015845913778246
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015111031683678
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.801340638930439
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8008932403825637
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.7999386773056608
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7986406993781181
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016324840771228
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016172154449901
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015842396467578
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.801501467623818
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8013428247840418
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8011387864007786
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016494197258441
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016507626377524
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016543520465507
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016532180170768
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016370997051064
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8016052720864485
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8016072443409168
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8015591454544415
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8014384430766908
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8010843388359293
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8002717133945735
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.7991120661746074
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016280611600302
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.80160876648743
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015655231068306
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.801461118275655
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8012621584308025
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8010145431288594
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016528696550815
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8016583915633042
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016683700793349
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016810532859824
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016827654481293
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8016671248705007
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8016022217290935
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.801549880507759
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8014247221960148
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8010922076393736
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8003949540308081
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.799437284669963
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8016360910050931
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8016237217959112
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8015928348220219
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.801520622143043
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.801379601568764
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8011972175557942
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8016483234299712
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.801648659663309
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8016485040122047
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8016443614018626
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8016291500439457
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8016019784821297
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "all_historical_parent_candidate_locks_replayed": true,
+      "independent_rank_mapping_and_odds_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8136143850362849,
+      "best": {
+        "name": "cold_task_ranker_v1__late_mean",
+        "mask": "changed_click",
+        "weight": 0.5,
+        "auc": 0.8136143850362849
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "weight": 0.0,
+          "auc": 0.8134993417640644
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134419732484816
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133721207553086
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8131814481408355
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8126072166304203
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.81127190676125
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.809337699173436
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8135031424916207
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8135039475781672
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8135048393367105
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.813489725666541
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8134258105261453
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8133126830260579
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134971589137787
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134936458088482
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134861323097617
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134611951712917
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.81340568721457
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8133261094813594
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134520336202395
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.813391012040502
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8132027277210474
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8125984974275584
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.811102195287653
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8088672050547909
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8135080352863348
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8135136497056725
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8135246275165654
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8135211805391583
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.813466820504881
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.813345171542487
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134921858672159
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134839398292543
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134674772860111
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134223372261318
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8133321328641184
+        },
+        {
+          "name": "compact_full_sample_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8132142050194467
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134427507283921
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133722716287842
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8131806148056382
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8126083356621991
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8112729776419196
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8093259650691207
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134908581806304
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134804459847674
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134568923881697
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133963073784893
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132594612840031
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8130751780007192
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134918796261612
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134830660471252
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134649933307889
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.813424628576917
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8133488252486564
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8132560464073354
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134603977889227
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133999944694278
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8132246916890253
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8126346486383641
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8111481821650403
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8089237941644188
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134939308634149
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134864070920919
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134689057689186
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8134122338393829
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132707620283351
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8130641302102142
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134878009062008
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.813475380488075
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134500440164056
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8133892561300516
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8132778960966808
+        },
+        {
+          "name": "unordered_snapshot_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8131450696567942
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134240835063604
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133326092390926
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8131051941181923
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8124689683756329
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8110732609651009
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8091080254445048
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134865637437007
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134717819951774
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134404144365716
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133612527289449
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132074208491616
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8130073260256316
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134965387274916
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134924445991762
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134829382861819
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134514564489435
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8133811949923494
+        },
+        {
+          "name": "pointwise_compact_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8132819626183602
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.813449997149326
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133808605026438
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.813199645408041
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8126384667003197
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8113079815722957
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.809364757528772
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134884917141147
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134753798460602
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134474669690388
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133724648752361
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132207997953689
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8130177934347665
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8135027521466285
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8135057099087656
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.813507203235167
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134982169541525
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8134555736897912
+        },
+        {
+          "name": "pointwise_compact_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8133755677327157
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8133919384678439
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8132698169825644
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8129811356742916
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8122497344492006
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8107109989837702
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8086363493766315
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134852090924939
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134709467339358
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134384453772109
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133666995824226
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132232612800734
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8130441179671976
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134963024660489
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134926474758499
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134830891596576
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134540829314489
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8133872170910788
+        },
+        {
+          "name": "task_audience_row_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8132949293910722
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134274123530462
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133396508573084
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8131235088741043
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8125481371454223
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8112714246081428
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8094897777108279
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134887061470546
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.813477186475679
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134512946612164
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133906903910922
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132684109701745
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8131109388665325
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134987800011232
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134976031880133
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134937575194217
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134777597948865
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8134313048887174
+        },
+        {
+          "name": "task_audience_row_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8133616886569872
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8133798692318082
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.813241919513898
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8129271242540452
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8121325879365282
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8104934208134811
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8083049368479712
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.813479484888627
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134594521011371
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134157578585647
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133197894877674
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8131401807141689
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8129210880309904
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134974426843158
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134960430920738
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134897699655614
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134652180359654
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8134045405761552
+        },
+        {
+          "name": "profile_response_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8133176965195523
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134141663039005
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133118548269789
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8130673345060307
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8124246757752763
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8110457236667317
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8091548456570893
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134807676341772
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134620952760272
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.813420502989877
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8133279154689634
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8131571587952884
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8129465683139728
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8135016703517074
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8135039559243595
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8135047475285955
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134970542653679
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8134648296170175
+        },
+        {
+          "name": "profile_response_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8134043017466533
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.813419815392037
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133258770720054
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8130966245047765
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8124747111979288
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8111283355618394
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8092567083656728
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134897988562271
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134787465716186
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134551929750208
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8134004881788013
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8132930572759448
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8131568435660266
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8135048598811837
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8135100261741982
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8135190927070615
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8135236471599812
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.813507634027091
+        },
+        {
+          "name": "cold_task_ranker_v1__all_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8134633606871782
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134461745932667
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.8133807879549726
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8132046274428107
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8127100173226119
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8115718791836332
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8099525650839348
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.813490816449669
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134802771348777
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134587073639807
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8134070033448894
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.813309999404236
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.813189768010498
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.813511478411653
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8135234186027159
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.81354537936062
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8135789901189019
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8136108199281565
+        },
+        {
+          "name": "cold_task_ranker_v1__late_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8136143850362849
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.025,
+          "auc": 0.8134438042746623
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.05,
+          "auc": 0.813379622056114
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.1,
+          "auc": 0.8132165387432081
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.2,
+          "auc": 0.8127766982627226
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.35,
+          "auc": 0.8118015073295144
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "all",
+          "weight": 0.5,
+          "auc": 0.8104387981951546
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.025,
+          "auc": 0.8134923617792684
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.05,
+          "auc": 0.8134835655346316
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.1,
+          "auc": 0.8134651108194955
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.2,
+          "auc": 0.8134221818585526
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.35,
+          "auc": 0.8133327716688344
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "cold_task",
+          "weight": 0.5,
+          "auc": 0.8132123515227483
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.025,
+          "auc": 0.8134998823405175
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.05,
+          "auc": 0.8134991433814943
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.1,
+          "auc": 0.8134983023421195
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.2,
+          "auc": 0.8134919232831669
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.35,
+          "auc": 0.8134719161762686
+        },
+        {
+          "name": "equal_late_family_mean",
+          "mask": "changed_click",
+          "weight": 0.5,
+          "auc": 0.8134379645081332
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "all_historical_parent_candidate_locks_replayed": true,
+      "independent_rank_mapping_and_odds_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

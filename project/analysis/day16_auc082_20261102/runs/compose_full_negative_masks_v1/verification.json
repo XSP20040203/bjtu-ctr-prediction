@@ -1,0 +1,3087 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8019382852656748,
+      "best": {
+        "name": "all_negative_d6",
+        "mask": "user_no_past_ad_click",
+        "mode": "replace_global",
+        "weight": 0.0,
+        "auc": 0.8019382852656748
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.80190469697024
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017385505343725
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8018692536640258
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017741589250912
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019274658293926
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017167398391605
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018952379650379
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8017947938143424
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018726314951327
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018164710943222
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801912284119305
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8017788068961614
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018701693776652
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018004134256392
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018598364353106
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018221762800356
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018389886207392
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8017401946412747
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8019183161049561
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016311034316136
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8014255233612224
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016279513282986
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8014315007679148
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.801417436915758
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016341443555683
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019037078108414
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017392607346491
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8018686735099099
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017741912681777
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019276753856411
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017160370508412
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018935581459776
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017949070151454
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018719165781559
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.801815682057772
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.801913008469682
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017764862796978
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801866598161853
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801869493541918
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018686034332223
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018681203083662
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018709078781425
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018649008236208
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017938194788585
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018542875745157
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018175768235953
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018313947335312
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017416359300713
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8019056019028505
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016183501482783
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.80140723806245
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016186486480151
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8014111138423275
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8014168574354564
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016052296361473
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019085794882607
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8016703895008045
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8018757451910323
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017042655149471
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019368574531642
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8016418352720363
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019040090058355
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801658827521159
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801887418350038
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8016754073959277
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019302459872116
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8016309464328807
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018897342498014
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8015890169901745
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019006958609017
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8015789205566406
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019058727762008
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8015702182449022
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018307600004566
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8012546932421265
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.801872931342498
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8012138964812656
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.801800942369868
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8012816963503665
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016735328445335
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8002362505477445
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016897684001927
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8002180440852456
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8015022377935677
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8003873129765987
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.801907501385374
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8016692837715313
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.801876145436729
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017013162297377
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.801937264437004
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8016368921703008
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.80190125916966
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8016542604078053
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018868132647927
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8016682521618316
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019319783637876
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8016221922374408
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018837447144516
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8015750609483062
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018989776344261
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801560900740704
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019072284905808
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8015471151738547
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.801816373391248
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8012051537406689
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018629481097673
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8011603396989264
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018007227064049
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8012183389389731
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016436869137441
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.800121669099133
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016627767467959
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8001026015019532
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8014942402915913
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8002529813569172
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019069737887738
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017063981372199
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8018731193366889
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8017401562338593
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019326211826339
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8016803909265214
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018997990140629
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801731133186512
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018814274670595
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8017504487473557
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019238076915352
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8017086432864814
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018832649586669
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8017492069075931
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801891782645286
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8017398934462807
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801895080966305
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8017369798732294
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018279845593377
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8016349805591199
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018713445098117
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8015911974532628
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8017939266153329
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8016669301381668
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8016919926612108
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8010822850499302
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.801731695821456
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8010418326081787
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8015346913857142
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.801228564071039
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019115267520271
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016669139666235
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8018607272178208
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8017196237643823
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8019382852656748
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8016401305218467
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019054961140047
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017062741553879
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8018724812345428
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8017394662480118
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.80193300256153
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8016777812437214
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018972445840358
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017300510407395
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018809456898319
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017467872404267
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019246782596162
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017043147033913
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018785004177221
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017442233769994
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018905502389237
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017323500951454
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018954145043856
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017260290431578
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018166314621266
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8016137951635821
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018637546654894
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8015664031083118
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017941819909542
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8016352952303999
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8016701927470277
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8010293037050068
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8017116498459067
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8009860367409068
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8015290946841037
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.801161375351512
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_temporal_masks_and_all_candidates_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.813718098031493,
+      "best": {
+        "name": "all_negative_d6",
+        "mask": "cold_task",
+        "mode": "rank_global",
+        "weight": 0.2,
+        "auc": 0.813718098031493
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136762932384474
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136525759280782
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813684319707351
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136448756026878
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137030100419151
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136254938181949
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136844333439688
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136260600752396
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136909048530512
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136192592125701
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136962277976744
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136135427128806
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136980138828199
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135221910704377
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136938215262418
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135242268993365
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136702878321025
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135458043744109
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8137109979899313
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8131120450580155
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8136603770497904
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.813161139286986
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8135727388208924
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8132533570073804
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8136960011664536
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8119677776038374
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8135108871160315
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.812146423355251
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8132850231028637
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8123879897661507
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136772382842181
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136529784713514
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136857860691311
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.813644376757196
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8137044776877249
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136250983370844
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136862849146229
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136249763542743
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136936828510472
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136178923630824
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136989531504576
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136123055503804
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137015751388597
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135202258631657
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136984254143003
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135214874222279
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136762649897966
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135432164127927
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813718098031493
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813106808785389
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8136697190069986
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8131547557339297
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8135839265706216
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8132449125868486
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8137080074850399
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8119554746744182
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8135248888165849
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8121328402483406
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8133073433890501
+        },
+        {
+          "name": "all_negative_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.812370263737801
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136749700459653
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136837412520252
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813680529894046
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136788150725421
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136941958208643
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136627961615189
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136806788414773
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136923917593046
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136257538341849
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136732892512454
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136420764182039
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136415589542831
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.813674457718163
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8136962483421477
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8132703106919379
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8136100983035327
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8133574141225159
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8135089315389814
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134560853755788
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8136539658900983
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8121331599717061
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8133905972989477
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8123924402126744
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8131731391854243
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8126270215026598
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136751202774262
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136831300539452
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.813680811096524
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136781839720036
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136940321070929
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136623422570625
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136808059604057
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136794378268885
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.813681132103919
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.813679179094928
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136802775822336
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136800573711607
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136927596337793
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136250636682857
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136746612368514
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136403314220048
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136410434164069
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136742047643357
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8136974373535386
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8132729564348872
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8136133725789613
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8133580034920931
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.81350922622377
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813460292498497
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8136571111205542
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8121393830210647
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8133970842163851
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8123956477185649
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8131753541364496
+        },
+        {
+          "name": "all_negative_d8_recent2",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8126356219327856
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136757430317724
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136685935550718
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136827165964206
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136615692712553
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136995457301087
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.81364460916655
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136834330849261
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136574828471175
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136880825560346
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136525014543625
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136903219036219
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136502524765534
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136978976781429
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135868246253832
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136901164588891
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135944723055608
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136601138237266
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136190357914231
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8137120181514325
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8132533274747001
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8136537963981938
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8133113026942594
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8135610040745622
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134034151242285
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8137000028446392
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8122446548281828
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8135056270888578
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8124377375661772
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8132840048674069
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8126743058919375
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136667952716453
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136598525237071
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136749828862612
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8136521624705535
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.8137039615078338
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0,
+          "auc": 0.813621087028677
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136762348151015
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136676536454194
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136833149542048
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136606017549669
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8137001196913309
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.813643548558117
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136843306216024
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136556248563155
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136894564676851
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136504771817299
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136913369290047
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136480606380606
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136997633731224
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135833943403608
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136922839008199
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135905361128838
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136630150885622
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136159348599878
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8137159954330561
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813245415926444
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8136585094287666
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8133028075545593
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8135662165926416
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8133943871122526
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8137064454630559
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8122310254962075
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8135141299327354
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8124229140866928
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8132951168593908
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8126596448421948
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_temporal_masks_and_all_candidates_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

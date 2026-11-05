@@ -1,0 +1,36 @@
+{
+  "audit_status": "passed",
+  "goal_achieved": false,
+  "timestamp_utc": "2026-11-03T19:30:16.873899+00:00",
+  "dates": {
+    "20191115": {
+      "auc": 0.8023220737217925,
+      "target_auc": 0.815,
+      "target_met": false,
+      "rows": 424780,
+      "clicks": 3523,
+      "csv_sha256": "0aa6c6ff84d53a10dcd7e6b58790522ff02ec7d55000fedf083a68ce5e72d3b4",
+      "prediction_sha256": "b54f1bcea4f422edec2e761aefe342448e9496f7e01f81643835ef90d28be38d",
+      "raw_row_alignment_verified": true,
+      "sklearn_auc_matches_published": true
+    },
+    "20191116": {
+      "auc": 0.8139543896488788,
+      "target_auc": 0.82,
+      "target_met": false,
+      "rows": 421983,
+      "clicks": 3724,
+      "csv_sha256": "587a2cdd2db6d2a8d06daa7c07a214b952007a9af8faf69c4c9177b73f7005ec",
+      "prediction_sha256": "2dd93715109241d09dc6ede054a1a9edfd4aeee6779e75f28cba529787b62b48",
+      "raw_row_alignment_verified": true,
+      "sklearn_auc_matches_published": true
+    }
+  },
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  }
+}

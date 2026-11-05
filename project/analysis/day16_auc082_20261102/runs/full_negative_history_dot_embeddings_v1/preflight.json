@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "rows": 1088,
+  "columns": 401,
+  "source_columns": 533,
+  "omitted_neural_columns": 132,
+  "retained_neural_columns": 6,
+  "arms": [
+    {
+      "name": "history_dot_d4",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "native_gpu_parameter_preparation": "passed",
+      "serialization_error": 0.0
+    },
+    {
+      "name": "history_dot_d6",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "native_gpu_parameter_preparation": "passed",
+      "serialization_error": 0.0
+    }
+  ],
+  "device": "CPU",
+  "gpu_memory_allocated": false,
+  "independent_projection_exact": true,
+  "projection_matches_explicit_full_source_columns": true,
+  "all_full_training_and_held_projection_rows_independently_replayed": true,
+  "full_projection_verification_sha256": "23f4c56f132e9868240910f33624edb09ef819c123641a25f23e3feca5823ab8",
+  "actual_full_schema_native_fits_and_save_reload_passed": true,
+  "production_gpu_capacity_proven": false,
+  "evaluation_day_labels_fit": false,
+  "inferred17_labels_read": false,
+  "protocol_sha256": "bb0376be936d7bdf072e8262ea21a6b571865c9f810d658702106fc1090e7795",
+  "input_lock_sha256": "aea585e09ac6edee48de1b01b5a3f9d9cec425523ad92020d1acbefbbf1f4f0e"
+}

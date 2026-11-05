@@ -1,0 +1,92 @@
+{
+  "params": {
+    "loss_function": "CrossEntropy",
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 100.0,
+    "random_strength": 1.0,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.8,
+    "border_count": 32,
+    "one_hot_max_size": 16,
+    "max_ctr_complexity": 1,
+    "thread_count": 2,
+    "random_seed": 151649,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.5,
+    "allow_writing_files": false,
+    "verbose": 200
+  },
+  "arms": [
+    {
+      "name": "audience_d6",
+      "depth": 6
+    },
+    {
+      "name": "audience_d8",
+      "depth": 8
+    }
+  ],
+  "checkpoints": [
+    200,
+    600,
+    1600
+  ],
+  "weights": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "modes": [
+    "replace_task",
+    "add_task"
+  ],
+  "objective": "Full-population task/day exposure-weighted binomial CTR",
+  "features": "Current task audience quality means and variances, demographics, strictly earlier user/task/advertiser/app response",
+  "selection": "Both-date models and all candidates locked before scoring; repeatedly reused development dates",
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "inferred17_labels_read": false,
+  "own_held_ad_labels_fit": false,
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\task_audience_rate_v1.py": "74a28a6f78cd0f1932d0dca8a0c5d928b02f027d1e8e46259571db257f23effc",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\task_audience_core.py": "e830c2c28cd94879e690f45df1fc04a82e2fd144f6c8ea18ceb7eeecb97e8a2f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_task_audience_core.py": "45b189452dcc2617fe73f7eb54ed9c773df651623f3500450a4f29312ed48f59",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_task_audience_rate_v1.ps1": "6fd2ce8278f2400c5a124da47efce713955738fea3c8eec13d59241e78ee41d7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\news_quality_features.py": "76fd9e5cdd56bb7dd693c375beba869bec04688940f6faf77e0d19f4949bea52",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\conditional_daily.py": "09e971a5b815805e9ad54756325e8ac00a1600aa5e5728e8d655a9bc883f4bde",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_row_catboost.py": "ec842deb8e9c27bf30aced76c6347a199fd62e689a3ae01b0afb04df35ba2045",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\catboost_userday_residual.py": "1b5da6783129a7a7f1e07a0007b92f0b80d79853d6e1088c9523ffb6b9532930",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\verification.json": "1cf28c906558605fa4d6cfadc3ddf32f186a5cf12a83870fb032c312cc31eb88",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\protocol.json": "00094355c4147c34a5eb0a327eb37a409cb6a8631cd0b5f972c321b704ebf551",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\quality15.npz": "abdcee5e5e6a41ea82af1539fa7f6abd5461ef13c6ee08541c25ae87361d018b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\input_contract15.json": "829bc3bb1d18c684a9d21fc5e15e6abc287be01e847bf389d88acf593b8a332a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\firstday_task_ranker_v1\\protocol.json": "493061af851e4b6cb475ff6a2907cf526644a0afbc32ad92bfaf4733086c208c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\firstday_task_ranker_v1\\verification.json": "f55a2f1c185013c4c6d61efba93e22a5799dea4a5944aa1f5500ad4411def8e6",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\firstday_task_ranker_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\firstday_task_ranker_v1\\day15_prediction.npy": "582b08c30e06ba410490413b3883b8fa25373cd15bd15451ca75f94ee55e3413",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\quality16.npz": "2545350bd0409b6169aebf844bd112f3033f457cd62f994eac14d6668128ad9b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\input_contract16.json": "5e9901c1daba83fea95a5e4e88b3d3a7964eb920f577a082db89c197a60ca8c4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\cold_task_ranker_v1\\protocol.json": "295bed509bf2bb96d6e5d5b5aa0a8f120f4455a45e8404f533afbe1ec772de6d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\cold_task_ranker_v1\\verification.json": "ed669f4bf28a3fbf190ccd1fdcc1c38a3c618fe118568d1c715b2aadee57bd9b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\cold_task_ranker_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\cold_task_ranker_v1\\day16_prediction.npy": "fce10a563fb53ddd59603be675eea3f78445ccd36df516b0ceb4611c469eee95",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_preflight_v1\\protocol.json": "3b1bc8f66eefc9a0bb13dfbdb37e11085d191ddf3d76fa9b558b2230a8314b75",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_preflight_v1\\verification.json": "5238b7ba03f66f3ec20f2e40dc96e9634bc895aa2a8abfa42d47faf48174e4f3",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_preflight_v1\\input_day16\\files_locked.json": "b332682d712ca5c143b4ced0b846c89a89c39ad562385c4e7cb2f3c40a3cac03"
+  },
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  }
+}

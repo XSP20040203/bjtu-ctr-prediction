@@ -1,0 +1,137 @@
+{
+  "models": [
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 300,
+      "model_name": "day15_poisson_d6_bins32_trees300",
+      "model_sha256": "1d5a3362aa2438c391b0e7bab20792d8ae8baaeb11950c5ec68f753d8ee6ee6f"
+    },
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 700,
+      "model_name": "day15_poisson_d6_bins32_trees700",
+      "model_sha256": "c5187a348033d8bed5a274361c3eb5b5a877ae3048c049195104ff951477c6a8"
+    },
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 1200,
+      "model_name": "day15_poisson_d6_bins32_trees1200",
+      "model_sha256": "1bb999c261b5e1730d617499f39cc7a2bde61b12af362e03c2d3fd748febe937"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 300,
+      "model_name": "day15_poisson_d8_bins8_trees300",
+      "model_sha256": "4957157e674d57a3add579d5b2f474344626d5e6b797950e9c8c776e8aa7fbf5"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 700,
+      "model_name": "day15_poisson_d8_bins8_trees700",
+      "model_sha256": "4127f8c9835edf5f317530583defba2800c5d63ecdb02a1692d5e1502c8c64e3"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 15,
+      "trees": 1200,
+      "model_name": "day15_poisson_d8_bins8_trees1200",
+      "model_sha256": "672daa455e8dea540e3d258908a142cc6efe59ccc46e29ba9fe2a61fae804bce"
+    },
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 300,
+      "model_name": "day16_poisson_d6_bins32_trees300",
+      "model_sha256": "7d68b9c64c08cbb3179bd6ea3b4c6b5b9ae0ba1c4f92bb04f6417f4ae41631e6"
+    },
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 700,
+      "model_name": "day16_poisson_d6_bins32_trees700",
+      "model_sha256": "a89f47952463bd9c0ac52089d0bf337b95f7624827e3fd035df5df74e8d37373"
+    },
+    {
+      "name": "poisson_d6_bins32",
+      "depth": 6,
+      "border_count": 32,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 1200,
+      "model_name": "day16_poisson_d6_bins32_trees1200",
+      "model_sha256": "3ab4cb77fad7085b8d47e042727a1add1c7c2f1b5418eebf1b408670a44943f9"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 300,
+      "model_name": "day16_poisson_d8_bins8_trees300",
+      "model_sha256": "27ca31d5153dd4be03393b7f76435a236fc6a5f0c2cfa91e32085029c05f88ae"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 700,
+      "model_name": "day16_poisson_d8_bins8_trees700",
+      "model_sha256": "d50e03c75e6aa71ade02479bc4a651893fa5f4ded8289f21bebfb586c9b792d3"
+    },
+    {
+      "name": "poisson_d8_bins8",
+      "depth": 8,
+      "border_count": 8,
+      "objective": "poisson",
+      "offset": true,
+      "day": 16,
+      "trees": 1200,
+      "model_name": "day16_poisson_d8_bins8_trees1200",
+      "model_sha256": "e7ea7fefa10a9e124d578bedae797730362e9313c905f02c8e95b95ab2abeba4"
+    }
+  ],
+  "protocol_sha256": "eda7fe5a476fbecbdb5f8d1b72e43566efd5e722e8f570aef49b1ffb071398e6"
+}

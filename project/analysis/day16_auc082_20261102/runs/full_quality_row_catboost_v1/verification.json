@@ -1,0 +1,1145 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7988841943055911,
+      "best": {
+        "name": "day15_all_quality_depth8_trees3600",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.1,
+        "auc": 0.7988841943055911
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.7986034152112249
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7885569874583436
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7985692285686881
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7985575419333963
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7985230008645354
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7984978803934613
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7984080555561996
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7983581023327592
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7980604131946153
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7979623503036707
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7972321613257312
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7970822672908804
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7960003613962592
+        },
+        {
+          "name": "day15_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7958489863175678
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7898128600776467
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7986302053941449
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7986209222544761
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7986475857603068
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7986278686061379
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7986493053344111
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7986073833036622
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7985182396926621
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7984477957762316
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7979555690365134
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7978690789062431
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7969252456483201
+        },
+        {
+          "name": "day15_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7968806229698401
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7865357918356523
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7987012719149924
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7986822063392556
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7987783919835487
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.798744524728992
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7988841943055911
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7988298262508298
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7988763733429625
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7988312062225247
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7982486701730602
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7983450815451453
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7968482947071541
+        },
+        {
+          "name": "day15_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7972240667944951
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7886014066449037
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.798580229261018
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.798571886766118
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7985462818225592
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7985299714735121
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.798446791119104
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7984180152054297
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7981317168980979
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7980878360891668
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7973279251622699
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7972998675346438
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7961074574417656
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7961373060678122
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7886010245921933
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7986413395017071
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7986291421151728
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7986677799750032
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7986421420145433
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7986862613537382
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7986422410652461
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7985620895061353
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7985187639201907
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7979546762325603
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.797993684690258
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7967957344961708
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7970016932502009
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.782176778617807
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7986834037072742
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7986530503943138
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7987429527202203
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7986905953273427
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.798800050396728
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7987315800823944
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.798638696802006
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7986428946651212
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7976436125542927
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7980486093156346
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7957003913966956
+        },
+        {
+          "name": "day15_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7967545273823986
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7876588792391022
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.798696165076381
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7986696545263974
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7987691357964523
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7987228029772682
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.79887623049433
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7988012059882597
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7988799486016605
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7988179954192769
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7983349918497544
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7984646943651661
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7970855615690136
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7975607381115787
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "independent_source_matrix_used": true,
+      "quality_rebuilt_from_raw": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8107011363525675,
+      "best": {
+        "name": "day16_recent2_quality_depth8_trees3600",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.025,
+        "auc": 0.8107011363525675
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.8106946025680505
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7938658788063185
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8106093179653723
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8105366861901738
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8105060434662656
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8103516806402512
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.810256781866094
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8099138567282209
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8095881478589543
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8088299534306355
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.808110120670044
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8067762270855002
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8059945798569056
+        },
+        {
+          "name": "day16_all_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8043125633827496
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.794454171403655
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.810623156594169
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8105495521665638
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8105334170508635
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8103763725290716
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8103081347030954
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8099593948372699
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8096791284168486
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8089106758762165
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8082377968672857
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8068962960494963
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8061646129799125
+        },
+        {
+          "name": "day16_all_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8044872767935749
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7929428576739318
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.810683861660615
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8106334313988668
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8106502862131466
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8105354406814813
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8105257590984494
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8102438317857665
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8100411778912838
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8093505600137076
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8086562203763943
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8073970059522141
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8064481934806793
+        },
+        {
+          "name": "day16_all_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8048696864830429
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7963015538743026
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8106263583219263
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8105871170939368
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8105421426738734
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8104567059136899
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8103323983680508
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8101465331603246
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8097587074340888
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8093196059126265
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8084663284519057
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8076828424929527
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8066371641139444
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8056367619019508
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7961384994520622
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8106570581851507
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8106326962919324
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8105975665266575
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8105438793238801
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8104416147140381
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8103037587302873
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8099382982312732
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8095969607959754
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8086867250671226
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8080539674884584
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8068302519880572
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees1800",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8060232753499559
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7941413175965271
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8107011363525675
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.810689781678993
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8106828119664335
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8106493540076717
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8105926846461949
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8105068228722206
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8101662956595879
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.809949694635809
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8088980166285888
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.808519952095219
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8068397332624747
+        },
+        {
+          "name": "day16_recent2_quality_depth8_trees3600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8064428718200857
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7966131804701597
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8106944760911368
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8106650313668267
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8106734680831811
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8106067531162865
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8105864025314756
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8104304321004272
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8102158707576359
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8098271783114338
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8091227789443771
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8084151656512821
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8073817638790867
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8064991123156826
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "independent_source_matrix_used": true,
+      "quality_rebuilt_from_raw": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

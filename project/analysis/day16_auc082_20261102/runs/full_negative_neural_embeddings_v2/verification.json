@@ -1,0 +1,2079 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8019810596715184,
+      "best": {
+        "name": "day15_neural_embedding_d6_trees2400",
+        "mode": "rank_global",
+        "weight": 0.025,
+        "auc": 0.8019810596715184
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8019438044786403
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8018809018919022
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801739008054285
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8011929597232061
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7990205015488123
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7928771027240371
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7832858668552732
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7607815936917252
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7330939113438033
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8017495249479446
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8014977293020584
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8008462586802048
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7990336557516586
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7954885711320334
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7914386870715885
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7844869132260881
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7779065687347383
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8018928661386872
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017766837072889
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8013308436918991
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7995060332696042
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7941522080250245
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7853529815751658
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7629852467731453
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7330938486790731
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019194016198001
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018185275755785
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801398506102882
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7995746949472001
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7942788750069958
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7859699562737169
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7664892482608302
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7424692170175567
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8017848793106707
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8015701138036849
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8009976485828108
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7993675671253524
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7961267541358087
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7923988239404155
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.786030441888546
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7800090297315851
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019304777793322
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018545860742524
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8015155658405043
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7999997329673912
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7953827708314339
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7877315669571656
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7683380633177116
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7424692133115781
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.801956270717082
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018950075205459
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8015545601481016
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7998993973007987
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7949146902273061
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.786990237807335
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7683065611513625
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7451716540625961
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8018070686895217
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8016110641942072
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8010843085142857
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7995554231842863
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7964983452053922
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7929800783950735
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7869312406483039
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.781237244968959
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019651832588833
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019230887316726
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.80165469164896
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.800290384115128
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7959632658973711
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.788679636485619
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7700731506487049
+        },
+        {
+          "name": "day15_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7451716321636312
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8018736900574045
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8017290868124702
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8011884546007684
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7990802358606922
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7931913164841767
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7840739088555554
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7627991055716155
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7366135763188033
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8017519324864535
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8015038010427534
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8008616634228269
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7990885514030202
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7956124566085572
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7916533717208577
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7848653859611603
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7784490013782609
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8018899182011064
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8017722796569968
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8013297878248845
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7995626990311429
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7944122215101644
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.786017968238147
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7648113172281891
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.73661350691593
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019342309250065
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8018524965760951
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8014689453026125
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7997298629266097
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7946047046519252
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7864671207246561
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7672049940291596
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7432629396093303
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8018011694452886
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8016027196778642
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8010586739228974
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7994879231625507
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.796326466631239
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7926781839818571
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.786377297235023
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.780390044768027
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019436003129061
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018806653830814
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8015704587966087
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8001046007089937
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7956038823215364
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7880692267598335
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7688783458197895
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7432628863780003
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019776164804241
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019356068538157
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016364595815175
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8000631247433142
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7951891745484427
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7872758225453187
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7683486630905306
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7447101444955627
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8018427215519844
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8016826670712409
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012163774655336
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997962046615564
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7968424911445522
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7933853419868798
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7873579807234274
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7815922864854175
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019810596715184
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.801954334848586
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017170194720966
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8003882778786823
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7961001768782089
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7887808824753366
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7699471312022799
+        },
+        {
+          "name": "day15_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7447101124893832
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8019663813007162
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019179212497738
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016014933358306
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8000007261696757
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.795113812461406
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.787266178241183
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7686154585166423
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7454091749524483
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8018251936204898
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8016487728641121
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8011542928893608
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7996873176176295
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.796699401286545
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7932275454578697
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7872263645753919
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7815348775067014
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8019728539609221
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.801938750871359
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8016923706710355
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8003571335077287
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7960932918436487
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7888553342392484
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7703040027983885
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7454092005573919
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 1.3489209749195652e-14,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8137576018435316,
+      "best": {
+        "name": "day16_neural_embedding_d6_trees2400",
+        "mode": "rank_global",
+        "weight": 0.025,
+        "auc": 0.8137576018435316
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.813718098031493
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8135425532115148
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8132844838104402
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8125196143543505
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8099097131647668
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8032287056682142
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7932499147295217
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7703398955856422
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7421859558139895
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8135675211666947
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8133544724107485
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8127760453336813
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8111029817557707
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8077112073483862
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.803759142139735
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7968450094427407
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7902023867264479
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.81357558808253
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8133636654205254
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8127324262068393
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8105291110576676
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8046871822227419
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7954935676679441
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7726755980365843
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7421859975449508
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136228936582958
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8134567883817737
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8129042338587255
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8108835102838661
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8054892037906947
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7973221715269938
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7784506398446516
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7551206168722581
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8136228480752457
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8134644566064245
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8129917462527246
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8115316903418138
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8084536794765147
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8048017061049975
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7983554500323498
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7921461943614158
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136454380076438
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8135178536185169
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8130674333763084
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8113837271192252
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8066815684248744
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7991661895191348
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7803658617710981
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7551205873395778
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136815275850297
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8135747316348003
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8131560956187963
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8114627418054651
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.806685084097864
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7993153173565521
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7820903096447347
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7606105434432032
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8136607686788123
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813539499789174
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.813141026889662
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118241081761639
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8089590953476427
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.805505164278372
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7993577699425208
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7933922635327723
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136959254087084
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136173029935052
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8132812608961948
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8118694652370422
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8077021883246175
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8009065901762713
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.783764392100117
+        },
+        {
+          "name": "day16_neural_embedding_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7606105373440627
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813578999107109
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8133669916991519
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127125192542483
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8104358365809288
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8045313427627107
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.795669416160918
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7751964286622737
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7497466628899419
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8135924563791205
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8134059176978796
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.812881711979895
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8113159990529922
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8080779313325069
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.80426655339283
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7975686390787998
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7911121345240605
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8136048992677639
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8134304195503221
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8128848373078924
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8109531881490161
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8057652990410259
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7975795725906721
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7771947427108908
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7497466837554225
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8136748962142645
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8135683904547203
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8131442414577152
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8114454009859894
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8066554763017972
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7992221712827714
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7816540073077565
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7595434699213207
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8136546406476426
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135296846670657
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131284215712768
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118041389481382
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8089239090850663
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8054427809852651
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7992306747686639
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.79317292238987
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.813690013094508
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136084996867058
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8132616942114423
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8118294035141511
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8076232776447736
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8007399228158006
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7832620238731967
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7595435052321342
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137519007521972
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8137208381506164
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.813456851941238
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8120899774149213
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8078481086561444
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8009849326730261
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7844386533668903
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7633126925278767
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8137193409721263
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813655070155537
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8133714678262672
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8122629888445385
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.809661722753879
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8064200745169103
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8005298822201525
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7947142368287116
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8137576018435316
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8137423186814575
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135371641393682
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8123927458117144
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8086541928936878
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8022992614988618
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7858640013162433
+        },
+        {
+          "name": "day16_neural_embedding_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7633127178874609
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137173166994937
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136508290058347
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8133114619139274
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8118020324976125
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8073499937772074
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8003195934857882
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7836371775115091
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7625999976877196
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8136894147367237
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135985824842459
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132614791364877
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8120576892071065
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.809346616758868
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8060236984377025
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8000579236657718
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7942117202963749
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8137268204444289
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136814267887076
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8134157032873076
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8121561607935697
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8082543242540227
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.801765772247015
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7851868991340245
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7625999845264163
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 7.771561172376096e-15,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

@@ -1,0 +1,85 @@
+{
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "arms": [
+    {
+      "name": "depth6_weight5",
+      "depth": 6
+    },
+    {
+      "name": "depth8_weight5",
+      "depth": 8
+    }
+  ],
+  "params": {
+    "loss_function": "Logloss",
+    "learning_rate": 0.025,
+    "l2_leaf_reg": 60.0,
+    "random_strength": 1.0,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.8,
+    "border_count": 32,
+    "one_hot_max_size": 16,
+    "max_ctr_complexity": 1,
+    "thread_count": 2,
+    "random_seed": 151640,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.6,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "checkpoints": [
+    600,
+    1200,
+    2400
+  ],
+  "blend_weights": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "positive_weight": 5.0,
+  "source_features": "744 columns from frozen rich row matrices",
+  "training": "All strictly earlier positives, one-third earlier negatives, inverse inclusion weights",
+  "source_independent_verification_required_before_scoring": true,
+  "source_verification_deferred_until_parent_finishes": true,
+  "selection": "Both-date model checkpoints lock before held-label scoring; reused development dates",
+  "own_held_ad_labels_fit": false,
+  "inferred17_labels_read": false,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_row_catboost.py": "ec842deb8e9c27bf30aced76c6347a199fd62e689a3ae01b0afb04df35ba2045",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_rich_row_catboost.py": "5e88ccf608a18fbb9918867b8c5a3eca1dd768778f5875795de1dc90bb6361b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_rich_row_catboost.ps1": "9ab33ae402adeb1e0e64825ce2ee2a944802420b2617e86b6edd06dfa8f4a297",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\conditional_daily.py": "09e971a5b815805e9ad54756325e8ac00a1600aa5e5728e8d655a9bc883f4bde",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\catboost_userday_residual.py": "1b5da6783129a7a7f1e07a0007b92f0b80d79853d6e1088c9523ffb6b9532930",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context.py": "c045871cd9b019b59977bd2ad2be64e7033a8981f1080c56d1126be4551b48d9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context15.py": "b238288c93c492d75c3e9134f12e67c8e23864b896640cf6a20a7583f308d927",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_row_catboost_preflight_v1\\verification.json": "ea58ecb6e14881eee2fb3618a2e2ef8b9ec34dae7997f2bd127b16dd76293e14",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\protocol.json": "e8968b7be4a856a14cd1a8253c9b8048e1c078688397abc92f80260168deaae6",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract15.json": "bd1d96dc10a4846615935f3f0ca543d63964db0b10025ab4dc7a4b1c85450393",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day15\\features.npy": "eb5d6f839fa7446f9421141dc252e6e49ba635c8a5e9aef14517da3e820e1d9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\conditional_daily_trees_v1\\day15_prediction.npy": "5a2f18da86347a58696b57e9734e240ea24899925524a340d32d8bc68f25ad53",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\conditional_daily_trees_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\conditional_daily_trees_v1\\verification.json": "eae3c388351c42d0cfbb38f00e707143fa471ded9ff1a9bc340b7d16d1c88d25",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract16.json": "8fc454399af9221943ed0e548a30f8464d61f1174e0378c036c46a25625ad4f0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day16\\features.npy": "88ae070555a97fea83332406b017f54e9b6d0d5e24fc4bb50ad49e4027f535b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\day16_prediction.npy": "36ede4777dfc6d8f1785e7ef09799b42514dfed270ba4c1791315fe941bcf0b4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\verification.json": "216ee9b176f88490ca94f83f9ca61bb1b798f6716375975103a0acc95cb670a3"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "protocol_sha256": "48f280e8bbca97bf695940f2cc796030b45274bb1d19803bc3f09ddcb45d7266",
+  "models": [
+    {
+      "name": "day15_pairlogit_d6_trees200",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 15,
+      "trees": 200,
+      "model_sha256": "2bb9541f22594f0a4b45060d8b1b0c56c23c8a59d9f9aacdbbd8f034ed16bb82",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day15_pairlogit_d6_trees600",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "6abce8e4c0a840b270b94faca5b393247ae246217ef7c002ef22fe587862b855",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day15_pairlogit_d6_trees1600",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 15,
+      "trees": 1600,
+      "model_sha256": "e7efaef95e3580b7ef65562953d740b578b11fff100c36aae52a2357b0c3d5a8",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day15_yetirank_d6_trees200",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 15,
+      "trees": 200,
+      "model_sha256": "d4d82957fcb07f25ec9ae73ef3959aac8b70f73ae5acfa791a6a779f39377652",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day15_yetirank_d6_trees600",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "6ef1c675c3478a6860b3d040e782120993e5d64507c5f655dc2992dec3d7db6b",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day15_yetirank_d6_trees1600",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 15,
+      "trees": 1600,
+      "model_sha256": "3ddf658a6983c84f8fe26ef7fd8aed5f4447895b5988309222626afc09ef3adc",
+      "input_contract_sha256": "ddeae330c28f5d6e007ae00900b705138cc4ec07682c88969ee6058e07b601e0"
+    },
+    {
+      "name": "day16_pairlogit_d6_trees200",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 16,
+      "trees": 200,
+      "model_sha256": "a6bb0761b29bfc127219494a047981e21ed95863700ad1644d660e4db9802b5a",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    },
+    {
+      "name": "day16_pairlogit_d6_trees600",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "94fc396c23347991b5e4e69e7b046df75b44e9e268f629c5f322dadb0b98036f",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    },
+    {
+      "name": "day16_pairlogit_d6_trees1600",
+      "loss_function": "PairLogit:max_pairs=256",
+      "depth": 6,
+      "day": 16,
+      "trees": 1600,
+      "model_sha256": "ce43c5751fef9318fc1e82adc933120459fdb1e509a3cdc8ede2816a9bdd8343",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    },
+    {
+      "name": "day16_yetirank_d6_trees200",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 16,
+      "trees": 200,
+      "model_sha256": "d132dd81f53ec11ddb26a66e3fea7bc23ba70b5cb1a903684ed63a857ea4bb57",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    },
+    {
+      "name": "day16_yetirank_d6_trees600",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "6af47725d2aa23d24a8ad277235e9271bd8b48698a09b83bf41eb055889b778e",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    },
+    {
+      "name": "day16_yetirank_d6_trees1600",
+      "loss_function": "YetiRank",
+      "depth": 6,
+      "day": 16,
+      "trees": 1600,
+      "model_sha256": "7ad6e69a0f852b1226aebe60cb2f288cb1f3c08363e7bbfe2088be636fffef7a",
+      "input_contract_sha256": "488179c85cbdeb4e631707dfddf283186953148f8b194f69c623ae93ad013660"
+    }
+  ]
+}

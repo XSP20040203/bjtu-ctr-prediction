@@ -1,0 +1,51 @@
+{
+  "status": "complete_and_verified",
+  "model": "AllocatedSetContextCTR",
+  "train_rows": 2526320,
+  "final_rows": 404182,
+  "train_groups": 51336,
+  "final_groups": 8556,
+  "fixed_training_epochs": 1,
+  "fixed_fractional_epochs": 1.0,
+  "steps": 803,
+  "training_rows_seen": 2526320,
+  "fresh_model_replayed_rows": 404182,
+  "maximum_reload_error": 2.980232238769531e-07,
+  "restored_instance_repeat_error": 2.384185791015625e-07,
+  "original_vs_third_error": 2.980232238769531e-07,
+  "accepted_absolute_tolerance": 3e-07,
+  "cuda_reduction_allowance_used": true,
+  "replay_backend": "cuda",
+  "replay_policy": "Fresh model, same backend and identical complete-group batches, every final row; CPU and CUDA strict absolute tolerance 2e-7. CUDA only: if strict comparison fails, a repeated inference on the restored instance must demonstrate nonzero reduction jitter, and all three pairwise errors must be <=3e-7. No CPU/GPU cross-backend comparison or relative tolerance.",
+  "train_loss": 0.05168381722352828,
+  "row_loss": 0.04455668449751053,
+  "count_loss": 0.7127132872148743,
+  "consistency_loss": 5.841261296427775e-05,
+  "mean_probability": 0.007370214443653822,
+  "min_probability": 0.00011750378325814381,
+  "max_probability": 0.6635378003120422,
+  "prediction_shape": [
+    404182
+  ],
+  "model_sha256": "2608eb2ed028f0d5a0170b1bc591943b21ee969f52d06472425b625d16a5bc47",
+  "prediction_sha256": "626cd99715bbff989872ff85f41fc5560e1ff74644a2079619d4f645914a8b47",
+  "feature_metadata": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\features\\manifest.json",
+  "feature_metadata_sha256": "0d4b9a5045ec5daa8176670dab768e7fb57ac536f6ff99fb277f8255e96afb1e",
+  "source_immutability_verified": true,
+  "numeric_immutability_verified": true,
+  "numeric_sha256": "e0ca6a92b2c513163c0a0bf588ec0847d6dc0e5e5f4d1c53343fa2652ba8c30a",
+  "row_identity_sha256": {
+    "user_id": "69b9e40047ba7fdd39c7f82b2657b0cc8715475880cd995c59cbb0d7890afcfe",
+    "pt_d": "f3d24f90a0384421bb8e4b156f5b946c46fd3c83d3ea3507da500fc63d64a0dc",
+    "log_id": "11647fa9e1c9ac121e84ea6ea2211e0d752bb0ab2af37894f5c862ec37b4baf3"
+  },
+  "raw_cache_identity_checks": {
+    "user_id": true,
+    "pt_d": true,
+    "log_id": true,
+    "training_labels": true
+  },
+  "final_labels_read": false,
+  "final_auc": null,
+  "seconds": 85.29261610000003
+}

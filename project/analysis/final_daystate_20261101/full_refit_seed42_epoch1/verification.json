@@ -1,0 +1,56 @@
+{
+  "status": "complete_and_verified",
+  "rows": 404182,
+  "training_rows": 2526320,
+  "training_rows_seen": 2526320,
+  "training_steps": 2468,
+  "fresh_model_reloaded": true,
+  "all_final_rows_replayed": true,
+  "independent_final_inputs": "Verified pre-existing compact final arrays and saved final-only day context",
+  "maximum_reload_probability_error": 0.0,
+  "maximum_csv_rounding_error": 4.9999972044634244e-11,
+  "original_final_row_order_verified": true,
+  "submission_columns": [
+    "id",
+    "pctr"
+  ],
+  "id_rule": "Zero-based original final_test.csv row number",
+  "duplicate_log_id_rows_retained": 858,
+  "all_probabilities_finite_and_in_unit_interval": true,
+  "probability_min": 0.00021580831055769634,
+  "probability_max": 0.8956441055742401,
+  "probability_mean": 0.009071422475012145,
+  "development": {
+    "20191115": {
+      "ensemble_scores": {
+        "auc": 0.7934700801999591,
+        "logloss": 0.04204855010744797,
+        "average_precision": 0.0823399607498202,
+        "mean_probability": 0.008615116633256282
+      },
+      "component_best_epoch": 0.7501523461304083,
+      "protocol_sha256": "4c8f1293469c4e39fc15e2dfa5e7b8e485ad1e5b458f78ad1fa55d2c5cd00ff2",
+      "metrics_sha256": "91b43317bd0cfe476d3b120de541564b13dcc2853edd111131dd56de2a6474f3"
+    },
+    "20191116": {
+      "ensemble_scores": {
+        "auc": 0.8012412673501383,
+        "logloss": 0.04389861132045347,
+        "average_precision": 0.08749928332848086,
+        "mean_probability": 0.009657048985881815
+      },
+      "component_best_epoch": 1.0,
+      "protocol_sha256": "726922919a6e5be4b2b937b34c44d0664435436200690e2c836a6326ff6f7813",
+      "metrics_sha256": "46f3226599b0c94e923cd4349b8da80900ddacb2f29ed1b8081828555406b0c8"
+    }
+  },
+  "ensemble_rule": "original_v7 + 0.30 * (protected_day_full - original_gated166_full)",
+  "final_labels_read": false,
+  "final_auc": null,
+  "original_v7_submission_unchanged": true,
+  "original_v7_submission_sha256": "c44a9e803b8b4566b9bcef4e1bf85181c2ee00eee71a9f84474b73c619c121b9",
+  "submission_sha256": "1b43ee597613ec6a48d448a2cb00b824aca3440e38a32d47e21ceadccd833846",
+  "model_sha256": "529aa471dd5586c201c4544648e3af319b786c2938f303e4073a4587af66371b",
+  "prediction_sha256": "a5deea93c3d48f4c78cbb37467d4060d883b4f4c47344221153fb45042a52bdc",
+  "protocol_sha256": "849ddedb9f522dc49717933d555e52b70fddb69c13c1a44e2f6239739aaa57b1"
+}

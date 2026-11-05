@@ -1,0 +1,339 @@
+{
+  "status": "evaluated",
+  "dates": {
+    "20191115": {
+      "auc": 0.7969912107210707,
+      "best": {
+        "name": "day15_poisson_l15_trees1000",
+        "power": 0.125,
+        "auc": 0.7969912107210707
+      },
+      "records": [
+        {
+          "name": "day15_poisson_l15_trees250",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_poisson_l15_trees250",
+          "power": 0.125,
+          "auc": 0.7966402659955816
+        },
+        {
+          "name": "day15_poisson_l15_trees250",
+          "power": 0.25,
+          "auc": 0.7960721347483118
+        },
+        {
+          "name": "day15_poisson_l15_trees250",
+          "power": 0.5,
+          "auc": 0.793631938481595
+        },
+        {
+          "name": "day15_poisson_l15_trees250",
+          "power": 0.75,
+          "auc": 0.7897430630229482
+        },
+        {
+          "name": "day15_poisson_l15_trees600",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_poisson_l15_trees600",
+          "power": 0.125,
+          "auc": 0.7968798811002912
+        },
+        {
+          "name": "day15_poisson_l15_trees600",
+          "power": 0.25,
+          "auc": 0.7966107050882428
+        },
+        {
+          "name": "day15_poisson_l15_trees600",
+          "power": 0.5,
+          "auc": 0.7949742527165384
+        },
+        {
+          "name": "day15_poisson_l15_trees600",
+          "power": 0.75,
+          "auc": 0.7920943703804719
+        },
+        {
+          "name": "day15_poisson_l15_trees1000",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_poisson_l15_trees1000",
+          "power": 0.125,
+          "auc": 0.7969912107210707
+        },
+        {
+          "name": "day15_poisson_l15_trees1000",
+          "power": 0.25,
+          "auc": 0.7968296974323587
+        },
+        {
+          "name": "day15_poisson_l15_trees1000",
+          "power": 0.5,
+          "auc": 0.7953961581740294
+        },
+        {
+          "name": "day15_poisson_l15_trees1000",
+          "power": 0.75,
+          "auc": 0.7927183770051015
+        },
+        {
+          "name": "day15_binary_l15_trees250",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_binary_l15_trees250",
+          "power": 0.125,
+          "auc": 0.7966398340806126
+        },
+        {
+          "name": "day15_binary_l15_trees250",
+          "power": 0.25,
+          "auc": 0.7960557745370064
+        },
+        {
+          "name": "day15_binary_l15_trees250",
+          "power": 0.5,
+          "auc": 0.7936081939393299
+        },
+        {
+          "name": "day15_binary_l15_trees250",
+          "power": 0.75,
+          "auc": 0.789720100105276
+        },
+        {
+          "name": "day15_binary_l15_trees600",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_binary_l15_trees600",
+          "power": 0.125,
+          "auc": 0.7966955787379975
+        },
+        {
+          "name": "day15_binary_l15_trees600",
+          "power": 0.25,
+          "auc": 0.7961464652256489
+        },
+        {
+          "name": "day15_binary_l15_trees600",
+          "power": 0.5,
+          "auc": 0.7936963254812452
+        },
+        {
+          "name": "day15_binary_l15_trees600",
+          "power": 0.75,
+          "auc": 0.7897770158519215
+        },
+        {
+          "name": "day15_binary_l15_trees1000",
+          "power": 0.0,
+          "auc": 0.7967417680347347
+        },
+        {
+          "name": "day15_binary_l15_trees1000",
+          "power": 0.125,
+          "auc": 0.7967110003259772
+        },
+        {
+          "name": "day15_binary_l15_trees1000",
+          "power": 0.25,
+          "auc": 0.7961128674968139
+        },
+        {
+          "name": "day15_binary_l15_trees1000",
+          "power": 0.5,
+          "auc": 0.7934248079644899
+        },
+        {
+          "name": "day15_binary_l15_trees1000",
+          "power": 0.75,
+          "auc": 0.7891507263444294
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8099929054412446,
+      "best": {
+        "name": "day16_binary_l15_trees1000",
+        "power": 0.125,
+        "auc": 0.8099929054412446
+      },
+      "records": [
+        {
+          "name": "day16_poisson_l15_trees250",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_poisson_l15_trees250",
+          "power": 0.125,
+          "auc": 0.8096563060750965
+        },
+        {
+          "name": "day16_poisson_l15_trees250",
+          "power": 0.25,
+          "auc": 0.8091496690918382
+        },
+        {
+          "name": "day16_poisson_l15_trees250",
+          "power": 0.5,
+          "auc": 0.8067704964614854
+        },
+        {
+          "name": "day16_poisson_l15_trees250",
+          "power": 0.75,
+          "auc": 0.8024655593798208
+        },
+        {
+          "name": "day16_poisson_l15_trees600",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_poisson_l15_trees600",
+          "power": 0.125,
+          "auc": 0.8098574178500538
+        },
+        {
+          "name": "day16_poisson_l15_trees600",
+          "power": 0.25,
+          "auc": 0.8096212084105612
+        },
+        {
+          "name": "day16_poisson_l15_trees600",
+          "power": 0.5,
+          "auc": 0.8079988582229212
+        },
+        {
+          "name": "day16_poisson_l15_trees600",
+          "power": 0.75,
+          "auc": 0.8048036000486277
+        },
+        {
+          "name": "day16_poisson_l15_trees1000",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_poisson_l15_trees1000",
+          "power": 0.125,
+          "auc": 0.8099653276959435
+        },
+        {
+          "name": "day16_poisson_l15_trees1000",
+          "power": 0.25,
+          "auc": 0.8098444292488389
+        },
+        {
+          "name": "day16_poisson_l15_trees1000",
+          "power": 0.5,
+          "auc": 0.8084825617958689
+        },
+        {
+          "name": "day16_poisson_l15_trees1000",
+          "power": 0.75,
+          "auc": 0.8056064260611122
+        },
+        {
+          "name": "day16_binary_l15_trees250",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_binary_l15_trees250",
+          "power": 0.125,
+          "auc": 0.8099238927034169
+        },
+        {
+          "name": "day16_binary_l15_trees250",
+          "power": 0.25,
+          "auc": 0.8097393994812967
+        },
+        {
+          "name": "day16_binary_l15_trees250",
+          "power": 0.5,
+          "auc": 0.8081456446323998
+        },
+        {
+          "name": "day16_binary_l15_trees250",
+          "power": 0.75,
+          "auc": 0.8048853908068192
+        },
+        {
+          "name": "day16_binary_l15_trees600",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_binary_l15_trees600",
+          "power": 0.125,
+          "auc": 0.8099879921020573
+        },
+        {
+          "name": "day16_binary_l15_trees600",
+          "power": 0.25,
+          "auc": 0.8098626329361923
+        },
+        {
+          "name": "day16_binary_l15_trees600",
+          "power": 0.5,
+          "auc": 0.8084263399187007
+        },
+        {
+          "name": "day16_binary_l15_trees600",
+          "power": 0.75,
+          "auc": 0.805393071706126
+        },
+        {
+          "name": "day16_binary_l15_trees1000",
+          "power": 0.0,
+          "auc": 0.8097330326206251
+        },
+        {
+          "name": "day16_binary_l15_trees1000",
+          "power": 0.125,
+          "auc": 0.8099929054412446
+        },
+        {
+          "name": "day16_binary_l15_trees1000",
+          "power": 0.25,
+          "auc": 0.8098466942770177
+        },
+        {
+          "name": "day16_binary_l15_trees1000",
+          "power": 0.5,
+          "auc": 0.8082937690007006
+        },
+        {
+          "name": "day16_binary_l15_trees1000",
+          "power": 0.75,
+          "auc": 0.8050612675484439
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

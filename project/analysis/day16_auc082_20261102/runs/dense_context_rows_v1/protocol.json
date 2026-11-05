@@ -1,0 +1,90 @@
+{
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "arms": [
+    {
+      "name": "dense_regularized",
+      "focus": false,
+      "num_leaves": 31,
+      "min_data_in_leaf": 700,
+      "lambda_l2": 60.0,
+      "cat_l2": 200.0,
+      "cat_smooth": 250.0,
+      "min_data_per_group": 300
+    },
+    {
+      "name": "context_numeric",
+      "focus": true,
+      "num_leaves": 31,
+      "min_data_in_leaf": 350,
+      "lambda_l2": 40.0,
+      "cat_l2": 60.0,
+      "cat_smooth": 100.0,
+      "min_data_per_group": 120
+    }
+  ],
+  "params": {
+    "objective": "binary",
+    "learning_rate": 0.025,
+    "max_bin": 63,
+    "max_cat_threshold": 24,
+    "max_cat_to_onehot": 4,
+    "feature_fraction": 0.9,
+    "bagging_fraction": 0.9,
+    "bagging_freq": 1,
+    "scale_pos_weight": 5.0,
+    "num_threads": 4,
+    "seed": 151637,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true,
+    "feature_pre_filter": false
+  },
+  "checkpoints": [
+    600,
+    1400,
+    2600
+  ],
+  "blend_weights": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "category_encoding": "Dense dictionaries learned solely on prior-ad training inputs; unseen categories -> -1",
+  "context_mask": "Drop categorical columns with more than500 training values and36 original grouped-OOF target-stat columns",
+  "sampling": "All earlier positives and fixed one-third earlier negatives; inverse inclusion weights",
+  "selection": "All both-date model checkpoints lock before held ad label scoring; development dates reused",
+  "inferred17_labels_read": false,
+  "held_ad_outcomes_fit": false,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\dense_context_rows.py": "a467d4fc05762f46124bca18487c7c31d6ebf596e087f20b716b8f49270cd168",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\dense_context_rows_queued_v1.json": "28067648339d9f72e9e11ea14b6eb26ac0d43b3c0cd9982462874e5dd5f6b889",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_dense_context_rows.py": "d14fdd982354ab3bc428a70f83108f1ef74add2ea7fecbe27d7ba2060de2a0de",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\verification.json": "1b82642599b2a37727932aa399b970c230a9b1a7c607fe5d404758cd93a8694f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\protocol.json": "e8968b7be4a856a14cd1a8253c9b8048e1c078688397abc92f80260168deaae6",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context.py": "c045871cd9b019b59977bd2ad2be64e7033a8981f1080c56d1126be4551b48d9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context15.py": "b238288c93c492d75c3e9134f12e67c8e23864b896640cf6a20a7583f308d927",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract15.json": "bd1d96dc10a4846615935f3f0ca543d63964db0b10025ab4dc7a4b1c85450393",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\day15_prediction.npy": "e1bcea6dd0eaf29eb9112c88eb08c8f5db42a0b6e5adb72995b105c0e73dd5ae",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day15\\features.npy": "eb5d6f839fa7446f9421141dc252e6e49ba635c8a5e9aef14517da3e820e1d9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\independent_day15\\features.npy": "eb5d6f839fa7446f9421141dc252e6e49ba635c8a5e9aef14517da3e820e1d9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract16.json": "8fc454399af9221943ed0e548a30f8464d61f1174e0378c036c46a25625ad4f0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\day16_prediction.npy": "fd48f80ed2b9d434aab5a6962be716ebd2a08054246e08fd6dc5b510a4ae1a20",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day16\\features.npy": "88ae070555a97fea83332406b017f54e9b6d0d5e24fc4bb50ad49e4027f535b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\independent_day16\\features.npy": "88ae070555a97fea83332406b017f54e9b6d0d5e24fc4bb50ad49e4027f535b0"
+  }
+}

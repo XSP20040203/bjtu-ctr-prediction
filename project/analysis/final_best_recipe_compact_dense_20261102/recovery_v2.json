@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-11-03T00:31:04.503389+00:00",
+  "failed_run": "run_v1",
+  "failed_session": 98360,
+  "failure": "Exact day16 dense prediction replay failed before saving either new forecast or reading inferred17 labels",
+  "preserved_source_sha256": "40f29ce13af25ee1c85139e32d8c626ca9cbeebecd7f8c9b63e81cae06c69271",
+  "preserved_protocol_sha256": "5ad905307167b28d58f32da117137cb550715da12cc6f47cfc6b3eab29435859",
+  "diagnosed_inherited_news_anchor16_maximum_error": 5.11283486034908e-09,
+  "current_daily_export16_maximum_error": 0.0,
+  "correction": "Use canonical frozen rich_augmented_rows_v1 day16 anchor for development replay and its independently verified news-quality day17 export for day17",
+  "day16_model_replay_tolerance_unchanged": 2e-14,
+  "inferred17_labels_read": false,
+  "failed_run_and_frozen_sources_preserved": true
+}

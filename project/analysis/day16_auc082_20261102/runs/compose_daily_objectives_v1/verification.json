@@ -1,0 +1,477 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8010205555738956,
+      "best": {
+        "name": "pair1_binomial0.25",
+        "pair_weight": 1.0,
+        "binomial_weight": 0.25,
+        "auc": 0.8010205555738956
+      },
+      "records": [
+        {
+          "name": "pair0_binomial0",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.0,
+          "auc": 0.8008114474118079
+        },
+        {
+          "name": "pair0_binomial0.25",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.25,
+          "auc": 0.8008840354053542
+        },
+        {
+          "name": "pair0_binomial0.5",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.5,
+          "auc": 0.8009359184329619
+        },
+        {
+          "name": "pair0_binomial0.75",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.75,
+          "auc": 0.8009696825939301
+        },
+        {
+          "name": "pair0_binomial1",
+          "pair_weight": 0.0,
+          "binomial_weight": 1.0,
+          "auc": 0.8009855839376944
+        },
+        {
+          "name": "pair0_binomial1.5",
+          "pair_weight": 0.0,
+          "binomial_weight": 1.5,
+          "auc": 0.8009624451544889
+        },
+        {
+          "name": "pair0.25_binomial0",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.0,
+          "auc": 0.8008884381080178
+        },
+        {
+          "name": "pair0.25_binomial0.25",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.25,
+          "auc": 0.8009413062521381
+        },
+        {
+          "name": "pair0.25_binomial0.5",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.5,
+          "auc": 0.8009776625767344
+        },
+        {
+          "name": "pair0.25_binomial0.75",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.75,
+          "auc": 0.8009950833717547
+        },
+        {
+          "name": "pair0.25_binomial1",
+          "pair_weight": 0.25,
+          "binomial_weight": 1.0,
+          "auc": 0.8009933880549654
+        },
+        {
+          "name": "pair0.25_binomial1.5",
+          "pair_weight": 0.25,
+          "binomial_weight": 1.5,
+          "auc": 0.8009363442836022
+        },
+        {
+          "name": "pair0.5_binomial0",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.0,
+          "auc": 0.8009470990337111
+        },
+        {
+          "name": "pair0.5_binomial0.25",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.25,
+          "auc": 0.8009861122081089
+        },
+        {
+          "name": "pair0.5_binomial0.5",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.5,
+          "auc": 0.8010030909809456
+        },
+        {
+          "name": "pair0.5_binomial0.75",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.75,
+          "auc": 0.8010034582097414
+        },
+        {
+          "name": "pair0.5_binomial1",
+          "pair_weight": 0.5,
+          "binomial_weight": 1.0,
+          "auc": 0.8009852820688861
+        },
+        {
+          "name": "pair0.5_binomial1.5",
+          "pair_weight": 0.5,
+          "binomial_weight": 1.5,
+          "auc": 0.8008880425790212
+        },
+        {
+          "name": "pair0.75_binomial0",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.0,
+          "auc": 0.8009905277132442
+        },
+        {
+          "name": "pair0.75_binomial0.25",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.25,
+          "auc": 0.8010103317894584
+        },
+        {
+          "name": "pair0.75_binomial0.5",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.5,
+          "auc": 0.80101278986404
+        },
+        {
+          "name": "pair0.75_binomial0.75",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.75,
+          "auc": 0.8009941494651291
+        },
+        {
+          "name": "pair0.75_binomial1",
+          "pair_weight": 0.75,
+          "binomial_weight": 1.0,
+          "auc": 0.8009602175243993
+        },
+        {
+          "name": "pair0.75_binomial1.5",
+          "pair_weight": 0.75,
+          "binomial_weight": 1.5,
+          "auc": 0.8008242101285433
+        },
+        {
+          "name": "pair1_binomial0",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.0,
+          "auc": 0.8010176756915596
+        },
+        {
+          "name": "pair1_binomial0.25",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.25,
+          "auc": 0.8010205555738956
+        },
+        {
+          "name": "pair1_binomial0.5",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.5,
+          "auc": 0.8010012703346957
+        },
+        {
+          "name": "pair1_binomial0.75",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.75,
+          "auc": 0.8009688726691364
+        },
+        {
+          "name": "pair1_binomial1",
+          "pair_weight": 1.0,
+          "binomial_weight": 1.0,
+          "auc": 0.8009107440567435
+        },
+        {
+          "name": "pair1_binomial1.5",
+          "pair_weight": 1.0,
+          "binomial_weight": 1.5,
+          "auc": 0.8007467302431486
+        },
+        {
+          "name": "pair1.5_binomial0",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.0,
+          "auc": 0.8010157580160499
+        },
+        {
+          "name": "pair1.5_binomial0.25",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.25,
+          "auc": 0.8009835099372661
+        },
+        {
+          "name": "pair1.5_binomial0.5",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.5,
+          "auc": 0.8009295940119029
+        },
+        {
+          "name": "pair1.5_binomial0.75",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.75,
+          "auc": 0.8008609909561514
+        },
+        {
+          "name": "pair1.5_binomial1",
+          "pair_weight": 1.5,
+          "binomial_weight": 1.0,
+          "auc": 0.8007716721534321
+        },
+        {
+          "name": "pair1.5_binomial1.5",
+          "pair_weight": 1.5,
+          "binomial_weight": 1.5,
+          "auc": 0.8005349995957889
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidate_hashes_locked_before_scoring": true,
+      "maximum_independent_odds_error": 2.220446049250313e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.812728292273607,
+      "best": {
+        "name": "pair0_binomial1",
+        "pair_weight": 0.0,
+        "binomial_weight": 1.0,
+        "auc": 0.812728292273607
+      },
+      "records": [
+        {
+          "name": "pair0_binomial0",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.0,
+          "auc": 0.812568075556738
+        },
+        {
+          "name": "pair0_binomial0.25",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.25,
+          "auc": 0.8126314488366511
+        },
+        {
+          "name": "pair0_binomial0.5",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.5,
+          "auc": 0.8126801706970433
+        },
+        {
+          "name": "pair0_binomial0.75",
+          "pair_weight": 0.0,
+          "binomial_weight": 0.75,
+          "auc": 0.8127122502500512
+        },
+        {
+          "name": "pair0_binomial1",
+          "pair_weight": 0.0,
+          "binomial_weight": 1.0,
+          "auc": 0.812728292273607
+        },
+        {
+          "name": "pair0_binomial1.5",
+          "pair_weight": 0.0,
+          "binomial_weight": 1.5,
+          "auc": 0.8127038629688358
+        },
+        {
+          "name": "pair0.25_binomial0",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.0,
+          "auc": 0.8126267229657825
+        },
+        {
+          "name": "pair0.25_binomial0.25",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.25,
+          "auc": 0.8126749382765055
+        },
+        {
+          "name": "pair0.25_binomial0.5",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.5,
+          "auc": 0.8127094298790791
+        },
+        {
+          "name": "pair0.25_binomial0.75",
+          "pair_weight": 0.25,
+          "binomial_weight": 0.75,
+          "auc": 0.8127268869032319
+        },
+        {
+          "name": "pair0.25_binomial1",
+          "pair_weight": 0.25,
+          "binomial_weight": 1.0,
+          "auc": 0.8127243060037764
+        },
+        {
+          "name": "pair0.25_binomial1.5",
+          "pair_weight": 0.25,
+          "binomial_weight": 1.5,
+          "auc": 0.8126705751439932
+        },
+        {
+          "name": "pair0.5_binomial0",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.0,
+          "auc": 0.8126663943436813
+        },
+        {
+          "name": "pair0.5_binomial0.25",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.25,
+          "auc": 0.8127032010515873
+        },
+        {
+          "name": "pair0.5_binomial0.5",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.5,
+          "auc": 0.8127214496799761
+        },
+        {
+          "name": "pair0.5_binomial0.75",
+          "pair_weight": 0.5,
+          "binomial_weight": 0.75,
+          "auc": 0.8127224788296843
+        },
+        {
+          "name": "pair0.5_binomial1",
+          "pair_weight": 0.5,
+          "binomial_weight": 1.0,
+          "auc": 0.8127031805071141
+        },
+        {
+          "name": "pair0.5_binomial1.5",
+          "pair_weight": 0.5,
+          "binomial_weight": 1.5,
+          "auc": 0.8126182682730141
+        },
+        {
+          "name": "pair0.75_binomial0",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.0,
+          "auc": 0.8126956907625749
+        },
+        {
+          "name": "pair0.75_binomial0.25",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.25,
+          "auc": 0.8127153023883625
+        },
+        {
+          "name": "pair0.75_binomial0.5",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.5,
+          "auc": 0.8127168656943761
+        },
+        {
+          "name": "pair0.75_binomial0.75",
+          "pair_weight": 0.75,
+          "binomial_weight": 0.75,
+          "auc": 0.812699981347416
+        },
+        {
+          "name": "pair0.75_binomial1",
+          "pair_weight": 0.75,
+          "binomial_weight": 1.0,
+          "auc": 0.8126671583412812
+        },
+        {
+          "name": "pair0.75_binomial1.5",
+          "pair_weight": 0.75,
+          "binomial_weight": 1.5,
+          "auc": 0.8125498969079615
+        },
+        {
+          "name": "pair1_binomial0",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.0,
+          "auc": 0.8127054673637958
+        },
+        {
+          "name": "pair1_binomial0.25",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.25,
+          "auc": 0.8127100096184344
+        },
+        {
+          "name": "pair1_binomial0.5",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.5,
+          "auc": 0.8126938950472075
+        },
+        {
+          "name": "pair1_binomial0.75",
+          "pair_weight": 1.0,
+          "binomial_weight": 0.75,
+          "auc": 0.812661398184586
+        },
+        {
+          "name": "pair1_binomial1",
+          "pair_weight": 1.0,
+          "binomial_weight": 1.0,
+          "auc": 0.8126099503293959
+        },
+        {
+          "name": "pair1_binomial1.5",
+          "pair_weight": 1.0,
+          "binomial_weight": 1.5,
+          "auc": 0.8124642476408827
+        },
+        {
+          "name": "pair1.5_binomial0",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.0,
+          "auc": 0.8126680430376617
+        },
+        {
+          "name": "pair1.5_binomial0.25",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.25,
+          "auc": 0.8126442011764233
+        },
+        {
+          "name": "pair1.5_binomial0.5",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.5,
+          "auc": 0.8125947262326825
+        },
+        {
+          "name": "pair1.5_binomial0.75",
+          "pair_weight": 1.5,
+          "binomial_weight": 0.75,
+          "auc": 0.8125319699289826
+        },
+        {
+          "name": "pair1.5_binomial1",
+          "pair_weight": 1.5,
+          "binomial_weight": 1.0,
+          "auc": 0.8124520641262143
+        },
+        {
+          "name": "pair1.5_binomial1.5",
+          "pair_weight": 1.5,
+          "binomial_weight": 1.5,
+          "auc": 0.8122425907506331
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidate_hashes_locked_before_scoring": true,
+      "maximum_independent_odds_error": 2.220446049250313e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

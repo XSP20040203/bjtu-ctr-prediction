@@ -1,0 +1,129 @@
+{
+  "params": {
+    "loss_function": "PairLogit",
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 40.0,
+    "random_strength": 1.0,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.8,
+    "border_count": 64,
+    "one_hot_max_size": 16,
+    "max_ctr_complexity": 1,
+    "thread_count": 2,
+    "random_seed": 151653,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.45,
+    "allow_writing_files": false,
+    "verbose": 200
+  },
+  "arms": [
+    {
+      "name": "full_sample_d6",
+      "depth": 6
+    },
+    {
+      "name": "full_sample_d8",
+      "depth": 8
+    }
+  ],
+  "checkpoints": [
+    600,
+    1600,
+    2400
+  ],
+  "weights": [
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "modes": [
+    "add_global",
+    "replace_global",
+    "add_within"
+  ],
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "training": "All earlier positives and all fixed one-third source negatives; no second downsample;1024-row date queries;64 pairs per positive",
+  "objective": "Cross-user within-date row PairLogit; zero-click users retained",
+  "baseline_runs": {
+    "15": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1",
+    "16": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1"
+  },
+  "features": "All native categorical features plus384 numeric features selected by a fixed strictly historical model",
+  "selection": "All both-date models and candidate hashes locked before scoring; dates repeatedly reused",
+  "evaluation_day_labels_fit": false,
+  "inferred17_labels_read": false,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\compact_full_sample_ranker_v1.py": "3b3031380f7df7c46bf82df464a9ae2c910c8276ecfbbec03cb1de1142cb3572",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\prepare_compact_full_sample_ranker_v1.py": "f3b8ac0d9bd5c872656ebdae3bc19f373232565bd330b53e656af94b9288e7e9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\compact_full_sample_core_v1.py": "952df05c6d15e450e59038a4fd4ec42275d843753be17d03a0263c341095b573",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_compact_full_sample_core_v1.py": "1b3817e93947cb76b6949c0581c65d9d0b2cb8c25852ed1e0329fc1578c370a6",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_compact_full_sample_ranker_v1.ps1": "fd43d97f56148730687eca43bb57b7c132057e1f546f9d7f3f8dd644b520da04",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\cross_user_pair_core.py": "d203325f32b095f67922bf5d6f8530450f148aa872fdc618eb0f2143fa20ec4a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\conditional_daily.py": "09e971a5b815805e9ad54756325e8ac00a1600aa5e5728e8d655a9bc883f4bde",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_row_catboost.py": "ec842deb8e9c27bf30aced76c6347a199fd62e689a3ae01b0afb04df35ba2045",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\full_quality_row_catboost.py": "109f8b6270e6075922dc6534f59b7bc0091b3a98fa749ee544e351700f57f92f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\news_quality_features.py": "76fd9e5cdd56bb7dd693c375beba869bec04688940f6faf77e0d19f4949bea52",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\catboost_userday_residual.py": "1b5da6783129a7a7f1e07a0007b92f0b80d79853d6e1088c9523ffb6b9532930",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\within_user_ranking_core.py": "fc1f17058dc4b1d381d2513b3a3142683a8c68e21c73707717bc69f6db35f711",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\task_audience_rate_v1.py": "74a28a6f78cd0f1932d0dca8a0c5d928b02f027d1e8e46259571db257f23effc",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\task_audience_core.py": "e830c2c28cd94879e690f45df1fc04a82e2fd144f6c8ea18ceb7eeecb97e8a2f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\task_audience_row_core.py": "714833050e5a87e9c728e0e655454b2d11af913421811adbb8535704d59f74bb",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context.py": "c045871cd9b019b59977bd2ad2be64e7033a8981f1080c56d1126be4551b48d9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context15.py": "b238288c93c492d75c3e9134f12e67c8e23864b896640cf6a20a7583f308d927",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\protocol.json": "e8968b7be4a856a14cd1a8253c9b8048e1c078688397abc92f80260168deaae6",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\verification.json": "1b82642599b2a37727932aa399b970c230a9b1a7c607fe5d404758cd93a8694f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\protocol.json": "00094355c4147c34a5eb0a327eb37a409cb6a8631cd0b5f972c321b704ebf551",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\verification.json": "1cf28c906558605fa4d6cfadc3ddf32f186a5cf12a83870fb032c312cc31eb88",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\protocol.json": "71d7d998c4d664c2728189b7812fb94eb75c5901a51795f2ab92c16ec1303c5d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\verification.json": "f6116c297032a33d2f88cbf6b8e2dedf6a16be48e5a440ddd1bfd596feacfd7d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\protocol.json": "092bfc56edd6720f13a13176c88e5a055de57b826c1f0749836af086f3f7fb85",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\verification.json": "baa96931f20fda858a5519d81116fdfba6fb30fa9aac1fd712983198affe9ffc",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\protocol.json": "695f0c659e51190c7787be68154540021f753f3f72b7f2730fea019ba5de04d0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\verification.json": "d3bc546f6cc800ce88625c8f39b51128564a8bc3490472a1bccb35b86c3cb7b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract15.json": "bd1d96dc10a4846615935f3f0ca543d63964db0b10025ab4dc7a4b1c85450393",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day15\\features.npy": "eb5d6f839fa7446f9421141dc252e6e49ba635c8a5e9aef14517da3e820e1d9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\independent_day15\\features.npy": "eb5d6f839fa7446f9421141dc252e6e49ba635c8a5e9aef14517da3e820e1d9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\quality15.npz": "abdcee5e5e6a41ea82af1539fa7f6abd5461ef13c6ee08541c25ae87361d018b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\input_contract15.json": "829bc3bb1d18c684a9d21fc5e15e6abc287be01e847bf389d88acf593b8a332a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\day15_prediction.npy": "b9bed5fac167f887940e52bdb959d5c1ca1251f0cd0e025aff8bad1c199cde73",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\input_contract15.json": "9cbb70c893f927979467501c12a71286e778408cf259c21c040aade3b80d3b6d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\day15_audience_row_d6_trees1600.cbm": "575f5f711a9d54ce77b7edd2e75547cef500c95a4c048119794b9cbe56a3a0eb",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day15\\frame.pkl": "b842650890ae80245af68e1eb0ca59f1ba4ce92a6b8f1a6b8122319c667a4e78",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day15\\metadata.npz": "b5cb003a1774a8db4323c565f7787ef41a04be904cba7448d64990420be4a33b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day15\\contract.json": "d174f47064efd9533498029bc4a98f431d8f02d045a04e2d39a6fbf4d201d53c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day15\\files_locked.json": "702114cd528df0b7d13ea24a56563d9e7f582e9f938a89bb57c8b2cbd5b0be1e",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_contract16.json": "8fc454399af9221943ed0e548a30f8464d61f1174e0378c036c46a25625ad4f0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\input_day16\\features.npy": "88ae070555a97fea83332406b017f54e9b6d0d5e24fc4bb50ad49e4027f535b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\independent_day16\\features.npy": "88ae070555a97fea83332406b017f54e9b6d0d5e24fc4bb50ad49e4027f535b0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\quality16.npz": "2545350bd0409b6169aebf844bd112f3033f457cd62f994eac14d6668128ad9b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\input_contract16.json": "5e9901c1daba83fea95a5e4e88b3d3a7964eb920f577a082db89c197a60ca8c4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\day16_prediction.npy": "b93a9ea76ac5c2b62c82a20b2055b409473f2d1d7e87be191ce84230241a71e9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\profile_response_ranker_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\input_contract16.json": "2820799b6c6222e63a6147e469c8013e3f3de1089da6b6f7eede8b0303937817",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_row_ranker_v1\\day16_audience_row_d6_trees1600.cbm": "91729db104765f884ede06afa0fa3ffacbdfe415c1968dd68f4051ab4c6f5c22",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day16\\frame.pkl": "c77feed77a12946602308aa3a8887fcca83911202207c098216757eebd3e061a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day16\\metadata.npz": "2cbda262b9bc2ed699a6e258d96205de3e125d2063a63bdf943f266a4df23b69",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day16\\contract.json": "6c7170569feeca062ad43f83baadb62f788c2c51e19ba845d9e4a035efcb4f6f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\task_audience_rate_v1\\input_day16\\files_locked.json": "b332682d712ca5c143b4ced0b846c89a89c39ad562385c4e7cb2f3c40a3cac03",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compact_full_sample_preflight_v1\\protocol.json": "8a3f5819185d8e2aed931514e04febb948b3449875f4674d899bf69061d1cc72",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compact_full_sample_preflight_v1\\verification.json": "a11a1da06c3a5a5bf476a88b3a7de5a8ea22c9e24ee2cf3eccdc7fbd3bdc4237"
+  }
+}

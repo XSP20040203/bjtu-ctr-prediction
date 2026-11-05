@@ -1,0 +1,82 @@
+{
+  "day": 20191117,
+  "keys_sha256": "710c4dab1aa4b92c92ab6195487a93da2e48244f649cca8899eb76cd7876e6b7",
+  "extra_sha256": "660eaee0221e560d186bf3e9f6404dc61aea321ee4f7348c89d5e0feb8ed1f30",
+  "quality_sha256": "2f6391f3065d1e44aa93eea1c20dd1977f003a8aae5501d3c1ee6f940b7fa79c",
+  "bayesian_audit": [
+    {
+      "query_date": 20191110,
+      "label_max_date": null,
+      "fit_rows": 0,
+      "query_rows": 274,
+      "global_rate": 0.008400000000000001,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191111,
+      "label_max_date": 20191110,
+      "fit_rows": 274,
+      "query_rows": 450542,
+      "global_rate": 0.00816326530612245,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191112,
+      "label_max_date": 20191111,
+      "fit_rows": 450816,
+      "query_rows": 432932,
+      "global_rate": 0.008136940701524514,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191113,
+      "label_max_date": 20191112,
+      "fit_rows": 883748,
+      "query_rows": 412848,
+      "global_rate": 0.008199396890413994,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191114,
+      "label_max_date": 20191113,
+      "fit_rows": 1296596,
+      "query_rows": 382961,
+      "global_rate": 0.008344970237269536,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191115,
+      "label_max_date": 20191114,
+      "fit_rows": 1679557,
+      "query_rows": 424780,
+      "global_rate": 0.008399239061811054,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191116,
+      "label_max_date": 20191115,
+      "fit_rows": 2104337,
+      "query_rows": 421983,
+      "global_rate": 0.008377946143539016,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191117,
+      "label_max_date": 20191116,
+      "fit_rows": 2526320,
+      "query_rows": 404182,
+      "global_rate": 0.008452590095437064,
+      "query_labels_used": false
+    }
+  ],
+  "own_query_ad_labels_masked": true,
+  "max_ad_history_date": 20191116,
+  "topic_vocabulary_fit_cutoff": 20191116,
+  "shape": [
+    404182,
+    744
+  ],
+  "matrix_sha256": "037a8267dbbdb7df25d6489923f13573634bbd43c2888818cef960a338539f32",
+  "quality_file_sha256": "f7f5ceec53f244fe55e42f8bd630749c288393f007b7f671ff9ce85ab77c7a29",
+  "original_row_log_ids_sha256": "234f4d803462ca6dd792c10c612b5ab67fd4415928b5b23f0323c7e241d9f9d3"
+}

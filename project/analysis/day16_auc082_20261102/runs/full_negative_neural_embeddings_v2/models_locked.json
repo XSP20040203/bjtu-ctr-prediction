@@ -1,0 +1,114 @@
+{
+  "models": [
+    {
+      "name": "day15_neural_embedding_d4_trees400",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 400,
+      "model_sha256": "9ea1b4f5218eea2426e667173b29e9c6da0cc9550844928a997166fc2bddce40",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_neural_embedding_d4_trees1200",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "f54f77086d8197da4569d456a11ebd0a91c60c6f1d3d3800572c3325bebbb905",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_neural_embedding_d4_trees2400",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 2400,
+      "model_sha256": "c5eeccced4ad822762f7075aebd759aea5084f44c2267cab05d9c4327837c7bf",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_neural_embedding_d6_trees400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 400,
+      "model_sha256": "af68ea4388abae30ed50c9ec455586f95055389edb7995aa6a471d1de05b4ca2",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_neural_embedding_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "af582b0d9ee76499c0e2907b07ace06499301750c8b6d05b06ba3117fe2778ad",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_neural_embedding_d6_trees2400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 15,
+      "trees": 2400,
+      "model_sha256": "952c61e9366495a0f8702564163e53e370fb7fdd08610f2384be0c860de3f6c6",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day16_neural_embedding_d4_trees400",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 400,
+      "model_sha256": "052f6742ba6a5cda6440c1b4876d28cc5fd45b7159da263fe5959d6d5ca6c7dd",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_neural_embedding_d4_trees1200",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "f21530483c453103d2ba286fa92fd69b63b1eedae6aaf8216f27b84193d5843a",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_neural_embedding_d4_trees2400",
+      "depth": 4,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 2400,
+      "model_sha256": "028a077d21efca89135ae89921e2faa48b73db69f4f72668d2776f33dbc2fa0b",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_neural_embedding_d6_trees400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 400,
+      "model_sha256": "9416a9ebc8c16fca19ab3485601c7faf0796cd19a4147f705f57205cc3f963d0",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_neural_embedding_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "15100dce5f872d8751c0412b416f32e977d77eb2ea14c838a38fa02e899f6d37",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_neural_embedding_d6_trees2400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "day": 16,
+      "trees": 2400,
+      "model_sha256": "3bf32fcaf3b9bc93e8714492764ff1fd1dae8397a446382ccd1e5b76590400ce",
+      "max_training_date": 20191115
+    }
+  ],
+  "protocol_sha256": "0f981c6d485f4583a88e292e2bbbf148e46b5b05c8593297ba8fc34ac3bdd47d",
+  "inputs_locked_sha256": "aea585e09ac6edee48de1b01b5a3f9d9cec425523ad92020d1acbefbbf1f4f0e"
+}

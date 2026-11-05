@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "verified_model_count": 16,
+  "independent_context_checks": [
+    {
+      "run": "day_aux_v1_day15_seed42",
+      "status": "passed",
+      "groups": 42832,
+      "width": 591,
+      "max_independent_feature_error": 9.5367431640625e-07,
+      "excluded_target_columns": 36,
+      "validation_auxiliary_targets_missing": true
+    },
+    {
+      "day": 20191115,
+      "baseline_endpoint": "final",
+      "maximum_error": 0.0
+    },
+    {
+      "day": 20191115,
+      "baseline_endpoint": "best",
+      "maximum_error": 0.0
+    },
+    {
+      "run": "protected_day_aux_v1_day15_seed42",
+      "status": "passed",
+      "groups": 42832,
+      "width": 591,
+      "max_independent_feature_error": 9.5367431640625e-07,
+      "excluded_target_columns": 36,
+      "validation_auxiliary_targets_missing": true
+    },
+    {
+      "run": "protected_day_aux_v1_day15_seed42",
+      "protected_auxiliary_endpoint": "final",
+      "maximum_prediction_error": 0.0
+    },
+    {
+      "run": "protected_day_aux_v1_day15_seed42",
+      "protected_auxiliary_endpoint": "best",
+      "maximum_prediction_error": 0.0
+    },
+    {
+      "day": 20191115,
+      "baseline_endpoint": "final",
+      "maximum_error": 0.0
+    },
+    {
+      "day": 20191115,
+      "baseline_endpoint": "best",
+      "maximum_error": 0.0
+    },
+    {
+      "run": "day_aux_v1_day16_seed42",
+      "status": "passed",
+      "groups": 51336,
+      "width": 598,
+      "max_independent_feature_error": 9.5367431640625e-07,
+      "excluded_target_columns": 36,
+      "validation_auxiliary_targets_missing": true
+    },
+    {
+      "day": 20191116,
+      "baseline_endpoint": "final",
+      "maximum_error": 0.0
+    },
+    {
+      "day": 20191116,
+      "baseline_endpoint": "best",
+      "maximum_error": 0.0
+    },
+    {
+      "run": "protected_day_aux_v1_day16_seed42",
+      "status": "passed",
+      "groups": 51336,
+      "width": 598,
+      "max_independent_feature_error": 9.5367431640625e-07,
+      "excluded_target_columns": 36,
+      "validation_auxiliary_targets_missing": true
+    },
+    {
+      "run": "protected_day_aux_v1_day16_seed42",
+      "protected_auxiliary_endpoint": "final",
+      "maximum_prediction_error": 0.0
+    },
+    {
+      "run": "protected_day_aux_v1_day16_seed42",
+      "protected_auxiliary_endpoint": "best",
+      "maximum_prediction_error": 0.0
+    },
+    {
+      "day": 20191116,
+      "baseline_endpoint": "final",
+      "maximum_error": 0.0
+    },
+    {
+      "day": 20191116,
+      "baseline_endpoint": "best",
+      "maximum_error": 0.0
+    }
+  ],
+  "confirmation_policy_sha256": "919d6acfd3be82bc6d6be4e6232951ad80c776e790181b71da3fc34e4c05c6bb",
+  "protected_confirmation_policy_sha256": "c6b00455bad55441dbde40aa89bdebb4b8725db36320f79093fc34220eb3a1b1",
+  "mean_control_policy_sha256": "c115eead933642425c02d1aff1ce1b980c142fdaf28c01a76f8088ff99c47784",
+  "equal_ensemble_policy_sha256": "e3128e417fbb92694d88b0d4bf5724eb38e717d69507ca35b75ca95d703b5a40",
+  "unique_inference_states_replayed": 19,
+  "goal_auc_both_days": 0.85,
+  "goal_met": false,
+  "best_common_model": "protected_day_aux_v1_seed42/both/best/v7_replace30",
+  "best_common_min_auc": 0.7934700801999591,
+  "highest_each_day": {
+    "20191115": 0.7934700801999591,
+    "20191116": 0.8012412673501383
+  },
+  "goal_uses_advertisement_row_auc_only": true,
+  "final_test_auc": null,
+  "evaluator_sha256": "f47cca1ff2f6a8d387fcbe4c9fd4695ceb8a3b4ed6d7bb454edd85f6adafeb52",
+  "limitations": "Repeated development dates; checkpoint selection and paired intervals are exploratory"
+}

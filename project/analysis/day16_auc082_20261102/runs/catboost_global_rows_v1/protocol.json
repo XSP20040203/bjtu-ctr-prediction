@@ -1,0 +1,63 @@
+{
+  "params": {
+    "loss_function": "Logloss",
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 30.0,
+    "random_strength": 0.5,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.8,
+    "border_count": 64,
+    "one_hot_max_size": 16,
+    "max_ctr_complexity": 1,
+    "thread_count": 2,
+    "random_seed": 8243,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.4,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "arms": [
+    {
+      "name": "depth6_weight1",
+      "depth": 6,
+      "positive_weight": 1.0
+    },
+    {
+      "name": "depth6_weight5",
+      "depth": 6,
+      "positive_weight": 5.0
+    },
+    {
+      "name": "depth8_weight5",
+      "depth": 8,
+      "positive_weight": 5.0
+    }
+  ],
+  "checkpoints": [
+    400,
+    800,
+    1200
+  ],
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\catboost_global_rows.py": "6cccc6fcd458a47f324397cb8943754ff7debefc0c533513f803b3ef4102d1a8",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\global_row_context.py": "c045871cd9b019b59977bd2ad2be64e7033a8981f1080c56d1126be4551b48d9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\catboost_userday_residual.py": "1b5da6783129a7a7f1e07a0007b92f0b80d79853d6e1088c9523ffb6b9532930",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\global_row_context_v1\\input_contract.json": "65b3f86b80e0405274c8b27df086ef273de058f43fe4c4a7541f5f00e33386a4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\global_row_context_v1\\verification.json": "ea2f24ab92399f19bf438fd16a36feb9038f20b7a327c887f768371aec7a2572",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_verified_v1\\prediction.npy": "709cec59e0802d718fe4ab8e1dbdf1a926f2513af8b5f8ef1ea8d0cc3201d233",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_verified_v1\\verification.json": "1bd347ef63d224bd9c1bfa6566da616956528ce106634f7e3c852deff4258e2a"
+  },
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "training": "All pre16 positives; one third of pre16 negatives, inverse inclusion weights",
+  "evaluation16_labels_fit": false,
+  "development16_model_selection": true,
+  "selection": "All fixed tree endpoints locked before held16 labels; declared single and blend recipes",
+  "feature_source": "Previously independently rebuilt strict-past matrix; 96 daily features selected by pre16 model",
+  "inferred17_labels_read": false
+}

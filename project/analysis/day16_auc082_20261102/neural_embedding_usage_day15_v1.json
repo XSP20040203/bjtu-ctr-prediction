@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "scope": "Only completed15 models; no held-date scoring",
+  "advertisement_labels_read": false,
+  "inferred17_labels_read": false,
+  "models": {
+    "neural_embedding_d4": {
+      "day": 20191115,
+      "trees": 2400,
+      "feature_columns": 533,
+      "max_training_date": 20191114,
+      "embedding_feature_count": 138,
+      "embedding_importance": 53.46887209985211,
+      "context_importance": 46.531127900147794,
+      "used_embedding_features": 112,
+      "top_features": [
+        {
+          "name": "neural_embedding__user_id__7",
+          "importance": 14.666004106250476
+        },
+        {
+          "name": "neural_embedding__user_id__6",
+          "importance": 5.513843595577832
+        },
+        {
+          "name": "day_exposure__user_id__spread_app_id__log_count",
+          "importance": 5.204369050670072
+        },
+        {
+          "name": "creat_type_cd",
+          "importance": 4.527516350682895
+        },
+        {
+          "name": "day_exposure__slot_id__log_count",
+          "importance": 4.213083274314075
+        },
+        {
+          "name": "neural_embedding__slot_id__7",
+          "importance": 3.3303531435597447
+        },
+        {
+          "name": "day_exposure__user_id__adv_prim_id__log_count",
+          "importance": 3.008392992044268
+        },
+        {
+          "name": "day_exposure__slot_id_unique_user_id",
+          "importance": 2.3301052063638563
+        },
+        {
+          "name": "neural_embedding__adv_id__3",
+          "importance": 2.2805093344840848
+        },
+        {
+          "name": "neural_embedding__task_id__6",
+          "importance": 2.2641353192926417
+        },
+        {
+          "name": "neural_embedding__user_id__3",
+          "importance": 2.23545658830463
+        },
+        {
+          "name": "neural_user_product__slot_id__3",
+          "importance": 1.7011262972342531
+        },
+        {
+          "name": "inter_type_cd",
+          "importance": 1.6323436275186554
+        },
+        {
+          "name": "day_exposure__user_id__task_id__log_count",
+          "importance": 1.5281762197200877
+        },
+        {
+          "name": "slot_id",
+          "importance": 1.5040962361975607
+        },
+        {
+          "name": "neural_embedding__user_id__5",
+          "importance": 1.4892017975765466
+        },
+        {
+          "name": "neural_embedding__slot_id__2",
+          "importance": 1.3454688515711923
+        },
+        {
+          "name": "neural_user_product__task_id__7",
+          "importance": 1.3205206834107441
+        },
+        {
+          "name": "neural_embedding__adv_id__5",
+          "importance": 1.0729396115337115
+        },
+        {
+          "name": "neural_embedding__slot_id__6",
+          "importance": 1.0039293502976383
+        }
+      ]
+    },
+    "neural_embedding_d6": {
+      "day": 20191115,
+      "trees": 2400,
+      "feature_columns": 533,
+      "max_training_date": 20191114,
+      "embedding_feature_count": 138,
+      "embedding_importance": 51.40355028389047,
+      "context_importance": 48.59644971610952,
+      "used_embedding_features": 127,
+      "top_features": [
+        {
+          "name": "neural_embedding__user_id__7",
+          "importance": 11.628403201163598
+        },
+        {
+          "name": "neural_embedding__user_id__6",
+          "importance": 4.605207771541075
+        },
+        {
+          "name": "day_exposure__user_id__spread_app_id__log_count",
+          "importance": 4.555450129019475
+        },
+        {
+          "name": "day_exposure__slot_id_unique_user_id",
+          "importance": 4.18592076096252
+        },
+        {
+          "name": "creat_type_cd",
+          "importance": 3.2155250895413796
+        },
+        {
+          "name": "day_exposure__user_id__adv_prim_id__log_count",
+          "importance": 2.4167901500557147
+        },
+        {
+          "name": "neural_embedding__slot_id__7",
+          "importance": 2.2354529878189147
+        },
+        {
+          "name": "neural_embedding__user_id__3",
+          "importance": 2.203901511088258
+        },
+        {
+          "name": "neural_embedding__adv_id__3",
+          "importance": 2.0547662373143494
+        },
+        {
+          "name": "neural_embedding__task_id__6",
+          "importance": 1.9013638228311087
+        },
+        {
+          "name": "inter_type_cd",
+          "importance": 1.7177856220632652
+        },
+        {
+          "name": "neural_embedding__user_id__5",
+          "importance": 1.616490159128248
+        },
+        {
+          "name": "neural_user_product__slot_id__7",
+          "importance": 1.5111897337011906
+        },
+        {
+          "name": "day_exposure__user_id__task_id__log_count",
+          "importance": 1.504211004032903
+        },
+        {
+          "name": "neural_embedding__user_id__2",
+          "importance": 1.2756695935089577
+        },
+        {
+          "name": "neural_embedding__adv_id__5",
+          "importance": 1.2753061058569637
+        },
+        {
+          "name": "user_id",
+          "importance": 1.1499622717898341
+        },
+        {
+          "name": "day_exposure__user_id__spread_app_id__fraction_first",
+          "importance": 1.0817669717431557
+        },
+        {
+          "name": "neural_user_product__task_id__7",
+          "importance": 1.0457420608469563
+        },
+        {
+          "name": "rich_daily__x592",
+          "importance": 1.039005888857668
+        }
+      ]
+    }
+  },
+  "model_files_unchanged": true,
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\diagnose_neural_embedding_usage_v1.py": "b1e83bdbc100bbf4859f8cd4154f3c36bb443b509d02baf7340edcb7c2671f0b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_neural_embeddings_v2\\protocol.json": "0f981c6d485f4583a88e292e2bbbf148e46b5b05c8593297ba8fc34ac3bdd47d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_neural_embeddings_v2\\inputs_locked.json": "aea585e09ac6edee48de1b01b5a3f9d9cec425523ad92020d1acbefbbf1f4f0e",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_neural_embeddings_v2\\day15_neural_embedding_d4_trees2400.cbm": "c5eeccced4ad822762f7075aebd759aea5084f44c2267cab05d9c4327837c7bf",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_neural_embeddings_v2\\day15_neural_embedding_d6_trees2400.cbm": "952c61e9366495a0f8702564163e53e370fb7fdd08610f2384be0c860de3f6c6"
+  }
+}

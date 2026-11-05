@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-03T01:03:37.740077+00:00",
+  "catboost_version": "1.2.10",
+  "synthetic_data_only": true,
+  "results": [
+    {
+      "name": "pairlogit_d6",
+      "iterations": 3,
+      "finite_prediction": true
+    },
+    {
+      "name": "yetirank_d6",
+      "iterations": 3,
+      "finite_prediction": true
+    }
+  ],
+  "source_code_sha256": "9a3e6daa8acd84e6053be65c0a0b2bab3c76bf389aefb0337b2ce74d86691595",
+  "real_held_labels_used": false
+}

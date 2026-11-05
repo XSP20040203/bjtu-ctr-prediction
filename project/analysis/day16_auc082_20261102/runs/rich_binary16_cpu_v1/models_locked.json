@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "name": "binary_offset_trees300",
+      "trees": 300,
+      "model_sha256": "c0132258679e28b13a2429a74c51207af3f55943e05a2fd2c039d7f3fa002fed"
+    },
+    {
+      "name": "binary_offset_trees700",
+      "trees": 700,
+      "model_sha256": "587a5224f57eb3ae55b7cd781c7cb90b6219edf2b82bc521b098224a804fea20"
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "trees": 1200,
+      "model_sha256": "dd8b3b1fd754c26da5ec0b7a2ae0cb3349f865e07f3802893ee26c972a68b74e"
+    }
+  ],
+  "protocol_sha256": "2813adddc8965c0f70f2b9ad3b7c22e9928768b604cea218f2c66863904ed38a"
+}

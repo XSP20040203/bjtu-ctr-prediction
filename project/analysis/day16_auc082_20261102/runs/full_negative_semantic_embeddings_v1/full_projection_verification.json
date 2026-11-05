@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "dates": {
+    "15": {
+      "train": {
+        "rows": 1679557,
+        "columns": 489,
+        "row_major_float32_sha256": "75cb193dc0921a6dedff15c134f4b2de0bd2b76c86aa7635e44a761b6e9cc52c",
+        "independent_row_block_and_column_gather_bitwise_exact": true
+      },
+      "held": {
+        "rows": 424780,
+        "columns": 489,
+        "row_major_float32_sha256": "b2699fab395efb298e3b5f4863bee37bafc8aa4d0771a4ae15df2630b9f05bec",
+        "independent_row_block_and_column_gather_bitwise_exact": true
+      }
+    },
+    "16": {
+      "train": {
+        "rows": 2104337,
+        "columns": 489,
+        "row_major_float32_sha256": "d18e5dbccfb773ee35155a6856287bf1fbdf4fb6626ab95728bd141615cdf383",
+        "independent_row_block_and_column_gather_bitwise_exact": true
+      },
+      "held": {
+        "rows": 421983,
+        "columns": 489,
+        "row_major_float32_sha256": "99bdff2a0af9ef2a88a3cc0f281bb0a0ca661b2993cf2639cac2860b4c1cbe5a",
+        "independent_row_block_and_column_gather_bitwise_exact": true
+      }
+    }
+  },
+  "all_full_training_and_held_rows_replayed": true,
+  "columns": 489,
+  "advertisement_held_labels_read": false,
+  "inferred17_labels_read": false,
+  "protocol_sha256": "8a2f09e6a2dfe7534528bccd4979bccb7f2a6e3b7280a9b766c83a057ca579a4"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all_final_rows_replayed": true,
+  "rows": 404182,
+  "maximum_probability_error": 0.0,
+  "final_labels_read": false
+}

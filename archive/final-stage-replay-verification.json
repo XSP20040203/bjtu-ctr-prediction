@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Frozen parent probabilities plus the selected final correction; not a new full end-to-end run",
+  "rows": 404182,
+  "features": 401,
+  "maximum_margin_error": 0.0,
+  "maximum_prediction_error": 0.0,
+  "submission_sha256": "71ce3046bec9f730befdd19ff99ca0fe56a2794146f97bb7416a276ac061b3cd",
+  "day17_advertisement_labels_read": false
+}

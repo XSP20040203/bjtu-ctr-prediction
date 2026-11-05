@@ -1,0 +1,2079 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8023220737217925,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8023220737217925
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8023220737217925
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8020881739100111
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801794509464706
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010353660123015
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7988112195426341
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7936667618786493
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7864277403214626
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7703564295941396
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7507255971019101
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8020565241783294
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8017344348766026
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8009447204692174
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7988911157261237
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7950553152725885
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7908254351970679
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7837471513683291
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7771872645530684
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8021017155560822
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8018289339636923
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801133871599244
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7991157627198802
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7943896534476745
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.787522293036759
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7714828422711806
+        },
+        {
+          "name": "day15_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7507255785720167
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8021577688204183
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019492542887325
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8013820744672603
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7996740582997518
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.795679361652262
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7900365421693196
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7774934518372167
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7620197648723503
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8020972380600309
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018179413571339
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.801119935771805
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7992592730380131
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7957610717438586
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7918823317999752
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7853900339499383
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7793993086440185
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8021695086870401
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019780766955938
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8014621795331841
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7999228393004411
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7962659891021816
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.790930268574141
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7784196574391281
+        },
+        {
+          "name": "day15_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7620197962047155
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022094806991926
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8020551839616784
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016011995527941
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8001429245713583
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7965681348481334
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7914131522047173
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7797969204005866
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7653321716424346
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021310345640856
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018839967210013
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.801245137881479
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7995056471740078
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.796146578426452
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7924068780427934
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7860905414077787
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7802164082123542
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.802216962059412
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8020736794905139
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8016644107464835
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.800346448160493
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7970699567035431
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7921941696908783
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7806124937795232
+        },
+        {
+          "name": "day15_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7653321029133756
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8021552467334778
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019384422644077
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801359244291006
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7995878444333462
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.795340604879907
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7891708012939938
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7749666946897276
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7569730062395859
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021051944593347
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018319169396169
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8011495270007872
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7993287742882321
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7958338908557113
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7919225847926926
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7852877765649502
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7790707864371296
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8021584534157514
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019474841785554
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8013908219245571
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7996991565349539
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7956289845996244
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7896181995049619
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7754550092635957
+        },
+        {
+          "name": "day15_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7569730692412232
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022299350062103
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8020952853461774
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016963859304741
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8003543223544517
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7969683832400737
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7919295473158977
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7801471374066272
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.764988925919185
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021548424448953
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.801929365311916
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013412891612426
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997107090811991
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7965089496949114
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7928695229869294
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7866451795236072
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7807899097596281
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022316107823848
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021019345457311
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017218978876589
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8004552233512455
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7972305428237725
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7923507917615563
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7806096698237744
+        },
+        {
+          "name": "day15_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7649888763938336
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022851904744104
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022072126402447
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019149800503361
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8007768841070749
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7976815085445742
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7929178011080096
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7816149758344821
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7670219318220928
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.802195149342757
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8020078923047396
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8014960723926844
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7999903561675343
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7969592941589246
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7934637813838438
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7874209378891242
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7816851232726189
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022852059721394
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022095696426809
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019352760109923
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8008685127452289
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7979369731093466
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7933396324459271
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7820881066768198
+        },
+        {
+          "name": "day15_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7670218182843825
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022490255130764
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021331820102731
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8017651554183587
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8004884140962408
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7972121012000813
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7923378437458872
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7810873246553504
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7668140809974966
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021630885843498
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.801947310334465
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013762324972431
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997637894768251
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7965877664278856
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7929857000278132
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7868467470298169
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7810758482501216
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022516210457761
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.802142844507395
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018033579941485
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8006289003357766
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7975748706927946
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7929212463205468
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7817132873629049
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7668141089607902
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 9.2148511043888e-15,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8139543896488788,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8139543896488788
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8139543896488788
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137503329520801
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8134889501126747
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8128164794251505
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8107783797200019
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8059508824042593
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7989919768798456
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7831654918134139
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7633935433764157
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8137410898651496
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8134754427635096
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8127948852576915
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8109674350992192
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8074302436999031
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8034219713804239
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7965571242328074
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7900646264029009
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8137645972366826
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8135217756868686
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8129009371127792
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8110326464674757
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8065420284363296
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7998961648293774
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.784104163661342
+        },
+        {
+          "name": "day16_semantic_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7633935080656022
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813842983390443
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136816283813516
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8132288795515
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8117505448375053
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8080773483830777
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8027068420201834
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.790477400823873
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7752236667817508
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138001950307393
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135931767197148
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130321957525488
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114373437003759
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8082424020393738
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8045649695713624
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7982204413841922
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7922019860886745
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138517295579262
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8137061019851434
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8132980534350399
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8119653501459168
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8085954966915193
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8035049697684352
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7913117195878474
+        },
+        {
+          "name": "day16_semantic_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7752236699918248
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139012295402438
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8137994541456717
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8134652437165569
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8122709344195785
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8091223821792369
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8043973285954628
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.793536060721389
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7799061429076797
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138347290062891
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136579906808163
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131555094592932
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8116698814572849
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.808629138908526
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.805085956869205
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7989303800548563
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7930740912751245
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139052402066365
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138150069539575
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135197167454373
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124501971472052
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8095670660192976
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8050982918993638
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7942740894651564
+        },
+        {
+          "name": "day16_semantic_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7799061191531325
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137983049391977
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8135893349032118
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8130117668419335
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8111815573038942
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8066884655897625
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8000986620722513
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7849587373499236
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7659904395934075
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8137755307485549
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135431124063968
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8129260867581447
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8111949940314325
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8077514976285425
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8038060002311921
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7969668311071132
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7904675580951287
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138061702623891
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136086518442109
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8130709676677269
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8113702460926665
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8071350921665775
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8007922473421866
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7856987101144749
+        },
+        {
+          "name": "day16_semantic_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7659904697681026
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8138821925176931
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8137641407641669
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8133799347173167
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8120225953946599
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8084833777966668
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8031828908507908
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7909814806622231
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7757011354280662
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138333223518843
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136564748838974
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131453714037454
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8116195526338735
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8084641314772946
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8047888921318055
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7983578203509542
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7922060269297624
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138864561379129
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8137765855788548
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8134288087352142
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8121978590121602
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8089194682687644
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8038699063833807
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.791710856330652
+        },
+        {
+          "name": "day16_semantic_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7757010619173726
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139186255729914
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138351482419469
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.813517444013081
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.81229466007614
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8089636504425771
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8039223731160426
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7923307569211332
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7778514596395001
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138563963634341
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136957289521827
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132160944689735
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.811738220721598
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8086382715689125
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8049941994734149
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7986197707314338
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.792520278403088
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139208777608745
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138467642155409
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135644606821912
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124588630628395
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8093871477945704
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8045893661333793
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7930310268490611
+        },
+        {
+          "name": "day16_semantic_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7778514313908493
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139080586515641
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138193360596859
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135017345531864
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123183735344205
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8091604671385898
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.804391111966252
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7934421609222448
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.779731120366733
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138448157006535
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136775612176574
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131883876786997
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8117203341895508
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8086754435832341
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8051160461763642
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7989213982679453
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7930029252196915
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139126304388832
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138320376802898
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.813550244548698
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124854026702253
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8095856812381313
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.805056261117112
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7941379778355898
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7797311312809845
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 1.1546319456101628e-14,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

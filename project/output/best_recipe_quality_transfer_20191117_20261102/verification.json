@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "date": 20191117,
+  "rows": 404182,
+  "development16_auc": 0.8110549320848636,
+  "inferred_label_auc": 0.8063399097948902,
+  "independent_rank_auc": 0.8063399097948902,
+  "inferred_positive_count": 3459,
+  "labels_are_inferred_not_observed": true,
+  "platform_auc": null,
+  "inferred_labels_used_for_training_tuning_feature_or_model_selection": false,
+  "new_model_training": false,
+  "row_tree_training_max_date": 20191115,
+  "ad_history_max_date": 20191116,
+  "day16_all744_columns_and337_quality_columns_replayed_exactly": true,
+  "day16_winning_pipeline_replayed": true,
+  "day17_new_features_rebuilt_from_raw_twice": true,
+  "inherited472_features_previously_independently_verified": true,
+  "maximum_prediction_replay_error": 9.71445146547012e-17,
+  "csv_roundtrip_exact": true,
+  "original_row_order_verified": true,
+  "repeated_log_ids_preserved": 858,
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "inferred_label_sha256": "ab29c227c97efcc4fbef4dd57d92a8657ce5c078f1cbd03f037d8183f0ca7e24",
+  "protocol_sha256": "967f86f9d8f0454e8652b971550b11c719ff59aabe473efd3ecc363430457927",
+  "submission_sha256": "5dd3456e9e427c9daddf660dfba4d7b0975847b5a76323d18a363f415eacd618"
+}

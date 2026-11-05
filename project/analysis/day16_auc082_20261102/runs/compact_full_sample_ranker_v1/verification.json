@@ -1,0 +1,1573 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8014585496955275,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8014585496955275
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8014585496955275
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8013735082660113
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8012632998722338
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8009879402663161
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8005052116130297
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8000032859902172
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7992045559474421
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7984835921611412
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801367980967274
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8012351634083341
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008321719183615
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7998749284081567
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7984835921611412
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7951107762541514
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.790345272765559
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8009647907020817
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8003338983690776
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7987594894708736
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7959087260199622
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7928092988120503
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7876324973876506
+        },
+        {
+          "name": "day15_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7828176872004426
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8014351036529993
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8013541111736369
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.801092436736237
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8005404076293943
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7999219256082446
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7988793906834166
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7979232603144423
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8014312090063211
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8013304946560896
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.800923998657921
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7997600437431083
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7979232603144423
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7933706177967048
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7870313387953543
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8010554591548522
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.800507440590748
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7990703233784635
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7963742474773627
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7933700888524761
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7883039877062957
+        },
+        {
+          "name": "day15_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7835433380390435
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8014562371648356
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8013819309448135
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8011015790487162
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.800461074754663
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7997109112254903
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7984462379175603
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7972670271730866
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8014542763652104
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8013602974627635
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009061351669028
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7995118442441634
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7972670271730866
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7916330413956719
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7837990364173796
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8011078509122594
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8006036208445266
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7992308562673629
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7965775305147909
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7935853307461748
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7884817614817963
+        },
+        {
+          "name": "day15_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7836627945341459
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8014196766745051
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8013356715713886
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8010940693882961
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8006164057971341
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8000824416517864
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7991969573435339
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7983783955981582
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8014160643560204
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8013139882270801
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009457574694315
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7999451809613248
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7983783955981582
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7944619294651981
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7888740635816474
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8009716932558137
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8003430750460864
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7987563569081735
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7958842955347355
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7927261218267138
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7874442484949773
+        },
+        {
+          "name": "day15_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7825243859410476
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8013799438664305
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8012346108806048
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8007871011533693
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7999143701284519
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7989412609866408
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7973349294619618
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7958668343108569
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8013740176696252
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8011941395720528
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.80051418816719
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7986885880345305
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7958668343108569
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7890400078732237
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7797842840240331
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.800992744562305
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8003773391772682
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7987823654665005
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.795841439597361
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7925880518852727
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.787107560332536
+        },
+        {
+          "name": "day15_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.781966726441879
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8013865297274395
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8012225489307456
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8007048937868163
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7996698779558087
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7984942330366327
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7965361475354853
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7947424605959005
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8013801183843352
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8011765584092281
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8003823435961054
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7981876003612294
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7947424605959005
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7864200770313812
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7752231157339049
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.801027527530501
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8004301500471727
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7988621363205295
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7959066439337622
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7926018233020216
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7870128725774411
+        },
+        {
+          "name": "day15_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7817298618471592
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 4.9404924595819466e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8131859974576369,
+      "best": {
+        "name": "day16_full_sample_d6_trees2400",
+        "mode": "replace_global",
+        "weight": 0.05,
+        "auc": 0.8131859974576369
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8131356512998261
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8130278916853971
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8128839898483697
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.812519130275199
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8118627581085319
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8111630936005509
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8100291510282243
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8090043130913115
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8130214702534684
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8128482405388225
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812306979055929
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8109835573746237
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8090043130913115
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8041304982605649
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7971153567346577
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8129834353712692
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8126623772571407
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8116465808145144
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8094571530872633
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8068035512349593
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8020289020086637
+        },
+        {
+          "name": "day16_full_sample_d6_trees600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7973203982821441
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8131143441129782
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8130384168758631
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8127699558233988
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.812189712486491
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8115224401927206
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8103898137507134
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8093299558330548
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8131112900486226
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.81301749232983
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8125945490366004
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.811346838233426
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8093299558330548
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8040994632656202
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7964860730980218
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813081278425253
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8128543191348535
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.812007543999925
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8100209390170464
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8075229910824994
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8029327888532591
+        },
+        {
+          "name": "day16_full_sample_d6_trees1600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7983345961079436
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8131851544922176
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8131645580157423
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8129616993185416
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8124197637201186
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8117511277869345
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8105622659854486
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8094047531241396
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8131859974576369
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8131531827976944
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8128043459876357
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8115692815917932
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8094047531241396
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8036157230978296
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7950604333529467
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813114751150355
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8129146980577864
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8120943501776554
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8101146340134726
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8075861415832802
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8029031174977281
+        },
+        {
+          "name": "day16_full_sample_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7981868062293483
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8130729540614868
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8129616113625154
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8126439700510989
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8120264603236953
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8113458527407235
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8102210710774342
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8091872475015217
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8130687251100657
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.812931932302807
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8124478094942015
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8111707470588615
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8091872475015217
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8042169693065749
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7970342644885577
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.812929316092538
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8125577333404873
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114323269968075
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8090905453078197
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8063045901805291
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.801339795433903
+        },
+        {
+          "name": "day16_full_sample_d8_trees600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7964650965487907
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8131041643264693
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8129900474815905
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8126091157101689
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8118022976497208
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8108802212420974
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8093227813177775
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8078758661655866
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8131011397947939
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8129577579897463
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123580770130587
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8106367910622625
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8078758661655866
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8008549221100081
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7907336042089607
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8129617840644939
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8126074676582032
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114813364798256
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8090748859250787
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8061768279533055
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8009662526106985
+        },
+        {
+          "name": "day16_full_sample_d8_trees1600",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7958393041885823
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8131161404703604
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8129975789570911
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.812555971009889
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8116141526474755
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8105199276781125
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8086672103855682
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.80693656321712
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.813111884554318
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8129600686009752
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8122673275804888
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8102330401591628
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.80693656321712
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7984734292382046
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7862277376845391
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8129663359493544
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8126030987475578
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114394912398482
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8089444952893051
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8059355677834605
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8005068306791205
+        },
+        {
+          "name": "day16_full_sample_d8_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7951577374355144
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 3.9968028886505635e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

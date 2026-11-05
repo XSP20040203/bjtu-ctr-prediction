@@ -1,0 +1,827 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8017067694089015,
+      "best": {
+        "name": "recent_s20",
+        "channel": "ad_click_list_v003",
+        "weight": 0.25,
+        "auc": 0.8017067694089015
+      },
+      "records": [
+        {
+          "name": "base",
+          "channel": "base",
+          "weight": 0.0,
+          "auc": 0.8016827654481293
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8016691247513555
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.80165172349695
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8016354353837751
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8016221686539401
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8015884085358578
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8014727254008589
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8013683461746269
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8012952228356158
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8016999733178295
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8016349381088186
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.801531738057619
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8014240214291384
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.801605361703751
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8014311773370488
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8012321615656091
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8010596132200375
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8016697022102142
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8016527160254201
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8016365485250057
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8016235540161495
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8015917648049069
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8014789824404875
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8013758113633029
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8013032388674856
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8017020621421724
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8016413353018226
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.801540835898354
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8014340235286697
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8016105433357501
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8014429192251135
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.801247563612974
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8010760327270018
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8016706401597257
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8016551626451586
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.801640222160592
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8016274944822004
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8016025647005743
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8015024830619744
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.801406797387895
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.801337054575248
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8017030701683715
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8016466308084391
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.8015506257463795
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8014459379131962
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8016223896650319
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.801471312412263
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.801287443312567
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8011201823878402
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8016724338534034
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8016594784257769
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8016464792002206
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8016347497777206
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8016121261255507
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8015225950713256
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8014335094083556
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8013662330929691
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8017067694089015
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8016641762591056
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.8015802082157759
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8014809331328981
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8016354481862469
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8015080049701971
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8013418315817574
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8011816197653739
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_all_event_groups_rates_and_conditionals_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8136449320999893,
+      "best": {
+        "name": "recent_s20",
+        "channel": "ad_click_list_v003",
+        "weight": 0.25,
+        "auc": 0.8136449320999893
+      },
+      "records": [
+        {
+          "name": "base",
+          "channel": "base",
+          "weight": 0.0,
+          "auc": 0.8136143850362849
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8136167328843718
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8136157332673438
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8136141365765612
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8136122455219975
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.813603160049698
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8135492211771229
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8134771075078598
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8134116441487983
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8136304957554232
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8135568964639364
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.8134417594575565
+        },
+        {
+          "name": "all_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8133366487961508
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8136294788039959
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8135134615953391
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8133369877799598
+        },
+        {
+          "name": "all_s5",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8131764195599934
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8136167752573479
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.813616035014295
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8136147811594103
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8136128348915747
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8136039792605699
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8135512428816963
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8134810629609805
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8134168650130699
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8136327684877795
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8135643252170706
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.813453761924054
+        },
+        {
+          "name": "all_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8133511859370389
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8136322574440068
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8135223323136914
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8133518407921246
+        },
+        {
+          "name": "all_s20",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8131941683798681
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8136167072037801
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8136161441568094
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.8136151759985062
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8136137093157185
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8136056517090977
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8135588026058477
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8134954492283931
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8134361013812129
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8136383283358603
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8135838758514532
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.8134916831696355
+        },
+        {
+          "name": "recent_s5",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8134020315823562
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8136387392253258
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8135469965958758
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8133993158597949
+        },
+        {
+          "name": "recent_s5",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8132563086703771
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.25,
+          "auc": 0.8136160228160141
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.5,
+          "auc": 0.8136160998577888
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 0.75,
+          "auc": 0.813615805815015
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v001",
+          "weight": 1.0,
+          "auc": 0.8136150042595498
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.25,
+          "auc": 0.8136066461900072
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.5,
+          "auc": 0.8135647258342994
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 0.75,
+          "auc": 0.8135073123776813
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v002",
+          "weight": 1.0,
+          "auc": 0.8134522711657118
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.25,
+          "auc": 0.8136449320999893
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.5,
+          "auc": 0.8136057621356415
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 0.75,
+          "auc": 0.8135281868465607
+        },
+        {
+          "name": "recent_s20",
+          "channel": "ad_click_list_v003",
+          "weight": 1.0,
+          "auc": 0.8134492761667168
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.25,
+          "auc": 0.8136446457613931
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.5,
+          "auc": 0.8135725218198935
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 0.75,
+          "auc": 0.8134448706612284
+        },
+        {
+          "name": "recent_s20",
+          "channel": "maximum",
+          "weight": 1.0,
+          "auc": 0.8133153464244138
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_all_event_groups_rates_and_conditionals_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

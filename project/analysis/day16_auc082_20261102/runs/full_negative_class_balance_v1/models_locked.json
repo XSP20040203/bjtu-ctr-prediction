@@ -1,0 +1,168 @@
+{
+  "models": [
+    {
+      "name": "day15_natural_d6_trees400",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 15,
+      "trees": 400,
+      "model_sha256": "a31ae154d4a12b9c000d9fb3c62547e68f5798fa1e5c32dc173e8b21e48c064c",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_natural_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "9d9b6f947a6c3ed5a7871b2c7c3f70d6d7d708e70d1f7f3e1499a703b81271ba",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_natural_d6_trees3200",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 15,
+      "trees": 3200,
+      "model_sha256": "9311f1d1ddfb90bbe98c4b1fa60267396b57eeb6a3977d48f383571531f1937e",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d6_trees400",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 400,
+      "model_sha256": "85d4a9b5456da22cdd21d5e5a05ff11bc7d2128065be3fd7a51877157f2d9c3d",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "396d92f93851cc6236a7d061fe3153af7dbe48fbaa0f7fd50a69075058e8d4a6",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d6_trees3200",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 3200,
+      "model_sha256": "8ffb95243dba068eee0f7ea073bca2021873a1468cf837991d8b1af2bff4d264",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d4_trees400",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 400,
+      "model_sha256": "74dca3b2540db8acc2a6c77c8fbe2ab3a0c2ebecd93dd753b40cec228a9a00d0",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d4_trees1200",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "d085a5edbb5b808a1d5187ee643ccdadf5c633da49c8690a2207112f2e4a9098",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day15_positive25_d4_trees3200",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 15,
+      "trees": 3200,
+      "model_sha256": "4d4c469cc63c1be353961bb10b1e3a1a91553407f5368b744426060fe3ad9c19",
+      "max_training_date": 20191114
+    },
+    {
+      "name": "day16_natural_d6_trees400",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 16,
+      "trees": 400,
+      "model_sha256": "78c2302a7283694b4081153e973ce0155008a7d527259afec831693fad36c1e6",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_natural_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "a12e79fe18424717b67c4cbf1591f35c9d48d1ae330cd0960a0b1bc24ab5a20c",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_natural_d6_trees3200",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "day": 16,
+      "trees": 3200,
+      "model_sha256": "215d731b7c2773e14b0f3d498778298b631be6af17d15d950f1329665f5ae38e",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d6_trees400",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 400,
+      "model_sha256": "7b7d14f0cda3d5899b1d0d8a42b6d2ce107d01ab24c4cc6e9c114fc483590fc6",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d6_trees1200",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "368f40625acfa536f35a84bf406bbb592beed6ad80f150418ec4dcf9463bca18",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d6_trees3200",
+      "depth": 6,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 3200,
+      "model_sha256": "04816704f344e882df25ede7e72e87c0c09255e706522abc1e3d8f9fa4e2b6d0",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d4_trees400",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 400,
+      "model_sha256": "8edc5334db354e23a346a70c450b9e59a8837f40b3bb1e369f78199392564d11",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d4_trees1200",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "ddac2331131b958b6599d6bfb7ae37a9d0efcb7eeedd83840cc23994cb4359d9",
+      "max_training_date": 20191115
+    },
+    {
+      "name": "day16_positive25_d4_trees3200",
+      "depth": 4,
+      "positive_weight": 25.0,
+      "day": 16,
+      "trees": 3200,
+      "model_sha256": "ec5d40ab4683040c1fe84dae9291629c798025b899b33ffc5af4b86aff280019",
+      "max_training_date": 20191115
+    }
+  ],
+  "protocol_sha256": "17d9cd308b6f6e68444e413b00ed00b3387c9876e3d9a3a18492ed76db5ca627",
+  "inputs_locked_sha256": "87d679d86047bd6891cab921c8cf786b891a1dc155983ed48d31f254885a0c35"
+}

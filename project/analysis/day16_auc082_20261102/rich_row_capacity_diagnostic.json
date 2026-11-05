@@ -1,0 +1,547 @@
+{
+  "fit_max_date": 20191114,
+  "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_augmented_rows_v1\\day15_leaves31_weight5_trees1800.txt",
+  "model_sha256": "117a7e6451e6fc86bbbd5605008eef70214e1346edb73e34bc048205bcf822c8",
+  "model_bytes": 671129488,
+  "trees": 1800,
+  "categorical_threshold_bytes": 664852674,
+  "categorical_threshold_fraction": 0.9906473875574963,
+  "categories": [
+    {
+      "column": 0,
+      "name": "user_id",
+      "unique_training_categories": 8555,
+      "minimum": 1516217,
+      "maximum": 1524772,
+      "range_to_unique_ratio": 178.23179427235536,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 22,
+      "name": "task_id",
+      "unique_training_categories": 6483,
+      "minimum": 10009,
+      "maximum": 36347,
+      "range_to_unique_ratio": 5.60666358167515,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 13,
+      "name": "adv_prim_id",
+      "unique_training_categories": 445,
+      "minimum": 1005,
+      "maximum": 2080,
+      "range_to_unique_ratio": 4.676404494382022,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 16,
+      "name": "spread_app_id",
+      "unique_training_categories": 95,
+      "minimum": 101,
+      "maximum": 372,
+      "range_to_unique_ratio": 3.9263157894736844,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 19,
+      "name": "app_score",
+      "unique_training_categories": 3,
+      "minimum": 0,
+      "maximum": 10,
+      "range_to_unique_ratio": 3.6666666666666665,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 10,
+      "name": "device_size",
+      "unique_training_categories": 728,
+      "minimum": 1001,
+      "maximum": 2579,
+      "range_to_unique_ratio": 3.543956043956044,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 23,
+      "name": "adv_id",
+      "unique_training_categories": 7234,
+      "minimum": 10001,
+      "maximum": 23579,
+      "range_to_unique_ratio": 3.2596074094553495,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 457,
+      "name": "ordered_click_history__ad_click_list_v001__0",
+      "unique_training_categories": 3990,
+      "minimum": 3,
+      "maximum": 12720,
+      "range_to_unique_ratio": 3.1882205513784463,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 461,
+      "name": "ordered_click_history__ad_click_list_v001__4",
+      "unique_training_categories": 4471,
+      "minimum": 0,
+      "maximum": 12720,
+      "range_to_unique_ratio": 2.84522478192798,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 458,
+      "name": "ordered_click_history__ad_click_list_v001__1",
+      "unique_training_categories": 4504,
+      "minimum": 0,
+      "maximum": 12720,
+      "range_to_unique_ratio": 2.8243783303730017,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 460,
+      "name": "ordered_click_history__ad_click_list_v001__3",
+      "unique_training_categories": 4675,
+      "minimum": 0,
+      "maximum": 12720,
+      "range_to_unique_ratio": 2.7210695187165777,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 459,
+      "name": "ordered_click_history__ad_click_list_v001__2",
+      "unique_training_categories": 4679,
+      "minimum": 0,
+      "maximum": 12720,
+      "range_to_unique_ratio": 2.7187433212224836,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 21,
+      "name": "u_feedLifeCycle",
+      "unique_training_categories": 8,
+      "minimum": 10,
+      "maximum": 17,
+      "range_to_unique_ratio": 2.25,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 9,
+      "name": "device_name",
+      "unique_training_categories": 195,
+      "minimum": 101,
+      "maximum": 358,
+      "range_to_unique_ratio": 1.841025641025641,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 2,
+      "name": "sex",
+      "unique_training_categories": 3,
+      "minimum": 2,
+      "maximum": 4,
+      "range_to_unique_ratio": 1.6666666666666667,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 6,
+      "name": "series_dev",
+      "unique_training_categories": 23,
+      "minimum": 11,
+      "maximum": 37,
+      "range_to_unique_ratio": 1.6521739130434783,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 8,
+      "name": "device_dev",
+      "unique_training_categories": 23,
+      "minimum": 11,
+      "maximum": 37,
+      "range_to_unique_ratio": 1.6521739130434783,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 18,
+      "name": "app_second_class",
+      "unique_training_categories": 20,
+      "minimum": 11,
+      "maximum": 30,
+      "range_to_unique_ratio": 1.55,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 5,
+      "name": "city_rank",
+      "unique_training_categories": 4,
+      "minimum": 2,
+      "maximum": 5,
+      "range_to_unique_ratio": 1.5,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 14,
+      "name": "inter_type_cd",
+      "unique_training_categories": 4,
+      "minimum": 2,
+      "maximum": 5,
+      "range_to_unique_ratio": 1.5,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 467,
+      "name": "ordered_click_history__ad_click_list_v003__0",
+      "unique_training_categories": 139,
+      "minimum": 4,
+      "maximum": 195,
+      "range_to_unique_ratio": 1.410071942446043,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 471,
+      "name": "ordered_click_history__ad_click_list_v003__4",
+      "unique_training_categories": 139,
+      "minimum": 0,
+      "maximum": 195,
+      "range_to_unique_ratio": 1.410071942446043,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 468,
+      "name": "ordered_click_history__ad_click_list_v003__1",
+      "unique_training_categories": 141,
+      "minimum": 0,
+      "maximum": 195,
+      "range_to_unique_ratio": 1.3900709219858156,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 3,
+      "name": "residence",
+      "unique_training_categories": 34,
+      "minimum": 11,
+      "maximum": 46,
+      "range_to_unique_ratio": 1.3823529411764706,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 462,
+      "name": "ordered_click_history__ad_click_list_v002__0",
+      "unique_training_categories": 608,
+      "minimum": 2,
+      "maximum": 837,
+      "range_to_unique_ratio": 1.3782894736842106,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 4,
+      "name": "city",
+      "unique_training_categories": 323,
+      "minimum": 101,
+      "maximum": 441,
+      "range_to_unique_ratio": 1.368421052631579,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 17,
+      "name": "hispace_app_tags",
+      "unique_training_categories": 40,
+      "minimum": 12,
+      "maximum": 53,
+      "range_to_unique_ratio": 1.35,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 11,
+      "name": "net_type",
+      "unique_training_categories": 6,
+      "minimum": 2,
+      "maximum": 7,
+      "range_to_unique_ratio": 1.3333333333333333,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 466,
+      "name": "ordered_click_history__ad_click_list_v002__4",
+      "unique_training_categories": 631,
+      "minimum": 0,
+      "maximum": 837,
+      "range_to_unique_ratio": 1.3280507131537242,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 470,
+      "name": "ordered_click_history__ad_click_list_v003__3",
+      "unique_training_categories": 150,
+      "minimum": 0,
+      "maximum": 196,
+      "range_to_unique_ratio": 1.3133333333333332,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 463,
+      "name": "ordered_click_history__ad_click_list_v002__1",
+      "unique_training_categories": 644,
+      "minimum": 0,
+      "maximum": 838,
+      "range_to_unique_ratio": 1.3027950310559007,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 465,
+      "name": "ordered_click_history__ad_click_list_v002__3",
+      "unique_training_categories": 647,
+      "minimum": 0,
+      "maximum": 838,
+      "range_to_unique_ratio": 1.2967542503863987,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 7,
+      "name": "series_group",
+      "unique_training_categories": 7,
+      "minimum": 2,
+      "maximum": 8,
+      "range_to_unique_ratio": 1.2857142857142858,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 464,
+      "name": "ordered_click_history__ad_click_list_v002__2",
+      "unique_training_categories": 656,
+      "minimum": 0,
+      "maximum": 838,
+      "range_to_unique_ratio": 1.2789634146341464,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 1,
+      "name": "age",
+      "unique_training_categories": 8,
+      "minimum": 2,
+      "maximum": 9,
+      "range_to_unique_ratio": 1.25,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 469,
+      "name": "ordered_click_history__ad_click_list_v003__2",
+      "unique_training_categories": 158,
+      "minimum": 0,
+      "maximum": 196,
+      "range_to_unique_ratio": 1.2468354430379747,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 15,
+      "name": "slot_id",
+      "unique_training_categories": 58,
+      "minimum": 12,
+      "maximum": 71,
+      "range_to_unique_ratio": 1.2413793103448276,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 12,
+      "name": "creat_type_cd",
+      "unique_training_categories": 9,
+      "minimum": 2,
+      "maximum": 10,
+      "range_to_unique_ratio": 1.2222222222222223,
+      "negative_missing_rows": 0
+    },
+    {
+      "column": 20,
+      "name": "u_refreshTimes",
+      "unique_training_categories": 10,
+      "minimum": 0,
+      "maximum": 9,
+      "range_to_unique_ratio": 1.0,
+      "negative_missing_rows": 0
+    }
+  ],
+  "top_training_gain_features": [
+    {
+      "name": "user_id",
+      "gain": 1063500.4159000004,
+      "splits": 6560
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v001__0",
+      "gain": 682478.8724000013,
+      "splits": 4806
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v001__1",
+      "gain": 649259.3888999977,
+      "splits": 4559
+    },
+    {
+      "name": "adv_id",
+      "gain": 637571.403800001,
+      "splits": 4647
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v001__2",
+      "gain": 626817.3128999989,
+      "splits": 4390
+    },
+    {
+      "name": "task_id",
+      "gain": 588741.7178999995,
+      "splits": 4215
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v001__3",
+      "gain": 565252.2025999991,
+      "splits": 3933
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v001__4",
+      "gain": 534294.1408999993,
+      "splits": 3763
+    },
+    {
+      "name": "adv_prim_id",
+      "gain": 363007.99050000013,
+      "splits": 2572
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v002__1",
+      "gain": 254554.53330000013,
+      "splits": 1836
+    },
+    {
+      "name": "city",
+      "gain": 250041.6406000003,
+      "splits": 1803
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v002__3",
+      "gain": 232374.34809999974,
+      "splits": 1645
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v002__2",
+      "gain": 231508.91870000013,
+      "splits": 1741
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v002__0",
+      "gain": 220768.37970000014,
+      "splits": 1653
+    },
+    {
+      "name": "ordered_click_history__ad_click_list_v002__4",
+      "gain": 202767.06110000008,
+      "splits": 1444
+    },
+    {
+      "name": "original__target_stat__age__slot_id__relative_logit",
+      "gain": 194435.93699999998,
+      "splits": 20
+    },
+    {
+      "name": "device_name",
+      "gain": 159435.43180000002,
+      "splits": 1493
+    },
+    {
+      "name": "original__target_stat__user_id__relative_logit",
+      "gain": 125846.6399000001,
+      "splits": 661
+    },
+    {
+      "name": "original__snapshot_click_1__candidate_in_other_snapshot",
+      "gain": 123247.67130000007,
+      "splits": 126
+    },
+    {
+      "name": "original__day_exposure__user_id__spread_app_id__log_count",
+      "gain": 119823.846,
+      "splits": 49
+    },
+    {
+      "name": "original__target_stat__sex__slot_id__relative_logit",
+      "gain": 116771.76689999999,
+      "splits": 9
+    },
+    {
+      "name": "original__target_stat__slot_id__relative_logit",
+      "gain": 105075.95899999997,
+      "splits": 13
+    },
+    {
+      "name": "original__day_exposure__user_id__adv_prim_id__log_count",
+      "gain": 75450.02019999994,
+      "splits": 83
+    },
+    {
+      "name": "device_size",
+      "gain": 57258.006700000005,
+      "splits": 506
+    },
+    {
+      "name": "slot_id",
+      "gain": 52872.22570000004,
+      "splits": 130
+    },
+    {
+      "name": "original__target_stat__app_second_class__slot_id__relative_logit",
+      "gain": 38870.361000000004,
+      "splits": 7
+    },
+    {
+      "name": "original__target_stat__adv_id__relative_logit",
+      "gain": 23386.874300000007,
+      "splits": 176
+    },
+    {
+      "name": "original__target_stat__user_id__log_count",
+      "gain": 22222.101000000002,
+      "splits": 49
+    },
+    {
+      "name": "original__target_stat__user_id__slot_id__relative_logit",
+      "gain": 17908.9736,
+      "splits": 13
+    },
+    {
+      "name": "original__day_exposure__user_id__task_id__log_count",
+      "gain": 16634.8998,
+      "splits": 40
+    },
+    {
+      "name": "original__target_stat__user_id__adv_prim_id__relative_logit",
+      "gain": 15919.197799999996,
+      "splits": 139
+    },
+    {
+      "name": "original__snapshot_click_1__candidate_new",
+      "gain": 14469.311999999996,
+      "splits": 30
+    },
+    {
+      "name": "original__target_stat__task_id__relative_logit",
+      "gain": 12469.415500000001,
+      "splits": 92
+    },
+    {
+      "name": "original__day_exposure__user_id__spread_app_id__fraction_first",
+      "gain": 10795.187200000004,
+      "splits": 35
+    },
+    {
+      "name": "original__target_stat__device_name__slot_id__relative_logit",
+      "gain": 10340.7727,
+      "splits": 5
+    }
+  ],
+  "feature_family_gain": {
+    "original_augmented472": 0.9975870483968019,
+    "rich_daily128": 0.002172667926119941,
+    "news_quality64": 0.0,
+    "exact_news_snapshot80": 0.00024028367707824386
+  },
+  "held_ad_labels_used_for_fit_or_evaluation": false,
+  "metadata_clarification": "The CSV label column was loaded and held labels immediately masked; no held labels were used by these input/representation checks or scored."
+}

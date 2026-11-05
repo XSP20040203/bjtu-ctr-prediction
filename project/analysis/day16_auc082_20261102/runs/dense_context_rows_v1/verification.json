@@ -1,0 +1,615 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7977741937235571,
+      "best": {
+        "name": "day15_context_numeric_trees1400",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.1,
+        "auc": 0.7977741937235571
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.7971674360713003
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "single",
+          "auc": 0.7698883489900118
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "single",
+          "auc": 0.7602560010152926
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "single",
+          "auc": 0.7515417155966189
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "single",
+          "auc": 0.7822787752366595
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "single",
+          "auc": 0.7766568332161176
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "single",
+          "auc": 0.767659011791852
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7971968756920641
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7971883101646294
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7970513910980199
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7962821889456827
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7939140962000275
+        },
+        {
+          "name": "day15_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7901800774185818
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7972337461369746
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7972458026963193
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7971047059810239
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7961362616556407
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7929858873481898
+        },
+        {
+          "name": "day15_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7878869033901512
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7972348875784059
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7972402713546962
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7970519045445198
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.795830068980978
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7918889284420132
+        },
+        {
+          "name": "day15_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.785542679168593
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7973117515975267
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7974304102964928
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7975733013792802
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7975125556721298
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7965629579328344
+        },
+        {
+          "name": "day15_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7946386527641984
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7973776863486336
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7975515412201409
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7977741937235571
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7977387457006427
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7965088749015237
+        },
+        {
+          "name": "day15_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7938820300511059
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7973747707541394
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7975331575444801
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7976973357687651
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.79742713016846
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7954503941611872
+        },
+        {
+          "name": "day15_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7916175820740912
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7973165457863008
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7974289764196535
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7975425592754662
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7973106748422686
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7957558281209434
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7927122217114329
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8106179787448883,
+      "best": {
+        "name": "day16_context_numeric_trees1400",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.1,
+        "auc": 0.8106179787448883
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.8100732824828686
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "single",
+          "auc": 0.7775381134070282
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "single",
+          "auc": 0.768588077658489
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "single",
+          "auc": 0.7596843176939926
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "single",
+          "auc": 0.7913718086411026
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "single",
+          "auc": 0.787457874616869
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "single",
+          "auc": 0.7793010182875885
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8100521614803098
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8099912683035303
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.809750485792689
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8087755728518848
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8060254703985227
+        },
+        {
+          "name": "day16_dense_regularized_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8017513057277537
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8100921294690415
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8100540907347535
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8098254358832939
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8087093194936242
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8053051760292972
+        },
+        {
+          "name": "day16_dense_regularized_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7998093772700761
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8101134084072387
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8100862088086489
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8098451020803388
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8085762542242358
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8044955517222022
+        },
+        {
+          "name": "day16_dense_regularized_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7978212641944559
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8102194718185926
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8103289308461704
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8104613155798815
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8103373418819332
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8091929042938357
+        },
+        {
+          "name": "day16_context_numeric_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8068584428574826
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8102639717897263
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8104185580368877
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8106179787448883
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8105485416352844
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8092481772731444
+        },
+        {
+          "name": "day16_context_numeric_trees1400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8064859349621195
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.810264412853887
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8104109989547511
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8105706834413592
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8103011900291128
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.808392181521803
+        },
+        {
+          "name": "day16_context_numeric_trees2600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8046026590496046
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8101988592917474
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8102887522765877
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.810362020288443
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8100665554518999
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8084162686326912
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8052127053550754
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

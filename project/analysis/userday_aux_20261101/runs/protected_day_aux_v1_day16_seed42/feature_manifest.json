@@ -1,0 +1,362 @@
+{
+  "day": 20191116,
+  "train_rows": 2104337,
+  "valid_rows": 421983,
+  "training_clicks": 17630,
+  "valid_clicks": 3724,
+  "numeric_fields": [
+    "hist_click_task_match",
+    "hist_click_adv_prim_match",
+    "hist_click_app_match",
+    "hist_close_task_match",
+    "hist_close_adv_prim_match",
+    "hist_close_app_match",
+    "ad_click_list_v001__length",
+    "ad_click_list_v002__length",
+    "ad_click_list_v003__length",
+    "ad_close_list_v001__length",
+    "ad_close_list_v002__length",
+    "ad_close_list_v003__length",
+    "u_newsCatInterestsST__length",
+    "feed_impressions",
+    "feed_clicks",
+    "feed_ctr_smoothed",
+    "feed_progress_mean",
+    "feed_topic_nunique",
+    "feed_active_days",
+    "feed_days_since_last",
+    "feed_day_impressions",
+    "feed_day_clicks",
+    "feed_day_ctr_smoothed",
+    "feed_day_progress_mean",
+    "feed_day_progress_max",
+    "feed_day_finish_count",
+    "feed_day_topic_nunique",
+    "feed_day_source_nunique",
+    "feed_day_refresh_mean",
+    "feed_day_position_mean",
+    "feed_day_click_progress_mean",
+    "feed_day_clicked_topic_nunique",
+    "feed_day_clicked_source_nunique",
+    "feed_day_like_count",
+    "feed_day_long_interest_nunique",
+    "feed_st_click_overlap",
+    "feed_st_exposure_overlap",
+    "feed_st_long_overlap",
+    "feed_day_profile_missing",
+    "target_stat__user_id__log_count",
+    "target_stat__user_id__relative_logit",
+    "target_stat__task_id__log_count",
+    "target_stat__task_id__relative_logit",
+    "target_stat__adv_id__log_count",
+    "target_stat__adv_id__relative_logit",
+    "target_stat__adv_prim_id__log_count",
+    "target_stat__adv_prim_id__relative_logit",
+    "target_stat__spread_app_id__log_count",
+    "target_stat__spread_app_id__relative_logit",
+    "target_stat__slot_id__log_count",
+    "target_stat__slot_id__relative_logit",
+    "target_stat__app_second_class__log_count",
+    "target_stat__app_second_class__relative_logit",
+    "target_stat__user_id__slot_id__log_count",
+    "target_stat__user_id__slot_id__relative_logit",
+    "target_stat__user_id__adv_prim_id__log_count",
+    "target_stat__user_id__adv_prim_id__relative_logit",
+    "target_stat__user_id__spread_app_id__log_count",
+    "target_stat__user_id__spread_app_id__relative_logit",
+    "target_stat__user_id__app_second_class__log_count",
+    "target_stat__user_id__app_second_class__relative_logit",
+    "target_stat__task_id__slot_id__log_count",
+    "target_stat__task_id__slot_id__relative_logit",
+    "target_stat__adv_prim_id__slot_id__log_count",
+    "target_stat__adv_prim_id__slot_id__relative_logit",
+    "target_stat__spread_app_id__slot_id__log_count",
+    "target_stat__spread_app_id__slot_id__relative_logit",
+    "target_stat__app_second_class__slot_id__log_count",
+    "target_stat__app_second_class__slot_id__relative_logit",
+    "target_stat__age__slot_id__log_count",
+    "target_stat__age__slot_id__relative_logit",
+    "target_stat__sex__slot_id__log_count",
+    "target_stat__sex__slot_id__relative_logit",
+    "target_stat__device_name__slot_id__log_count",
+    "target_stat__device_name__slot_id__relative_logit",
+    "day_exposure__user_id__log_count",
+    "day_exposure__task_id__log_count",
+    "day_exposure__adv_id__log_count",
+    "day_exposure__adv_prim_id__log_count",
+    "day_exposure__spread_app_id__log_count",
+    "day_exposure__app_second_class__log_count",
+    "day_exposure__slot_id__log_count",
+    "day_exposure__user_id__task_id__log_count",
+    "day_exposure__user_id__task_id__fraction_first",
+    "day_exposure__user_id__task_id__fraction_second",
+    "day_exposure__user_id__adv_id__log_count",
+    "day_exposure__user_id__adv_id__fraction_first",
+    "day_exposure__user_id__adv_id__fraction_second",
+    "day_exposure__user_id__adv_prim_id__log_count",
+    "day_exposure__user_id__adv_prim_id__fraction_first",
+    "day_exposure__user_id__adv_prim_id__fraction_second",
+    "day_exposure__user_id__spread_app_id__log_count",
+    "day_exposure__user_id__spread_app_id__fraction_first",
+    "day_exposure__user_id__spread_app_id__fraction_second",
+    "day_exposure__user_id__app_second_class__log_count",
+    "day_exposure__user_id__app_second_class__fraction_first",
+    "day_exposure__user_id__app_second_class__fraction_second",
+    "day_exposure__user_id__slot_id__log_count",
+    "day_exposure__user_id__slot_id__fraction_first",
+    "day_exposure__user_id__slot_id__fraction_second",
+    "day_exposure__task_id__slot_id__log_count",
+    "day_exposure__task_id__slot_id__fraction_first",
+    "day_exposure__task_id__slot_id__fraction_second",
+    "day_exposure__adv_id__slot_id__log_count",
+    "day_exposure__adv_id__slot_id__fraction_first",
+    "day_exposure__adv_id__slot_id__fraction_second",
+    "day_exposure__spread_app_id__slot_id__log_count",
+    "day_exposure__spread_app_id__slot_id__fraction_first",
+    "day_exposure__spread_app_id__slot_id__fraction_second",
+    "day_exposure__user_unique_task_id",
+    "day_exposure__user_unique_adv_id",
+    "day_exposure__user_unique_adv_prim_id",
+    "day_exposure__user_unique_spread_app_id",
+    "day_exposure__user_unique_app_second_class",
+    "day_exposure__user_unique_slot_id",
+    "day_exposure__task_id_unique_user_id",
+    "day_exposure__adv_id_unique_user_id",
+    "day_exposure__slot_id_unique_user_id",
+    "snapshot_click_1__today_union_size",
+    "snapshot_click_1__new_token_count",
+    "snapshot_click_1__candidate_in_union",
+    "snapshot_click_1__candidate_new",
+    "snapshot_click_1__candidate_snapshot_fraction",
+    "snapshot_click_1__candidate_in_past_union",
+    "snapshot_click_1__row_novel_fraction",
+    "snapshot_click_1__candidate_in_other_snapshot",
+    "snapshot_click_2__today_union_size",
+    "snapshot_click_2__new_token_count",
+    "snapshot_click_2__candidate_in_union",
+    "snapshot_click_2__candidate_new",
+    "snapshot_click_2__candidate_snapshot_fraction",
+    "snapshot_click_2__candidate_in_past_union",
+    "snapshot_click_2__row_novel_fraction",
+    "snapshot_click_2__candidate_in_other_snapshot",
+    "snapshot_click_3__today_union_size",
+    "snapshot_click_3__new_token_count",
+    "snapshot_click_3__candidate_in_union",
+    "snapshot_click_3__candidate_new",
+    "snapshot_click_3__candidate_snapshot_fraction",
+    "snapshot_click_3__candidate_in_past_union",
+    "snapshot_click_3__row_novel_fraction",
+    "snapshot_click_3__candidate_in_other_snapshot",
+    "snapshot_close_1__today_union_size",
+    "snapshot_close_1__new_token_count",
+    "snapshot_close_1__candidate_in_union",
+    "snapshot_close_1__candidate_new",
+    "snapshot_close_1__candidate_snapshot_fraction",
+    "snapshot_close_1__candidate_in_past_union",
+    "snapshot_close_1__row_novel_fraction",
+    "snapshot_close_1__candidate_in_other_snapshot",
+    "snapshot_close_2__today_union_size",
+    "snapshot_close_2__new_token_count",
+    "snapshot_close_2__candidate_in_union",
+    "snapshot_close_2__candidate_new",
+    "snapshot_close_2__candidate_snapshot_fraction",
+    "snapshot_close_2__candidate_in_past_union",
+    "snapshot_close_2__row_novel_fraction",
+    "snapshot_close_2__candidate_in_other_snapshot",
+    "snapshot_close_3__today_union_size",
+    "snapshot_close_3__new_token_count",
+    "snapshot_close_3__candidate_in_union",
+    "snapshot_close_3__candidate_new",
+    "snapshot_close_3__candidate_snapshot_fraction",
+    "snapshot_close_3__candidate_in_past_union",
+    "snapshot_close_3__row_novel_fraction",
+    "snapshot_close_3__candidate_in_other_snapshot"
+  ],
+  "categorical_fields": [
+    "user_id",
+    "age",
+    "sex",
+    "residence",
+    "city",
+    "city_rank",
+    "series_dev",
+    "series_group",
+    "device_dev",
+    "device_name",
+    "device_size",
+    "net_type",
+    "task_id",
+    "adv_id",
+    "creat_type_cd",
+    "adv_prim_id",
+    "inter_type_cd",
+    "slot_id",
+    "spread_app_id",
+    "hispace_app_tags",
+    "app_second_class",
+    "app_score",
+    "u_refreshTimes",
+    "u_feedLifeCycle",
+    "feed_phone_price",
+    "feed_browser_lifecycle",
+    "feed_browser_mode"
+  ],
+  "sequence_fields": [
+    "ad_click_list_v001",
+    "ad_click_list_v002",
+    "ad_click_list_v003",
+    "ad_close_list_v001",
+    "ad_close_list_v002",
+    "ad_close_list_v003",
+    "u_newsCatInterestsST",
+    "feed_long_interest",
+    "feed_dislike_topics",
+    "feed_clicked_topics",
+    "feed_click_ca2",
+    "feed_exposed_topics"
+  ],
+  "ram_only_feature_matrices": true,
+  "availability": "Complete supplied same-day auxiliary snapshot and exposures, offline",
+  "target_statistics": "Original saved grouped OOF folds; held day never fitted",
+  "target_stat_rebuild_checks": [
+    {
+      "fields": [
+        "user_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "task_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "adv_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "adv_prim_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "spread_app_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "app_second_class"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "user_id",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "user_id",
+        "adv_prim_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "user_id",
+        "spread_app_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "user_id",
+        "app_second_class"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "task_id",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "adv_prim_id",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "spread_app_id",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "app_second_class",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "age",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "sex",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    },
+    {
+      "fields": [
+        "device_name",
+        "slot_id"
+      ],
+      "saved_counts_clicks_exact": true
+    }
+  ],
+  "final_test_csv_read": false,
+  "final_source_csv_read": false,
+  "metadata_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\strong_interest_control_20261031\\features.py": "bd4ddb907511f5e03935d5ca5f285f80f8c877a1125c56586262414fc6e97a8d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\predict_final.py": "ad276165f0c395dc65ae8f57f1ff7e0ddb6ef2d7717fb8ec506ba1f57313de1a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\source_profiles.py": "41dc81e4f0e61e2a01f8247d2f4274b8752145e79fc155d199a4a19046034834",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\target_statistics.py": "9dfa72e0051135668059986e18262e792a551fc79106f95b3c7bbc7db0ba3489",
+    "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\prepare_exposure_features.py": "ddec5e5780e09094cba89e2b99b5cfe5fc8f3b67e517f6db3ff84046ed62a06b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\prepare_snapshot_features.py": "493a622a52a80d24ed7b7d8fea246a38c9d5d8ba66b98e05ec9ed588eb6e8ee4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\benchmark_core.py": "efae0caa806e54eb834adcf5986772e798685c26e8cdd07a84ebf9d658d96291",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\cache_rich_stats_time16\\manifest.json": "3396dc4f81b64ec43cc50422fca8a79dcf6d61952cb4b344479602fff14f612b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\cache_rich_stats_time16\\vocabs.json": "9a2cece18609b23b2e2e7fd00e4cf5224e913ee605b9e0bd842ccc7d1a03e980",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\cache_rich_stats_time16\\target_stat_oof_fold.npy": "354ee5d22bba419c9fa576ddc2cc1cbf16bedc14eea86ee8b6f949bbc230eab1",
+    "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\cache\\day16_oof\\manifest.json": "287eff5a086e6a066d30df7db5a15c9bb2a6999492c3302541ab73545abdae13"
+  },
+  "input_sha256": {
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "seconds": 229.82762110000112
+}

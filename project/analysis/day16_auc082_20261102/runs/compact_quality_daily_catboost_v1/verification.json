@@ -1,0 +1,443 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7992155323824572,
+      "best": {
+        "name": "day15_poisson_d6_top384_trees4800",
+        "objective": "poisson",
+        "power": 0.0625,
+        "auc": 0.7992155323824572
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "power": 0.0,
+          "auc": 0.7991594090414335
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991041690709625
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7989934923762436
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7986040499442995
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7971655588246488
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991399243531995
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7990533621247986
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7987020292822703
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7972884430131164
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991841932791698
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7991284567075566
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7988066133480507
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7973184418997529
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7992155323824572
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7991776512160905
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7988190694792778
+        },
+        {
+          "name": "day15_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7970248879599936
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991310940167432
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7990482566338158
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7987053525344185
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7973753111532114
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991533157386808
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7990828927104936
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7987519892438537
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7973900124337
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991572265569022
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7990686610785751
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7986523321082655
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7969117356715213
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.7991814744384524
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.7991042687954795
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.7986470891591646
+        },
+        {
+          "name": "day15_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.7966110130213799
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "independent_pandas_maximum_error": 1.1102230246251565e-16,
+      "maximum_model_replay_error": 0.0,
+      "all_both_date_candidate_hashes_replayed_exactly": true,
+      "features_rebuilt_from_raw": true,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "evaluation_day_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8114039062860873,
+      "best": {
+        "name": "day16_poisson_d7_top192_trees3200",
+        "objective": "poisson",
+        "power": 0.125,
+        "auc": 0.8114039062860873
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "power": 0.0,
+          "auc": 0.8112079171471388
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8110618722647426
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8108461405289892
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8102105291945838
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8081060830390301
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.811165431176401
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8110528102259829
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8106152880609037
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees1600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8089175858814004
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8112871648847474
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8112832691390021
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8110220339629984
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees3200",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8095234809192395
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8113246675366858
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8113468825324466
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8111007250737842
+        },
+        {
+          "name": "day16_poisson_d6_top384_trees4800",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8095121557783453
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8111853785759239
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8111023044301673
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8107377966811015
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8092287101006844
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8113114593664127
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8113404720147692
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8111746447306512
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees1600",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8099247844619601
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8113497093235665
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8114039062860873
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8112388263071847
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees3200",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.809849654607214
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.0625,
+          "auc": 0.8113557269281925
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.125,
+          "auc": 0.8113999829337061
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.25,
+          "auc": 0.8111793410688394
+        },
+        {
+          "name": "day16_poisson_d7_top192_trees4800",
+          "objective": "poisson",
+          "power": 0.5,
+          "auc": 0.8095328793737492
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "independent_pandas_maximum_error": 1.1102230246251565e-16,
+      "maximum_model_replay_error": 0.0,
+      "all_both_date_candidate_hashes_replayed_exactly": true,
+      "features_rebuilt_from_raw": true,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "evaluation_day_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

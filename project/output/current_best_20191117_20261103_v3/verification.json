@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-03T15:28:39.258235+00:00",
+  "prediction_date": 20191117,
+  "rows": 404182,
+  "columns": [
+    "id",
+    "pctr"
+  ],
+  "development16_auc": 0.8136449320999893,
+  "development_dates_repeatedly_reused": true,
+  "selected": {
+    "name": "recent_s20",
+    "channel": "ad_click_list_v003",
+    "weight": 0.25,
+    "auc": 0.8136449320999893
+  },
+  "inferred17_labels_read": false,
+  "platform_auc": null,
+  "complete_day16_winner_replayed": true,
+  "independent_day17_event_groups_and_marginals_replayed": true,
+  "verified_parent_prediction_cache_reused": true,
+  "maximum_prediction_replay_error": 1.1102230246251565e-16,
+  "original_row_order_verified": true,
+  "repeated_log_ids_preserved": 858,
+  "csv_roundtrip_exact": true,
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "correction_rates_max_training_date": 20191115,
+  "inherited_base_and_prediction_history_max_date": 20191116,
+  "changed_rows": 410,
+  "submission_sha256": "33f6b88998d7deafb7ab20e9e5dc7ca0f15cba841acc0d6ba37a4722c50cf4f1"
+}

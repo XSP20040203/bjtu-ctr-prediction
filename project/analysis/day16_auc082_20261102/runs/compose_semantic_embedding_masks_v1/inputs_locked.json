@@ -1,0 +1,68 @@
+{
+  "15": {
+    "rows_sha256": "fa71d09191ffef26ae30d2b2a44bffd09beafe2e45abed4918d762b1ee52c154",
+    "groups_sha256": "3a6163727d4e938709174d7ca60e3d6c7c53177376c6bd6d42937f18c8f149f2",
+    "masks_sha256": {
+      "cold_task": "89c4e240643784825ceb475f80632d61432f4bad74456fc90e0701fc42ec43df",
+      "seen_task": "12669377f3af31e18eedd81d205fbd885499d6964a0dbec941d793ba90202e42",
+      "task_at_most_100_prior_rows": "e01059d7ffad495e8feab109500831ae692c2bd25311d48acaf1c83e386336e4",
+      "task_over_100_prior_rows": "a921bf3831b619bd3086578ef15d2310a272b242f5a9a3d58e01837c4c1a7ee1",
+      "user_no_past_ad_click": "7a487f74686a142157ff5a7ce8febeefc6614c2a1483ce5b61f7f02b7d1e0a3c",
+      "user_with_past_ad_click": "72e58ee8727714d449b90d9962ca8035f8a4f66b0295a3eab68be1e1f4e648c7",
+      "all": "c7968feefa2767b0c533ff97f65e642c19dc4ea6a4f094af045f707fadbecbb0"
+    },
+    "mask_rows": {
+      "cold_task": 53160,
+      "seen_task": 371620,
+      "task_at_most_100_prior_rows": 95482,
+      "task_over_100_prior_rows": 329298,
+      "user_no_past_ad_click": 103064,
+      "user_with_past_ad_click": 321716,
+      "all": 424780
+    },
+    "margins_sha256": {
+      "semantic_d4": "c2997460b9a303955efeeabfea52c43765e26813e3369ccec905e47649f5f5f6",
+      "semantic_d6": "a566936ff30ee8f710ae554d12172466bfd3ba8934f741a49192b20929a4ddbe",
+      "mean_last": "d3a377f84a05efc9bdc1ba7a2a79f2c3919eaf2188cb20d0c2cd6213ecb5bac5"
+    },
+    "current_sha256": "d6ae57cdaaeb4c51f033dd616c3df48d3bc1322fb6204750682474d5f2053d33",
+    "neural_winner_sha256": "4e31d4da06575b48791e80e22efdacbf47ad82b22b4e3d7aa3a82aa76a2b2b4d",
+    "training_rows_sha256": "420d724fdd053d07e66fcfd9dfd9c92995ecad94b208a3a94cbf56090308a54b",
+    "max_mask_label_date": 20191114,
+    "all_training_rows_strictly_past": true,
+    "inferred17_labels_read": false
+  },
+  "16": {
+    "rows_sha256": "b753e59e159d765d3d9fbe3500f2fbaa4b9517d152626466f7182c264b80bb59",
+    "groups_sha256": "e7b563f5f3a5b1b3f9be15b4895e353fe1566163ebf8b6e0aef5d891f3133f20",
+    "masks_sha256": {
+      "cold_task": "27e74d16c4aff0472fd2315b5057664c6402f5e643a42a4a6020494141ba66e6",
+      "seen_task": "56038aa2979be39a972896fcf724454d6a6eb667360ce0c898c5083a009cb427",
+      "task_at_most_100_prior_rows": "1eae618e47243d2d81de0cfcaccbab171fe4d7288bf8dc289c798967057ed68a",
+      "task_over_100_prior_rows": "32b6ff7948b008ae0fd5b54d2724e2a91574ba7f01b7bf69c02ebb8fec303a51",
+      "user_no_past_ad_click": "81ccdc82490db8239e6a1f843f6157d790823cf91881b1855c480bda31a90abb",
+      "user_with_past_ad_click": "d95dded83d95f803305990e15723b3889b278b7eab23c7642ff4a79d08a81d56",
+      "all": "0e18cb3fdf80de8b5d25c4607dad87af298e0a5c68f158ae305aa25dff75af1a"
+    },
+    "mask_rows": {
+      "cold_task": 31363,
+      "seen_task": 390620,
+      "task_at_most_100_prior_rows": 75949,
+      "task_over_100_prior_rows": 346034,
+      "user_no_past_ad_click": 68667,
+      "user_with_past_ad_click": 353316,
+      "all": 421983
+    },
+    "margins_sha256": {
+      "semantic_d4": "31cdbad31b37e96002ff0e3d1dab47f0671ef99fc6a600d4af6294fe00a6b0cb",
+      "semantic_d6": "224fa3cd162bde6da534cfd0ffcafe83529f84b438cb028d85d9c21d3f0b22e2",
+      "mean_last": "d7cdb25a3878b4190f408d4cda72eab8e521f0b895f1e4b273895d2b8d2bf479"
+    },
+    "current_sha256": "afcf39f4de6092c23c14d198c11637b729e0a96e48bfad03318d5824b9948a8d",
+    "neural_winner_sha256": "35945be9bffd6c012117c749e597479471540f79ee7087be81535ba1cf07ff16",
+    "training_rows_sha256": "0a028ff901f03daa2178f9152f39d62c973097aeb6af2ca3949e623445f4af55",
+    "max_mask_label_date": 20191115,
+    "all_training_rows_strictly_past": true,
+    "inferred17_labels_read": false
+  }
+}

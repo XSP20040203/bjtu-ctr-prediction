@@ -1,0 +1,36 @@
+{
+  "20191116": {
+    "rows": 421983,
+    "log_ids_sha256": "b900e0dd4f41a034e9ca8c59ef5735fdee68755cdecf76dbfbe009bbe0a74b99",
+    "compact_frame_sha256": "7def970b6cccc34006a71840d89384620030e293735f4de014bc6cd77427b998",
+    "quality_sha256": "1536f228110641a664670f94f06de590b92de7e1150a17ee09d84a2affae44e0",
+    "audience_features_sha256": "350602eea4bb5765dd37968a434afa8bd674e9ff920787c39757006c153bebfe",
+    "cold_task_mask_sha256": "27e74d16c4aff0472fd2315b5057664c6402f5e643a42a4a6020494141ba66e6",
+    "cold_task_rows": 31363,
+    "margins_sha256": {
+      "day16_full_sample_d6_trees1600": "93985b75baecf46437bf2b31cf3484f9989bdbc04d46e576710d7ff42ac80d02",
+      "day16_full_sample_d6_trees2400": "c529947046f9869e6f154dab43d756c985e46223381c58a7edb83bcc4d2a8769",
+      "day16_full_sample_d8_trees1600": "a2fdf3d2de3f9c85e4985ab9bb007335594760d625be61ffdd9fee68cd071039",
+      "day16_full_sample_d8_trees2400": "fdc3fe5d5d7d1f33c1c3100542d2d60c52bf91ff276f6d78bbb1e6fbad3c0050"
+    },
+    "mask_history_max_date": 20191115,
+    "inferred17_labels_read": false
+  },
+  "20191117": {
+    "rows": 404182,
+    "log_ids_sha256": "d4bd5f28e6f42f1a0728f388bdb6fc2c2fae8af05bc34f0064358b72d114101d",
+    "compact_frame_sha256": "f7087fa887ae90ccbb7fffa190dfedbe002353cf70579b9d294b5ce47526b4e6",
+    "quality_sha256": "be6abe635cdbfb19923d9e65b162e580a9004560978bb06e7f4493708d885cf6",
+    "audience_features_sha256": "272f9619197b7399647792f455f2fff26d0d91e8dd2eaa79973073c2a3af878f",
+    "cold_task_mask_sha256": "4d5dceb46ccc8348a81679e920c6508f1b862ac7a3d2540cada51dd5a69667df",
+    "cold_task_rows": 46705,
+    "margins_sha256": {
+      "day16_full_sample_d6_trees1600": "f9de51356dde98281b097e883828d1c3246562569560e47b7c92e679e5cf487f",
+      "day16_full_sample_d6_trees2400": "dd2a9d959ae713991d60ac7b23604cddd2472f1e57d3dd0b20f7376d1f440a8a",
+      "day16_full_sample_d8_trees1600": "203940f3ad814c3bc8fce7ab78cd5d92513b94c4e06acce390c75b9e74043b94",
+      "day16_full_sample_d8_trees2400": "b4b0f5de60ea3826d5158e4e91668afbf0a1899b2a07187af295c574edf5a2c6"
+    },
+    "mask_history_max_date": 20191116,
+    "inferred17_labels_read": false
+  }
+}

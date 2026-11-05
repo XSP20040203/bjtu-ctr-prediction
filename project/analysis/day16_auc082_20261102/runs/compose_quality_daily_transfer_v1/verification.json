@@ -1,0 +1,1163 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7991594090414335,
+      "best": {
+        "name": "task_between1.5_within1",
+        "formula": "group_transfer",
+        "group": "task",
+        "between": 1.5,
+        "within": 1.0,
+        "auc": 0.7991594090414335
+      },
+      "records": [
+        {
+          "name": "base",
+          "formula": "base",
+          "weight": 0.0,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "transfer_increment_0.25",
+          "formula": "transfer_increment",
+          "weight": 0.25,
+          "auc": 0.7990044405110579
+        },
+        {
+          "name": "logit_blend_0.25",
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.7989791704532082
+        },
+        {
+          "name": "transfer_increment_0.5",
+          "formula": "transfer_increment",
+          "weight": 0.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "logit_blend_0.5",
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.7989890276826641
+        },
+        {
+          "name": "transfer_increment_0.75",
+          "formula": "transfer_increment",
+          "weight": 0.75,
+          "auc": 0.7991132904951981
+        },
+        {
+          "name": "logit_blend_0.75",
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.7989531477447808
+        },
+        {
+          "name": "transfer_increment_1",
+          "formula": "transfer_increment",
+          "weight": 1.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "logit_blend_1",
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.7988701115866338
+        },
+        {
+          "name": "transfer_increment_1.5",
+          "formula": "transfer_increment",
+          "weight": 1.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "logit_blend_1.5",
+          "formula": "logit_blend",
+          "weight": 1.5,
+          "auc": 0.7985635537046182
+        },
+        {
+          "name": "transfer_increment_2",
+          "formula": "transfer_increment",
+          "weight": 2.0,
+          "auc": 0.799070357742993
+        },
+        {
+          "name": "logit_blend_2",
+          "formula": "logit_blend",
+          "weight": 2.0,
+          "auc": 0.7980750221625442
+        },
+        {
+          "name": "user_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_between0_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_between1_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_between1_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_app_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_app_between0_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_app_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_app_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_app_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_app_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_app_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_app_between1_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_app_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_app_between1_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_app_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_app_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_app_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_app_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_app_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_slot_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_slot_between0_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_slot_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.7989232337587467
+        },
+        {
+          "name": "user_slot_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_slot_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_slot_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_slot_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "user_slot_between1_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_slot_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_slot_between1_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_slot_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "user_slot_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_slot_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_slot_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "user_slot_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.7991441269330146
+        },
+        {
+          "name": "task_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.7990413951827564
+        },
+        {
+          "name": "task_between0_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.7990928247333373
+        },
+        {
+          "name": "task_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.7990753992216169
+        },
+        {
+          "name": "task_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.7989511640354693
+        },
+        {
+          "name": "task_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.7990677366053497
+        },
+        {
+          "name": "task_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.7991177909009357
+        },
+        {
+          "name": "task_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.7991022311810236
+        },
+        {
+          "name": "task_between1_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.7989733951908071
+        },
+        {
+          "name": "task_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.7990894617261451
+        },
+        {
+          "name": "task_between1_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.7991404371258849
+        },
+        {
+          "name": "task_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.7991244886151193
+        },
+        {
+          "name": "task_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.7989935664958171
+        },
+        {
+          "name": "task_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.7991112474902279
+        },
+        {
+          "name": "task_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.7991594090414335
+        },
+        {
+          "name": "task_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.7991441269330146
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "independent_pandas_maximum_error": 1.1102230246251565e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8112079171471388,
+      "best": {
+        "name": "task_between1.5_within1",
+        "formula": "group_transfer",
+        "group": "task",
+        "between": 1.5,
+        "within": 1.0,
+        "auc": 0.8112079171471388
+      },
+      "records": [
+        {
+          "name": "base",
+          "formula": "base",
+          "weight": 0.0,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "transfer_increment_0.25",
+          "formula": "transfer_increment",
+          "weight": 0.25,
+          "auc": 0.8111198680287752
+        },
+        {
+          "name": "logit_blend_0.25",
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.811118939675389
+        },
+        {
+          "name": "transfer_increment_0.5",
+          "formula": "transfer_increment",
+          "weight": 0.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "logit_blend_0.5",
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.81116499139627
+        },
+        {
+          "name": "transfer_increment_0.75",
+          "formula": "transfer_increment",
+          "weight": 0.75,
+          "auc": 0.8111922828029746
+        },
+        {
+          "name": "logit_blend_0.75",
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.8111841947006512
+        },
+        {
+          "name": "transfer_increment_1",
+          "formula": "transfer_increment",
+          "weight": 1.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "logit_blend_1",
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.8111841061026102
+        },
+        {
+          "name": "transfer_increment_1.5",
+          "formula": "transfer_increment",
+          "weight": 1.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "logit_blend_1.5",
+          "formula": "logit_blend",
+          "weight": 1.5,
+          "auc": 0.8111084780443872
+        },
+        {
+          "name": "transfer_increment_2",
+          "formula": "transfer_increment",
+          "weight": 2.0,
+          "auc": 0.8110124801409097
+        },
+        {
+          "name": "logit_blend_2",
+          "formula": "logit_blend",
+          "weight": 2.0,
+          "auc": 0.8109344239827512
+        },
+        {
+          "name": "user_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_between0_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_between1_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_between1_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_app_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_app_between0_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_app_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_app_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_app_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_app_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_app_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_app_between1_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_app_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_app_between1_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_app_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_app_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_app_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_app_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_app_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_app",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_slot_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_slot_between0_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_slot_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "user_slot_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_slot_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_slot_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_slot_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "user_slot_between1_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_slot_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_slot_between1_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_slot_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "user_slot_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_slot_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_slot_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "user_slot_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "user_slot",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.8111464442310039
+        },
+        {
+          "name": "task_between0_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 0.5,
+          "auc": 0.8111456725292264
+        },
+        {
+          "name": "task_between0_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 1.0,
+          "auc": 0.811160052376491
+        },
+        {
+          "name": "task_between0_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.0,
+          "within": 1.5,
+          "auc": 0.8110990866520402
+        },
+        {
+          "name": "task_between0.5_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 0.0,
+          "auc": 0.811074650927121
+        },
+        {
+          "name": "task_between0.5_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 0.5,
+          "auc": 0.8111653817412622
+        },
+        {
+          "name": "task_between0.5_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 1.0,
+          "auc": 0.811181481546149
+        },
+        {
+          "name": "task_between0.5_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 0.5,
+          "within": 1.5,
+          "auc": 0.8111199688250972
+        },
+        {
+          "name": "task_between1_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 0.0,
+          "auc": 0.8110898910742043
+        },
+        {
+          "name": "task_between1_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 0.5,
+          "auc": 0.8111797410440535
+        },
+        {
+          "name": "task_between1_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 1.0,
+          "auc": 0.811198448713017
+        },
+        {
+          "name": "task_between1_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.0,
+          "within": 1.5,
+          "auc": 0.8111348886068002
+        },
+        {
+          "name": "task_between1.5_within0",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 0.0,
+          "auc": 0.8110976061659347
+        },
+        {
+          "name": "task_between1.5_within0.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 0.5,
+          "auc": 0.8111902842109336
+        },
+        {
+          "name": "task_between1.5_within1",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 1.0,
+          "auc": 0.8112079171471388
+        },
+        {
+          "name": "task_between1.5_within1.5",
+          "formula": "group_transfer",
+          "group": "task",
+          "between": 1.5,
+          "within": 1.5,
+          "auc": 0.8111464442310039
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "independent_pandas_maximum_error": 1.1102230246251565e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

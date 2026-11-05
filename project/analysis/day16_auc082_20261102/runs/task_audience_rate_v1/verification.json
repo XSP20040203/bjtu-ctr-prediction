@@ -1,0 +1,922 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.80123506570526,
+      "best": {
+        "name": "day15_audience_d6_trees600",
+        "mode": "replace_task",
+        "weight": 0.1,
+        "auc": 0.80123506570526
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8011208097089574
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8011541796885576
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8011789026091923
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8012084446497305
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8011771890994168
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.800894574534886
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8003098890177911
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8010911180816437
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.801049052528448
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8009435534228425
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8006420956412953
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8000221150571332
+        },
+        {
+          "name": "day15_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.79926426802345
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.801159195562238
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8011923721571329
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.80123506570526
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8012179979889352
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8009367768723854
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.800364430916643
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8010933039352465
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8010557010541874
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8009378448680575
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8005823074242711
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.7998018101227529
+        },
+        {
+          "name": "day15_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.798802478149666
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.801155336627718
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.801184127365307
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8012153822418063
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8011681444900118
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8008261473446678
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8001659373512889
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8010886546165477
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8010454765959357
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8009115640887516
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8005076171300957
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.7996221874008017
+        },
+        {
+          "name": "day15_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.7984925383936577
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8011480708880759
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8011690062985068
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8011853847027985
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8011279272094525
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.800795558196701
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8001569897711438
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.801085323952442
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8010398354225812
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8009239939412208
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8006033196495327
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.7999599536661297
+        },
+        {
+          "name": "day15_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.799184428440362
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8011537578808032
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8011806572216404
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.801211786094865
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8011683607844035
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8008521336671229
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8002228012142331
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8010887280623068
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8010457771171154
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8009198109020205
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8005432747092586
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.7997500928534641
+        },
+        {
+          "name": "day15_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.7987417230091153
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8011536595039148
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8011814880346775
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.801202331806363
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8011277991847346
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8007224951640701
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.7999753907518384
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8010887287361211
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8010402464493067
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8008919729378575
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8004489885474889
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.7995039289475322
+        },
+        {
+          "name": "day15_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.7983016286082972
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "independent_sparse_and_raw_news_replay": true,
+      "all12_checkpoint_predictions_replayed_exactly": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8131356512998261,
+      "best": {
+        "name": "day16_audience_d6_trees200",
+        "mode": "replace_task",
+        "weight": 0.2,
+        "auc": 0.8131356512998261
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8127918767763859
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128635577276805
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8129300916464043
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8130335587499478
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8131356512998261
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8130171263813998
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8125258797766853
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8127699500452658
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8127374634548811
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8126531752591568
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8123996243581736
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8118627009692155
+        },
+        {
+          "name": "day16_audience_d6_trees200",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.811192385525341
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128542979483655
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8129099606306516
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8129971622894925
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8130689055162217
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8129055718175476
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8124009937757205
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8127576079529444
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8127149447861246
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8125986816858032
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8122539370780154
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8115403190205903
+        },
+        {
+          "name": "day16_audience_d6_trees600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.810647445939716
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128430537013348
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8128890213182783
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8129524055124427
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8129815054748106
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8127495359009906
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.812175254313422
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8127460972697759
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8126914065978817
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8125497441084415
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8121372605201692
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8113167110473942
+        },
+        {
+          "name": "day16_audience_d6_trees1600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.8102946093775161
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128550555258176
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8129138820569883
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8130052048087658
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8130846149761162
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.812922681511699
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8123915137853326
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8127628384474378
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8127262558026934
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8126307708690329
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8123518867064543
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8117865271984211
+        },
+        {
+          "name": "day16_audience_d8_trees200",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.8110910698133585
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128424091184857
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8128851230044739
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.812945345275798
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8129704063231226
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8127318445414397
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8121498176874453
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.8127459528164481
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8126904756764364
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.812552349404459
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.812168604324228
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8114074386514614
+        },
+        {
+          "name": "day16_audience_d8_trees600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.8104724750809599
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.025,
+          "auc": 0.8128169846907901
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.05,
+          "auc": 0.8128346728402672
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.1,
+          "auc": 0.8128374771608695
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.2,
+          "auc": 0.8127127478115135
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.35,
+          "auc": 0.8122008707035397
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "replace_task",
+          "weight": 0.5,
+          "auc": 0.8112712230154988
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.025,
+          "auc": 0.812720147673982
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.05,
+          "auc": 0.8126383087646813
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.1,
+          "auc": 0.8124358442645617
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.2,
+          "auc": 0.8118991712613718
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.35,
+          "auc": 0.8108232276631517
+        },
+        {
+          "name": "day16_audience_d8_trees1600",
+          "mode": "add_task",
+          "weight": 0.5,
+          "auc": 0.8095040419954304
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "independent_sparse_and_raw_news_replay": true,
+      "all12_checkpoint_predictions_replayed_exactly": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "inferred17_labels_read": false,
+  "both_targets_met": false
+}

@@ -1,0 +1,20 @@
+{
+  "viewer": "Netron",
+  "graphs": 36,
+  "main_nodes": 88,
+  "detail_nodes": 204,
+  "detail_edges": 173,
+  "graph_sha256": "41fd8e52efeae7594dbf81e3dbeb30f0a298b7e04c71cf46015e70e94ef4812d",
+  "source": "model_data.json / verified integrated architecture report",
+  "model_code_executed": false,
+  "weights_read": false,
+  "labels_read": false,
+  "patches": [
+    "named graphs and drill-down references",
+    "full Chinese names and attribute values",
+    "attributes visible and wheel zoom",
+    "attribute search",
+    "local telemetry/age-gate disabled",
+    "CSP-compatible sidebar close button"
+  ]
+}

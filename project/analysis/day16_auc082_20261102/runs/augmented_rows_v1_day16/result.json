@@ -1,0 +1,259 @@
+{
+  "status": "evaluated",
+  "auc": 0.8097330326206251,
+  "best": {
+    "name": "depth8_weight5_trees1200",
+    "recipe": "logit_0.25",
+    "auc": 0.8097330326206251
+  },
+  "records": [
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "single",
+      "auc": 0.7860673720202389
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "probability_0.05",
+      "auc": 0.8092770416160844
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "logit_0.05",
+      "auc": 0.8093199853433674
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "probability_0.1",
+      "auc": 0.8092142461494822
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "logit_0.1",
+      "auc": 0.8093952692816629
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "probability_0.25",
+      "auc": 0.808141985790112
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "recipe": "logit_0.25",
+      "auc": 0.8089281938917742
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "single",
+      "auc": 0.7899841350826442
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "probability_0.05",
+      "auc": 0.8093730042087485
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "logit_0.05",
+      "auc": 0.8093917131617415
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "probability_0.1",
+      "auc": 0.8094100651545114
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "logit_0.1",
+      "auc": 0.8095406490367368
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "probability_0.25",
+      "auc": 0.8086219509109379
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "recipe": "logit_0.25",
+      "auc": 0.8093456986777184
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "single",
+      "auc": 0.790883768258249
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "probability_0.05",
+      "auc": 0.8094438787894669
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "logit_0.05",
+      "auc": 0.8094500344272727
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "probability_0.1",
+      "auc": 0.8095483904510736
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "logit_0.1",
+      "auc": 0.8096555131868309
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "probability_0.25",
+      "auc": 0.8089448220748331
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "recipe": "logit_0.25",
+      "auc": 0.8096164979480476
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "single",
+      "auc": 0.7914256451123187
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "probability_0.05",
+      "auc": 0.8093399815360142
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "logit_0.05",
+      "auc": 0.8093419737079073
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "probability_0.1",
+      "auc": 0.8093783123870315
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "logit_0.1",
+      "auc": 0.8094523405443981
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "probability_0.25",
+      "auc": 0.8087234200644553
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "recipe": "logit_0.25",
+      "auc": 0.8092285842657856
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "single",
+      "auc": 0.7939647079950197
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "probability_0.05",
+      "auc": 0.8094298539763811
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "logit_0.05",
+      "auc": 0.8094107277137746
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "probability_0.1",
+      "auc": 0.8095520390211248
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "logit_0.1",
+      "auc": 0.8095916423454558
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "probability_0.25",
+      "auc": 0.8091525864070436
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "recipe": "logit_0.25",
+      "auc": 0.8096121694843339
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "base",
+      "auc": 0.8091431962987262
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "single",
+      "auc": 0.7935506177647357
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "probability_0.05",
+      "auc": 0.8094487953387282
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "logit_0.05",
+      "auc": 0.8094444521086743
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "probability_0.1",
+      "auc": 0.8095778364594134
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "logit_0.1",
+      "auc": 0.8096543716845345
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "probability_0.25",
+      "auc": 0.809168094274294
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "recipe": "logit_0.25",
+      "auc": 0.8097330326206251
+    }
+  ],
+  "rows": 421983,
+  "clicks": 3724,
+  "maximum_replay_error": 0.0,
+  "evaluation16_labels_fit": false,
+  "development_day_reused": true,
+  "original_datasets_unchanged": true,
+  "independent_feature_matrix_used": false,
+  "target_met": false
+}

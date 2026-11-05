@@ -1,0 +1,89 @@
+{
+  "models": [
+    {
+      "name": "day15_depth6_weight5_trees600",
+      "depth": 6,
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "b15996d5afd8c7174e177f489e28ddf3a91b9558ed813ca43adaf7f7e33d6d74"
+    },
+    {
+      "name": "day15_depth6_weight5_trees1200",
+      "depth": 6,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "56dd444d5d057d86d24d86b487957c100df6cd65e7c4f4ff27be528b84acd4fe"
+    },
+    {
+      "name": "day15_depth6_weight5_trees2400",
+      "depth": 6,
+      "day": 15,
+      "trees": 2400,
+      "model_sha256": "ca0ee3ceaa1aa160c6fb434e8331e57fbaad6bd811e53a975aad73bb90a4bbf1"
+    },
+    {
+      "name": "day15_depth8_weight5_trees600",
+      "depth": 8,
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "ea03f7264b47e7d468aa64de0f9dca2f09aac27c31b9a32c4369bb57dfe0c6a3"
+    },
+    {
+      "name": "day15_depth8_weight5_trees1200",
+      "depth": 8,
+      "day": 15,
+      "trees": 1200,
+      "model_sha256": "bf6151dbca9709a070f02674ba80d577e0e8feb2bb03e3a69770d5ab339fc203"
+    },
+    {
+      "name": "day15_depth8_weight5_trees2400",
+      "depth": 8,
+      "day": 15,
+      "trees": 2400,
+      "model_sha256": "1199d340d45307da3a3eba326486b69892b26152bc6f0a648cb75e029fb74d82"
+    },
+    {
+      "name": "day16_depth6_weight5_trees600",
+      "depth": 6,
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "3c4377ad48dc17f1d0e66ea002cd105b534705a75b3749d3ee63847d95883b5f"
+    },
+    {
+      "name": "day16_depth6_weight5_trees1200",
+      "depth": 6,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "a586092b7cfc3f1fa39564fba48900cf6079611db5daa7bae8911dc6cc4c1795"
+    },
+    {
+      "name": "day16_depth6_weight5_trees2400",
+      "depth": 6,
+      "day": 16,
+      "trees": 2400,
+      "model_sha256": "d00e145f028fea0d536afd0eecc89ceef192a40094871cd07518ecff5f8c44e1"
+    },
+    {
+      "name": "day16_depth8_weight5_trees600",
+      "depth": 8,
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "c7e81425902bdda3d1165a0544781e82cd2b7638a0a9ec18f97b4051c837a6f1"
+    },
+    {
+      "name": "day16_depth8_weight5_trees1200",
+      "depth": 8,
+      "day": 16,
+      "trees": 1200,
+      "model_sha256": "0fec7f97561aabc68989c0e2bf28cda586f848eb40f4f4bbfd71196e324c4867"
+    },
+    {
+      "name": "day16_depth8_weight5_trees2400",
+      "depth": 8,
+      "day": 16,
+      "trees": 2400,
+      "model_sha256": "d5fd59f96953e1682af36acdadeea8696f18cc0b37c5cf695099d4ff1d7a0e9e"
+    }
+  ],
+  "protocol_sha256": "b31b712cdb799d45a91d2a9010ebe0ed88d3bf3076b5e342246f68e0ddd67200"
+}

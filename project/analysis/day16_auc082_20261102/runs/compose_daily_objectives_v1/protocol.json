@@ -1,0 +1,223 @@
+{
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "recipes": [
+    {
+      "name": "pair0_binomial0",
+      "pair_weight": 0.0,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair0_binomial0.25",
+      "pair_weight": 0.0,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair0_binomial0.5",
+      "pair_weight": 0.0,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair0_binomial0.75",
+      "pair_weight": 0.0,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair0_binomial1",
+      "pair_weight": 0.0,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair0_binomial1.5",
+      "pair_weight": 0.0,
+      "binomial_weight": 1.5
+    },
+    {
+      "name": "pair0.25_binomial0",
+      "pair_weight": 0.25,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair0.25_binomial0.25",
+      "pair_weight": 0.25,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair0.25_binomial0.5",
+      "pair_weight": 0.25,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair0.25_binomial0.75",
+      "pair_weight": 0.25,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair0.25_binomial1",
+      "pair_weight": 0.25,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair0.25_binomial1.5",
+      "pair_weight": 0.25,
+      "binomial_weight": 1.5
+    },
+    {
+      "name": "pair0.5_binomial0",
+      "pair_weight": 0.5,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair0.5_binomial0.25",
+      "pair_weight": 0.5,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair0.5_binomial0.5",
+      "pair_weight": 0.5,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair0.5_binomial0.75",
+      "pair_weight": 0.5,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair0.5_binomial1",
+      "pair_weight": 0.5,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair0.5_binomial1.5",
+      "pair_weight": 0.5,
+      "binomial_weight": 1.5
+    },
+    {
+      "name": "pair0.75_binomial0",
+      "pair_weight": 0.75,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair0.75_binomial0.25",
+      "pair_weight": 0.75,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair0.75_binomial0.5",
+      "pair_weight": 0.75,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair0.75_binomial0.75",
+      "pair_weight": 0.75,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair0.75_binomial1",
+      "pair_weight": 0.75,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair0.75_binomial1.5",
+      "pair_weight": 0.75,
+      "binomial_weight": 1.5
+    },
+    {
+      "name": "pair1_binomial0",
+      "pair_weight": 1.0,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair1_binomial0.25",
+      "pair_weight": 1.0,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair1_binomial0.5",
+      "pair_weight": 1.0,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair1_binomial0.75",
+      "pair_weight": 1.0,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair1_binomial1",
+      "pair_weight": 1.0,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair1_binomial1.5",
+      "pair_weight": 1.0,
+      "binomial_weight": 1.5
+    },
+    {
+      "name": "pair1.5_binomial0",
+      "pair_weight": 1.5,
+      "binomial_weight": 0.0
+    },
+    {
+      "name": "pair1.5_binomial0.25",
+      "pair_weight": 1.5,
+      "binomial_weight": 0.25
+    },
+    {
+      "name": "pair1.5_binomial0.5",
+      "pair_weight": 1.5,
+      "binomial_weight": 0.5
+    },
+    {
+      "name": "pair1.5_binomial0.75",
+      "pair_weight": 1.5,
+      "binomial_weight": 0.75
+    },
+    {
+      "name": "pair1.5_binomial1",
+      "pair_weight": 1.5,
+      "binomial_weight": 1.0
+    },
+    {
+      "name": "pair1.5_binomial1.5",
+      "pair_weight": 1.5,
+      "binomial_weight": 1.5
+    }
+  ],
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\compose_daily_objectives_v1.py": "81bb0d507c182d8e605afc3b55853a8e553a8ae5e0ed96f4cd8124b86b0d2177",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\conditional_daily.py": "09e971a5b815805e9ad54756325e8ac00a1600aa5e5728e8d655a9bc883f4bde",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\protocol.json": "48f280e8bbca97bf695940f2cc796030b45274bb1d19803bc3f09ddcb45d7266",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\verification.json": "15f4eaa6086b2ab97a684688900eb6cffa93f2d9d2be9c7829ce71ab4dda86cc",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\day15_prediction.npy": "fc75d3c689ec7d86c8a5affb1f7a4e755687b38b196994ae28054eae648e649a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\day16_prediction.npy": "83e41ded2b795d46627db5feb2bdf8c84d2c932f83c914538e8532ef8f64b765",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\catboost_within_ranker_v2\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\protocol.json": "132f12ba3309369dcfbc94cf66cb05df2bfd15cc0b2367e363961625f44292af",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\verification.json": "442bef5c3f0db6fd6de0b35e1c939b4e17a17c4cca8622972c1c15734bd836a1",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\day15_prediction.npy": "4774a4ebd4e63cc59fb43509edb2b2e63094b06b54f26b90f0988d274e5bcf5d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\day16_prediction.npy": "1e3b34c9e77bf5c816ba9a08692cf2166aa6606ff70a1b717852ab707684c956",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_auc_pair_ranker_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\protocol.json": "1ad18f17946df1b04c3905a504c6e659021ae89a10ca66a8987f27c60733d808",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\verification.json": "608eaa0961980a1ffe06de405e93077dec05cfd7599836811e9bd9ed2d70d6c5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\day15_prediction.npy": "bfe5dfda78514483aea05a43cac4ab669c1c06ee26b062951f478c915a0b99e9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\day16_prediction.npy": "401a8f0b6fd8a10b5a28b989694094c3ffefcd2e60a65b3ab5c3ac9d8b2ccf3f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\daily_binomial_rate_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738"
+  },
+  "formula": "Base log odds plus independent fixed weights times the pair and binomial validated log-odds increments",
+  "new_model_training": false,
+  "inferred17_labels_read": false,
+  "selection": "Both-date candidate hashes lock before scoring; repeatedly reused development dates"
+}

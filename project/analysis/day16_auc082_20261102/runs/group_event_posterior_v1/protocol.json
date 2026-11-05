@@ -1,0 +1,46 @@
+{
+  "strengths": [
+    5.0,
+    20.0
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "objective": "Historical probability of any click per unordered user/candidate/history-state exposure group",
+  "transfer": "Calibrate baseline prior, condition row marginals on event probability, restore score scale; largest channel correction",
+  "channels": [
+    "task",
+    "advertiser",
+    "app",
+    "maximum"
+  ],
+  "recent_windows": [
+    false,
+    true
+  ],
+  "selection": "Both-date candidate hashes locked before labels are used to score; dates repeatedly reused",
+  "evaluation_day_labels_fit": false,
+  "inferred17_labels_read": false,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\group_event_posterior_v1.py": "daa12a00ad9b5a9aba7fe57ea4f6435a4c92f4c1057f7c4e975ea26a13c61109",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\group_event_posterior_core_v1.py": "567b934e104cb865649246df229c09e4818dc2cff2bf5e6dd9c71caa39ae1b22",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_group_event_posterior_core_v1.py": "9f3eceeb55e808337b5f0242b02e82f3f4e6f337ede76bd3c092c87e3d185621",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_group_event_posterior_v1.ps1": "ae1ffaf65cf6253fd7b5160db27738653feb5314a088e0aa1769acce01d805fc",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\transition_posterior_core_v1.py": "0ddda28e331358952b9da22d3fbcb0437289f27f2ef07dc99938ace4b03e3e3f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\protocol.json": "63a9938918ddf0d130f73c5bd1cb578d06589c595f7bf45cb14588f1ef5f3d85",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\verification.json": "e3f10318e18feb0ef9c338f69fe593fb125ff4f12c9e4bbffd90a0c5a2ac75a7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\day15_prediction.npy": "ae22eea1149e148839668b993b5687a7c11518285aae323c67009bc858eacfa1",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_family_quantiles_v1\\day16_prediction.npy": "e729928aed2936a61a3767680aa137758db2329495375edd106e9923b63be941"
+  }
+}

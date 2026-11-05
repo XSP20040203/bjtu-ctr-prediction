@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>整合模型论文式结构图</title>
+<style>
+:root{font-family:"Microsoft YaHei","PingFang SC",sans-serif;color:#26394c;background:#f6f8fa;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,select,input,a{font:inherit}button,select,.download{background:#fff;border:1px solid #c5d0db;border-radius:6px;padding:7px 10px;color:#26394c}button,.download{cursor:pointer}button:hover,.download:hover{background:#edf3f8}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #4c8cc8;outline-offset:2px}a{color:#245b89;text-decoration:none}header{padding:14px 22px 12px;background:#fff;border-bottom:1px solid #d7e0e8;display:flex;align-items:center;justify-content:space-between;gap:12px}h1{font-size:20px;line-height:1.4;margin:0 0 4px}header p{font-size:13px;color:#607285;margin:0;line-height:1.5}.header-links{display:flex;gap:8px;flex-wrap:wrap;font-size:13px}.shell{display:grid;grid-template-columns:244px minmax(0,1fr);height:calc(100dvh - 89px);min-height:440px}nav{overflow:auto;padding:16px 12px;background:#fff;border-right:1px solid #d7e0e8}nav h2{font-size:12px;font-weight:500;color:#6c7d8f;margin:15px 8px 8px}nav h2:first-child{margin-top:0}.nav-item{display:block;width:100%;text-align:left;border:0;border-radius:6px;padding:11px 10px;line-height:1.5;font-size:13px;margin:3px 0;background:transparent}.nav-item[aria-current=true]{background:#e8f0f8;color:#174e7b;font-weight:700}.detail-select{width:100%;font-size:12px;padding:8px 4px}.dictionary{font-size:12px;line-height:1.8;color:#647487;margin:16px 8px}.legend{display:flex;gap:9px;flex-wrap:wrap;font-size:12px;margin:16px 8px}.key{display:inline-flex;align-items:center;gap:5px}.swatch{width:12px;height:12px;border:1px solid #b9c7d4;border-radius:2px}.workspace{min-width:0;display:flex;flex-direction:column;position:relative}.toolbar{display:flex;align-items:center;gap:7px;padding:10px 14px;border-bottom:1px solid #d7e0e8;background:#f9fbfd;flex-wrap:wrap;font-size:12px}.toolbar .spacer{flex:1}#zoom-label{min-width:42px;text-align:center;font-variant-numeric:tabular-nums}.canvas{overflow:auto;flex:1;position:relative;touch-action:none;outline:none;background-color:#f1f5f8;background-image:radial-gradient(#d0dae4 .7px,transparent .7px);background-size:17px 17px;cursor:grab}.canvas.dragging{cursor:grabbing}.surface{position:relative;margin:24px;flex-shrink:0}.surface svg{position:absolute;inset:0;transform-origin:top left;max-width:none;overflow:visible;background:#fff;box-shadow:0 3px 22px #203d5512}.surface g.node{cursor:pointer}.surface g.node:hover polygon{stroke:#4a82b0;stroke-width:1.8}.surface g.picked polygon{stroke:#c77b13;stroke-width:3}.status{min-height:35px;padding:8px 14px;background:#fff;border-top:1px solid #d7e0e8;font-size:12px;color:#62758a;display:flex;gap:14px;flex-wrap:wrap}.status #status{flex:1}.inspector{position:absolute;right:16px;top:64px;bottom:50px;width:min(390px,calc(100% - 32px));background:#fff;box-shadow:0 6px 35px #18324b38;border:1px solid #d2dce5;border-radius:8px;padding:19px;overflow:auto;z-index:3}.inspector[hidden]{display:none}.inspector h2{font-size:17px;margin:3px 30px 14px 0;line-height:1.6}.inspector p{font-size:13px;line-height:1.85;white-space:pre-line;color:#55687b}.inspector dl{font-size:13px;line-height:1.75}.inspector dt{font-weight:700;margin-top:10px}.inspector dd{margin:0;color:#52677a}.inspector .close{position:absolute;right:9px;top:9px;border:0;font-size:20px;padding:1px 9px}.inspector .open-detail{width:100%;margin:12px 0}.note{max-width:400px;color:#67798b}.mobile-stage{display:none;min-width:0;max-width:230px}#read-note{position:absolute;bottom:64px;left:18px;max-width:390px;background:#fffef6;border:1px solid #e5d6a2;border-radius:7px;padding:12px 34px 12px 13px;font-size:12px;line-height:1.7;color:#6e5b26;box-shadow:0 3px 12px #543b0b0b;z-index:2}#read-note button{position:absolute;right:5px;top:3px;background:transparent;border:0;padding:1px 6px}
+@media(max-width:850px){header{padding:10px 13px}h1{font-size:17px}header p{font-size:12px}.header-links{display:none}.shell{grid-template-columns:1fr;height:calc(100dvh - 83px)}nav{display:none}.toolbar{padding:8px;gap:5px}.toolbar button,.toolbar a,.toolbar select{padding:7px;font-size:12px}.mobile-stage{display:block}.toolbar .spacer{display:none}.canvas{min-height:300px}.status .hint{display:none}#read-note{max-width:calc(100% - 36px)}.inspector{top:100px}}
+@media print{header,nav,.toolbar,.status,.inspector,#read-note{display:none!important}.shell{display:block;height:auto}.workspace{display:block}.canvas{overflow:visible;background:#fff}.surface{margin:0!important}}
+.paper-block[data-view],.paper-block[id]{cursor:pointer}.paper-block[data-view]:hover>rect{stroke:#315e80;stroke-width:2.8}</style>
+</head>
+<body>
+<header>
+  <div><h1>整合模型论文式结构图</h1><p>论文式总图 · 核心网络张量展开 · 冻结关系表示 · 全部 88 个模块与参数</p></div>
+  <div class="header-links"><a class="download" href="论文式模型整体结构图.svg" download>保存论文主图 SVG</a><a class="download" href="论文式模型整体结构图.png" download>保存论文主图 PNG</a></div>
+</header>
+<div class="shell">
+  <nav aria-label="流程图导航">
+    <h2>论文主图与模块展开</h2><button class="nav-item" data-view="paper">图 1 · 整合模型总结构</button><button class="nav-item" data-view="neural">图 2 · 六个核心网络展开</button><button class="nav-item" data-view="final">图 3 · 冻结表示与条件融合</button><button class="nav-item" data-view="all">全部 88 个模块 · 完整参数</button>
+    <h2>按输入到输出逐段阅读</h2><div id="stage-nav"></div>
+    <h2>展开模块内部结构</h2><select id="details" class="detail-select" aria-label="选择模块内部详图"><option value="">选择一张内部流程图…</option></select>
+    <div class="legend"><span class="key"><i class="swatch" style="background:#e8f2fa"></i>数据</span><span class="key"><i class="swatch" style="background:#ececfb"></i>神经网络</span><span class="key"><i class="swatch" style="background:#e8f4ed"></i>树模型</span><span class="key"><i class="swatch" style="background:#fff1d7"></i>融合</span><span class="key"><i class="swatch" style="background:#fbe9ea"></i>条件选择</span></div>
+    <p class="dictionary">N：404,182 条待预测广告<br>G：8,556 个用户日<br>T：34,510 个任务日<br>B：一次送进网络的广告批次<br>D：对应模块的输入宽度<br>S：Sigmoid，把分数转成概率<br>L：Logit，把概率转成分数</p>
+  </nav>
+  <main class="workspace">
+    <div class="toolbar">
+      <select id="mobile-view" class="mobile-stage" aria-label="选择流程图"></select>
+      <button id="zoom-out" aria-label="缩小">−</button><span id="zoom-label">100%</span><button id="zoom-in" aria-label="放大">＋</button><button id="fit">适应全图</button><button id="actual">100%</button>
+      <button id="previous">上一段</button><button id="next">下一段</button><span class="spacer"></span><a id="download-svg" class="download" download>当前 SVG</a><a id="download-png" class="download" download>当前 PNG</a>
+    </div>
+    <div id="canvas" class="canvas" aria-label="可拖动缩放的完整模型流程图"><div id="surface" class="surface"></div></div>
+    <div id="read-note">图 1 为模块化总图：同名 p_cal、p_rank、p_parent 端口表示同一份分数。点击分组看内部连线；全部 88 模块图保留完整依赖。滚轮缩放，拖动平移。<button aria-label="关闭提示" id="dismiss-note">×</button></div>
+    <aside id="inspector" class="inspector" aria-label="模块说明" hidden><button id="close-inspector" class="close" aria-label="关闭模块说明">×</button><h2 id="node-title"></h2><dl id="node-attrs"></dl><button id="open-detail" class="open-detail">查看内部流程图</button><p id="node-description"></p></aside>
+    <div class="status"><span id="status" aria-live="polite">正在打开流程图…</span><span class="hint">拖动平移 · 滚轮缩放 · 双击放大 · Esc 关闭说明</span></div>
+  </main>
+</div>
+<script src="paper_data.js"></script>
+<script src="paper_viewer.js"></script>
+</body>
+</html>

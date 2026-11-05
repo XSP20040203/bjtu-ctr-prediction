@@ -1,0 +1,1573 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8010760825892602,
+      "best": {
+        "name": "day15_global_pair_d8_trees1600",
+        "mode": "replace_global",
+        "weight": 0.05,
+        "auc": 0.8010760825892602
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8010205555738956
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.800918817699736
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8008071518456187
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8005675448266808
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8000168653698894
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.799126669752022
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7982281565703837
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.796811338687827
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8009160894256184
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8007954369101262
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8005099977160323
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7997260127516757
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.797999771928682
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7955450650709245
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7896030814703262
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.800781112965648
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8005079419085902
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.7998440879274543
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7981784048174203
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7951356642592905
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7918042784986076
+        },
+        {
+          "name": "day15_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7862032125928379
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.800992997242669
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8009582129268443
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008618467003177
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8006065660868502
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8001410958393368
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7996375375644652
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7988087116057939
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8009922621112632
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.800954098616703
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8008366217880264
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8004611313550646
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.799508334345453
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.798049086376162
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7944386202069736
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8008188020949379
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8005828181755137
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.7999957244460957
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.798478142351049
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7956901602003009
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7925905773412848
+        },
+        {
+          "name": "day15_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.787356726081193
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8010283812532244
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010224550564191
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8009751344254652
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8007920348217045
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8003616777113961
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7998597500671407
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7989849908611678
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8010282417736635
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010206923581994
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8009593536944613
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8006660692804237
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7997228660388751
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7981675995312384
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7941737707565726
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8008388204441009
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8006230159154581
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8000827974257391
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7986659734788536
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7960119691952773
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7930424304755251
+        },
+        {
+          "name": "day15_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7879901088318653
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8009452110060308
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8008636740847106
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.800680038798578
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8002592929755046
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7995479141976805
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7988240267311136
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7976768484448464
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8009434974962553
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.800854457652658
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8006384004436512
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8000291153139394
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7986417795024477
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7966407848325958
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7917469773301801
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8007998901488625
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8005455744374788
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.7999175276222813
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7983275576565364
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7954178118705085
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7922023619251886
+        },
+        {
+          "name": "day15_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7867648577036156
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8010362224302822
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010416345067733
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8010230143222916
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8009038731722836
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8005958012295266
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8002038326677561
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7995255678200966
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8010367224004958
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010416985191322
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010139211982567
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008144997906058
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8001003556788774
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7988714086791693
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7956023520892517
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.800852900467801
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8006510438952549
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8001273567656745
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7987368277481954
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7961150560456738
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7931722920111125
+        },
+        {
+          "name": "day15_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.788145173043872
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8010552226460315
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010743502126842
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8010699508790922
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8009260524439201
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8004939683475502
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7999524568081814
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7989783773737722
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8010562657105743
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010760825892602
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010619836987596
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008042322082387
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.799804665747774
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7980543582992778
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7934493098740328
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.800876797965913
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8006942704304966
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8002086841307462
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7988937840307683
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7963485515688729
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7934515118991788
+        },
+        {
+          "name": "day15_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7884786612621827
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 2.6645352591003757e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8127546559689403,
+      "best": {
+        "name": "day16_global_pair_d8_trees1600",
+        "mode": "add_global",
+        "weight": 0.05,
+        "auc": 0.8127546559689403
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.812728292273607
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8125809627196161
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8124208955921933
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8120661663703926
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8112868721260031
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.810030942891503
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8087659407039917
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8067874167612737
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8125770432193237
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.812403256877855
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8119860422825959
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.810878144324252
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8084482005222975
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8050358854937244
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7969965589599457
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.812591582928271
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8124108243061838
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8119288207883999
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8105758535864624
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8078779366632841
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8047333090593534
+        },
+        {
+          "name": "day16_global_pair_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7992354982257805
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8126675910592497
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8125915636678274
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8124160271940413
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8119850336773609
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8112319888496721
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8104291422927142
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8091565238837501
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8126659449333283
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8125832104133957
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8123726539588639
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8117422461543308
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8102284073804387
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8080069925503095
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8026336420618958
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8126499433567044
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8125288349707633
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8121666654395624
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8110461827073064
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8086964881860329
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8059053577775208
+        },
+        {
+          "name": "day16_global_pair_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8009418271580161
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8127324262068393
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127234855088749
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8126670530508557
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8124465614174499
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8119388304409895
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8113487591416775
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8103300806946592
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8127326682464151
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127215286477952
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8126487581974021
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8122934755588527
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8111931475968966
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8093675104881911
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8046365593565568
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8127182229136419
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8126624408166049
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8124279481246606
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8115619119040197
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8095597271482341
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8070808894259237
+        },
+        {
+          "name": "day16_global_pair_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8025352757658583
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8126270914822719
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8125117188564641
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8122562162305196
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8116629091766664
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8106826200040114
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8096790462389555
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8080874235211759
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8126241459184158
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8124993427373588
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8121937038924398
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8113434214307141
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8094280190981116
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8066692661374699
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8000952748022198
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8126258061686625
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8124760818995053
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8120619104543503
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8108414647352742
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8083492525608602
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8054088992967419
+        },
+        {
+          "name": "day16_global_pair_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8002131230370574
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8126979333202361
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8126529826547199
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8125395444194741
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8122208187450773
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8116291603852047
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8109797604991561
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8099054643108871
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8126972251779228
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8126486150281039
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8125093857747175
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8120348963980348
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8108126979785822
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8089266870830623
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8042761457358062
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8126764836061048
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8125804574539764
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8122638786770373
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.811239827850257
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8090276727994428
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8063496230239385
+        },
+        {
+          "name": "day16_global_pair_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8015409855346646
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8127483635819843
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127546559689403
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127160638179034
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8125075598846551
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8120002783185476
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8113853167478451
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8103090778228217
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8127496315611944
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127539247140946
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8126992841193541
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123583100644275
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8112200544367422
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8092842154893469
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8042584441040185
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8127293477459216
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8126828755053532
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8124604828661546
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8116019222657275
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8095943112009375
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8070808714495096
+        },
+        {
+          "name": "day16_global_pair_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8024909549168509
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 1.1102230246251565e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

@@ -1,0 +1,113 @@
+{
+  "protocol_sha256": "98e5284e248f9947a42be1590f1c50d008120c966f335f8a3e880723c5536959",
+  "models": [
+    {
+      "day": 15,
+      "objective": "lambdarank",
+      "trees": 200,
+      "name": "day15_lambdarank_trees200",
+      "actual_trees": 200,
+      "model_sha256": "71389f8de0cf9de1d0bdc1538bded534ed58583e563a6bf279f361b86f9f7e3b",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 15,
+      "objective": "lambdarank",
+      "trees": 600,
+      "name": "day15_lambdarank_trees600",
+      "actual_trees": 600,
+      "model_sha256": "4892e4e55a067d3d8cbc689340c3614bfb132e00a05a02c75f389601a3232d5a",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 15,
+      "objective": "lambdarank",
+      "trees": 1600,
+      "name": "day15_lambdarank_trees1600",
+      "actual_trees": 1600,
+      "model_sha256": "6517487d04a6bbb4f56ae9cf885991ecf93cff849ddde252134bf14cdd30fdb4",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 15,
+      "objective": "rank_xendcg",
+      "trees": 200,
+      "name": "day15_rank_xendcg_trees200",
+      "actual_trees": 200,
+      "model_sha256": "0e6e312f45ba8e11a1d5e1409fdf65ddabd2a3f7c6757954634b43b64c7f7adf",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 15,
+      "objective": "rank_xendcg",
+      "trees": 600,
+      "name": "day15_rank_xendcg_trees600",
+      "actual_trees": 600,
+      "model_sha256": "1a8f2403e694082f8f59fb7d8f99a4a1db120bf83d9b676bdd5bc666b65ab600",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 15,
+      "objective": "rank_xendcg",
+      "trees": 1600,
+      "name": "day15_rank_xendcg_trees1600",
+      "actual_trees": 1600,
+      "model_sha256": "3493c7ed07b4913769911311bbbf7a456b0e56ec0f3c199fed5de7d9b86df802",
+      "input_contract_sha256": "d79df4f7aeb246b0bff95ad0211b2fdb9e252c538d3f1986030b7ab72f6b8cd3"
+    },
+    {
+      "day": 16,
+      "objective": "lambdarank",
+      "trees": 200,
+      "name": "day16_lambdarank_trees200",
+      "actual_trees": 200,
+      "model_sha256": "280b20fe9a4625786088a0377b166ed59ee3c8383aad444bc201c48eca562b7d",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    },
+    {
+      "day": 16,
+      "objective": "lambdarank",
+      "trees": 600,
+      "name": "day16_lambdarank_trees600",
+      "actual_trees": 600,
+      "model_sha256": "2e9779abdb9e59e8e80f6b5f44d21d2cb348b162b839227ec11f8f7f89cb376b",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    },
+    {
+      "day": 16,
+      "objective": "lambdarank",
+      "trees": 1600,
+      "name": "day16_lambdarank_trees1600",
+      "actual_trees": 1600,
+      "model_sha256": "ff2683cb23cd115cba09c741f738f4f968cdf1d65595344db4e8dff5b01b2faa",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    },
+    {
+      "day": 16,
+      "objective": "rank_xendcg",
+      "trees": 200,
+      "name": "day16_rank_xendcg_trees200",
+      "actual_trees": 200,
+      "model_sha256": "613357f64d9009907a16f178deb5bacf2ce89e52335f991cfd1d84d4e5259826",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    },
+    {
+      "day": 16,
+      "objective": "rank_xendcg",
+      "trees": 600,
+      "name": "day16_rank_xendcg_trees600",
+      "actual_trees": 600,
+      "model_sha256": "2466cad3f2677afad48bcdf6af1cbdae4f203551e247f5eeda5c91f4aa7f4c3f",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    },
+    {
+      "day": 16,
+      "objective": "rank_xendcg",
+      "trees": 1600,
+      "name": "day16_rank_xendcg_trees1600",
+      "actual_trees": 1600,
+      "model_sha256": "e7bde51f2e660526f3874dbd716e4c5b87c0dbea7a6e371552c059f5577324cb",
+      "input_contract_sha256": "4b21ad9a257d2499bf9a6133054bb2e6701b217c29b9b47027ed0e0b9cb08574"
+    }
+  ]
+}

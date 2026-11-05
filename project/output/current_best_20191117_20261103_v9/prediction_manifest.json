@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "2c54d722601e36b64e28f44af3e48b2422a5c9f93b6dbda1cd2f78d4003fa2d2",
+  "input_contracts_sha256": "c12a8b4e50eb683bdbd00381b87158b7c6ef205249a5812964176014a0b80408",
+  "development16_auc": 0.8140553715131704,
+  "inferred17_labels_read": false,
+  "files_sha256": {
+    "day17_prediction.npy": "2c90d21608467be960feaa55cda8f171b6928c4b2ce58f50d215cc7d4e1a233b",
+    "submission_best_20191117.csv": "7b2607ce99a6d7a1381efe21e4f7749c5d93ea5bde6e4a9c5afe773673544c01"
+  }
+}

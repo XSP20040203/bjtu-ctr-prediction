@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "rows": 404182,
+  "columns": 401,
+  "row_major_float32_frame_sha256": "4a6d2a5259868a465e001abb08096efb90bce8c2c655ae0be423b9b87fe85e74",
+  "mask_rows": 84591,
+  "input_contract_matched": true,
+  "day17_labels_read": false
+}

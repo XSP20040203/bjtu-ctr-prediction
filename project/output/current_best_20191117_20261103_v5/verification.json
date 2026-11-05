@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-03T17:17:47.329353+00:00",
+  "prediction_date": 20191117,
+  "rows": 404182,
+  "columns": [
+    "id",
+    "pctr"
+  ],
+  "development16_auc": 0.813718098031493,
+  "selected": {
+    "name": "all_negative_d6",
+    "mask": "cold_task",
+    "mode": "rank_global",
+    "weight": 0.2,
+    "auc": 0.813718098031493
+  },
+  "development_dates_repeatedly_reused": true,
+  "inferred17_labels_read": false,
+  "platform_auc": null,
+  "complete_day16_winner_features_models_and_prediction_replayed": true,
+  "independent_day17_features_models_masks_and_prediction_replayed": true,
+  "maximum_prediction_replay_error": 1.1102230246251565e-16,
+  "saved_correction_models_max_training_date": 20191115,
+  "prediction_history_max_date": 20191116,
+  "original_row_order_verified": true,
+  "csv_roundtrip_exact": true,
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "submission_sha256": "333e51cf595827a2d03586c010e06253aadb6f24ade328238e291081388189a2"
+}

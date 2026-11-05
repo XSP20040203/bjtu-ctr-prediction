@@ -1,0 +1,47 @@
+{
+  "models": [
+    {
+      "name": "depth6_weight5_trees400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 400,
+      "model_sha256": "1d0d2af774f0a53860b3e99c5d9127b230cf776ef6f31f9dd73b4805766f1af7"
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 800,
+      "model_sha256": "8b810557d3d1c108bd34954ee2f0845de277004b67ef7d5cada2bb4be9f34eaa"
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 1200,
+      "model_sha256": "ffbd40a4ae24463b88d887ac7f01f906d8bb4692db42811030bd6793d13dcdfe"
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 400,
+      "model_sha256": "29d1c34560ed4bbf942f5e45ac516f8d6c395b2f029ddb7173d9dac7313abade"
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 800,
+      "model_sha256": "951309df7c54d1c3d054b68fe175efce62316f0703deffb75f9993805dd34056"
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 1200,
+      "model_sha256": "d264b6523194dc8ff0892f3294c551862bb0ff203868e40c4c104b4ba97335c2"
+    }
+  ],
+  "protocol_sha256": "ff5ddfbb4d53af595f22f6e2e51356ec2eefa55d6d35923d9ac27d5addea3e02"
+}

@@ -1,0 +1,36 @@
+{
+  "audit_status": "passed",
+  "goal_achieved": false,
+  "timestamp_utc": "2026-11-03T17:14:01.374635+00:00",
+  "dates": {
+    "20191115": {
+      "auc": 0.8019382852656749,
+      "target_auc": 0.815,
+      "target_met": false,
+      "rows": 424780,
+      "clicks": 3523,
+      "csv_sha256": "604b0d545036e5c00778059b92cafd221f7560a89553ca0d74f6b0ef855595d5",
+      "prediction_sha256": "6ba6285df6eba3abac3ad9cef069a7f941899ded5f197e47d1999ca4db4402f7",
+      "raw_row_alignment_verified": true,
+      "sklearn_auc_matches_published": true
+    },
+    "20191116": {
+      "auc": 0.8137180980314929,
+      "target_auc": 0.82,
+      "target_met": false,
+      "rows": 421983,
+      "clicks": 3724,
+      "csv_sha256": "608a1cbb913bf64df4e48c402c273e2dfec353ef4ef2de9aeb32852880d3883a",
+      "prediction_sha256": "0fdd24e7bf681c04ed17890ec83fdd4dae5d94c8f3c0914d350077d45bc25d58",
+      "raw_row_alignment_verified": true,
+      "sklearn_auc_matches_published": true
+    }
+  },
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  }
+}

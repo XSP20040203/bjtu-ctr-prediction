@@ -1,0 +1,35 @@
+{
+  "day": 20191116,
+  "seed": 42,
+  "modes": [
+    "base",
+    "context",
+    "aux",
+    "both"
+  ],
+  "backbone": "Original GatedCross166; one original forward per batch",
+  "epochs": 1,
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "aux_weight": 0.02,
+  "context_delta_cap": 2.0,
+  "loss": "Row BCE plus optional inverse-group-size weighted training any-click BCE",
+  "context": "Input-only daily mean/max, categorical distributions and strictly prior three-day exposures",
+  "excluded_from_pooling": "Every target_stat__ field; no row predictions pooled",
+  "auxiliary_targets": "Only outer-training advertisement labels; missing validation targets remain -1",
+  "metric": "Original full advertisement-row AUC; user-day AUC is diagnostic only",
+  "primary": "Fixed full epoch; same four equal checks are secondary",
+  "sources": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\run_day_aux.py": "d826057f65b842c2e890f13288380ea11619a73ac9ef7e25337c54f11886760c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\day_context.py": "aa7f11fbeb9c839f230a3a1b8aa757de882ce17a63b581f2b9cc56adb0522f0a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\day_model.py": "cda70b86e260877f94c1350678880a9173118af4cef9481fd4b1b1aeba5e4209",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\test_day_context.py": "5b45a93944488484aa76dace4bb7c955e0a3c94c1ce7d504e3efeeeda72c85b4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\run_protected.py": "bfc77c391456f11d7d83391e09e1f3b2d1d87c29cfb0997ae301a04390da2cc9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\protected_day_model.py": "94093704489e11f3acd834b1a0ad332c26e201c2d46836c04166f71a96a12967",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\test_protected.py": "1db11825c31b3ab2422a95cd63c7461b8bb7b0ec1df5d9ac02c96b7b28cd992b"
+  },
+  "final_test_read": false,
+  "large_row_feature_matrices_saved": false,
+  "auxiliary_gradient_policy": "Auxiliary day loss updates day encoder/head only; backbone protected",
+  "clipping_policy": "Separate backbone and day-head norm caps, each 5"
+}

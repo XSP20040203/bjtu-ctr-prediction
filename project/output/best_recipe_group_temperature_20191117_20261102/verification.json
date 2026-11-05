@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "date": 20191117,
+  "rows": 404182,
+  "selected": {
+    "name": "user_app_preserve_hazard_mass_t0.75",
+    "group": "user_app",
+    "temperature": 0.75,
+    "mode": "preserve_hazard_mass",
+    "auc": 0.8102672139644154
+  },
+  "development16_auc": 0.8102672139644156,
+  "inferred_label_auc": 0.8074639221581551,
+  "independent_rank_auc": 0.8074639221581551,
+  "inferred_positive_count": 3459,
+  "labels_are_inferred_not_observed": true,
+  "platform_auc": null,
+  "inferred_labels_used_for_training_tuning_or_selection": false,
+  "independent_transform_maximum_errors": {
+    "20191116": 4.440892098500626e-16,
+    "20191117": 3.885780586188048e-16
+  },
+  "group_hazard_mass_maximum_errors": {
+    "20191116": 4.218847493575595e-15,
+    "20191117": 2.220446049250313e-15
+  },
+  "day16_verified_winner_replay_exact": true,
+  "parent_day17_forecast_previously_independently_replayed": true,
+  "parent_forecast_retrained_or_rebuilt_this_export": false,
+  "maximum_csv_rounding_error": 4.9999644181897285e-11,
+  "original_row_order_verified": true,
+  "repeated_log_ids_preserved": 858,
+  "original_datasets_unchanged": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "inferred_label_sha256": "ab29c227c97efcc4fbef4dd57d92a8657ce5c078f1cbd03f037d8183f0ca7e24",
+  "submission_sha256": "c9afe3fa645f4a29c6dca3c08c6b48ddf969156d4581cf2bbabf35a97efc0d52",
+  "protocol_sha256": "f99e4c2ee2c89ceeb4216d2d173d8e2dd0bfe61421e606d60fbafc0cf7857738"
+}

@@ -1,0 +1,506 @@
+{
+  "status": "complete",
+  "format": "compact_final_v1",
+  "rows": 404182,
+  "original_training_rows": 2526320,
+  "final_day": 20191117,
+  "final_labels_read": false,
+  "final_auc": null,
+  "files": {
+    "arrays/categories.npy": {
+      "sha256": "658c124574aba1110a05ff33d539d414678560573f96297c475b592042713e53",
+      "bytes": 43651784,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_cache\\categories.npy",
+      "shape": [
+        404182,
+        27
+      ],
+      "dtype": "int32",
+      "original_columns": "all"
+    },
+    "arrays/sequences.npy": {
+      "sha256": "f086610f076debe4f05c5df9df969d03ae22124439e6c2385acd909780966408",
+      "bytes": 97003808,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_cache\\sequences.npy",
+      "shape": [
+        404182,
+        12,
+        5
+      ],
+      "dtype": "int32",
+      "original_columns": "all"
+    },
+    "arrays/base166.npy": {
+      "sha256": "c35b777a200dd6db202f6f3920529ec52bbcb93577b1ebdd4db549b608a05489",
+      "bytes": 268376976,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_cache\\numeric.npy",
+      "shape": [
+        404182,
+        166
+      ],
+      "dtype": "float32",
+      "original_columns": "all"
+    },
+    "arrays/multiscale_extra159.npy": {
+      "sha256": "c2ea15257bf5e7091f60026e56c3070d0399808ffd9add21f9d87633e1c9977e",
+      "bytes": 257059880,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_multiscale_v3\\numeric.npy",
+      "shape": [
+        404182,
+        159
+      ],
+      "dtype": "float32",
+      "original_columns": [
+        166,
+        325
+      ]
+    },
+    "arrays/oof_stats36.npy": {
+      "sha256": "18fe7aff5939ea573809a1b7ed6fa18c476d9d43fcb40c4961f08d41272f0a57",
+      "bytes": 58202336,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\oof\\numeric.npy",
+      "shape": [
+        404182,
+        36
+      ],
+      "dtype": "float32",
+      "original_columns": [
+        39,
+        75
+      ]
+    },
+    "arrays/tabm535.npy": {
+      "sha256": "7ad9894ff869828d6414ef7b19e2495bc0a897c8c164baa4c65ad3a5232b3260",
+      "bytes": 864949608,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\tabm\\numeric.npy",
+      "shape": [
+        404182,
+        535
+      ],
+      "dtype": "float32",
+      "original_columns": "all"
+    },
+    "arrays/gate_oof500.npy": {
+      "sha256": "cc6e59420f497657310214a9d6728c84137ed819a43f2e24ba00d7087576209b",
+      "bytes": 808364128,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\features\\numeric_oof500.npy",
+      "shape": [
+        404182,
+        500
+      ],
+      "dtype": "float32",
+      "original_columns": "all"
+    },
+    "arrays/past500.npy": {
+      "sha256": "c83fe9ff72779c03d9ced239cb3621e69bdac92cb326db0972acae2ce23befeb",
+      "bytes": 808364128,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\features\\numeric_past500.npy",
+      "shape": [
+        404182,
+        500
+      ],
+      "dtype": "float32",
+      "original_columns": "all"
+    },
+    "arrays/ids.npy": {
+      "sha256": "6d65fbfe76a94442be85320419bbc014232509cfe2a2a114cc9a25f57c11e677",
+      "bytes": 9700496,
+      "original_source": "E:\\AI\\ml\\大作业上传\\2026ml\\final_test.csv",
+      "columns": [
+        "log_id",
+        "user_id",
+        "pt_d"
+      ]
+    },
+    "arrays/context_count.npy": {
+      "sha256": "56207aa1e8d0c8d03f79712fc1cf697cc6cd1f99e58519f03ff5195906ea97fb",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_duplicate_v5\\context_count.npy"
+    },
+    "models/dcn.pt": {
+      "sha256": "3813c5357052b4256b28a59909db3978ef230eec3cbcad47661f4446fe40c2a6",
+      "bytes": 3318692,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_models\\dcn.pt"
+    },
+    "models/tree.cbm": {
+      "sha256": "88d764aefc534271be1e4d8df59a71e442c62d8d0c17501c0768f79df2fba528",
+      "bytes": 7507260,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_models\\catboost.cbm"
+    },
+    "models/lgb.txt": {
+      "sha256": "0cdd8c7df04c4452300ff7230e152a5d87fe066d077e10491876d38468019d7a",
+      "bytes": 2830650,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_lgb_v2\\lgb_model.txt"
+    },
+    "models/multiscale_dcn.pt": {
+      "sha256": "bffab478d29037e916e6406ec3b288dfdab4568caa074e2a18a8f99dbce44eca",
+      "bytes": 4837476,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_multiscale_v3\\multiscale_dcn.pt"
+    },
+    "models/shared_lgb.txt": {
+      "sha256": "28aac65a2a49e1d293f75d34215b210628cb5d66b89d6f778a0e49d164b4da47",
+      "bytes": 1114625,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_shared_lgb_v4\\shared_lgb_model.txt"
+    },
+    "models/oof.pt": {
+      "sha256": "5e33adb21e522c778cd6f0405f3b7f7e0665e7247b386c36cc80388700c04185",
+      "bytes": 3313764,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\oof\\model.pt"
+    },
+    "models/tabm.pt": {
+      "sha256": "eaf799cd8c616b6c6478f922f449fe63ae08ebadf13da2ecea3ce565d40a71a9",
+      "bytes": 2839881,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\tabm\\model.pt"
+    },
+    "models/gated166.pt": {
+      "sha256": "744458e3621a1cb1a28166aa3b187ce541ef507c0e0682c770a7d490555094c9",
+      "bytes": 2289338,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\model.pt"
+    },
+    "models/gated500.pt": {
+      "sha256": "981ea1eebc3f3290ad7281a92b9f17d856fc63e21f4679b994b696779b507e21",
+      "bytes": 3012218,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated500\\model.pt"
+    },
+    "models/allocated.pt": {
+      "sha256": "2608eb2ed028f0d5a0170b1bc591943b21ee969f52d06472425b625d16a5bc47",
+      "bytes": 1674527,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\allocated\\model.pt"
+    },
+    "reference/dcn.npy": {
+      "sha256": "ce48cff53de1be6c8b54d0c1b5948324b533d3718d7c80c12633a4b2bf72feac",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_models\\dcn_final_prediction.npy"
+    },
+    "reference/tree.npy": {
+      "sha256": "0d08ea57fc5e4ebb9aed05136d162f6d9e7c49609a974a400e3315b1b5521b6a",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_models\\tree_final_prediction.npy"
+    },
+    "reference/lgb.npy": {
+      "sha256": "f03f474d4e419f16cd607a2290f755b29f506a8534f1fbe8a695a82a569dd8e7",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_lgb_v2\\lgb_final_prediction.npy"
+    },
+    "reference/multiscale_dcn.npy": {
+      "sha256": "d3d52ca4d9f53e5c7ec82c8dd3e35b1e0c9f449464c95f77fe7fbcfcdbcb6d33",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_multiscale_v3\\multiscale_dcn_final_prediction.npy"
+    },
+    "reference/shared_lgb.npy": {
+      "sha256": "013e273134063aefc127206dedaec4ad006e17905a235407106f77d0f7dcc2e8",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_shared_lgb_v4\\shared_lgb_final_prediction.npy"
+    },
+    "reference/oof.npy": {
+      "sha256": "1c239f7ec248eb21d0d2bf16f0842bd242088eb0f06a6f1221b18a0d8fbb0279",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\oof\\final_prediction.npy"
+    },
+    "reference/tabm.npy": {
+      "sha256": "aaec0cbfebebdbc779e71ce898412659bb46f42f6c23c5f986ff88bc9618c7ca",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\tabm\\final_prediction.npy"
+    },
+    "reference/gated166.npy": {
+      "sha256": "94a3f457945c8571c1f3479edb1b16b809b4fe25476a5ecc041f4e42c7ec5ccd",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\final_prediction.npy"
+    },
+    "reference/gated500.npy": {
+      "sha256": "495f8b94967aa8faa1d8f4421be28e91ba645d9a47f4ad536d037b5a72a3c920",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated500\\final_prediction.npy"
+    },
+    "reference/allocated.npy": {
+      "sha256": "626cd99715bbff989872ff85f41fc5560e1ff74644a2079619d4f645914a8b47",
+      "bytes": 1616856,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\allocated\\final_prediction.npy"
+    },
+    "reference/v4.npy": {
+      "sha256": "2300b0c3efd94fa12dab84927cfe19ebce1f515e3211fb7459710af30734b4a1",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_shared_lgb_v4\\ensemble_final_prediction.npy"
+    },
+    "reference/v6.npy": {
+      "sha256": "f527dc891756d365c6b681d95ee8719618c5c5a9272bcc2cc5e252e1876f0e21",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\best_nextday_full_v6\\ensemble_final_prediction.npy"
+    },
+    "reference/v7.npy": {
+      "sha256": "3edae903e51d2719e1b6e82bdcfdf08008c62b5c3aaf60bb4bedfcff462d75bb",
+      "bytes": 3233584,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\best_nextday_arch_v7\\ensemble_final_prediction.npy"
+    },
+    "reference/v7_result.csv": {
+      "sha256": "891f07d0fb0c9856d97a019dad42b05ee16b285d5ad8a2bbf4dd611112fe25eb",
+      "bytes": 6826989,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\best_nextday_arch_v7\\result.csv"
+    },
+    "reference/v7_submission.csv": {
+      "sha256": "c44a9e803b8b4566b9bcef4e1bf85181c2ee00eee71a9f84474b73c619c121b9",
+      "bytes": 6759993,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\best_nextday_arch_v7\\submission.csv"
+    },
+    "metadata/cache_manifest.json": {
+      "sha256": "e9d0c6c1b05e0aa93daaab640ba2aa0b160ed5ac78b5d2d7e5447415bcf4038e",
+      "bytes": 36096,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_cache\\manifest.json"
+    },
+    "metadata/vocabs.json": {
+      "sha256": "f1020559b168719a046afa898ac319ee3c260fb1a3fa4266e5eceac3db91524b",
+      "bytes": 555838,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\full_refit_cache\\vocabs.json"
+    },
+    "metadata/lgb_protocol.json": {
+      "sha256": "a829b6e786d9f8276a1218d8f29450170daa01cb4c39b9d67e10d9f4977bd197",
+      "bytes": 19019,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_lgb_v2\\protocol.json"
+    },
+    "metadata/shared_lgb_protocol.json": {
+      "sha256": "f90123fd9d867194f1c5b7fa9ca35555ddc82602f42e0d92969689fef468cb89",
+      "bytes": 34266,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_shared_lgb_v4\\protocol.json"
+    },
+    "metadata/multiscale_numeric_meta.json": {
+      "sha256": "e52484c4eb5a8926f68ff359af0a12aa1324994cfc9232cf2b1c8bf1b035731f",
+      "bytes": 38861,
+      "original_source": "E:\\AI\\ml\\大作业上传\\output\\chronological_multiscale_v3\\numeric_meta.json"
+    },
+    "metadata/architecture_features.json": {
+      "sha256": "0d4b9a5045ec5daa8176670dab768e7fb57ac536f6ff99fb277f8255e96afb1e",
+      "bytes": 307283,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\features\\manifest.json"
+    },
+    "metadata/gated166_input.json": {
+      "sha256": "a7b877e162922decc842e2d3cc2f6199c71ba060b4f323b520b71631c7e2a93a",
+      "bytes": 28610,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\input_manifest.json"
+    },
+    "metadata/tabm_protocol.json": {
+      "sha256": "0ebbf7d8aa7087984fc809c90ac09e57adb37c9902c60bf4c578b8c473a68015",
+      "bytes": 160877,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\tabm\\protocol.json"
+    },
+    "metadata/oof_manifest.json": {
+      "sha256": "fd8344e1a5959364fcbee173b1fb6437f8dc587b2b23dcc38cad0dbb7538bb0b",
+      "bytes": 30898,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\full_best\\oof\\manifest.json"
+    },
+    "metadata/duplicate_selection.json": {
+      "sha256": "ef7555e899a9433a2c46dc69956eee20e3d8590c5b9455288c6060dfbbb0c8d7",
+      "bytes": 1666,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\nextday_goal_20261029\\duplicate_multiplicity\\selection_frozen.json"
+    },
+    "metadata/gated166_protocol.json": {
+      "sha256": "41a792646b2b92d71b897b51ea97a6dda63243392c1f2d1fc69f89a0110304ad",
+      "bytes": 8906,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\protocol.json"
+    },
+    "metadata/gated166_verification.json": {
+      "sha256": "4484542f7b637d6def911644036262904457a8ae8bd4f0fbc9eccbf9ebc1f406",
+      "bytes": 560,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\verification.json"
+    },
+    "metadata/gated500_protocol.json": {
+      "sha256": "d810ce3c7ec7088939ab65f5e7e51fd9a9847658b416c60c08aa07a705128301",
+      "bytes": 28000,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated500\\protocol.json"
+    },
+    "metadata/gated500_verification.json": {
+      "sha256": "e04b637a9106f2aeafebf25f577c8b8eb10037d81ccf15ccc8c22f76fd4219a8",
+      "bytes": 560,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated500\\verification.json"
+    },
+    "metadata/allocated_protocol.json": {
+      "sha256": "8cd20ae83d5499dcb4330d5b67a8f0bf82e6d93086509f2b5a26588ead0541a4",
+      "bytes": 35674,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\allocated\\protocol.json"
+    },
+    "metadata/allocated_verification.json": {
+      "sha256": "823cc35300bab6ff18207bed586515359eb86643e9365bbfa4f97ddb3aa4db52",
+      "bytes": 2404,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\allocated\\verification.json"
+    },
+    "source/bounded_id_models.py": {
+      "sha256": "5d0d66825eb004a7dbe2e1da712cf51302a0192c2bce4e86176a3fb2e37bdeb9",
+      "bytes": 1712,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\bounded_id_models.py"
+    },
+    "source/id_regularized_models.py": {
+      "sha256": "716321c3e7c09c2cea6d195c0f7dcebd2eadef59866cdbce48961f0b6b1aaa52",
+      "bytes": 2594,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\id_regularized_models.py"
+    },
+    "source/mainstream_models.py": {
+      "sha256": "aaa61357fc823ef19bd9c582a1c54f8b272be877daf9ac479f6d9728dd87bd9f",
+      "bytes": 7565,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\mainstream_models.py"
+    },
+    "source/benchmark_core.py": {
+      "sha256": "efae0caa806e54eb834adcf5986772e798685c26e8cdd07a84ebf9d658d96291",
+      "bytes": 5642,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\benchmark_core.py"
+    },
+    "source/modern_architectures.py": {
+      "sha256": "3cad94d93602e1b232fb5f3e9d0039eac82d8af7591cf889d4b7c5d1cc0f3621",
+      "bytes": 6916,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\modern_architectures.py"
+    },
+    "source/interaction_models.py": {
+      "sha256": "eef8ad2cf3812cfc6085e84c1f8201dbb78df7a5624c50442d6431c5e663b34d",
+      "bytes": 26473,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\interaction_models.py"
+    },
+    "source/set_context_model.py": {
+      "sha256": "fcfcf3afb58b2807c70a0d9ad0cc85294bddd0f54b76bcc849202923cac0a47a",
+      "bytes": 9395,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\set_context_model.py"
+    },
+    "source/allocated_set_model.py": {
+      "sha256": "2480df115afe60b75759e151abc8de686fc6dc2cc6cf471e8651e82d92e6aca6",
+      "bytes": 4386,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\allocated_set_model.py"
+    },
+    "source/gated166_snapshot.py": {
+      "sha256": "eef8ad2cf3812cfc6085e84c1f8201dbb78df7a5624c50442d6431c5e663b34d",
+      "bytes": 26473,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated166\\model_snapshot.py"
+    },
+    "source/gated500_snapshot.py": {
+      "sha256": "eef8ad2cf3812cfc6085e84c1f8201dbb78df7a5624c50442d6431c5e663b34d",
+      "bytes": 26473,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\full_refit\\gated500\\model_snapshot.py"
+    },
+    "vendor/lightgbm/__init__.py": {
+      "sha256": "402e67c2be1e884cea21453f97e32bdfaf10d013e989a3788573342479d55baa",
+      "bytes": 1625
+    },
+    "vendor/lightgbm/__pycache__/__init__.cpython-310.pyc": {
+      "sha256": "2477d5adce53fb676c7894efe65e9f6acf09f05cfeeadeed254ba816ab65818f",
+      "bytes": 1464
+    },
+    "vendor/lightgbm/__pycache__/basic.cpython-310.pyc": {
+      "sha256": "f9f87a3bf6292eb6fa9a14d8cb5f9ba53cc52b6724e084d697eeba5333bad6a6",
+      "bytes": 145124
+    },
+    "vendor/lightgbm/__pycache__/callback.cpython-310.pyc": {
+      "sha256": "b19a126b5c55828dfb85716f3589fd3de50c17142d600dab8e10887b6788c8b8",
+      "bytes": 17432
+    },
+    "vendor/lightgbm/__pycache__/compat.cpython-310.pyc": {
+      "sha256": "94fb657694fb395a05c90778c1c7d88f8501a60a43700b997642a3daea638385",
+      "bytes": 9152
+    },
+    "vendor/lightgbm/__pycache__/dask.cpython-310.pyc": {
+      "sha256": "92f043a56056b26a2f456cd1297af588ca9e95c2cb3f6f04a0373de487004e88",
+      "bytes": 42744
+    },
+    "vendor/lightgbm/__pycache__/engine.cpython-310.pyc": {
+      "sha256": "0cdff95b3e4c1a26056a500e8fd323e543d16cc02817fb3c5e26ddb8179c7412",
+      "bytes": 27482
+    },
+    "vendor/lightgbm/__pycache__/libpath.cpython-310.pyc": {
+      "sha256": "2c5981a117919ccd76b910a542553f3935ae3fbc640871a082cfcd3d66ef347a",
+      "bytes": 1856
+    },
+    "vendor/lightgbm/__pycache__/plotting.cpython-310.pyc": {
+      "sha256": "3960c50bea0d1097d4ddf2155d5639398aa9a5cdbc49d626d65e18e5425e419c",
+      "bytes": 26674
+    },
+    "vendor/lightgbm/__pycache__/sklearn.cpython-310.pyc": {
+      "sha256": "2a8519b3870f96d9355853c790c0b3ecd8ca178deb8e1da69d05f1e1f0ea45a2",
+      "bytes": 56592
+    },
+    "vendor/lightgbm/basic.py": {
+      "sha256": "3bb8761547ec0c5064947ab95eee3785c36defc294494d459c0db58a51a722f2",
+      "bytes": 210239
+    },
+    "vendor/lightgbm/bin/lib_lightgbm.dll": {
+      "sha256": "d2a41567e16b127b2486b417cc25813588fe015a0481e06fe8ce662ebed1ec61",
+      "bytes": 4059648
+    },
+    "vendor/lightgbm/callback.py": {
+      "sha256": "958d3aed952cd6d2001f2b1fec4b06a7bdf85b19ac78f407bc955b70c8892775",
+      "bytes": 20852
+    },
+    "vendor/lightgbm/compat.py": {
+      "sha256": "74422408002c29854e29f9746199fc44097800883f95c9952ee412b9e07ca232",
+      "bytes": 12329
+    },
+    "vendor/lightgbm/dask.py": {
+      "sha256": "f57d9810b566701fff81b792b1c953a642e7b7b8974d78fbd826c733ac505521",
+      "bytes": 68675
+    },
+    "vendor/lightgbm/engine.py": {
+      "sha256": "56782ac9b113182273a22b4732158a9a90eaf423c4c3808d32d8f52abf70881f",
+      "bytes": 36351
+    },
+    "vendor/lightgbm/lib/lib_lightgbm.lib": {
+      "sha256": "6a076594aa7c43b7b5cd7738310450dbfe8764dd257a014beec50bf292e38530",
+      "bytes": 45530
+    },
+    "vendor/lightgbm/libpath.py": {
+      "sha256": "8bbb0e24ec927715d44e6af5da412a62149a2c2eaff5a3150b56c9e636a1b363",
+      "bytes": 1559
+    },
+    "vendor/lightgbm/plotting.py": {
+      "sha256": "7aced1bd07f60b9dc2b5be64212dc81b1d3ed05bc0430852316a06f946ae03b9",
+      "bytes": 33401
+    },
+    "vendor/lightgbm/py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/lightgbm/sklearn.py": {
+      "sha256": "0d1e4ed615464d26dcfa09549f4081573e6c12431a929e64b8e17684e31c2987",
+      "bytes": 81808
+    },
+    "vendor/lightgbm/VERSION.txt": {
+      "sha256": "e1c74a9e953f1685f14e3d26aec63ba4646947b879c25538b169a8f1f3818310",
+      "bytes": 7
+    },
+    "replay_compact.py": {
+      "sha256": "9e781145d2de75fe33679e377008dd998f3110aa573fb4c274af22aeef6ff140",
+      "bytes": 15355,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\compact_final_20261031\\replay_compact.py"
+    },
+    "build_compact_snapshot.py": {
+      "sha256": "21e1e27f098fc07494ba4fc2f6e3092088ccfab56107b906e3061c7461ba2565",
+      "bytes": 11273,
+      "original_source": "E:\\AI\\ml\\大作业上传\\analysis\\compact_final_20261031\\build_compact.py"
+    }
+  },
+  "source_row_slice": [
+    2526320,
+    2930502
+  ],
+  "scope": "Replay the existing 404182 final rows; training arrays deliberately omitted.",
+  "models": {
+    "dcn": "models/dcn.pt",
+    "tree": "models/tree.cbm",
+    "lgb": "models/lgb.txt",
+    "multiscale_dcn": "models/multiscale_dcn.pt",
+    "shared_lgb": "models/shared_lgb.txt",
+    "oof": "models/oof.pt",
+    "tabm": "models/tabm.pt",
+    "gated166": "models/gated166.pt",
+    "gated500": "models/gated500.pt",
+    "allocated": "models/allocated.pt"
+  },
+  "all_deduplicated_final_values_exactly_verified": true,
+  "total_bytes": 3303902684,
+  "build_seconds": 35.20969569999943,
+  "numeric_inputs": {
+    "dcn": "base166",
+    "tree": "categories27 + tabm535[:75] + sequences60 + tabm535[75:166]",
+    "lgb": "same 253-column tree frame, original integer category IDs",
+    "multiscale_dcn": "base166 + multiscale_extra159",
+    "shared_lgb": "categories24 excluding user_id/task_id/adv_id + tabm535[:325]",
+    "oof": "base166[:39] + oof_stats36 + base166[75:166]",
+    "tabm": "tabm535",
+    "gated166": "gate_oof500[:166]",
+    "gated500": "gate_oof500",
+    "allocated": "past500"
+  }
+}

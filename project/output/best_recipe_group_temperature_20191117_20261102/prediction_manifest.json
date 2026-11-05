@@ -1,0 +1,11 @@
+{
+  "status": "frozen_before_new_inferred17_evaluation",
+  "protocol_sha256": "f99e4c2ee2c89ceeb4216d2d173d8e2dd0bfe61421e606d60fbafc0cf7857738",
+  "files_sha256": {
+    "day16_prediction.npy": "36ede4777dfc6d8f1785e7ef09799b42514dfed270ba4c1791315fe941bcf0b4",
+    "day17_prediction.npy": "e20eac5b076bfc099147db06a990ca8b9bff3a1405548a8b86b89895f181c2d3",
+    "submission_best_20191117.csv": "c9afe3fa645f4a29c6dca3c08c6b48ddf969156d4581cf2bbabf35a97efc0d52",
+    "submission_log_id_20191117.csv": "f9ce5277d1c2cb1fde2d78f04b034551055c429f37d4f5c0812254b617cf8372"
+  },
+  "inferred17_labels_used_for_prediction_or_selection": false
+}

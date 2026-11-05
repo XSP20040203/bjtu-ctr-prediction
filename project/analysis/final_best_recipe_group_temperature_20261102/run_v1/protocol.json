@@ -1,0 +1,46 @@
+{
+  "status": "frozen_before_new_day17_prediction_and_inferred_label_evaluation",
+  "frozen_utc": "2026-11-02T20:56:39.150685+00:00",
+  "selected": {
+    "name": "user_app_preserve_hazard_mass_t0.75",
+    "group": "user_app",
+    "temperature": 0.75,
+    "mode": "preserve_hazard_mass",
+    "auc": 0.8102672139644154
+  },
+  "development16_auc": 0.8102672139644154,
+  "selection_basis": "Highest independently verified real-day16 development AUC at freeze time",
+  "development_dates_reused_for_selection": true,
+  "new_predictive_model_training": false,
+  "parent_day17_forecast": "E:\\AI\\ml\\大作业上传\\output\\best_recipe_news_quality_20191117_20261102\\day17_prediction.npy",
+  "parent_day17_forecast_independently_replayed": true,
+  "parent_tree_training_max_date": 20191115,
+  "parent_neural_and_ad_history_max_date": 20191116,
+  "same_day_supplied_unlabeled_ad_groups_used": true,
+  "same_day_supplied_news_feedback_used_by_parent": true,
+  "inferred17_labels_used_for_training_tuning_or_selection": false,
+  "inferred17_labels_previously_evaluated_on_other_frozen_exports": true,
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\final_best_recipe_group_temperature_20261102\\export_best.py": "ed4e436af35726418dd14383379d0615ddbc656005a1849f4e2664ba745d12a4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\group_temperature.py": "f2beb8d36ce703f7cd6aa84b30f4a3ac532dd45c306e1c711a268a800b5c8f57",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_group_temperature.py": "ba9b5077aa380a642d49eec4e8cba4d6c060c6b027f81e4a1deee6f4bad45774",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\verification.json": "216ee9b176f88490ca94f83f9ca61bb1b798f6716375975103a0acc95cb670a3",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\protocol.json": "ff3d046abf968f1ba188ebc49ee4829f6c6a558ec29fbc46fbef0e0c73da8c7a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\predictions_locked.json": "1f2e0b7a767139f6b7b60980339edb7b632cbcf61fd8955bef12fff8b9b884f8",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\day16_prediction.npy": "36ede4777dfc6d8f1785e7ef09799b42514dfed270ba4c1791315fe941bcf0b4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\group_temperature_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\day16_prediction.npy": "fd48f80ed2b9d434aab5a6962be716ebd2a08054246e08fd6dc5b510a4ae1a20",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\news_quality_daily_v1\\verification.json": "1cf28c906558605fa4d6cfadc3ddf32f186a5cf12a83870fb032c312cc31eb88",
+    "E:\\AI\\ml\\大作业上传\\output\\best_recipe_news_quality_20191117_20261102\\verification.json": "3d9c09076189524a7c83e224e96a23bbcb8f7cf824dee4e98c1fc322c2d21b04",
+    "E:\\AI\\ml\\大作业上传\\output\\best_recipe_news_quality_20191117_20261102\\prediction_manifest.json": "f1a57f7760faf10367556996b4cfeec2076424f23ce6e81b8e451e44e997a67b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\final_best_recipe_news_quality_20261102\\run_v2\\protocol.json": "76b52c36f6a13423be81374a5f888957585f565d863999cbccba6eff3b4a2d4d",
+    "E:\\AI\\ml\\大作业上传\\output\\best_recipe_news_quality_20191117_20261102\\day16_prediction.npy": "0429930791ee033f7b88943581bd2fe482bb2d32d89c418d6d3d73d623bfb2d2",
+    "E:\\AI\\ml\\大作业上传\\output\\best_recipe_news_quality_20191117_20261102\\day17_prediction.npy": "350099a89d89789fd0fccff8ed5cbfeb507e652e9d1a5abcdcf7b26376fa4c34"
+  }
+}

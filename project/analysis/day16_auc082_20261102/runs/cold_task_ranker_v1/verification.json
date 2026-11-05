@@ -1,0 +1,1069 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8010858407680134,
+      "best": {
+        "name": "day15_cold_task_d8_trees200",
+        "mode": "replace_global",
+        "weight": 0.1,
+        "auc": 0.8010858407680134
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8010760825892602
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010111841645531
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008873027309152
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004819603028354
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7995803186013828
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7984635549451777
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7963689290610598
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7942220953708398
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010815404851241
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010798465159634
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8010550750806988
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8009538614340679
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.800781542859174
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.800320878255278
+        },
+        {
+          "name": "day15_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7996238594709976
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8009941858511016
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008629477128907
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004563735522627
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7995978782021498
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7985542213765053
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.796642267224065
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.794699872836619
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801062390008785
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010430609716552
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009886336212351
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8008513021802716
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8006574922981459
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8001959618428689
+        },
+        {
+          "name": "day15_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7995554710251019
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8009890655362041
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008560087731862
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004553911310073
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7996264587096759
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7986300726527269
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7968031410630023
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7949617487444958
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010545522007988
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010242925480267
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009374661844185
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8007368164132912
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8004485404609766
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7997777293471501
+        },
+        {
+          "name": "day15_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.798880924284773
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010132480577669
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008954538625529
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8005056165754265
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7996334892881257
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.798551500514345
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7965172133535379
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7944245934146035
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010836010092662
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010858407680134
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8010667212871323
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8009846116236534
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8008315897428028
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8004102442249985
+        },
+        {
+          "name": "day15_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7997712071615928
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8009979652755337
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008727496895736
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004775933123299
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7996427394108935
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7986274083909681
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7967624494171729
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.794873737815341
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010658898002809
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010511864983494
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8010008060766401
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8008733689249191
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8006810980346641
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8002120181639233
+        },
+        {
+          "name": "day15_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7995586804026327
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8009976351065247
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8008733318651324
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004926416071853
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7996968696092055
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7987373108730514
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7969735237694003
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.7951873545760071
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010610821352205
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010378294773977
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009575593269692
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8007598325622933
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8004598827771588
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.799742246285892
+        },
+        {
+          "name": "day15_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7987470589445901
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8127918767763859,
+      "best": {
+        "name": "day16_cold_task_d8_trees1600",
+        "mode": "replace_global",
+        "weight": 0.2,
+        "auc": 0.8127918767763859
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8127546559689403
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127499743970922
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127062403496028
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8125297800165341
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8120869329807874
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8114975852321437
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.81036271687449
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8091579350322584
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127502382651709
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127409271246726
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812700329319432
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8125911739648498
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.812420936039125
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8119955306191761
+        },
+        {
+          "name": "day16_cold_task_d6_trees200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8113935204128307
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127524050650868
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127117321441159
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.812543581408473
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121187178490068
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8115536909046348
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8104700046080483
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8093277248316598
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.812753461821431
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127485150974747
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127242751870665
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.812649232004317
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8125324437358975
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.812238716191376
+        },
+        {
+          "name": "day16_cold_task_d6_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8118168302965053
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127620539053645
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127301361400837
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8125805961291711
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121873209813985
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8116561782936089
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8106198669103855
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.809531070818086
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127620596834977
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127666436690977
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812760194630533
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8127171584531202
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8126300672208232
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.812390390901465
+        },
+        {
+          "name": "day16_cold_task_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8120304918555686
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127540929219695
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127152304827061
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8125511713073195
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121297104262398
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8115673613255565
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8104804219400296
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8093281472773916
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127549224050781
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127500231902163
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127210606190134
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8126317191248776
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8124855034665474
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8121096455380105
+        },
+        {
+          "name": "day16_cold_task_d8_trees200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8115693262118211
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127542425114156
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127145197723337
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8125520335331824
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121350275927299
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8115863168122289
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8105314704620205
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8094210949686023
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127550790566869
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127510882927527
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127273395236587
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8126544669929141
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8125381993984891
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8122469667234412
+        },
+        {
+          "name": "day16_cold_task_d8_trees600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8118310178603404
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.81277112878442
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127485099613564
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8126170612852089
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8122436564951844
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8117307008023636
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8107194414782577
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "add_global",
+          "weight": 1.0,
+          "auc": 0.8096482096265809
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127711037458433
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8127837430910124
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127918767763859
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8127631973337054
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8126866704547765
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8124531587614311
+        },
+        {
+          "name": "day16_cold_task_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.8120839184003413
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

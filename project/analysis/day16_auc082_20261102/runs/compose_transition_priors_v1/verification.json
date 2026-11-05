@@ -1,0 +1,1421 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.801647173228954,
+      "best": {
+        "base": "pointwise_compact_v1",
+        "model": "all_shrink5",
+        "threshold": 3,
+        "weight": 0.75,
+        "auc": 0.801647173228954
+      },
+      "records": [
+        {
+          "base": "pointwise_compact_v1",
+          "model": "identity",
+          "threshold": 0,
+          "weight": 0.0,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016149507551137
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.801585631073296
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8015685512283136
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015584413184936
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8016265949401042
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016058569572645
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015935719748707
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.801587624889822
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016469677155912
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016471543621534
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.801647173228954
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8016470923712374
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452953084882
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016453148491031
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8016453269777605
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8016453424754895
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016150093769582
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8015857793124429
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8015686947507604
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015584945498236
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8016265518159889
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016059499436385
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015936690041305
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8015876572329086
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016468700125171
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016470883283516
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8016470964141232
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8016470222945498
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452609439587
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016452804845735
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.801645292613231
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.801645301372817
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016152357785644
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8015862334632838
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8015690754558422
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015595659145673
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8016266650167919
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016062107097742
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015939203368659
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8015881767437372
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016467662451142
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016470007324921
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8016470445304218
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.801647009492078
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016139056691279
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8015849377183769
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.801567686050747
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015577486373889
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8016267829342951
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016064121802512
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015940645331271
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8015881915676518
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016468444075735
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016470681139225
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8016470950664947
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8016470546376364
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452602701444
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016452784631306
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.801645292613231
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.801645301372817
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016147438941224
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.801586160691339
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.801568844337536
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015585137535314
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8016272889688376
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016072409718453
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015949391440939
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8015890995324267
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016466644991543
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016469535654908
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8016470391399074
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8016470398137218
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8016162835598074
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8015887804813537
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8015707889656177
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8015611301744745
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.801628111696103
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8016092112048707
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8015962854250737
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8015905761964743
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8016464084497187
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8016467992620151
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8016469198747755
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.80164697849662
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8016452366866438
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8016452366866438
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "bin_counts": [
+        424107,
+        337,
+        288,
+        39,
+        9
+      ],
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_bins_rates_and_odds_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8134993417640644,
+      "best": {
+        "base": "pointwise_compact_v1",
+        "model": "recent_shrink5",
+        "threshold": 1,
+        "weight": 0.25,
+        "auc": 0.8134993417640644
+      },
+      "records": [
+        {
+          "base": "pointwise_compact_v1",
+          "model": "identity",
+          "threshold": 0,
+          "weight": 0.0,
+          "auc": 0.8134892403033598
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.81349914145545
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.813490489664141
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8134811592631991
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8134727854642941
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.813490694466859
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8134856199819595
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8134813640659171
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8134776667027419
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134954460183191
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8134956476109632
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.813495575063292
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134954453763044
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134890342166122
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.813488982855429
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134889635949853
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink5",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.813488952680734
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8134990445112167
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8134906328334391
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.813481370486065
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.81347334048608
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.813490614857025
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.813485697665749
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8134814744924609
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8134777912536112
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134953837428845
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8134956373387265
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.813495547456656
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134953901630324
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134890586131742
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8134889777193107
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134889597428966
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink20",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8134889456185712
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8134990226827138
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8134909499887454
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8134817113959184
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.813473970302589
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8134904954422741
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.813485905678541
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8134815868450491
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8134781283113759
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134952290173202
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.813495632844623
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8134955403944932
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134953734706479
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134890791576476
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8134889912016213
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134889436925269
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "all_shrink50",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8134889279631645
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.8134993417640644
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8134900896889269
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8134797185820105
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8134702902738131
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8134915573347367
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8134873649781584
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8134835193095669
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.81347985789922
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134953805328106
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8134956379807413
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8134955647910553
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134953904840398
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134890489829524
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8134889764352812
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134889603849114
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink5",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8134889420874899
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.813499226843417
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8134907015290217
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8134807374594821
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.813471114299796
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8134913364816488
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8134876050916898
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.813483961657757
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8134802164644801
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134950685136227
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8134956097320906
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.8134955346163601
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134953773227367
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134890913559285
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.8134890008318432
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134889436925269
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink20",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8134889225060388
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.25,
+          "auc": 0.813499135035302
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.5,
+          "auc": 0.8134919252092112
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 0.75,
+          "auc": 0.8134826147107278
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 1,
+          "weight": 1.0,
+          "auc": 0.8134750273799406
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.25,
+          "auc": 0.8134909949297806
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.5,
+          "auc": 0.8134880949489746
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 0.75,
+          "auc": 0.8134848059072058
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 2,
+          "weight": 1.0,
+          "auc": 0.8134814099699745
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.25,
+          "auc": 0.8134946088310331
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.5,
+          "auc": 0.8134955134298721
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 0.75,
+          "auc": 0.813495608448061
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 3,
+          "weight": 1.0,
+          "auc": 0.8134955445675894
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.25,
+          "auc": 0.8134891420750969
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.5,
+          "auc": 0.813489074663544
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 0.75,
+          "auc": 0.8134890175242276
+        },
+        {
+          "base": "pointwise_compact_v1",
+          "model": "recent_shrink50",
+          "threshold": 4,
+          "weight": 1.0,
+          "auc": 0.8134889809293847
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "bin_counts": [
+        421406,
+        272,
+        253,
+        43,
+        9
+      ],
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_bins_rates_and_odds_replayed": true,
+      "maximum_independent_prediction_error": 2.220446049250313e-16,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

@@ -1,0 +1,380 @@
+"""Compact historical row ranking retaining the complete fixed source sample."""
+import os
+for key in ['OMP_NUM_THREADS', 'MKL_NUM_THREADS', 'OPENBLAS_NUM_THREADS']:
+    os.environ[key] = '2'
+import argparse
+import gc
+from pathlib import Path
+import numpy as np
+import pandas as pd
+from catboost import CatBoostRanker, Pool
+from scipy.special import expit, logit
+from sklearn.metrics import roc_auc_score
+from fit_stacker import HERE, ROOT, digest, write
+from conditional_daily import read, emit
+from rich_userday_activity import array_hash
+from rich_row_catboost import selection, frame_hash
+from full_quality_row_catboost import full_frame, quality_rows
+from news_quality_features import READ, build_quality
+from catboost_userday_residual import save_model, load_model
+from verify_stacker import rank_sum_auc
+from cross_user_pair_core import design
+from within_user_ranking_core import within_prediction
+import cross_user_pair_ranker_v1 as base_rows
+import task_audience_rate_v1 as audience
+from task_audience_row_core import aligned
+from compact_full_sample_core_v1 import select_indices, compact_frame
+
+OUT = HERE / 'runs/compact_full_sample_ranker_v1'
+PREFLIGHT = HERE / 'runs/compact_full_sample_preflight_v1'
+SOURCE = HERE / 'runs/rich_augmented_rows_v1'
+QUALITY = HERE / 'runs/news_quality_daily_v1'
+AUDIENCE=HERE/'runs/task_audience_rate_v1'
+SELECTOR=HERE/'runs/task_audience_row_ranker_v1'
+BASES={day:HERE/'runs/profile_response_ranker_v1' for day in [15,16]}
+ARMS = [dict(name='full_sample_d6', depth=6), dict(name='full_sample_d8', depth=8)]
+CHECKPOINTS = [600, 1600, 2400]
+WEIGHTS = [.05, .1, .2, .35, .5, .75, 1.]
+MODES = ['add_global', 'replace_global', 'add_within']
+PARAMS = dict(loss_function='PairLogit', learning_rate=.035, l2_leaf_reg=40.,
+    random_strength=1., bootstrap_type='Bernoulli', subsample=.8, border_count=64,
+    one_hot_max_size=16, max_ctr_complexity=1, thread_count=2, random_seed=151653,
+    task_type='GPU', devices='0', gpu_ram_part=.45, allow_writing_files=False, verbose=200)
+REPLAY = {}
+AUDIENCE_CACHE = {}
+
+
+def metadata(day):
+    cutoff = 20191100 + day
+    raw = pd.read_csv(ROOT/'2026ml/train.csv', usecols=['pt_d', 'label', 'user_id', 'task_id'], dtype='int32')
+    dates = raw.pt_d.to_numpy()
+    labels = raw.label.to_numpy(copy=True)
+    labels[dates >= cutoff] = -1
+    chosen, weights, held_rows, train, held, y = selection(day, labels, dates)
+    source = read(SOURCE/f'input_contract{day}.json')
+    assert array_hash(chosen) == source['training_rows_sha256']
+    assert array_hash(y) == source['training_labels_sha256']
+    assert array_hash(weights) == source['weights_sha256']
+    rows = np.sort(np.r_[chosen, held_rows])
+    order, groups, pairs = design(dates[chosen], y, cutoff, seed=151653, draws=64)
+    positions = train[order]
+    target = labels[rows[positions]]
+    np.testing.assert_array_equal(np.sort(rows[positions]), chosen)
+    np.testing.assert_array_equal(held_rows, np.load(BASES[day]/f'day{day}_indices.npy'))
+    assert np.all(dates[rows[positions]] < cutoff)
+    held_users = raw.user_id.to_numpy()[held_rows]
+    row_groups, _ = pd.factorize(held_users, sort=True)
+    return dict(raw=raw, rows=rows, positions=positions, held=held, held_rows=held_rows,
+        target=target, groups=groups, pairs=pairs, row_groups=row_groups,
+        source=source, max_training_date=int(dates[rows[positions]].max()))
+
+
+def inputs(day, partition, independent=False):
+    info = metadata(day)
+    source = info['source']
+    positions = info['positions'] if partition == 'train' else info['held']
+    query = info['raw'].iloc[info['rows'][positions]][['pt_d', 'user_id']].to_numpy()
+    task_query = info['raw'].iloc[info['rows'][positions]][['pt_d', 'task_id']].to_numpy()
+    cached = np.load(QUALITY/f'quality{day}.npz')
+    keys, values = cached['keys'], cached['values']
+    native = read(QUALITY/f'input_contract{day}.json')
+    assert array_hash(values) == native['quality_sha256']
+    assert array_hash(keys) == native['native_contract']['native_contract']['keys_sha256']
+    if independent:
+        news = pd.read_csv(ROOT/'2026ml/train_feeds.csv', usecols=READ,
+            dtype={'i_docId': str, 'i_s_sourceId': str})
+        rebuilt, quality_names = build_quality(news, keys, 20191100+day)
+        np.testing.assert_array_equal(rebuilt, values)
+        assert quality_names == native['quality_names']
+        values = rebuilt
+        del news
+        gc.collect()
+    quality = quality_rows(keys, values, query)
+    original_selector = read(SELECTOR/f'input_contract{day}.json')
+    if independent:
+        auxiliary, meta, contract = audience.inputs(day, True)
+        assert contract == read(AUDIENCE/f'input_day{day}/contract.json')
+    else:
+        auxiliary, meta, contract = audience.load_inputs(AUDIENCE/f'input_day{day}')
+    audience_columns = original_selector['audience_columns']
+    extra = aligned(meta['keys'], auxiliary[audience_columns].to_numpy(dtype='float32'),
+                    task_query, 20191100+day)
+    native_keep = [i for i, name in enumerate(source['feature_names'])
+                   if not name.startswith('rich_daily__quality__')]
+    assert len(native_keep) == 680
+    names = [f'f{i}' for i in range(1017)] + ['task_audience__'+name for name in audience_columns]
+    categories = [f'f{native_keep.index(i)}' for i in source['categorical_columns']]
+    model_path = SELECTOR/f'day{day}_audience_row_d6_trees1600.cbm'
+    selector = load_model(model_path)
+    assert selector.feature_names_ == names
+    importance = selector.get_feature_importance(type='PredictionValuesChange', thread_count=2)
+    selected = select_indices(names, categories, importance, 384)
+    directory = SOURCE/(f'independent_day{day}' if independent else f'input_day{day}')
+    path = directory/'features.npy'
+    assert digest(path) == source['matrix_sha256']
+    matrix = np.load(path, mmap_mode='r')
+    frame, cats = compact_frame(matrix, positions, native_keep, quality, extra,
+                                 selected, names, categories, independent=independent)
+    # A conventional dense frame independently checks all selected blocks on actual rows.
+    probe_size = min(1000, len(positions))
+    dense, _, _ = full_frame(matrix, positions[:probe_size], source['feature_names'],
+                            source['categorical_columns'], quality[:probe_size])
+    dense = pd.concat([dense, pd.DataFrame(extra[:probe_size], columns=names[1017:])], axis=1)
+    np.testing.assert_array_equal(frame.iloc[:probe_size].to_numpy(dtype='float32'),
+                                  dense.iloc[:, selected].to_numpy(dtype='float32'))
+    audit = dict(shape=list(frame.shape), frame_sha256=frame_hash(frame), categories=cats,
+        selected_columns=list(frame), selector_model_sha256=digest(model_path),
+        selector_importance_sha256=array_hash(np.round(importance, 10)),
+        quality_sha256=array_hash(quality), query_keys_sha256=array_hash(query),
+        audience_features_sha256=array_hash(extra), audience_columns=audience_columns,
+        source_matrix_sha256=digest(path), training_rows_sha256=array_hash(info['rows'][info['positions']]),
+        training_targets_sha256=array_hash(info['target']), pairs_sha256=array_hash(info['pairs']),
+        groups_sha256=array_hash(info['groups']), max_training_date=info['max_training_date'],
+        selector_max_training_date=20191100+day-1, evaluation_day_labels_fit=False,
+        all_fixed_source_training_rows_retained=True, dense_reference_probe_rows=probe_size)
+    del matrix, quality, cached, values, extra, auxiliary, dense, info['raw']
+    gc.collect()
+    emit('compact_full_sample_input_ready', day=day, partition=partition, independent=independent,
+         shape=audit['shape'], pairs=len(info['pairs']))
+    return frame, cats, info, audit
+
+
+def dependencies():
+    paths = [Path(__file__), HERE/'prepare_compact_full_sample_ranker_v1.py',
+        HERE/'compact_full_sample_core_v1.py', HERE/'test_compact_full_sample_core_v1.py',
+        HERE/'run_compact_full_sample_ranker_v1.ps1', HERE/'cross_user_pair_core.py',
+        HERE/'fit_stacker.py', HERE/'conditional_daily.py', HERE/'rich_userday_activity.py',
+        HERE/'rich_row_catboost.py', HERE/'full_quality_row_catboost.py', HERE/'news_quality_features.py',
+        HERE/'catboost_userday_residual.py', HERE/'verify_stacker.py', HERE/'within_user_ranking_core.py',
+        HERE/'task_audience_rate_v1.py', HERE/'task_audience_core.py', HERE/'task_audience_row_core.py',
+        HERE/'global_row_context.py', HERE/'global_row_context15.py']
+    for folder in [SOURCE, QUALITY, SELECTOR, AUDIENCE, *BASES.values()]:
+        assert read(folder/'verification.json')['status'] == 'passed'
+        parent = read(folder/'protocol.json')
+        for filename, expected in parent['sources_sha256'].items():
+            assert digest(filename) == expected, filename
+        paths += [folder/'protocol.json', folder/'verification.json']
+    for day in [15, 16]:
+        paths += [SOURCE/f'input_contract{day}.json', SOURCE/f'input_day{day}/features.npy',
+            SOURCE/f'independent_day{day}/features.npy', QUALITY/f'quality{day}.npz',
+            QUALITY/f'input_contract{day}.json', BASES[day]/f'day{day}_prediction.npy',
+            BASES[day]/f'day{day}_indices.npy', SELECTOR/f'input_contract{day}.json',
+            SELECTOR/f'day{day}_audience_row_d6_trees1600.cbm',
+            AUDIENCE/f'input_day{day}/frame.pkl', AUDIENCE/f'input_day{day}/metadata.npz',
+            AUDIENCE/f'input_day{day}/contract.json', AUDIENCE/f'input_day{day}/files_locked.json']
+    return list(dict.fromkeys(paths))
+
+
+def check_sources(directory=OUT):
+    protocol = read(directory/'protocol.json')
+    for path, expected in protocol['sources_sha256'].items():
+        assert digest(path) == expected, path
+    for name, expected in protocol['raw_datasets_sha256'].items():
+        assert digest(ROOT/'2026ml'/name) == expected, name
+    return protocol
+
+
+def pool_from(frame, cats, info):
+    return Pool(frame, label=info['target'], group_id=info['groups'], pairs=info['pairs'], cat_features=cats)
+
+
+def preflight():
+    assert not PREFLIGHT.exists(), 'Preserve all preflights'
+    hashes = read(BASES[16]/'protocol.json')['raw_datasets_sha256']
+    paths = dependencies()
+    PREFLIGHT.mkdir()
+    write(PREFLIGHT/'protocol.json', dict(params=PARAMS, arms=ARMS,
+        raw_datasets_sha256=hashes, sources_sha256={str(path): digest(path) for path in paths}))
+    check_sources(PREFLIGHT)
+    frame, cats, info, audit = inputs(16, 'train')
+    pool = pool_from(frame, cats, info)
+    sample = Pool(frame.iloc[:2000], cat_features=cats)
+    del frame
+    gc.collect()
+    results = []
+    for arm in ARMS:
+        model = CatBoostRanker(**dict(PARAMS, depth=arm['depth'], iterations=20, verbose=False))
+        model.fit(pool)
+        before = model.predict(sample, thread_count=2)
+        path = PREFLIGHT/(arm['name']+'.cbm')
+        save_model(model, path)
+        after = load_model(path).predict(sample, prediction_type='RawFormulaVal', thread_count=2)
+        np.testing.assert_array_equal(before, after)
+        results.append(dict(arm, serialization_maximum_error=0., model_sha256=digest(path)))
+        del model
+        gc.collect()
+    check_sources(PREFLIGHT)
+    write(PREFLIGHT/'verification.json', dict(status='passed', audit=audit, results=results,
+        source_code_sha256=digest(__file__), full_prior_cohort_capacity_tested=True,
+        held_auc_evaluated=False, inferred17_labels_read=False))
+    emit('compact_full_sample_preflight_passed', shape=audit['shape'])
+
+
+def fit():
+    assert not OUT.exists(), 'Preserve all previous full fits'
+    preflight_report = read(PREFLIGHT/'verification.json')
+    assert preflight_report['status'] == 'passed' and preflight_report['source_code_sha256'] == digest(__file__)
+    frozen = check_sources(PREFLIGHT)
+    paths = dependencies()+[PREFLIGHT/'protocol.json', PREFLIGHT/'verification.json']
+    OUT.mkdir()
+    write(OUT/'protocol.json', dict(params=PARAMS, arms=ARMS, checkpoints=CHECKPOINTS,
+        weights=WEIGHTS, modes=MODES, dates=[20191115, 20191116],
+        training='All earlier positives and all fixed one-third source negatives; no second downsample;1024-row date queries;64 pairs per positive',
+        objective='Cross-user within-date row PairLogit; zero-click users retained',
+        baseline_runs={day:str(path) for day,path in BASES.items()}, features='All native categorical features plus384 numeric features selected by a fixed strictly historical model',
+        selection='All both-date models and candidate hashes locked before scoring; dates repeatedly reused',
+        evaluation_day_labels_fit=False, inferred17_labels_read=False,
+        raw_datasets_sha256=frozen['raw_datasets_sha256'], sources_sha256={str(path):digest(path) for path in paths}))
+    models = []
+    for day in [15, 16]:
+        frame, cats, info, audit = inputs(day, 'train')
+        write(OUT/f'input_contract{day}.json', audit)
+        np.save(OUT/f'day{day}_indices.npy', info['held_rows'])
+        pool = pool_from(frame, cats, info)
+        del frame
+        gc.collect()
+        for arm in ARMS:
+            emit('compact_full_sample_fit_started', day=day, arm=arm['name'])
+            model = CatBoostRanker(**dict(PARAMS, depth=arm['depth'], iterations=max(CHECKPOINTS)))
+            model.fit(pool)
+            for trees in CHECKPOINTS:
+                name = f'day{day}_{arm["name"]}_trees{trees}'
+                saved = model.copy()
+                saved.shrink(trees)
+                path = OUT/(name+'.cbm')
+                save_model(saved, path)
+                models.append(dict(arm, day=day, trees=trees, name=name, model_sha256=digest(path),
+                    input_contract_sha256=digest(OUT/f'input_contract{day}.json')))
+                del saved
+            del model
+            gc.collect()
+            emit('compact_full_sample_fit_complete', day=day, arm=arm['name'])
+        del pool, info
+        gc.collect()
+    write(OUT/'models_locked.json', dict(protocol_sha256=digest(OUT/'protocol.json'), models=models))
+    check_sources()
+
+
+def forecasts(day, independent=False):
+    train, _, info, audit = inputs(day, 'train', independent)
+    assert audit == read(OUT/f'input_contract{day}.json')
+    del train, info
+    gc.collect()
+    frame, cats, info, audit = inputs(day, 'held', independent)
+    if independent:
+        assert audit == read(OUT/f'held_contract{day}.json')
+    else:
+        write(OUT/f'held_contract{day}.json', audit)
+    pool = Pool(frame, cat_features=cats)
+    del frame
+    locked = read(OUT/'models_locked.json')
+    assert locked['protocol_sha256'] == digest(OUT/'protocol.json')
+    result = {}
+    for record in locked['models']:
+        if record['day'] != day:
+            continue
+        path = OUT/(record['name']+'.cbm')
+        assert digest(path) == record['model_sha256']
+        assert record['input_contract_sha256'] == digest(OUT/f'input_contract{day}.json')
+        value = load_model(path).predict(pool, prediction_type='RawFormulaVal', thread_count=2)
+        assert value.shape == info['held_rows'].shape and np.isfinite(value).all()
+        result[record['name']] = value
+        saved = OUT/(record['name']+'_held_margin.npy')
+        if independent:
+            np.testing.assert_array_equal(value, np.load(saved))
+        else:
+            assert not saved.exists()
+            np.save(saved, value)
+    REPLAY.pop(day, None)
+    gc.collect()
+    return result, info
+
+
+def prediction(base, margin, groups, weight, mode, independent=False):
+    if mode == 'add_within':
+        return within_prediction(base, margin, groups, weight, 'add_within', independent)
+    z = logit(np.clip(base, 1e-8, 1-1e-8))
+    normalized = (margin-margin.mean())/max(margin.std(), 1e-6)*z.std()
+    delta = normalized if mode == 'add_global' else normalized+z.mean()-z
+    if independent:
+        odds = np.exp(z)*np.exp(weight*delta)
+        return odds/(1+odds)
+    return expit(z+weight*delta)
+
+
+def candidates(day, values, groups, independent=False):
+    base = np.load(BASES[day]/f'day{day}_prediction.npy')
+    yield dict(name='base', mode='base', weight=0.), base.copy()
+    for name, margin in values.items():
+        for mode in MODES:
+            for weight in WEIGHTS:
+                record = dict(name=name, mode=mode, weight=weight)
+                yield record, prediction(base, margin, groups, weight, mode, independent)
+
+
+def candidate_key(record):
+    return f'{record["name"]}__{record["mode"]}__weight{record["weight"]:g}'
+
+
+def evaluate():
+    check_sources()
+    assert not (OUT/'predictions_locked.json').exists()
+    locks = {}
+    for day in [15, 16]:
+        values, info = forecasts(day)
+        locks[str(day)] = {candidate_key(record):array_hash(p)
+            for record,p in candidates(day, values, info['row_groups'])}
+    write(OUT/'predictions_locked.json', dict(protocol_sha256=digest(OUT/'protocol.json'),
+        candidates_sha256=locks, both_date_model_hashes_locked=True, held_labels_opened_for_scoring=False))
+    emit('compact_full_sample_candidates_locked')
+
+
+def verify():
+    check_sources()
+    assert not (OUT/'verification.json').exists()
+    locks = read(OUT/'predictions_locked.json')
+    assert locks['protocol_sha256'] == digest(OUT/'protocol.json')
+    values_by_day, infos = {}, {}
+    # Reconstruct both-date training/held inputs and all12 model forecasts before scoring.
+    for day in [15, 16]:
+        values, info = forecasts(day, True)
+        for record, p in candidates(day, values, info['row_groups']):
+            assert array_hash(p) == locks['candidates_sha256'][str(day)][candidate_key(record)]
+        values_by_day[day], infos[day] = values, info
+    raw = pd.read_csv(ROOT/'2026ml/train.csv', usecols=['pt_d', 'label'], dtype='int32')
+    reports = {}
+    for day in [15, 16]:
+        rows = infos[day]['held_rows']
+        np.testing.assert_array_equal(rows, np.flatnonzero(raw.pt_d.to_numpy() == 20191100+day))
+        y = raw.label.to_numpy()[rows]
+        assert len(y) == {15:424780,16:421983}[day] and y.sum() == {15:3523,16:3724}[day]
+        records, maximum = [], 0.
+        standard = list(candidates(day, values_by_day[day], infos[day]['row_groups']))
+        independent = candidates(day, values_by_day[day], infos[day]['row_groups'], True)
+        for (record,p),(other,q) in zip(standard,independent):
+            assert record == other and np.isfinite(p).all() and np.all((p>0)&(p<1))
+            error = float(np.max(np.abs(p-q)))
+            assert error < 2e-14
+            maximum = max(maximum,error)
+            records.append(dict(record, auc=rank_sum_auc(y,p)))
+        best = max(records, key=lambda record:record['auc'])
+        p = next(p for record,p in standard if candidate_key(record)==candidate_key(best))
+        assert abs(roc_auc_score(y,p)-best['auc']) < 1e-12
+        np.save(OUT/f'day{day}_prediction.npy', p)
+        reports[str(20191100+day)] = dict(auc=best['auc'], best=best, records=records,
+            rows=len(y), clicks=int(y.sum()), evaluation_day_labels_fit=False,
+            held_labels_used_to_select_fixed_recipe=True, all_both_date_candidates_locked_before_scoring=True,
+            independent_native_source_and_raw_news_features_replayed=True, all12_checkpoint_margins_replayed_exactly=True,
+            maximum_independent_prediction_error=maximum, candidate_hashes_replayed_exactly=True,
+            target_met=best['auc'] >= {15:.815,16:.82}[day])
+        emit('compact_full_sample_scored', day=day, best=best)
+    check_sources()
+    write(OUT/'verification.json',dict(status='passed', dates=reports, original_datasets_unchanged=True,
+        both_targets_met=all(record['target_met'] for record in reports.values())))
+
+
+if __name__ == '__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--phase', required=True, choices=['preflight','fit','evaluate','verify'])
+    {'preflight':preflight,'fit':fit,'evaluate':evaluate,'verify':verify}[parser.parse_args().phase]()
+

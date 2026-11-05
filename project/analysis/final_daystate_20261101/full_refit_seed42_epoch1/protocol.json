@@ -1,0 +1,70 @@
+{
+  "status": "fixed_before_training",
+  "model": "ProtectedUserDayCTR",
+  "seed": 42,
+  "mode": "both",
+  "epochs": 1,
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "auxiliary_weight": 0.02,
+  "gradient_clipping": "Backbone and heads separately, each maximum norm 5",
+  "fixed_steps": 2468,
+  "budget_rule": "One complete epoch, selected endpoint on most recent development date 20191116",
+  "ensemble_rule": "original_v7 + 0.30 * (protected_day_full - original_gated166_full)",
+  "development": {
+    "20191115": {
+      "ensemble_scores": {
+        "auc": 0.7934700801999591,
+        "logloss": 0.04204855010744797,
+        "average_precision": 0.0823399607498202,
+        "mean_probability": 0.008615116633256282
+      },
+      "component_best_epoch": 0.7501523461304083,
+      "protocol_sha256": "4c8f1293469c4e39fc15e2dfa5e7b8e485ad1e5b458f78ad1fa55d2c5cd00ff2",
+      "metrics_sha256": "91b43317bd0cfe476d3b120de541564b13dcc2853edd111131dd56de2a6474f3"
+    },
+    "20191116": {
+      "ensemble_scores": {
+        "auc": 0.8012412673501383,
+        "logloss": 0.04389861132045347,
+        "average_precision": 0.08749928332848086,
+        "mean_probability": 0.009657048985881815
+      },
+      "component_best_epoch": 1.0,
+      "protocol_sha256": "726922919a6e5be4b2b937b34c44d0664435436200690e2c836a6326ff6f7813",
+      "metrics_sha256": "46f3226599b0c94e923cd4349b8da80900ddacb2f29ed1b8081828555406b0c8"
+    }
+  },
+  "reference_manifest_sha256": "c6a0c256c3cda8d2b94dcca1bfcb5c14a3e40aa358039b7cf08f84fd075d940f",
+  "train_rows": 2526320,
+  "final_rows": 404182,
+  "final_day": 20191117,
+  "final_labels_read": false,
+  "final_auc": null,
+  "final_early_stopping": false,
+  "availability": "Supplied complete same-day unlabeled exposures, news feedback and historical snapshots",
+  "large_feature_matrices_saved": false,
+  "original_v7_submission_sha256": "c44a9e803b8b4566b9bcef4e1bf85181c2ee00eee71a9f84474b73c619c121b9",
+  "source_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\architecture_goal_20261029\\interaction_models.py": "eef8ad2cf3812cfc6085e84c1f8201dbb78df7a5624c50442d6431c5e663b34d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\predict_final.py": "ad276165f0c395dc65ae8f57f1ff7e0ddb6ef2d7717fb8ec506ba1f57313de1a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\source_profiles.py": "41dc81e4f0e61e2a01f8247d2f4274b8752145e79fc155d199a4a19046034834",
+    "E:\\AI\\ml\\大作业上传\\analysis\\auc085\\target_statistics.py": "9dfa72e0051135668059986e18262e792a551fc79106f95b3c7bbc7db0ba3489",
+    "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\prepare_exposure_features.py": "ddec5e5780e09094cba89e2b99b5cfe5fc8f3b67e517f6db3ff84046ed62a06b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\daily_interest_din\\prepare_snapshot_features.py": "493a622a52a80d24ed7b7d8fea246a38c9d5d8ba66b98e05ec9ed588eb6e8ee4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\final_daystate_20261101\\refit_final.py": "40cdda1f4d6ca7c68551e610f54819467d6353e23439af4e8c488cd5b2d4d844",
+    "E:\\AI\\ml\\大作业上传\\analysis\\final_daystate_20261101\\test_contracts.py": "679447fcb4dd0b028efd681ffb66b69c9c4daa3b0ac0e6a8dc4ea671d00946b7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\benchmark_core.py": "efae0caa806e54eb834adcf5986772e798685c26e8cdd07a84ebf9d658d96291",
+    "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\id_regularized_models.py": "716321c3e7c09c2cea6d195c0f7dcebd2eadef59866cdbce48961f0b6b1aaa52",
+    "E:\\AI\\ml\\大作业上传\\analysis\\model_comparison\\mainstream_models.py": "aaa61357fc823ef19bd9c582a1c54f8b272be877daf9ac479f6d9728dd87bd9f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\strong_interest_control_20261031\\model.py": "4832bae4c1d83dc33af3ffa0849d87df3f04b342968cad0ff74d060acaf78b18",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\day_context.py": "aa7f11fbeb9c839f230a3a1b8aa757de882ce17a63b581f2b9cc56adb0522f0a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\day_model.py": "cda70b86e260877f94c1350678880a9173118af4cef9481fd4b1b1aeba5e4209",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\protected_day_model.py": "94093704489e11f3acd834b1a0ad332c26e201c2d46836c04166f71a96a12967",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\run_day_aux.py": "d826057f65b842c2e890f13288380ea11619a73ac9ef7e25337c54f11886760c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\run_protected.py": "bfc77c391456f11d7d83391e09e1f3b2d1d87c29cfb0997ae301a04390da2cc9",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\test_day_context.py": "5b45a93944488484aa76dace4bb7c955e0a3c94c1ce7d504e3efeeeda72c85b4",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\test_protected.py": "1db11825c31b3ab2422a95cd63c7461b8bb7b0ec1df5d9ac02c96b7b28cd992b"
+  }
+}

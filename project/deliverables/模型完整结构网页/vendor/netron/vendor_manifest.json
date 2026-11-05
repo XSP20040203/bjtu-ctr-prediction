@@ -1,0 +1,9 @@
+{
+  "name": "Netron",
+  "version": "9.3.4",
+  "source": "https://github.com/lutzroeder/netron",
+  "package_url": "https://files.pythonhosted.org/packages/ae/1d/c81128ef10e94b309802354da93cd954694ad00160a6d8801ebe9175c961/netron-9.3.4-py3-none-any.whl",
+  "wheel_sha256": "18afefbcea90212510f08797df113226f20c16a0bfc7139e2ffb21040569415f",
+  "browser_asset_count": 173,
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-03T01:03:14.734308+00:00",
+  "failed_session": 56436,
+  "failed_preflight": "runs/catboost_within_ranker_preflight_v1",
+  "cause": "CatBoostRanker first positional argument is iterations, whereas CatBoost accepts a params dictionary",
+  "correction": "Expand constructor parameters as keywords for both preflight and full fits",
+  "preserved_source_sha256": "780ab59284734fc7b6c048917f07f3d782c78cb3de26a2c07ef0eb8762c157a8",
+  "full_matrix_materialized_shape": [
+    282904,
+    1017
+  ],
+  "model_training_started": false,
+  "held_auc_evaluated": false,
+  "inferred17_labels_read": false,
+  "failed_sources_and_protocol_preserved": true
+}

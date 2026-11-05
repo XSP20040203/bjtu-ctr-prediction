@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>广告点击率整合模型 · Netron 结构查看器</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#fff;color:#333;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;font-size:12px}button,select{font:inherit;color:inherit}button,select,a{outline-offset:3px}button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #426b9e}button{cursor:pointer}button:disabled{opacity:.35;cursor:default}header{height:52px;display:flex;align-items:center;gap:13px;padding:0 16px;border-bottom:1px solid #ddd;background:#fafafa;position:relative;z-index:2}.brand{display:flex;align-items:center;gap:10px;white-space:nowrap}.brand-icon{width:24px;height:24px;color:#777}.brand strong{font-size:13px;font-weight:600}.brand span{font-size:11px;color:#999;border-left:1px solid #ddd;margin-left:2px;padding-left:11px}select{height:29px;min-width:210px;max-width:360px;border:1px solid #ccc;border-radius:5px;background:white;padding:3px 27px 3px 9px;text-overflow:ellipsis;flex:1}.tools{display:flex;align-items:center;gap:3px;margin-left:auto;white-space:nowrap}.tool{border:1px solid transparent;background:transparent;padding:5px 8px;border-radius:4px;min-width:27px;text-decoration:none;font-size:11px}.tool:hover{background:#eee;border-color:#ddd}.tool.icon{font-size:17px;line-height:19px;padding:4px 8px}.sep{height:20px;border-left:1px solid #ddd;margin:0 6px}.zoom-label{font-size:10px;color:#888;min-width:36px;text-align:center;font-variant-numeric:tabular-nums}iframe{width:100%;height:calc(100% - 52px);display:block;border:0;background:#fff}#loading{position:fixed;top:52px;inset-inline:0;bottom:0;z-index:1;display:flex;align-items:center;justify-content:center;flex-direction:column;background:#fff;gap:12px;color:#888}#loading[hidden]{display:none}.loader{width:25px;height:25px;border:2px solid #ddd;border-top-color:#6682a6;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.hint{position:fixed;right:13px;bottom:9px;background:#fffffff0;border:1px solid #e8e8e8;border-radius:5px;color:#969696;font-size:10px;padding:6px 10px;pointer-events:none;max-width:420px;text-align:right;z-index:1}.hint b{color:#777;font-weight:500}dialog{padding:0;border:1px solid #ddd;border-radius:9px;width:min(560px,calc(100vw - 36px));max-height:80vh;color:#444;box-shadow:0 12px 55px #0003}dialog::backdrop{background:#0004}.help-head{padding:18px 22px;border-bottom:1px solid #e5e5e5;display:flex;justify-content:space-between;align-items:center}.help-head h2{font-size:15px;margin:0}.help-body{padding:7px 22px 21px;font-size:12px;line-height:1.9}.help-body p{margin:14px 0}.help-body ul{padding-left:18px}.help-body li{margin:8px 0}.help-body code{font-family:Consolas,monospace;background:#f4f4f4;border-radius:3px;padding:1px 4px}.help-body a{color:#426b9e}.help-foot{font-size:10px;color:#999;border-top:1px solid #eee;padding-top:12px;margin-top:17px}.help-close{border:0;background:none;font-size:21px;color:#999;cursor:pointer}.file-error{text-align:center;font-size:12px;line-height:1.9;max-width:520px;padding:20px;color:#777}.file-error strong{font-size:16px;color:#444;display:block;margin-bottom:12px}.file-error a{color:#426b9e}.mobile-only{display:none}@media(max-width:1000px){header{padding:0 10px;gap:8px}.brand span{display:none}.brand strong{font-size:12px}select{min-width:155px;max-width:300px}.tool{padding:5px 6px}.desktop-label{display:none}}@media(max-width:650px){header{height:86px;flex-wrap:wrap;gap:5px;padding:7px 10px;align-content:center}.brand{height:26px;margin-right:auto}.brand strong{font-size:12px}.brand-icon{width:20px;height:20px}select{height:28px;order:3;flex:none;width:100%;max-width:100%;min-width:0;font-size:11px}.tools{gap:0;margin-left:0}.tool{font-size:10px;padding:4px 5px}.tool.icon{font-size:15px;padding:3px 5px}.zoom-label{font-size:9px;min-width:30px}.sep{margin:0 3px;height:16px}.wide-only{display:none}iframe{height:calc(100% - 86px)}#loading{top:86px}.hint{font-size:9px;bottom:7px;right:8px;max-width:230px;padding:5px 7px}.mobile-only{display:initial}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand"><svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="1" width="8" height="6" rx="1.3"/><rect x="1" y="17" width="8" height="6" rx="1.3"/><rect x="15" y="17" width="8" height="6" rx="1.3"/><path d="M12 7v5M5 17v-5h14v5"/></svg><strong>广告点击率整合模型</strong><span>Netron</span></div>
+ <label for="graph-select" style="position:absolute;left:-9999px">选择完整模型或模块详图</label><select id="graph-select" disabled><option>正在加载完整计算图…</option></select>
+ <div class="tools"><button class="tool" id="find" title="查找节点" disabled>查找</button><button class="tool" id="properties" title="显示模型属性" disabled>属性</button><span class="sep"></span><button class="tool icon" id="zoom-out" title="缩小" aria-label="缩小" disabled>−</button><span class="zoom-label" id="zoom">—</span><button class="tool icon" id="zoom-in" title="放大" aria-label="放大" disabled>+</button><button class="tool" id="fit" title="适应整个画布" disabled>全图</button><button class="tool" id="start" title="按可阅读比例定位图的起点" disabled>起点</button><span class="sep wide-only"></span><button class="tool wide-only" id="export" title="导出当前图为SVG" disabled>导出<span class="desktop-label"> SVG</span></button><button class="tool" id="help" title="使用说明">?</button></div>
+</header>
+<iframe id="viewer" title="Netron 完整模型结构画布" allow="clipboard-write"></iframe>
+<div id="loading"><div class="loader"></div><span id="loading-text">正在加载 Netron 与完整模型…</span></div>
+<div class="hint" id="hint" hidden>拖动平移 · 滚轮缩放 · 点节点看属性 · 点 <b>ƒ</b> 看内部结构</div>
+<dialog id="help-dialog" aria-labelledby="help-title"><div class="help-head"><h2 id="help-title">像 Netron 一样看完整模型</h2><button class="help-close" id="help-close" aria-label="关闭使用说明">×</button></div><div class="help-body"><p>当前画布使用本地 Netron 查看器，加载这套广告点击率整合模型的结构文件。</p><ul><li><b>拖动画布</b>移动位置，<b>滚轮</b>围绕鼠标缩放；也可点上方 <code>−</code> 和 <code>+</code>。</li><li><b>点节点标题或属性行</b>，右侧显示完整名称、输入输出形状、配置、融合权重及通俗解释。</li><li>节点右上角有 <code>ƒ</code> 时，点它进入模块内部结构；左下角箭头可以返回。</li><li>上方下拉框或 Netron 左下角列表可切换<b>完整计算图与 35 张模块详图</b>。</li><li><b>全图</b>显示整张图；<b>起点</b>恢复可阅读比例并定位到图的开头；<b>查找</b>按名称或属性找节点。</li><li><b>导出 SVG</b>保存当前完整矢量图。要连续阅读大白话说明，可打开<a href="说明阅读.html" target="_blank">说明阅读页</a>。</li></ul><p>完整图中的树模型节点同时表示该模型与紧接着的融合操作；节点属性写明它读取的特征表和回写方式。子图保留已核对报告中的实际连接。</p><p>用户日左右两路共用起点后汇合；395 维上下文冷/非冷分支互斥；533、489、401 维分别构造，分别进入独立树。</p><div class="help-foot">结构文件包含计算关系与配置，不包含训练权重。17 日 AUC 0.81635 为用户反馈；15、16 日用于开发。<br>Netron：MIT License，许可原文随本地文件保存在 vendor/netron/LICENSE。</div></div></dialog>
+<script>
+'use strict';
+const frame=document.getElementById('viewer'),select=document.getElementById('graph-select');
+let app=null,busy=false,initial=true,activeIndex=-1,loadingStarted=Date.now();
+const $=id=>document.getElementById(id);
+function enable(yes){for(const id of ['graph-select','find','properties','zoom-out','zoom-in','fit','start','export'])$(id).disabled=!yes;}
+function fit(){if(!app?.target)return;const target=app.target,container=frame.contentDocument.getElementById('target');app._sidebar.close();target.zoom=Math.min((container.clientWidth-90)/target._width,(container.clientHeight-90)/target._height,1);container.scrollTo({left:0,top:0});}
+function start(){if(!app?.target)return;const target=app.target,container=frame.contentDocument.getElementById('target');app._sidebar.close();target.zoom=Math.min(.9,(container.clientWidth-100)/Math.min(target._width,1550));const nodes=[...frame.contentDocument.querySelectorAll('g.node')];if(!nodes.length)return;const rects=nodes.map(n=>n.getBoundingClientRect()),minY=Math.min(...rects.map(r=>r.top)),top=rects.filter(r=>r.top<=minY+5),left=Math.min(...top.map(r=>r.left)),right=Math.max(...top.map(r=>r.right)),c=container.getBoundingClientRect();container.scrollTo({left:container.scrollLeft+(left+right)/2-c.left-container.clientWidth/2,top:0});}
+async function choose(index){if(!app?.model||busy)return;busy=true;enable(false);try{const target=app.model.modules[index];if(target)await app._updateActiveTarget([{target,signature:null}]);activeIndex=index;select.value=String(index);const hash=index?`#graph=${index}`:'#full';history.replaceState(null,'',hash);if(index===0)start();}finally{busy=false;enable(true);}}
+function fillGraphs(){select.innerHTML='';app.model.modules.forEach((m,i)=>{const o=document.createElement('option');o.value=i;o.textContent=(i?'模块详图 · ':'完整模型 · ')+m.name;select.appendChild(o);});}
+function status(){
+ try{
+  const view=frame.contentWindow.__view__;
+  if(view?.model?.modules?.length&&view.target&&view.activeTarget&&frame.contentDocument.body.classList.contains('default')){
+   app=view;
+   if(initial){initial=false;fillGraphs();enable(true);$('loading').hidden=true;$('hint').hidden=false;setTimeout(()=>{$('hint').hidden=true},18000);const n=Number(new URLSearchParams(location.hash.slice(1)).get('graph'));if(Number.isInteger(n)&&n>0&&n<app.model.modules.length){choose(n);}else{activeIndex=0;start();}}
+   const z=app.target.zoom;$('zoom').textContent=`${Math.round(z*100)}%`;
+   const idx=app.model.modules.findIndex(m=>m===app.activeTarget||m.nodes===app.activeTarget.nodes);
+   if(idx>=0&&!busy){select.value=String(idx);activeIndex=idx;}
+  }else if(initial&&Date.now()-loadingStarted>30000){$('loading-text').textContent='加载时间较长，请检查本地服务，或刷新页面重试。';}
+ }catch(error){if(initial&&Date.now()-loadingStarted>30000)$('loading-text').textContent='查看器暂未加载完成，请刷新重试。';}
+}
+$('zoom-in').onclick=()=>app?.zoomIn();$('zoom-out').onclick=()=>app?.zoomOut();$('fit').onclick=fit;$('start').onclick=start;
+$('find').onclick=()=>app?.find();$('properties').onclick=()=>app?.showModelProperties();$('export').onclick=()=>app?.export('广告点击率整合模型.svg');
+select.onchange=()=>choose(Number(select.value));$('help').onclick=()=>$('help-dialog').showModal();$('help-close').onclick=()=>$('help-dialog').close();
+$('help-dialog').addEventListener('click',e=>{if(e.target===$('help-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
+if(location.protocol==='file:'){
+ $('loading').innerHTML='<div class="file-error"><strong>请通过本地服务打开 Netron 查看器</strong>双击同目录的“打开Netron模型.cmd”即可启动并打开。<br>也可在当前目录运行 <code>python -m http.server 8765 --bind 127.0.0.1</code>，然后打开本地 8765 端口。<p><a href="说明阅读.html">打开可直接离线阅读的说明页</a></p></div>';
+}else{
+ const modelURL=new URL('integrated_model.netron',location.href).href;
+ frame.src='vendor/netron/index.html?url='+encodeURIComponent(modelURL);
+ setInterval(status,250);
+}
+window.MODEL_EXPLORER={get app(){return app},choose,fit,start,get ready(){return !!app}};
+</script>
+</body>
+</html>

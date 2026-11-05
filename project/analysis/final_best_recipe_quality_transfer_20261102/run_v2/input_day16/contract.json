@@ -1,0 +1,74 @@
+{
+  "day": 20191116,
+  "keys_sha256": "c212dc50c9c767a1fc458f6bc5b6c202d0ad2605b906ac29e8093ef1195fc34d",
+  "extra_sha256": "e85c3471ec9976f8667047ff2eaaed158fefb3ab021395cccf4b080575efdb05",
+  "quality_sha256": "4f5ae18a7b39d5fc1ea6dc1a84b31a72bb27c9db9f512ab2a98f3f9fc5eb309a",
+  "bayesian_audit": [
+    {
+      "query_date": 20191110,
+      "label_max_date": null,
+      "fit_rows": 0,
+      "query_rows": 274,
+      "global_rate": 0.008400000000000001,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191111,
+      "label_max_date": 20191110,
+      "fit_rows": 274,
+      "query_rows": 450542,
+      "global_rate": 0.00816326530612245,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191112,
+      "label_max_date": 20191111,
+      "fit_rows": 450816,
+      "query_rows": 432932,
+      "global_rate": 0.008136940701524514,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191113,
+      "label_max_date": 20191112,
+      "fit_rows": 883748,
+      "query_rows": 412848,
+      "global_rate": 0.008199396890413994,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191114,
+      "label_max_date": 20191113,
+      "fit_rows": 1296596,
+      "query_rows": 382961,
+      "global_rate": 0.008344970237269536,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191115,
+      "label_max_date": 20191114,
+      "fit_rows": 1679557,
+      "query_rows": 424780,
+      "global_rate": 0.008399239061811054,
+      "query_labels_used": false
+    },
+    {
+      "query_date": 20191116,
+      "label_max_date": 20191115,
+      "fit_rows": 2104337,
+      "query_rows": 421983,
+      "global_rate": 0.008377946143539016,
+      "query_labels_used": false
+    }
+  ],
+  "own_query_ad_labels_masked": true,
+  "max_ad_history_date": 20191115,
+  "topic_vocabulary_fit_cutoff": 20191116,
+  "shape": [
+    421983,
+    744
+  ],
+  "matrix_sha256": "4ecbd76d91a16afc63db8885d76b6c25a535d0e695ee031bbe6e69fd085e0010",
+  "quality_file_sha256": "72114dc4384e0ed34a58835487248169d6eda1ad6f2ac54fb4943a65fe754289",
+  "original_row_log_ids_sha256": "1ad0ade0e61ba4a81bd5a2c3cec55648864b502458b924013734b6ce558f47af"
+}

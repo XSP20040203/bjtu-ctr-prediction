@@ -1,0 +1,728 @@
+{
+  "dates": {
+    "20191115": {
+      "rows": 424780,
+      "models": [
+        {
+          "kind": "class",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_class_balance_v1\\day15_positive25_d4_trees3200.cbm",
+          "model_sha256": "4d4c469cc63c1be353961bb10b1e3a1a91553407f5368b744426060fe3ad9c19",
+          "standalone_auc": 0.793183153897696,
+          "cohort_auc": {
+            "all": 0.793183153897696,
+            "cold_task": 0.7309157296585208,
+            "user_no_past_ad_click": 0.7987324565874877
+          },
+          "top_features": [
+            {
+              "name": "creat_type_cd",
+              "importance": 7.070073180686437
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 6.047671080525633
+            },
+            {
+              "name": "slot_id",
+              "importance": 4.235049526815266
+            },
+            {
+              "name": "day_exposure__spread_app_id__slot_id__fraction_first",
+              "importance": 3.6521857596846248
+            },
+            {
+              "name": "unordered__ad_click_list_v001__inverse_matching_exposures",
+              "importance": 2.9082002928447808
+            },
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 2.714829554841629
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 2.4153342061428873
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 2.3543423736823197
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__1d__relative_logit",
+              "importance": 1.8784898256602454
+            },
+            {
+              "name": "day_exposure__slot_id__log_count",
+              "importance": 1.7917989682363653
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__3d__relative_logit",
+              "importance": 1.5520733829348299
+            },
+            {
+              "name": "past_multiscale__app_second_class__slot_id__3d__relative_logit",
+              "importance": 1.5146304678849327
+            },
+            {
+              "name": "user_id",
+              "importance": 1.4795037365781862
+            },
+            {
+              "name": "day_exposure__adv_id__slot_id__fraction_first",
+              "importance": 1.424979282946144
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.2140605052060776
+            },
+            {
+              "name": "unordered__ad_click_list_v001__log_matching_other_states",
+              "importance": 1.0196139402059756
+            },
+            {
+              "name": "day_exposure__task_id__slot_id__fraction_first",
+              "importance": 0.9311940987019314
+            },
+            {
+              "name": "past_multiscale__user_id__spread_app_id__1d__log_count",
+              "importance": 0.8995601527178374
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__fraction_second",
+              "importance": 0.8894909429199392
+            },
+            {
+              "name": "hispace_app_tags",
+              "importance": 0.8828671041465658
+            },
+            {
+              "name": "unordered__ad_click_list_v001__candidate_absent_added_elsewhere",
+              "importance": 0.872661686066241
+            },
+            {
+              "name": "day_exposure__user_id__task_id__log_count",
+              "importance": 0.8593125426385014
+            },
+            {
+              "name": "past_multiscale__app_second_class__slot_id__1d__relative_logit",
+              "importance": 0.8294443512159391
+            },
+            {
+              "name": "rich_daily__x557",
+              "importance": 0.6149454170158039
+            },
+            {
+              "name": "rich_daily__x89",
+              "importance": 0.6141604688127159
+            }
+          ],
+          "raw_user_id_importance": 1.4795037365781862,
+          "neural_feature_importance": 0.0
+        },
+        {
+          "kind": "semantic",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_semantic_embeddings_v1\\day15_semantic_d4_trees2400.cbm",
+          "model_sha256": "85fb78da59a0dc9afc2fa0662d8be17592795e4644e26e89744a65b8ee4bb104",
+          "standalone_auc": 0.7653321716424346,
+          "cohort_auc": {
+            "all": 0.7653321716424346,
+            "cold_task": 0.723303373448079,
+            "user_no_past_ad_click": 0.7684827508965147
+          },
+          "top_features": [
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 7.2691664044470485
+            },
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 6.480726209222096
+            },
+            {
+              "name": "neural_embedding__slot_id__7",
+              "importance": 4.883954965935253
+            },
+            {
+              "name": "creat_type_cd",
+              "importance": 4.859123118425506
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 3.851130704825595
+            },
+            {
+              "name": "neural_embedding__task_id__6",
+              "importance": 3.400488039766189
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__0",
+              "importance": 3.320035323997823
+            },
+            {
+              "name": "neural_embedding__adv_id__3",
+              "importance": 3.2209241465976945
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__4",
+              "importance": 2.1109317384171997
+            },
+            {
+              "name": "neural_embedding__slot_id__2",
+              "importance": 1.9610111710561238
+            },
+            {
+              "name": "neural_embedding__adv_id__5",
+              "importance": 1.8264369561364338
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 1.811347817012641
+            },
+            {
+              "name": "day_exposure__user_id__task_id__log_count",
+              "importance": 1.7515981664260807
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__3d__relative_logit",
+              "importance": 1.5136496930202676
+            },
+            {
+              "name": "neural_embedding__slot_id__3",
+              "importance": 1.4719455018349266
+            },
+            {
+              "name": "neural_embedding__slot_id__0",
+              "importance": 1.4541523205366509
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__5",
+              "importance": 1.400164569147216
+            },
+            {
+              "name": "slot_id",
+              "importance": 1.2069497463643462
+            },
+            {
+              "name": "neural_embedding__slot_id__4",
+              "importance": 1.1775293320599614
+            },
+            {
+              "name": "day_exposure__adv_id__log_count",
+              "importance": 1.1637379173378462
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.155639151475471
+            },
+            {
+              "name": "neural_embedding__slot_id__6",
+              "importance": 1.1306944410903397
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__3",
+              "importance": 1.0846005055802712
+            },
+            {
+              "name": "user_id",
+              "importance": 1.0812138010821415
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__2",
+              "importance": 1.0717460210754555
+            }
+          ],
+          "raw_user_id_importance": 1.0812138010821415,
+          "neural_feature_importance": 41.49865580347664
+        },
+        {
+          "kind": "semantic_deep",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_semantic_embeddings_v1\\day15_semantic_d6_trees2400.cbm",
+          "model_sha256": "bab320beb1b2187d7dbf660338dd1f65bfcf413fc402033c75bcb3b9eec645bf",
+          "standalone_auc": 0.7670219318220929,
+          "cohort_auc": {
+            "all": 0.7670219318220929,
+            "cold_task": 0.7271066804106507,
+            "user_no_past_ad_click": 0.7683731013775543
+          },
+          "top_features": [
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 5.769067086125013
+            },
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 3.2542489939352928
+            },
+            {
+              "name": "neural_embedding__slot_id__7",
+              "importance": 3.2516047972108075
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 3.2050225744870406
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__0",
+              "importance": 2.7893136051922967
+            },
+            {
+              "name": "neural_embedding__task_id__6",
+              "importance": 2.591659050648312
+            },
+            {
+              "name": "neural_embedding__adv_id__3",
+              "importance": 2.57419180187517
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 1.9234007628601861
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__4",
+              "importance": 1.902506308973475
+            },
+            {
+              "name": "neural_embedding__adv_id__5",
+              "importance": 1.7788165637018822
+            },
+            {
+              "name": "neural_embedding__slot_id__3",
+              "importance": 1.7207465217954847
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__5",
+              "importance": 1.435128459271721
+            },
+            {
+              "name": "day_exposure__user_id__task_id__log_count",
+              "importance": 1.3834520158853105
+            },
+            {
+              "name": "past_multiscale__spread_app_id__slot_id__3d__relative_logit",
+              "importance": 1.3614030418518113
+            },
+            {
+              "name": "neural_embedding__slot_id__6",
+              "importance": 1.2917977121966266
+            },
+            {
+              "name": "creat_type_cd",
+              "importance": 1.2879097803727388
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.1565389014807792
+            },
+            {
+              "name": "user_id",
+              "importance": 1.1232521848340722
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__2",
+              "importance": 1.0963772749455307
+            },
+            {
+              "name": "past_multiscale__adv_id__slot_id__all__relative_logit",
+              "importance": 1.066575069568611
+            },
+            {
+              "name": "neural_embedding__slot_id__0",
+              "importance": 1.0500770831554314
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__3",
+              "importance": 1.0426009057864918
+            },
+            {
+              "name": "past_multiscale__adv_id__slot_id__3d__relative_logit",
+              "importance": 0.9576791138548291
+            },
+            {
+              "name": "neural_embedding__slot_id__2",
+              "importance": 0.8985543355031523
+            },
+            {
+              "name": "day_exposure__user_id__adv_id__log_count",
+              "importance": 0.8907811308246822
+            }
+          ],
+          "raw_user_id_importance": 1.1232521848340722,
+          "neural_feature_importance": 38.894968547997735
+        }
+      ],
+      "baseline_cohort_auc": {
+        "all": 0.8023586867696388,
+        "cold_task": 0.7477143360722862,
+        "user_no_past_ad_click": 0.8072294277296257
+      },
+      "cohort_rows": {
+        "all": 424780,
+        "cold_task": 53160,
+        "user_no_past_ad_click": 103064
+      }
+    },
+    "20191116": {
+      "rows": 421983,
+      "models": [
+        {
+          "kind": "class",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_class_balance_v1\\day16_positive25_d6_trees3200.cbm",
+          "model_sha256": "04816704f344e882df25ede7e72e87c0c09255e706522abc1e3d8f9fa4e2b6d0",
+          "standalone_auc": 0.7974423001983655,
+          "cohort_auc": {
+            "all": 0.7974423001983655,
+            "cold_task": 0.7550995730609764,
+            "user_no_past_ad_click": 0.8023741413928616
+          },
+          "top_features": [
+            {
+              "name": "slot_id",
+              "importance": 4.292218216115243
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 3.3845062928372402
+            },
+            {
+              "name": "creat_type_cd",
+              "importance": 2.700404980729054
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 2.0546209520413004
+            },
+            {
+              "name": "day_exposure__slot_id__log_count",
+              "importance": 1.7105174756973296
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 1.6611199319651615
+            },
+            {
+              "name": "unordered__ad_click_list_v001__inverse_matching_exposures",
+              "importance": 1.6362522572146534
+            },
+            {
+              "name": "day_exposure__adv_id__slot_id__fraction_first",
+              "importance": 1.4870401579852714
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.4808554680741062
+            },
+            {
+              "name": "user_id",
+              "importance": 1.3378246793009334
+            },
+            {
+              "name": "day_exposure__spread_app_id__slot_id__fraction_first",
+              "importance": 1.2867981360474348
+            },
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 1.2851400003706877
+            },
+            {
+              "name": "day_exposure__task_id__slot_id__fraction_first",
+              "importance": 1.12557837406877
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__fraction_second",
+              "importance": 1.0782191455834276
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__3d__relative_logit",
+              "importance": 1.0259512617875648
+            },
+            {
+              "name": "past_multiscale__user_id__spread_app_id__1d__log_count",
+              "importance": 0.9857896538181417
+            },
+            {
+              "name": "past_multiscale__app_second_class__slot_id__1d__relative_logit",
+              "importance": 0.7936816145056526
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__1d__relative_logit",
+              "importance": 0.7639542675459756
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__all__relative_logit",
+              "importance": 0.7171787650300324
+            },
+            {
+              "name": "unordered__ad_click_list_v001__candidate_absent_added_elsewhere",
+              "importance": 0.6997904845076193
+            },
+            {
+              "name": "unordered__ad_click_list_v001__log_matching_other_states",
+              "importance": 0.6891595638211693
+            },
+            {
+              "name": "day_exposure__task_id_unique_user_id",
+              "importance": 0.6438666411296614
+            },
+            {
+              "name": "rich_daily__x8",
+              "importance": 0.6178449196996196
+            },
+            {
+              "name": "past_multiscale__app_second_class__slot_id__3d__relative_logit",
+              "importance": 0.602574963698003
+            },
+            {
+              "name": "device_size",
+              "importance": 0.5555774597766995
+            }
+          ],
+          "raw_user_id_importance": 1.3378246793009334,
+          "neural_feature_importance": 0.0
+        },
+        {
+          "kind": "semantic",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_semantic_embeddings_v1\\day16_semantic_d4_trees2400.cbm",
+          "model_sha256": "d635e70381836bff06156f4c899e9155872d1a5a96f23a9e442657e25b681bf3",
+          "standalone_auc": 0.7799061429076798,
+          "cohort_auc": {
+            "all": 0.7799061429076798,
+            "cold_task": 0.7343981307338718,
+            "user_no_past_ad_click": 0.7784091803955668
+          },
+          "top_features": [
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 6.466917084161167
+            },
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 4.629797610781855
+            },
+            {
+              "name": "neural_embedding__slot_id__4",
+              "importance": 4.128555947424391
+            },
+            {
+              "name": "creat_type_cd",
+              "importance": 4.0704031515634975
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 3.9902912350679305
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__7",
+              "importance": 2.7352839733184715
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__4",
+              "importance": 2.6919458963263003
+            },
+            {
+              "name": "neural_embedding__adv_id__5",
+              "importance": 2.6074453449054236
+            },
+            {
+              "name": "neural_embedding__task_id__5",
+              "importance": 2.4977206925362165
+            },
+            {
+              "name": "neural_embedding__slot_id__6",
+              "importance": 2.4838428650424826
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 2.167410805901705
+            },
+            {
+              "name": "day_exposure__slot_id__log_count",
+              "importance": 2.1418538112330343
+            },
+            {
+              "name": "slot_id",
+              "importance": 2.0333572669463424
+            },
+            {
+              "name": "neural_embedding__slot_id__1",
+              "importance": 1.8678479096036906
+            },
+            {
+              "name": "neural_embedding__adv_id__2",
+              "importance": 1.4484274828595773
+            },
+            {
+              "name": "neural_embedding__slot_id__5",
+              "importance": 1.4067454572789573
+            },
+            {
+              "name": "day_exposure__user_id__task_id__log_count",
+              "importance": 1.390534952460454
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__all__relative_logit",
+              "importance": 1.3822303718611224
+            },
+            {
+              "name": "past_multiscale__user_id__slot_id__3d__relative_logit",
+              "importance": 1.3808952492219946
+            },
+            {
+              "name": "user_id",
+              "importance": 1.3399382322069826
+            },
+            {
+              "name": "past_multiscale__adv_prim_id__slot_id__all__relative_logit",
+              "importance": 1.3047669752934363
+            },
+            {
+              "name": "neural_embedding__slot_id__7",
+              "importance": 1.3043148792482535
+            },
+            {
+              "name": "neural_embedding__adv_id__4",
+              "importance": 1.2671034957169003
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.2521187759478791
+            },
+            {
+              "name": "day_exposure__adv_id__log_count",
+              "importance": 1.2499432810709665
+            }
+          ],
+          "raw_user_id_importance": 1.3399382322069826,
+          "neural_feature_importance": 35.71870124218535
+        },
+        {
+          "kind": "semantic_deep",
+          "model": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\full_negative_semantic_embeddings_v1\\day16_semantic_d6_trees2400.cbm",
+          "model_sha256": "40cd88c5e446efcff44438aa1ebc6d1eac0a2daf60cc158270ad319e24d9a87d",
+          "standalone_auc": 0.7778514596395001,
+          "cohort_auc": {
+            "all": 0.7778514596395001,
+            "cold_task": 0.7321784303349845,
+            "user_no_past_ad_click": 0.7772797412062937
+          },
+          "top_features": [
+            {
+              "name": "day_exposure__slot_id_unique_user_id",
+              "importance": 9.1907996748469
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__log_count",
+              "importance": 5.384363866768686
+            },
+            {
+              "name": "day_exposure__user_id__adv_prim_id__log_count",
+              "importance": 3.1356513576104437
+            },
+            {
+              "name": "slot_id",
+              "importance": 2.4627149003406776
+            },
+            {
+              "name": "neural_embedding__task_id__5",
+              "importance": 2.4290013029369226
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__4",
+              "importance": 2.4258529301879634
+            },
+            {
+              "name": "neural_embedding__ad_click_list_v001__7",
+              "importance": 2.4142477131383706
+            },
+            {
+              "name": "inter_type_cd",
+              "importance": 2.077907227600566
+            },
+            {
+              "name": "day_exposure__slot_id__log_count",
+              "importance": 1.9458047641511433
+            },
+            {
+              "name": "neural_embedding__adv_id__5",
+              "importance": 1.914260250147915
+            },
+            {
+              "name": "neural_embedding__slot_id__7",
+              "importance": 1.8966545310099239
+            },
+            {
+              "name": "neural_embedding__slot_id__6",
+              "importance": 1.7515319040427018
+            },
+            {
+              "name": "day_exposure__user_id__spread_app_id__fraction_first",
+              "importance": 1.4470867345750573
+            },
+            {
+              "name": "user_id",
+              "importance": 1.3436562457584276
+            },
+            {
+              "name": "past_multiscale__adv_prim_id__slot_id__all__relative_logit",
+              "importance": 1.1743452887074484
+            },
+            {
+              "name": "neural_embedding__adv_id__4",
+              "importance": 1.107121111829416
+            },
+            {
+              "name": "creat_type_cd",
+              "importance": 1.0764257535232042
+            },
+            {
+              "name": "neural_embedding__adv_id__2",
+              "importance": 1.07537079017902
+            },
+            {
+              "name": "day_exposure__user_id__task_id__log_count",
+              "importance": 1.0708858988701764
+            },
+            {
+              "name": "neural_embedding__slot_id__1",
+              "importance": 0.9913201763108271
+            },
+            {
+              "name": "neural_embedding__slot_id__3",
+              "importance": 0.8996901384990443
+            },
+            {
+              "name": "rich_daily__x8",
+              "importance": 0.8985845673987785
+            },
+            {
+              "name": "neural_embedding__slot_id__4",
+              "importance": 0.8534065747588478
+            },
+            {
+              "name": "neural_embedding__task_id__2",
+              "importance": 0.8442145879390683
+            },
+            {
+              "name": "neural_embedding__adv_id__0",
+              "importance": 0.8415032913817984
+            }
+          ],
+          "raw_user_id_importance": 1.3436562457584276,
+          "neural_feature_importance": 32.350911649208705
+        }
+      ],
+      "baseline_cohort_auc": {
+        "all": 0.8139803604311606,
+        "cold_task": 0.7676970369284192,
+        "user_no_past_ad_click": 0.8151253189298004
+      },
+      "cohort_rows": {
+        "all": 421983,
+        "cold_task": 31363,
+        "user_no_past_ad_click": 68667
+      }
+    }
+  },
+  "only_saved_models_inspected": true,
+  "inferred17_labels_read": false,
+  "development_dates_repeatedly_reused": true,
+  "source_sha256": "1d1eae5733b6f83ee0a3c56b04c787c7bbc64005d07b5863f0681dcd738d9849"
+}

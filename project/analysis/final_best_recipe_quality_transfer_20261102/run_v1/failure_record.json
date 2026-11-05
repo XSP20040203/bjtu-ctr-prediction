@@ -1,0 +1,10 @@
+{
+  "phase": "predict",
+  "dataset": 20191116,
+  "error": "Group transforms accept only the four declared unlabeled IDs",
+  "cause": "Exporter passed pt_d alongside the four permitted group IDs",
+  "first_three_day16_model_forecasts_replayed": true,
+  "day17_submission_or_inferred_label_evaluation_completed": false,
+  "frozen_source_preserved": true,
+  "recovery_source": "E:\\AI\\ml\\大作业上传\\analysis\\final_best_recipe_quality_transfer_20261102\\export_recovery_v2.py"
+}

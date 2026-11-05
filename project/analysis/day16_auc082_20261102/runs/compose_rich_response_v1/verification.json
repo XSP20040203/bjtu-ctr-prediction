@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7953213863483232,
+      "best": {
+        "formula": "binary",
+        "weight": 0.0,
+        "auc": 0.7953213863483232
+      },
+      "records": [
+        {
+          "formula": "binary",
+          "weight": 0.0,
+          "auc": 0.7953213863483232
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.25,
+          "auc": 0.7953062194621504
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.7952921488718505
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.5,
+          "auc": 0.7952751909872572
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.795186747469319
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.75,
+          "auc": 0.7952271406154118
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.7950181106157832
+        },
+        {
+          "formula": "count_delta",
+          "weight": 1.0,
+          "auc": 0.7951601203494608
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.7947741069585106
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8091431962987262,
+      "best": {
+        "formula": "logit_blend",
+        "weight": 0.25,
+        "auc": 0.8091431962987262
+      },
+      "records": [
+        {
+          "formula": "binary",
+          "weight": 0.0,
+          "auc": 0.8091386168072296
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.25,
+          "auc": 0.8091401852493615
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.8091431962987262
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.5,
+          "auc": 0.8091200009463811
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.8091388620568795
+        },
+        {
+          "formula": "count_delta",
+          "weight": 0.75,
+          "auc": 0.809081669453349
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.8091259665478091
+        },
+        {
+          "formula": "count_delta",
+          "weight": 1.0,
+          "auc": 0.8090261204076807
+        },
+        {
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.8091042895604422
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "own_held_day_ad_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

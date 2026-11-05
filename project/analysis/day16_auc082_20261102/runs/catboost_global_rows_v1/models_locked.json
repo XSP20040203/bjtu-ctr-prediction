@@ -1,0 +1,68 @@
+{
+  "models": [
+    {
+      "name": "depth6_weight1_trees400",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "trees": 400,
+      "model_sha256": "db04a77f2dbda30e090f02e02ff3be7e18dd795e6e719200f64d028927f11e93"
+    },
+    {
+      "name": "depth6_weight1_trees800",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "trees": 800,
+      "model_sha256": "f4520ee9d6bfdd7d3fdd9ac244599248b67888a683d9cdbc9206c816006b8395"
+    },
+    {
+      "name": "depth6_weight1_trees1200",
+      "depth": 6,
+      "positive_weight": 1.0,
+      "trees": 1200,
+      "model_sha256": "1f825b6a68aa8aac505c026b1bc76e57ce237125142cf77e71a949994cf88524"
+    },
+    {
+      "name": "depth6_weight5_trees400",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 400,
+      "model_sha256": "903c6afcd2956aa5c74cd50433a2b5626869d93e1aa610f16e4a57d611f6266d"
+    },
+    {
+      "name": "depth6_weight5_trees800",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 800,
+      "model_sha256": "0c22785b4aae6af9db48f6fc4418cac05e8bb5ef64b09fe618debefa90d73ed6"
+    },
+    {
+      "name": "depth6_weight5_trees1200",
+      "depth": 6,
+      "positive_weight": 5.0,
+      "trees": 1200,
+      "model_sha256": "7e1a25e8fe7c55c12a58af339dbbd6b4d63ca59427af7779e1537428b249871b"
+    },
+    {
+      "name": "depth8_weight5_trees400",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 400,
+      "model_sha256": "c4dd9a8c17c7fc819eb73eceaef6fa56ea26ba96d009ba61235ff924ed8395ac"
+    },
+    {
+      "name": "depth8_weight5_trees800",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 800,
+      "model_sha256": "42140b289ac7e1fc1c31de0756ffb27d702056a2fd5785c64b56f745e3f02e7e"
+    },
+    {
+      "name": "depth8_weight5_trees1200",
+      "depth": 8,
+      "positive_weight": 5.0,
+      "trees": 1200,
+      "model_sha256": "f85dc72ed82b4392baf9dc16dbe3a768ceaa448fe948ea62f6f468557e922fd0"
+    }
+  ],
+  "protocol_sha256": "0442587b4e28978f9c617a93e4a1d81e458133f249fd90101464d3222da69a37"
+}

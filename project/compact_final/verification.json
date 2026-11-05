@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "rows": 404182,
+  "model_count": 10,
+  "device": "cuda",
+  "all_bundle_hashes_verified": true,
+  "all_models_reloaded": true,
+  "all_final_rows_replayed": true,
+  "training_arrays_used": false,
+  "final_labels_read": false,
+  "final_auc": null,
+  "maximum_component_errors": {
+    "dcn": 0.0,
+    "multiscale_dcn": 0.0,
+    "oof": 0.0,
+    "tabm": 0.0,
+    "gated166": 0.0,
+    "gated500": 0.0,
+    "allocated": 2.980232238769531e-07,
+    "tree": 0.0,
+    "lgb": 0.0,
+    "shared_lgb": 0.0
+  },
+  "maximum_ensemble_errors": {
+    "v4": 0.0,
+    "v6": 0.0,
+    "v7": 3.6537647241097204e-08
+  },
+  "component_absolute_tolerance": 2e-06,
+  "original_v7_csv_vs_model_replay_error": {
+    "result.csv": 5.04636603365638e-07,
+    "submission.csv": 5.04636603365638e-07
+  },
+  "raw_user_day_complete_groups_preserved": true,
+  "seconds": 45.583407400001306
+}

@@ -1,0 +1,12 @@
+{
+  "training_rows": 713199,
+  "training_clicks": 17630,
+  "max_training_date": 20191115,
+  "training_labels_sha256": "883ec78b0e3592653b0ca2c428dccad562af4732b956cd2b541d098b4d7726c0",
+  "rows_sha256": "b753e59e159d765d3d9fbe3500f2fbaa4b9517d152626466f7182c264b80bb59",
+  "held_targets_masked": true,
+  "feature_shape": [
+    1135182,
+    291
+  ]
+}

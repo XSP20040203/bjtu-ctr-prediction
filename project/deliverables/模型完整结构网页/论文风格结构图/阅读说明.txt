@@ -1,0 +1,47 @@
+整合点击率预测模型：论文式结构图
+
+双击 index.html 打开可缩放的离线网页。
+
+图1：论文式模型整体结构图.svg / .png
+按输入、并行主干、融合、用户日双支路、统计增强、冻结表示和条件输出组织。
+
+图2：核心神经网络模块展开图.svg / .png
+六个子图分别解释嵌入与池化、全矩阵深度交叉网络、字段门控低秩多专家网络、
+用户日状态保护网络、并行表格神经网络 TabM、用户日总强度分配网络。
+图中保留真实宽度、张量维度、并行分支、拼接、乘积、路由和均值等运算。
+
+图3：冻结表示与最终融合结构图.svg / .png
+展示138维表示的来源，以及533、489、401维三份特征的独立组装和末端使用顺序。
+
+另外保留全部88个计算模块的完整结构图、8张分段图和35张模块内部图。
+PNG可直接插入Word或PPT，SVG可继续放大或编辑。
+
+N为广告行数，G为用户日数，T为任务日数，B为广告批次。
+平面色块表示计算模块或特征张量；C表示拼接，⊙表示逐元素乘积，μ表示均值。
+主图使用功能分组；逐一核对模块与所有参数可打开“全部88个模块·完整参数”。
+
+YOLO11结构图风格重排（2026-11-04）：
+参考下方YOLO11架构对比论文图4，改用扁平色块、直角短线、独立拼接块和对齐端口。
+主图按功能分区；并行预测主干在同一个模块内列出十二个成员的完整名称与维度。
+主图外部连线61段，汇合圆点1个；展开图继续保留内部算子和连接。
+p_cal、p_rank、p_parent的同名端口表示同一份概率或分数，用于跨区引用。
+这些引用只用于总图排版，完整88模块图仍展示146条真实依赖，未更改模型。
+底部533、489、401维输入在各自分支内独立拼接；423维直接沿用。
+排序微调分数单独送往差值迁移模块，不汇入前面的概率加权融合。
+check_routing.cjs检查穿框、遮字、非正交线路、箭头悬空、线头间距和交叉。
+三张图共162段线路；主图、核心网络图和末端图均无未标记的交叉，线头间距不小于18图内单位。
+原有286项检查通过，88模块和146条真实依赖与结构源文件一致。
+
+绘图风格参考：
+0. YOLOv8 to YOLO11: A Comprehensive Architecture In-depth Comparative Review,
+   Figure 4（整体架构）及Figures 15、16、18（模块展开）。
+   https://arxiv.org/pdf/2501.13400v4
+1. Redmon et al., You Only Look Once: Unified, Real-Time Object Detection,
+   CVPR 2016, Figure 3.
+   https://openaccess.thecvf.com/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf
+2. Wang et al., YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art
+   for Real-Time Object Detectors, CVPR 2023, supplementary Figures A3–A4.
+   https://openaccess.thecvf.com/content/CVPR2023/supplemental/Wang_YOLOv7_Trainable_Bag-of-Freebies_CVPR_2023_supplemental.pdf
+
+绘图内容依据本项目已核对的整合模型结构说明。图中网络、维度和融合配方均来自本项目。
+本次未重新训练，也未读取或使用17日反推标签。

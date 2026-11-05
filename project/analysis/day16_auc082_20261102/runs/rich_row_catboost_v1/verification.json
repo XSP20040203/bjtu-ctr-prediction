@@ -1,0 +1,1143 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7986034152112249,
+      "best": {
+        "name": "day15_depth8_weight5_trees2400",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.2,
+        "auc": 0.7986034152112249
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.7977897143622396
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7860908985293599
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7977879920928781
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7977828677350948
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.797774740860772
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7977632004431844
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7976991685436724
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7976789810671192
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7973822157283863
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7973540462475858
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7964691468101491
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7964885627693241
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.795014672141389
+        },
+        {
+          "name": "day15_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7951517273184879
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7882239112774798
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.797845429371795
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.797839189177524
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.797889052783662
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.79787281992326
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.797933573716182
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7979005649010489
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7978456369066007
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.797771114392187
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7972791524614904
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.797180330181825
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7961649162827402
+        },
+        {
+          "name": "day15_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7961198859466062
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.788202289250273
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.797903797188266
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7978986674399683
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7979998042717685
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.797986204003853
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.798143656887568
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7981014350094537
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7982318928707004
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7981185532618514
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7978381130960802
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7976528518960316
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7967850296083203
+        },
+        {
+          "name": "day15_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7965956123216436
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7872303269404076
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.79781480451167
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7978075333815137
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7978270362627338
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7978098641051917
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7978144339138027
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7977811960018061
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7976397980915167
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.797570762446982
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7969600110973443
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7968882155094196
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.795744536340834
+        },
+        {
+          "name": "day15_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7957222196110795
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7889809180647257
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7978781295799768
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7978725820668106
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.7979491610624807
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7979393947979558
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7980630370275157
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7980331223676673
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7981091555737511
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7980567914427303
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7977385475992373
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7976855184134983
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7967934327465077
+        },
+        {
+          "name": "day15_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7968114707554306
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7881317385342752
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7979569678750089
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7979505457508758
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.798101991580069
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7980876602236334
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.798347243141433
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7983160064579199
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7986034152112249
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7985574118872356
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7983968776507075
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.798421150463387
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7974191137996832
+        },
+        {
+          "name": "day15_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7976346130904461
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7897113506265362
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.7979288758828533
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.7979248990308301
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.79804958702019
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.7980423596879633
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.7982480799117297
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.7982252760142333
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.7984585282904685
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.7984007938594435
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.7982743310432063
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.7982133057031195
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.7974452113014984
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.7974650760209999
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "independent_source_matrix_used": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8106946025680505,
+      "best": {
+        "name": "day16_depth8_weight5_trees2400",
+        "recipe": "normalized_logit_blend",
+        "weight": 0.2,
+        "auc": 0.8106946025680505
+      },
+      "records": [
+        {
+          "name": "base",
+          "recipe": "base",
+          "auc": 0.8102672139644154
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7901348798343101
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8102639583074157
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8102199629599068
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8102422004261853
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8101347406326633
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8101186838427674
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8098496180123711
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8095906786812561
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8089164585034293
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8080274413633832
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.80679479351121
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8055149672021994
+        },
+        {
+          "name": "day16_depth6_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8039943994712941
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7933461062004584
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8102938960990845
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8102415975742976
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.810303111579379
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8101788611730562
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8102517568163333
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8099411282324671
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8098893677160741
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8091265315208243
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8086609719278545
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8072568849402845
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8065785064326634
+        },
+        {
+          "name": "day16_depth6_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8048143358199448
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7950105494457848
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8103458222552933
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8103042344632466
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.810403566991543
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8102938261194724
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8104549833880086
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8101587494177471
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8102863819579833
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8095062453901893
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8093255451914481
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8078499807712718
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8074940407095774
+        },
+        {
+          "name": "day16_depth6_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.805604110313765
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7932025064313896
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8102839577101365
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8102633188606849
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.810284338424907
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8102194178893503
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8102229573168871
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8100317768687151
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8098731728929984
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8093003274925148
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8087170281652069
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8075237062869753
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8067172952639039
+        },
+        {
+          "name": "day16_depth8_weight5_trees600",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8051040681064286
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7964601263912945
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.8103364571855527
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8103273463536689
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8103870171342884
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8103457997847756
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8104353146229045
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8102746793123926
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8103080679335571
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8097872892905212
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8095226052110661
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8083939059735288
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8079506653827159
+        },
+        {
+          "name": "day16_depth8_weight5_trees1200",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8064003133016766
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7966010235991052
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.810395645813065
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8104180290167008
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8105032404296929
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8105205042073939
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8106537498829383
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.8105956469024357
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.8106946025680505
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8103289616628804
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8100693212516148
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8091377764098697
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8085464506136582
+        },
+        {
+          "name": "day16_depth8_weight5_trees2400",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.8072167115068201
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "single",
+          "weight": null,
+          "auc": 0.7970759331744679
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.025,
+          "auc": 0.810371860449128
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.025,
+          "auc": 0.8103635797423676
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.05,
+          "auc": 0.8104537154087985
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.05,
+          "auc": 0.8104137647544661
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.1,
+          "auc": 0.8105603617695817
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.1,
+          "auc": 0.810404052996739
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.2,
+          "auc": 0.810528700168202
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.2,
+          "auc": 0.8099989885313791
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.35,
+          "auc": 0.8098280347591635
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.35,
+          "auc": 0.8087071116047617
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "normalized_logit_blend",
+          "weight": 0.5,
+          "auc": 0.8083096351122039
+        },
+        {
+          "name": "mean_last_two",
+          "recipe": "probability_blend",
+          "weight": 0.5,
+          "auc": 0.806789454516217
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "maximum_replay_error": 0.0,
+      "evaluation_day_labels_fit": false,
+      "independent_source_matrix_used": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

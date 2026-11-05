@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_sha256": "ec3b9655fab45749f31658161cda657371b58cb8689719d425a11f73603913f3",
+  "raw_datasets_sha256": {
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85",
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2"
+  },
+  "date": 20191114,
+  "shape": [
+    382961,
+    1048576
+  ],
+  "nonzeros": 44358181,
+  "encoding_seconds": 7.819495100004133,
+  "total_seconds": 10.086561000003712,
+  "independent_encoded_probe_rows": 1000,
+  "independent_prediction_probe_rows": 2000,
+  "maximum_prediction_error": 0.0,
+  "fit_only_prior14_labels": true,
+  "evaluation_days_used": false,
+  "inferred17_labels_read": false
+}

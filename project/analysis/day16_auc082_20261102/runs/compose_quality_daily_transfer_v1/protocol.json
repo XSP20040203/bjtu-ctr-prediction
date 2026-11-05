@@ -1,0 +1,535 @@
+{
+  "dates": [
+    20191115,
+    20191116
+  ],
+  "recipes": [
+    {
+      "name": "base",
+      "formula": "base",
+      "weight": 0.0
+    },
+    {
+      "name": "transfer_increment_0.25",
+      "formula": "transfer_increment",
+      "weight": 0.25
+    },
+    {
+      "name": "logit_blend_0.25",
+      "formula": "logit_blend",
+      "weight": 0.25
+    },
+    {
+      "name": "transfer_increment_0.5",
+      "formula": "transfer_increment",
+      "weight": 0.5
+    },
+    {
+      "name": "logit_blend_0.5",
+      "formula": "logit_blend",
+      "weight": 0.5
+    },
+    {
+      "name": "transfer_increment_0.75",
+      "formula": "transfer_increment",
+      "weight": 0.75
+    },
+    {
+      "name": "logit_blend_0.75",
+      "formula": "logit_blend",
+      "weight": 0.75
+    },
+    {
+      "name": "transfer_increment_1",
+      "formula": "transfer_increment",
+      "weight": 1.0
+    },
+    {
+      "name": "logit_blend_1",
+      "formula": "logit_blend",
+      "weight": 1.0
+    },
+    {
+      "name": "transfer_increment_1.5",
+      "formula": "transfer_increment",
+      "weight": 1.5
+    },
+    {
+      "name": "logit_blend_1.5",
+      "formula": "logit_blend",
+      "weight": 1.5
+    },
+    {
+      "name": "transfer_increment_2",
+      "formula": "transfer_increment",
+      "weight": 2.0
+    },
+    {
+      "name": "logit_blend_2",
+      "formula": "logit_blend",
+      "weight": 2.0
+    },
+    {
+      "name": "user_between0_within0.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_between0_within1",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_between0_within1.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_between0.5_within0",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_between0.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_between0.5_within1",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_between0.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 0.5,
+      "within": 1.5
+    },
+    {
+      "name": "user_between1_within0",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.0,
+      "within": 0.0
+    },
+    {
+      "name": "user_between1_within0.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_between1_within1",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_between1_within1.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_between1.5_within0",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_between1.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_between1.5_within1",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_between1.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user",
+      "between": 1.5,
+      "within": 1.5
+    },
+    {
+      "name": "user_app_between0_within0.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_app_between0_within1",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_app_between0_within1.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_app_between0.5_within0",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_app_between0.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_app_between0.5_within1",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_app_between0.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 0.5,
+      "within": 1.5
+    },
+    {
+      "name": "user_app_between1_within0",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.0,
+      "within": 0.0
+    },
+    {
+      "name": "user_app_between1_within0.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_app_between1_within1",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_app_between1_within1.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_app_between1.5_within0",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_app_between1.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_app_between1.5_within1",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_app_between1.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user_app",
+      "between": 1.5,
+      "within": 1.5
+    },
+    {
+      "name": "user_slot_between0_within0.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_slot_between0_within1",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_slot_between0_within1.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_slot_between0.5_within0",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_slot_between0.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_slot_between0.5_within1",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_slot_between0.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 0.5,
+      "within": 1.5
+    },
+    {
+      "name": "user_slot_between1_within0",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.0,
+      "within": 0.0
+    },
+    {
+      "name": "user_slot_between1_within0.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.0,
+      "within": 0.5
+    },
+    {
+      "name": "user_slot_between1_within1",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.0,
+      "within": 1.0
+    },
+    {
+      "name": "user_slot_between1_within1.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.0,
+      "within": 1.5
+    },
+    {
+      "name": "user_slot_between1.5_within0",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.5,
+      "within": 0.0
+    },
+    {
+      "name": "user_slot_between1.5_within0.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.5,
+      "within": 0.5
+    },
+    {
+      "name": "user_slot_between1.5_within1",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.5,
+      "within": 1.0
+    },
+    {
+      "name": "user_slot_between1.5_within1.5",
+      "formula": "group_transfer",
+      "group": "user_slot",
+      "between": 1.5,
+      "within": 1.5
+    },
+    {
+      "name": "task_between0_within0.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.0,
+      "within": 0.5
+    },
+    {
+      "name": "task_between0_within1",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.0,
+      "within": 1.0
+    },
+    {
+      "name": "task_between0_within1.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.0,
+      "within": 1.5
+    },
+    {
+      "name": "task_between0.5_within0",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.5,
+      "within": 0.0
+    },
+    {
+      "name": "task_between0.5_within0.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.5,
+      "within": 0.5
+    },
+    {
+      "name": "task_between0.5_within1",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.5,
+      "within": 1.0
+    },
+    {
+      "name": "task_between0.5_within1.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 0.5,
+      "within": 1.5
+    },
+    {
+      "name": "task_between1_within0",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.0,
+      "within": 0.0
+    },
+    {
+      "name": "task_between1_within0.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.0,
+      "within": 0.5
+    },
+    {
+      "name": "task_between1_within1",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.0,
+      "within": 1.0
+    },
+    {
+      "name": "task_between1_within1.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.0,
+      "within": 1.5
+    },
+    {
+      "name": "task_between1.5_within0",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.5,
+      "within": 0.0
+    },
+    {
+      "name": "task_between1.5_within0.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.5,
+      "within": 0.5
+    },
+    {
+      "name": "task_between1.5_within1",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.5,
+      "within": 1.0
+    },
+    {
+      "name": "task_between1.5_within1.5",
+      "formula": "group_transfer",
+      "group": "task",
+      "between": 1.5,
+      "within": 1.5
+    }
+  ],
+  "sources": {
+    "current": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1",
+    "daily": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1",
+    "anchor": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1"
+  },
+  "new_model_training": false,
+  "inferred17_labels_read": false,
+  "selection": "All both-date candidate hashes lock before scoring; repeatedly reused development dates",
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "sources_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\compose_quality_daily_transfer.py": "c6a2f35dc07f1058e394bab7e5ab13627001be6d41ba1a5841e2221275e264ef",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\test_compose_quality_daily_transfer.py": "c8b255bc4f203ef3a04be0acbdb478601e12b823c99bd8eee611fdee7f2ddd04",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\run_compose_quality_daily_transfer.ps1": "94b20bd8b8d96b4979807dd89093d4a7c5a9d9b45e4895dce8ce25f6d0e64e2b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\conditional_daily.py": "09e971a5b815805e9ad54756325e8ac00a1600aa5e5728e8d655a9bc883f4bde",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\group_temperature.py": "f2beb8d36ce703f7cd6aa84b30f4a3ac532dd45c306e1c711a268a800b5c8f57",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\protocol.json": "8cc627f896f7ac21fb5c7292c490294ca2cbb3a1a66fada0877bad6912e131b3",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\verification.json": "52d6e48022d7434448e406669fc8e9d280f9e2a266241e43b2c1d1cdf71ad85d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\day15_prediction.npy": "0ab2e9661141f63c95a08cb6dd1dc2a9c8c87ea5c51ae85b059623b8cab15a06",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\compose_full_quality_transfer_v1\\day16_prediction.npy": "1e54b059e9965505a79a400c2b34a6a782d17b4b25d4e4aa70f850cbcd4caf11",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\protocol.json": "ca6f4f3dbd251954a8862a593ba145c9ef1112ce381c1cda6c8f375e61dda209",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\verification.json": "bac2b7f19fc8e04a28ae076f355c166169d18cf05aa58a6ada1ddb853d548c70",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\day15_prediction.npy": "eaa536314773ae075a5b0d616c4c484f63668fe056200f6616b6e39ac91ddf50",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\quality_daily_catboost_v1\\day16_prediction.npy": "1d4f176c765dca552dbe59832e70d5a734129e33344a2a11d85af283b4779a82",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\protocol.json": "1dcedf70cd4c99f51eff32dc68c48663472b9e42c738deb49686747296000bec",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\verification.json": "40e51fefdcbaef4e6b2ac0bbfebc1e97bfe8bc35f3c3e6cc1a57ff7c68b889ed",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\day15_prediction.npy": "5799bb6e1c128b5867204fe7e43389ac2b6a62f7ddac560f3fbc8fb4a1afcd1a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\grouped_catboost_residual_v1\\day16_prediction.npy": "322598672991b6155125ff9ffae80b26d31da91498bc492b2abfa4ea6928eb75"
+  }
+}

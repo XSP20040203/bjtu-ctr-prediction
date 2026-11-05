@@ -1,0 +1,125 @@
+{
+  "protocol_sha256": "ca6f4f3dbd251954a8862a593ba145c9ef1112ce381c1cda6c8f375e61dda209",
+  "models": [
+    {
+      "name": "day15_binary_d6_offset_trees300",
+      "objective": "binary",
+      "depth": 6,
+      "day": 15,
+      "trees": 300,
+      "model_sha256": "f9083c63faa82d5cf41a1b38e6c3f6d5a43aedca412d36adce9aab706fc42752",
+      "target_sha256": "45239aee270c9482afa6e8bd080a73dd783a8349d6634d847c20828ea6269ae4",
+      "baseline_sha256": "8240ea6cb6514d360c7eae3a2fbc19034b14b1e89c7805611523e2845cb2c97c"
+    },
+    {
+      "name": "day15_binary_d6_offset_trees800",
+      "objective": "binary",
+      "depth": 6,
+      "day": 15,
+      "trees": 800,
+      "model_sha256": "8a56a092f1b76fb06fd66f9d9d496df1d4c9849cabc0ce969ee221ec668f4a6d",
+      "target_sha256": "45239aee270c9482afa6e8bd080a73dd783a8349d6634d847c20828ea6269ae4",
+      "baseline_sha256": "8240ea6cb6514d360c7eae3a2fbc19034b14b1e89c7805611523e2845cb2c97c"
+    },
+    {
+      "name": "day15_binary_d6_offset_trees1600",
+      "objective": "binary",
+      "depth": 6,
+      "day": 15,
+      "trees": 1600,
+      "model_sha256": "9c73e2298b48668732f955ad45058bc02d6311966afd0868f8fa66dd2d14e59e",
+      "target_sha256": "45239aee270c9482afa6e8bd080a73dd783a8349d6634d847c20828ea6269ae4",
+      "baseline_sha256": "8240ea6cb6514d360c7eae3a2fbc19034b14b1e89c7805611523e2845cb2c97c"
+    },
+    {
+      "name": "day15_poisson_d5_offset_trees300",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 15,
+      "trees": 300,
+      "model_sha256": "28f59d93c47fc170b7ed730fe8e96d07d3bbfd144622eb63db4c11b221b8c4b6",
+      "target_sha256": "127191c7b2a28070754d05c2f86a0079e747112be2819ff4fb17712b3737a6a3",
+      "baseline_sha256": "603d855507afae0a5f81eb22a4e4933f194dc0316a2515dec909eda323c4989c"
+    },
+    {
+      "name": "day15_poisson_d5_offset_trees800",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 15,
+      "trees": 800,
+      "model_sha256": "d6f2e58ed7fe1d6ee58fd2f439146c3778db7b2c9c9fed331534c55639279a8d",
+      "target_sha256": "127191c7b2a28070754d05c2f86a0079e747112be2819ff4fb17712b3737a6a3",
+      "baseline_sha256": "603d855507afae0a5f81eb22a4e4933f194dc0316a2515dec909eda323c4989c"
+    },
+    {
+      "name": "day15_poisson_d5_offset_trees1600",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 15,
+      "trees": 1600,
+      "model_sha256": "3812c8b6a97c1031f8ab9cc23c9965f533b4c96e622a63481d57742b0191e2d7",
+      "target_sha256": "127191c7b2a28070754d05c2f86a0079e747112be2819ff4fb17712b3737a6a3",
+      "baseline_sha256": "603d855507afae0a5f81eb22a4e4933f194dc0316a2515dec909eda323c4989c"
+    },
+    {
+      "name": "day16_binary_d6_offset_trees300",
+      "objective": "binary",
+      "depth": 6,
+      "day": 16,
+      "trees": 300,
+      "model_sha256": "cfef8f0547446d84e7bfc1ec4bd5656bcc44bdfbd8665ff84d0160430c941ca0",
+      "target_sha256": "bda6c25cbaee87677be96f1c815dc937d1a1bd5585b9ed943f9b282a699501cc",
+      "baseline_sha256": "3bdcd8eec33a8ab5d2338bde440eb4217665a279511add85404721c3052710b2"
+    },
+    {
+      "name": "day16_binary_d6_offset_trees800",
+      "objective": "binary",
+      "depth": 6,
+      "day": 16,
+      "trees": 800,
+      "model_sha256": "ddb0b0cb824960db097787136e0a175390abe6c0d17a68ef6380021a17ba09c8",
+      "target_sha256": "bda6c25cbaee87677be96f1c815dc937d1a1bd5585b9ed943f9b282a699501cc",
+      "baseline_sha256": "3bdcd8eec33a8ab5d2338bde440eb4217665a279511add85404721c3052710b2"
+    },
+    {
+      "name": "day16_binary_d6_offset_trees1600",
+      "objective": "binary",
+      "depth": 6,
+      "day": 16,
+      "trees": 1600,
+      "model_sha256": "9e439a81af216714710f5feb6eb7e2496a3083a745efb64607111c35cbebcf6c",
+      "target_sha256": "bda6c25cbaee87677be96f1c815dc937d1a1bd5585b9ed943f9b282a699501cc",
+      "baseline_sha256": "3bdcd8eec33a8ab5d2338bde440eb4217665a279511add85404721c3052710b2"
+    },
+    {
+      "name": "day16_poisson_d5_offset_trees300",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 16,
+      "trees": 300,
+      "model_sha256": "e04ee604f7c491f653095afd105aaf40d63196ff99e0940ff1cd0371c949764b",
+      "target_sha256": "c86eea29795b64d2da3cec87ce30adcbe212a04a3663ea10d648ca068a87fb43",
+      "baseline_sha256": "f898a5457a5426a7b48a93545207f36be1fa9a97a0e3765a459f940f50e2b5fd"
+    },
+    {
+      "name": "day16_poisson_d5_offset_trees800",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 16,
+      "trees": 800,
+      "model_sha256": "177744f71e8cc19168f3fb5df40dbe56a499171bc9add8aff3a3b8957d7aa682",
+      "target_sha256": "c86eea29795b64d2da3cec87ce30adcbe212a04a3663ea10d648ca068a87fb43",
+      "baseline_sha256": "f898a5457a5426a7b48a93545207f36be1fa9a97a0e3765a459f940f50e2b5fd"
+    },
+    {
+      "name": "day16_poisson_d5_offset_trees1600",
+      "objective": "poisson",
+      "depth": 5,
+      "day": 16,
+      "trees": 1600,
+      "model_sha256": "49d5302622037543e64d2602aa05a3ac2dc8363ab9495a9c65654c9ec8cfab1d",
+      "target_sha256": "c86eea29795b64d2da3cec87ce30adcbe212a04a3663ea10d648ca068a87fb43",
+      "baseline_sha256": "f898a5457a5426a7b48a93545207f36be1fa9a97a0e3765a459f940f50e2b5fd"
+    }
+  ]
+}

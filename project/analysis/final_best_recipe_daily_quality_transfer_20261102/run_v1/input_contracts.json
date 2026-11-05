@@ -1,0 +1,158 @@
+{
+  "20191116": {
+    "date": 20191116,
+    "query_shape": [
+      8504,
+      5389
+    ],
+    "frame_sha256": "430245ea4b3ab6ee4b1f5592f73577dd888ef6b1fbb0fc7a1f1177a5bca11a2e",
+    "keys_sha256": "c212dc50c9c767a1fc458f6bc5b6c202d0ad2605b906ac29e8093ef1195fc34d",
+    "row_groups_sha256": "e7b563f5f3a5b1b3f9be15b4895e353fe1566163ebf8b6e0aef5d891f3133f20",
+    "group_prediction_sha256": "e9602cc8ed999b616a2415abdc412bec976ea5aff79e15ea8db1d7cfe90fc863",
+    "bayesian_audit": [
+      {
+        "query_date": 20191110,
+        "label_max_date": null,
+        "fit_rows": 0,
+        "query_rows": 274,
+        "global_rate": 0.008400000000000001,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191111,
+        "label_max_date": 20191110,
+        "fit_rows": 274,
+        "query_rows": 450542,
+        "global_rate": 0.00816326530612245,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191112,
+        "label_max_date": 20191111,
+        "fit_rows": 450816,
+        "query_rows": 432932,
+        "global_rate": 0.008136940701524514,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191113,
+        "label_max_date": 20191112,
+        "fit_rows": 883748,
+        "query_rows": 412848,
+        "global_rate": 0.008199396890413994,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191114,
+        "label_max_date": 20191113,
+        "fit_rows": 1296596,
+        "query_rows": 382961,
+        "global_rate": 0.008344970237269536,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191115,
+        "label_max_date": 20191114,
+        "fit_rows": 1679557,
+        "query_rows": 424780,
+        "global_rate": 0.008399239061811054,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191116,
+        "label_max_date": 20191115,
+        "fit_rows": 2104337,
+        "query_rows": 421983,
+        "global_rate": 0.008377946143539016,
+        "query_labels_used": false
+      }
+    ],
+    "cached_quality_sha256": "72114dc4384e0ed34a58835487248169d6eda1ad6f2ac54fb4943a65fe754289",
+    "advertisement_query_targets_masked": true,
+    "frozen_news_vocabulary_cutoff": 20191116,
+    "feature_count": 5389,
+    "independent_pandas_maximum_error": 1.6653345369377348e-16
+  },
+  "20191117": {
+    "date": 20191117,
+    "query_shape": [
+      8556,
+      5389
+    ],
+    "frame_sha256": "f43a535a865ced058135d07c1e823dd2eeeecee1a7f12e1e8cffa19dafee296b",
+    "keys_sha256": "710c4dab1aa4b92c92ab6195487a93da2e48244f649cca8899eb76cd7876e6b7",
+    "row_groups_sha256": "c6b95a2aa48c1df65d105537487fc24aaf2e03c489946061935e2782ec65bcad",
+    "group_prediction_sha256": "e0cfd47a6e65fbffcebef82dceaad06d373b201cdbccac30e60ddcaba113878f",
+    "bayesian_audit": [
+      {
+        "query_date": 20191110,
+        "label_max_date": null,
+        "fit_rows": 0,
+        "query_rows": 274,
+        "global_rate": 0.008400000000000001,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191111,
+        "label_max_date": 20191110,
+        "fit_rows": 274,
+        "query_rows": 450542,
+        "global_rate": 0.00816326530612245,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191112,
+        "label_max_date": 20191111,
+        "fit_rows": 450816,
+        "query_rows": 432932,
+        "global_rate": 0.008136940701524514,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191113,
+        "label_max_date": 20191112,
+        "fit_rows": 883748,
+        "query_rows": 412848,
+        "global_rate": 0.008199396890413994,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191114,
+        "label_max_date": 20191113,
+        "fit_rows": 1296596,
+        "query_rows": 382961,
+        "global_rate": 0.008344970237269536,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191115,
+        "label_max_date": 20191114,
+        "fit_rows": 1679557,
+        "query_rows": 424780,
+        "global_rate": 0.008399239061811054,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191116,
+        "label_max_date": 20191115,
+        "fit_rows": 2104337,
+        "query_rows": 421983,
+        "global_rate": 0.008377946143539016,
+        "query_labels_used": false
+      },
+      {
+        "query_date": 20191117,
+        "label_max_date": 20191116,
+        "fit_rows": 2526320,
+        "query_rows": 404182,
+        "global_rate": 0.008452590095437064,
+        "query_labels_used": false
+      }
+    ],
+    "cached_quality_sha256": "f7f5ceec53f244fe55e42f8bd630749c288393f007b7f671ff9ce85ab77c7a29",
+    "advertisement_query_targets_masked": true,
+    "frozen_news_vocabulary_cutoff": 20191116,
+    "feature_count": 5389,
+    "independent_pandas_maximum_error": 1.1102230246251565e-16
+  }
+}

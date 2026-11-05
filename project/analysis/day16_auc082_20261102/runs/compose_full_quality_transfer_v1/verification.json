@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.7989232337587467,
+      "best": {
+        "name": "logit_blend_1.5",
+        "formula": "logit_blend",
+        "weight": 1.5,
+        "auc": 0.7989232337587467
+      },
+      "records": [
+        {
+          "name": "base",
+          "formula": "base",
+          "weight": 0.0,
+          "auc": 0.7986643381315374
+        },
+        {
+          "name": "transfer_increment_0.25",
+          "formula": "transfer_increment",
+          "weight": 0.25,
+          "auc": 0.7987366020204035
+        },
+        {
+          "name": "logit_blend_0.25",
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.7987365326175302
+        },
+        {
+          "name": "transfer_increment_0.5",
+          "formula": "transfer_increment",
+          "weight": 0.5,
+          "auc": 0.7987909727704221
+        },
+        {
+          "name": "logit_blend_0.5",
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.798799525495385
+        },
+        {
+          "name": "transfer_increment_0.75",
+          "formula": "transfer_increment",
+          "weight": 0.75,
+          "auc": 0.7988271437960848
+        },
+        {
+          "name": "logit_blend_0.75",
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.798849041413342
+        },
+        {
+          "name": "transfer_increment_1",
+          "formula": "transfer_increment",
+          "weight": 1.0,
+          "auc": 0.7988476890680336
+        },
+        {
+          "name": "logit_blend_1",
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.7988841943055911
+        },
+        {
+          "name": "transfer_increment_1.5",
+          "formula": "transfer_increment",
+          "weight": 1.5,
+          "auc": 0.7988236615237608
+        },
+        {
+          "name": "logit_blend_1.5",
+          "formula": "logit_blend",
+          "weight": 1.5,
+          "auc": 0.7989232337587467
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "candidate_hashes_replayed_exactly": true,
+      "evaluation_day_labels_fit": false,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8110549320848635,
+      "best": {
+        "name": "transfer_increment_1.5",
+        "formula": "transfer_increment",
+        "weight": 1.5,
+        "auc": 0.8110549320848635
+      },
+      "records": [
+        {
+          "name": "base",
+          "formula": "base",
+          "weight": 0.0,
+          "auc": 0.8110382422683847
+        },
+        {
+          "name": "transfer_increment_0.25",
+          "formula": "transfer_increment",
+          "weight": 0.25,
+          "auc": 0.8110433771026745
+        },
+        {
+          "name": "logit_blend_0.25",
+          "formula": "logit_blend",
+          "weight": 0.25,
+          "auc": 0.8109940825650896
+        },
+        {
+          "name": "transfer_increment_0.5",
+          "formula": "transfer_increment",
+          "weight": 0.5,
+          "auc": 0.8110480939853361
+        },
+        {
+          "name": "logit_blend_0.5",
+          "formula": "logit_blend",
+          "weight": 0.5,
+          "auc": 0.8109241093731363
+        },
+        {
+          "name": "transfer_increment_0.75",
+          "formula": "transfer_increment",
+          "weight": 0.75,
+          "auc": 0.8110506813049394
+        },
+        {
+          "name": "logit_blend_0.75",
+          "formula": "logit_blend",
+          "weight": 0.75,
+          "auc": 0.810826536607379
+        },
+        {
+          "name": "transfer_increment_1",
+          "formula": "transfer_increment",
+          "weight": 1.0,
+          "auc": 0.8110514825393973
+        },
+        {
+          "name": "logit_blend_1",
+          "formula": "logit_blend",
+          "weight": 1.0,
+          "auc": 0.8107011363525675
+        },
+        {
+          "name": "transfer_increment_1.5",
+          "formula": "transfer_increment",
+          "weight": 1.5,
+          "auc": 0.8110549320848635
+        },
+        {
+          "name": "logit_blend_1.5",
+          "formula": "logit_blend",
+          "weight": 1.5,
+          "auc": 0.8103608582416731
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "candidate_hashes_replayed_exactly": true,
+      "evaluation_day_labels_fit": false,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

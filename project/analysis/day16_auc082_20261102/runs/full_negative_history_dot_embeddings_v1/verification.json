@@ -1,0 +1,2079 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8023586867696388,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8023586867696388
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8023586867696388
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8021720435764524
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8019476283748166
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8013846107043012
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.799781043165898
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7961164757724127
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7908916455382253
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7788690349796148
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7634016131401486
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8020800962241326
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8017545745123401
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8009789057641257
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7990162322613811
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7954065382833854
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7914173776942188
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.784697868986998
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7783894914465442
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8021748978538449
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8019554277753874
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8014072791651224
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.7998456100739675
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7962616706263062
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7911145877817922
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7791032305958758
+        },
+        {
+          "name": "day15_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7634016060650985
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022440945399985
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8020966855323015
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8017061811690139
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8005570299544641
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7978560405994573
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7939792897553999
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7851345848828948
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7738010043661745
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021246879071546
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018399744110662
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8011515336197851
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7993669451947496
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7960252170583118
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7923158046276261
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7860622304259742
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7801932734720344
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022494116086727
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021100371627388
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017423825163204
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.800656542219977
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7980863476333688
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7943252314096805
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7854927670478251
+        },
+        {
+          "name": "day15_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7738010242436965
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022838111765297
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021802007724188
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018773522381477
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009288090182385
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7986019186696554
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.795205463335432
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7873820190487291
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7773542266411513
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021441739430172
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018827750956679
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012326291927362
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7995192272274944
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7962832077529106
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7926703839074719
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7865768459935774
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7808646499160622
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022881781670351
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021912459364929
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019095673000306
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8010253362863838
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.798824379809809
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7955391631314342
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7877359150808705
+        },
+        {
+          "name": "day15_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7773542293364084
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022283683879531
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.802063414603404
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016258638515843
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8003173919400682
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7972044628411292
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7927128470111071
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7823092572481519
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7689091724872986
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021210445932119
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8018344100525423
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8011332267589548
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7993063207741739
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7958777231500125
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7920546160103396
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7855828715180231
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7794837166880889
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022311505672151
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8020700483052287
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8016497020540375
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8003928753136796
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7973934953798383
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7929955208712967
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7826102790718443
+        },
+        {
+          "name": "day15_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7689091822576061
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022896484298468
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021895465768177
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018971111688036
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009445055224543
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7985706759218134
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7950603230604972
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7868842589459449
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7763055546156408
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021610678152516
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019132571071603
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012866360830305
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7996078648039521
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7963950319533895
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7927879752845802
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7866438339164418
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7808639040036275
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022921058306142
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021962469862586
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019203335049828
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8010273071932236
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7987668919948193
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7953645583046063
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7872053974956886
+        },
+        {
+          "name": "day15_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.776305541813169
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023244408314432
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022574980541372
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8020267335003131
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8011994087999115
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7990204752700545
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.795722431188771
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7879598154883779
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7778926861386293
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021774873222158
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019445187218027
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013471136120879
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997155019223448
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7965612808090312
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7929978859595044
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7869192379941036
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7811891016107395
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023266617233897
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022654483891122
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.802053351186771
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8012867614124911
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7992352832273414
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7960549457454122
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7883121314259761
+        },
+        {
+          "name": "day15_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7778927218507874
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023036651150024
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022225169845356
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019583669533823
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8010902529040772
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7988910469970647
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7956303349234899
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7880302311046077
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7782496500472976
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021608973402327
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019140677057682
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012899128419917
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7996240929476539
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7964447628181095
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7928782684227833
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.786832592212729
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7811443172168265
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023070362079662
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022308177029488
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019875215506955
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8011813552932595
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7991025525904467
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7959498401473604
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7883760588842709
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7782496655450266
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 1.3933298959045715e-14,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8139803604311606,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8139803604311606
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8139803604311606
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8137988814684791
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8135856895432347
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8130659939791494
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8116632346781649
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8085598558824717
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8042264634212882
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7942382245929471
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7811095174534918
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8137761528608863
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135230436660786
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.812912413127149
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8113085285688967
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8082861842379725
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8048848669227506
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7990705627002057
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7935614126014134
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138048374396852
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8135995583467266
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8130942740886306
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.811724077135776
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8086641190843548
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8043544317352594
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7943425096233331
+        },
+        {
+          "name": "day16_history_dot_d4_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7811094760435379
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8138619613476331
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.813715812458841
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8133587989484178
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123851218860841
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8102045584570375
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8071867294161308
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8003425904555631
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7914708358913664
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138107292094123
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813594667478057
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130463528206813
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8115779327410874
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8087699571485174
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8055963059819787
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8001616828860447
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7950076690464297
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138671154423666
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8137309774901936
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8133900239797404
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124627716488806
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8103591479142728
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8074017626397927
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.800554289696421
+        },
+        {
+          "name": "day16_history_dot_d4_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7914708538677805
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139077613987165
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138124266965169
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135556907601609
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812810558122743
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8110218490627389
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8084719730459387
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8026064110045814
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7949802566199371
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.813836083015481
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136428815047504
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131399463787706
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8117582252604371
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.809064360092598
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8059924316754186
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8007100013955091
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7956796620749503
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139110555766035
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138223862719529
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.813581709693552
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8128797236600906
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8111749702321497
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.808697921163044
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8028414738056592
+        },
+        {
+          "name": "day16_history_dot_d4_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7949802755593735
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8138334160860436
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8136640063593978
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8132489945168829
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812133737785017
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.809672825757656
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8062823398739549
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7985597519787981
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7884386469056535
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138054711082828
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8135830091314867
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130364895474638
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8115760310932796
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8087856730285599
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8056372690936348
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8002461123250227
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.795119351371225
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138361934420248
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8136690436074396
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8132624113419628
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8121701393815907
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8097455942820047
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8063839573328886
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7986563463140155
+        },
+        {
+          "name": "day16_history_dot_d6_trees400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.788438627003195
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8138882788179015
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8137742730415815
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8134902713791125
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127041653578018
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.81093169220982
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8084621084886916
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.802889151750003
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7956922943579569
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138391653284874
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136473820284277
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131594251074968
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118152380998264
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8091885559276636
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8061942297641862
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8010702654268135
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7961823757058275
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8138906163937516
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8137814642492434
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135073316381249
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8127538823411184
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8110432557618792
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8086234564356203
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8030613465368075
+        },
+        {
+          "name": "day16_history_dot_d6_trees1200",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7956922661093061
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139546817656081
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139074866163863
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8137570214621616
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8132229460508116
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8118083704676186
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8096979368821341
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.804744852485276
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7982169295632914
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138859842570424
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137428355033635
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8133391224791363
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8121411614020329
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8096871484656043
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8068237560824129
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8018458777163828
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.7970595900459757
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139556120450387
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139136538104583
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.813773501339804
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8132789310245221
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8119434561575509
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8099027286858672
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8049651842569991
+        },
+        {
+          "name": "day16_history_dot_d6_trees2400",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7982169340573949
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813931001050082
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138630989978408
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136635633691929
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8130479392392272
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8115107792780913
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8092770576664541
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8041237205104278
+        },
+        {
+          "name": "mean_last",
+          "mode": "replace_global",
+          "weight": 1.0,
+          "auc": 0.7973810186026379
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138603017394012
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136926222426142
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132414912900332
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8119611853959745
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8094016277961423
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8064658874082895
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8013737304096538
+        },
+        {
+          "name": "mean_last",
+          "mode": "add_within",
+          "weight": 1.0,
+          "auc": 0.796514037978241
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139340217296686
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138706542278886
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136827416349973
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8131071374969614
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8116462630171933
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8094812767929945
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8043421198176331
+        },
+        {
+          "name": "mean_last",
+          "mode": "rank_global",
+          "weight": 1.0,
+          "auc": 0.7973810503823701
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "complete_historical_negative_population": true,
+      "upstream_complete_features_independently_rebuilt": true,
+      "independent_all_saved_models_and_candidates_replayed": true,
+      "maximum_independent_prediction_error": 9.325873406851315e-15,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

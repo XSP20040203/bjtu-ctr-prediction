@@ -1,0 +1,7133 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8023891849526746,
+      "best": {
+        "name": "semantic_d6",
+        "mask": "cold_task",
+        "mode": "rank_global",
+        "weight": 0.1,
+        "auc": 0.8023891849526746
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8023586867696388
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023618577397543
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023035593261566
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023483935823281
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023167128551885
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023429147982208
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023224409505884
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023064789635366
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023635234087142
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022425232050411
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023354563476879
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022691045055267
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023240008307025
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022801948151591
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022488226949709
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023621879087633
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8020931149903037
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022962821316715
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.802155758832349
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022763210567244
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021739908997915
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8020952287457759
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8023392593556207
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801673950609402
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8021752320657398
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018307290049986
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8021393716684713
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018524884903235
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8016423197445209
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8022133827578282
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8003936704145586
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8017527606042333
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008183297511108
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8016978150906132
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008352660736463
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8001937342127793
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8018356134848896
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7973084485598075
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8006969138040119
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7983439434727855
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8005903116643904
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7983395394224934
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7966157991243825
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8012474706266001
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7928792959895972
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7991711259983688
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7947588504550354
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7989687916914809
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7947351328653425
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7914617268040913
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.799870135567011
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7827649895313413
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7957250078546702
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7864655716255707
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7952296411402946
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7865579138330728
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7798232874281235
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023526089646151
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022724803151906
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023555562283816
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022683841980355
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023603113359262
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022643419860247
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022694562365934
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023411089758856
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021738298581728
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023437584137297
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.802169103050829
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023552334713299
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021566711769168
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021649604404869
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023016901652769
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019384220499786
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8022948738597757
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019368096123486
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023295564296405
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019047973685713
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019122578405472
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8021533634224977
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013453563043826
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8020986079245113
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013710266079289
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8022127871059833
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012748544399219
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8012703715533562
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8016435797772697
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997439395812384
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.801374345143377
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7998781580001166
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8017435596699097
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7995772237722837
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7995245901155413
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8004566390350986
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7966680210805851
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7996721365813563
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7970508965183207
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8006115415316722
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7963046754766419
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.796162981761873
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.798971640578359
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7931890706611009
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7975214823640315
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7938413687269201
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7991348532267462
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7925923744040341
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7924068652403216
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7962371619786202
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7872105744109877
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.793510932213593
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.788288874051453
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7963175675657237
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7861661406774505
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7860776722283832
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023624028555264
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023056993603866
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023495525429314
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023186884787283
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023427625161881
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023253343092105
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023092072376542
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023652591543617
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022486090958364
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023381947290201
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022743454331845
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023238451795983
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022870050563315
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022549665337964
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023653716813506
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021080649082705
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023033699843372
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021673592194097
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022759221586564
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021916327059035
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021139129426165
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8023494406897569
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017219659429037
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.80219635210129
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018692172780534
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8021477128157427
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019050298345063
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8017045094357252
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8022518171257386
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.800548649725963
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8018262117539033
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8009466933975
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017391333837456
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8009996080348073
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8003989753545754
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8019363945427372
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.797705642551507
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8008870244456077
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7986711840848678
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8007225854551868
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7987387952859636
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7971289969866896
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.801430180765693
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7935125527369946
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7995037631892133
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7952930153970457
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7992177034121453
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.79536870900072
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7922518529120163
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8001794884307604
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7835196036039931
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7962606524928925
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7871656444731849
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7956646475693017
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7873421730398513
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7806512394496422
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023671303366845
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023355803295199
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023593113954988
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023424950119094
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023460103011343
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023560818035389
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023438224260886
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.802374268725423
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023061690089567
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023589252999025
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023218048698852
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023301554505569
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023493167079249
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023222617159834
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023863508897112
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022224637532056
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023466793987384
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022593490220308
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022899381699976
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023113358170412
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022466893988838
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8023862370150938
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019417958381996
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8022735240535478
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8020479667366663
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8021685485016566
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8021375894296368
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019578467687395
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8023142487162781
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009302253759059
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8019609052118661
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.801253850300432
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8017554396899067
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8014132862196442
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8008281964139669
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8020212520209485
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7982419616778478
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8010723415722434
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7991116396501529
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8006993354926212
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7993639945619115
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7977280435080495
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8015147815206543
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7941551370958048
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7997018632470138
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7958174174436027
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7991146051069056
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7961579598238638
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.792960136186927
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8002592094225308
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7843822914267067
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7964823704158687
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7878333877104846
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7954081655449299
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7884356510213326
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7816360015360297
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023572906264006
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022982995316982
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023651183271722
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022899543415409
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023644916798693
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022912265029472
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022990636371191
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023496165552902
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8022266083849906
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023616636812347
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8022118107490566
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023616953505069
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8022118545469863
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.802227570591817
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023195597206236
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8020445801459736
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023321984555272
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8020258878633613
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023444355971054
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8020139276594621
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8020366870852144
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8021918773004959
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8015618016304286
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8021724330411202
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8015510967425781
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8022428338334353
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8014988276193742
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8015203970890653
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8017247265601078
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.80016784896247
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.801525074707965
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8002342284310177
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8018045405382523
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8000222424080367
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8000096279304482
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8005954366959881
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.797370596474525
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7999212106912679
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7976490050901691
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8007054085809447
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7970622314225456
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7969703979448431
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7991447771638182
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7941212644507336
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7978435319107144
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7946434247171006
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7992553312243337
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7936035735946462
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.79346406573348
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7964111138793873
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7883945220700197
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7938857380512218
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7893160352291169
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7964339480985274
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7874733667063182
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7874071556913464
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023670232002101
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023349321201593
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023594744585604
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023415759291984
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023455810814225
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023560258769517
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023432820270167
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023745328606302
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023057034032726
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023595351018478
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.802321184286911
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023293468733919
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023494144109989
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023215528633354
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023856582086065
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022241240316511
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023477009012234
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022596967102117
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022898566384669
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023144070626396
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022489096170161
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8023891849526746
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801956647379278
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.802281408354721
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8020574169822825
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8021716648928134
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8021538411568393
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8019783354402866
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8023277283714333
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8009969815066496
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8019922840701975
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8013045939080512
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017752046848913
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8014845548847831
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8009197879923341
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8020670949771334
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7984388003552707
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8011673547796473
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7992670865886844
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.800765710918283
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7995599087661093
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7979894093384979
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8016000614804343
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7944928892110323
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7998691005882398
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7960932992556061
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.79924127882702
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7964908874286736
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7933925969454929
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8004078238840179
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7848061610528944
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7967556836477446
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7882182960459759
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7956445935079807
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7888668564638498
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.782119888476105
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023646729359172
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023197342385284
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023540158888822
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023299829540951
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023446087673816
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.802339636691631
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8023255317368017
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023690439693084
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022754410552432
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023473626464428
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022966062363518
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023275363343566
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8023155956710721
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8022867052089662
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023746629067909
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021591043203692
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8023227071072385
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022094773301212
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022830908690385
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8022457945734879
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8021731856916979
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8023639324139968
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018144442608952
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8022271743890061
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8019444978335594
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8021569521574817
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8020009816652358
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8018089641291593
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8022677663103186
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8006875268969403
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8018661891565704
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8010572494794584
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8017348391651851
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8011468027695555
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8005399312426812
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8019384597835796
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7978544059259554
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8009086255845711
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7987949193008017
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8006713297486965
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7989200338146162
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7972616460920535
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8014033002916563
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7936715958224675
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.799485411856639
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7954186056237589
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7990895432576759
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7955816855307282
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7923825513249696
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8001069994879166
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7839225351244926
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7962018830830961
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7874494395603767
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7954184445821402
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7877941562202523
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7811130994001139
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023551923686574
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022853083919136
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023609629143583
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022788377531506
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8023623496241964
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022778499413806
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8022850516686637
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023454934855629
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8022005984790349
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023533427483923
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021909676511852
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8023588478112575
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021839727848936
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8021965724385675
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023110427078188
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019929086960574
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023143443979093
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.801981940346814
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8023369899490442
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019598493448514
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8019763719454043
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8021734343291762
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8014586002316003
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8021366022916812
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8014651476851941
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.802229119017088
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8013896771140544
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.801401443259434
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8016848906584447
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7999684518121339
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8014520743400644
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8000654898315219
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8017754216530972
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7998095630301367
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7997836211794258
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8005271563972882
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7970461932944776
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7998011895397787
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7973716449295823
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8006626570847873
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7967066656785584
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.796599000259965
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7990570020696698
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7936959036734907
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7976883167643036
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7942758448640699
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7992023370769384
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7931314858168513
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7929845612816392
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7963200155330907
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7878860281053701
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7937057737054184
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7888729605476315
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7963911642592835
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7868834766475378
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7868345199954533
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023646628287026
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023202065823557
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.802354212642659
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023302369820877
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023439834677073
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023407134468891
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8023257567907792
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023694253482045
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022774732791845
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023485869670335
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022976418889373
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023272614181205
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8023185712350395
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8022883998519411
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023762510871059
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021663538884679
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8023265667155729
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022146643526347
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022828375148602
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8022538122898933
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8021821292289574
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8023701362222955
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8018431999601404
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8022412011813762
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801965913673589
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8021623251527432
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8020324811363276
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.801847323703682
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8022938934599632
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8007920880530345
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8019165210636497
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8011410800646701
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8017641130276302
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8012554202877608
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.800679646638653
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8020087244654052
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7981357112692931
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8010434120289077
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7990221604796293
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8007643114059733
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7992023202315809
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.7976305021493764
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8015315419776565
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7941386913100826
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7997247338521263
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7958108187801218
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7992705917706947
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7960472528075013
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.7929746312802385
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.800327889293113
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7844844868207788
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7965884543922902
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.787964728942284
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7957429805036056
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.788377558794912
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7817462611396944
+        },
+        {
+          "name": "semantic_verified_best",
+          "mask": "all",
+          "mode": "source",
+          "weight": 1.0,
+          "auc": 0.8023220737217925
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_temporal_masks_and_all_candidates_replayed": true,
+      "maximum_independent_prediction_error": 7.105427357601002e-15,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8140553715131705,
+      "best": {
+        "name": "semantic_d6",
+        "mask": "user_no_past_ad_click",
+        "mode": "add_within",
+        "weight": 0.1,
+        "auc": 0.8140553715131705
+      },
+      "records": [
+        {
+          "name": "base",
+          "mask": "all",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8139803604311606
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139759574937313
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139620604415887
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139726048924983
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139678250923874
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139717394565615
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.813967138778577
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139582109209084
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139710768972983
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139358399155536
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139607764120089
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139487296464908
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139620854801655
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813944655420634
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139266501158506
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139592862956815
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138476065389453
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139261974954238
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138808121858947
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139325842585539
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138748363122301
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138255777274735
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8139253725064187
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135499203312291
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8138139566177612
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136583193923888
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.813833598418244
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136394191189883
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8134932914166841
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8138216941800093
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8124653442021438
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134190963354723
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8128617388997806
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134856045736045
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8127952601943288
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812299708880448
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8135793547833026
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8095819909371189
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8124044632236452
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8107281748054449
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8125679953048893
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.810573550679411
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8091515071801817
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8132357272812493
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.805218235028461
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8109088608798609
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8074749189410745
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8111577488274249
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8072650821851222
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8044239895436438
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8124680746910453
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7951046813332754
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8075197810085497
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7998099255507066
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8077681771727846
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7997090367785594
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7935502293457878
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139755453202362
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139323717516584
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139788240897683
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139294858951778
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139969854041456
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139090069074089
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139290082361741
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139677608909084
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.813869580137145
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139679040602066
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138666705261172
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8140111976855501
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138230693756894
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138622701567471
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8139425181533984
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137055723229417
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813928305229979
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137071966203602
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8140311187624665
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136108141500235
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136865410785241
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.813869470352616
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132248188079537
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8137853458706632
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132548394195304
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8140216811450547
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130446887183459
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8131845310958566
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8136347471773621
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8117869348778127
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8132628986311883
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8119326016134977
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8138532447128304
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.811428609089159
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8117008445465732
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8130996548145849
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8087954663221653
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8119930152052292
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8092069958764597
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8133009251671952
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8081587654886614
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8086607690511809
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8124267289385745
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8052556510084028
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8103485296316624
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8059547171585995
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8125119962068533
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8042996543913687
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8051146099892792
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8111637105767641
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7990282147626478
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8071766311655001
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8001070166107126
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8108932997253828
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7973963171730669
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7989595339464666
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139762386962093
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139645084439827
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139723346042718
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139702673166482
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139717522968574
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139692715517091
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139606672694946
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139715539142872
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139394429025546
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139599411507672
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139525984276149
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139610595405312
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139491032990985
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139305933706904
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139608720722126
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138619273208493
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139274327318796
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138951971692777
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139329701094427
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138896257649307
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138421147444324
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8139307089333525
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135987076771299
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8138238237430675
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137030190301222
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8138401649455154
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136852551228999
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.813548615757176
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813840062223149
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.812627232083511
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8134632066036286
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8129959726360867
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8135167493530783
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8129376995216648
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124789529896458
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8136228878801627
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8099858246601266
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8125365397902572
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8110525707544661
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8126662518163978
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8109198547411235
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8095977113112649
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8133118638151858
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8058690877939791
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8111549920159169
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8080068853338396
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.811349555240017
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8078136607105765
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8051266927076255
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8125970002490683
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7958347786263281
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8079326992408347
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8004664575790563
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8081190793444225
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8003750211906612
+        },
+        {
+          "name": "semantic_d4",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7942917159812137
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139763073917918
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139737136520405
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139704136960204
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139809388864863
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139737996820224
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.813976422954454
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139697427905649
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139705915341172
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139531056192989
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139560967662052
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139699578655195
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139656435261312
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139592779494892
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139443832063631
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139581730420358
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138821629850127
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139154764904469
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139256074838318
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139377043265035
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.813904609106098
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138587442115208
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8139225566295502
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136009694952347
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8137839482044655
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8137379388565608
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8138384193073015
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136863953411668
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135419522856714
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8138137415428066
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8124930086194415
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8133234695165432
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812974610235967
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134763505724226
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8128202737325588
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123181712997617
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8135487537903558
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8094335853663401
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8121443798221747
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8108121965650313
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.81251101328221
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8104541879316839
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.808985290835101
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8131772410179171
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8047688509981233
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.810432562947515
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8074498957726225
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8110344832717897
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8068858093799177
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8039388395113745
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.812367858750398
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7939387638563516
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8066602914127217
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7994075613995532
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8075551701477997
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7986900379661609
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.79234008796409
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139758772418826
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139415358707698
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139786109408581
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139395366367139
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8140014994101336
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139146810341222
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.813938411826802
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139685704715585
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138900244561154
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139674469456761
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138883789722088
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.814021075083093
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138328247904222
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138820050493745
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8139451247334454
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137419572271308
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813925408459247
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137475209273003
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8140494380124821
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8136299391286004
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137238106790937
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8138766262494644
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132825179611535
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8137772545582659
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.813329020376417
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8140553715131705
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130715942741619
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132413641711047
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.813651289972454
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118513629880256
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8132265439016942
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.812053458329641
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.813903805303581
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114522326653689
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.811765223863662
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8131436803367889
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8088029945875919
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8119025058861906
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8093556139541339
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8133634606178074
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8081275629278565
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8086633197759413
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8124982872650441
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8051642114099336
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8101698511374944
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8060942032179019
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8125716316766595
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8041775097935568
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8050167637252214
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8112710496715055
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.798710773117831
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8068238279880693
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8001729951866431
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8109175723785453
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7970801723981257
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7986381182301001
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139759395173172
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.813974176544704
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139704284623606
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139816348305186
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139733708161427
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139769121697239
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139699398891054
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139710595628991
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139550721106005
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139562912966865
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139723313941979
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.813964770386017
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139619506570597
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139467958979436
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139589235573251
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138930348634652
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139170096217653
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139357956165331
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139367573546884
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139168375618016
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138713167871519
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8139263246143522
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136428667384102
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137944977914935
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137722532630524
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8138432267140484
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137275298707718
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135897002096273
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8138279628124181
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8126425499143836
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813370160684155
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8130930728789586
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8135037299351535
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.812953098246401
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8124831164555584
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8135879398050734
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8098246500571911
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8122848764127565
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8111198487683314
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.81260405470758
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8107934323987663
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.809411328639618
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8132466306184265
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8053954330365233
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8106892661411166
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8079502134043037
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8112191408496962
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8074268378114425
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8046077791175542
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8124899834457514
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7946446591178687
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8070882616817564
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8000390291705044
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8078907872313191
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7993514396766922
+        },
+        {
+          "name": "semantic_d6",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7930434601074827
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139762643768009
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139684831575471
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139717054297777
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.813974638153338
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139730883296352
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139720424875424
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.0125,
+          "auc": 0.8139644660710066
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813971016547908
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813942992602328
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139590904811705
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139575130508317
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139639068761245
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139502775441493
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8139339350576719
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139592593310603
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8138663219120863
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139215891132617
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139045590289443
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8139361249701204
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.81389161472675
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.813844465802593
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8139243427146957
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.813584597476077
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8138004120317383
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8137058464632569
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8138381592913116
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8136713105616629
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8135277168917345
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8138224093844852
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8125104855460527
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8133799661760415
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8129460572702
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8134895966215682
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8128377057181347
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8123463692313497
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.813577250900836
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8096118382047023
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.812304405860651
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8108571324642074
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8125668172077498
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8106061181636592
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8091860912328851
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8132292666864183
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8052010964436441
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8107231908446307
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8076404322799602
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8111537195426033
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8072558435922953
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8044130123747657
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8124656016500745
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7949832037888303
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8071962903003823
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8000147597274159
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8077827740210483
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7995970527068128
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.793454091483086
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.813975842573084
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139367836772947
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139790648453146
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139343273287085
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139995258566692
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139114985668086
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.0125,
+          "auc": 0.8139334330021062
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139682610204297
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138792822646503
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8139678700334227
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138770409910188
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8140165270503211
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138276103462985
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8138715588267277
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8139439016952706
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137243185127926
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8139266103109337
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813727944612326
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8140406295695644
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.813618828420646
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8137049405803884
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8138739894947222
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132549857989025
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8137815188205005
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132928576093451
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8140408773872733
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8130595988698269
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8132164957282172
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8136442175375281
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118333673134641
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8132457850849482
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8120050003373274
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8138827350201906
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8114471774409131
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8117493474799221
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8131247036636284
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8088368846223074
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8119525676314494
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8093113861972712
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8133427806794092
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8081730060187166
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8087054526385445
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8124691648321586
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8052760760669293
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8102690822274541
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.806081000825762
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8125584755095844
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8042885436834144
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.805144039947249
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8112354538034933
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7989960600939094
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8070233693948504
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8002530435166947
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8109428998620076
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7973428495393475
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7989434534020234
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139764081881139
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139698114861474
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139714383516251
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139761115772809
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139730080777864
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139736526606355
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.0125,
+          "auc": 0.8139661500758005
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139716746130677
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139468517532303
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139584176496707
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139616643184633
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139627473974139
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139552512327268
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.025,
+          "auc": 0.8139384940046951
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139608290572217
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.81387844315132
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139239465915703
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139162957013188
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139359041170325
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8139043465220488
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.05,
+          "auc": 0.8138585682994683
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8139300958092281
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8136273184242279
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8138120780824859
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137426101561722
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8138439868595597
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8137117472211911
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.1,
+          "auc": 0.8135756786066155
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8138378126033251
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8126607227850271
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813426260578513
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8130663926703339
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.813518782613918
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8129703209351554
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.2,
+          "auc": 0.8125128417403317
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8136181247724362
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8100011495531619
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8124374249049745
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8111656616597106
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8126616620526648
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.810938015413486
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.35,
+          "auc": 0.8096112879980273
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8133009553418904
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8058229770077375
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8109714194430054
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8081416339660071
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8113388746819719
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8077856842740909
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.5,
+          "auc": 0.8050802641240627
+        },
+        {
+          "name": "mean_last",
+          "mask": "cold_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8125873668171456
+        },
+        {
+          "name": "mean_last",
+          "mask": "seen_task",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.7956787850827474
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_at_most_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8076105952846135
+        },
+        {
+          "name": "mean_last",
+          "mask": "task_over_100_prior_rows",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8006351610894332
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_no_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.808118219044604
+        },
+        {
+          "name": "mean_last",
+          "mask": "user_with_past_ad_click",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.8002418172460781
+        },
+        {
+          "name": "mean_last",
+          "mask": "all",
+          "mode": "rank_global",
+          "weight": 0.75,
+          "auc": 0.794152087394628
+        },
+        {
+          "name": "semantic_verified_best",
+          "mask": "all",
+          "mode": "source",
+          "weight": 1.0,
+          "auc": 0.8139543896488788
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "inferred17_labels_read": false,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_temporal_masks_and_all_candidates_replayed": true,
+      "maximum_independent_prediction_error": 2.886579864025407e-15,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

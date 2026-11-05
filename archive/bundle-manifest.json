@@ -1,0 +1,25 @@
+{
+  "format": "tar.zst-split-v1",
+  "archive_scope": "Best integrated day17 platform feedback 0.81635; active components only",
+  "created_date": "2026-11-04",
+  "source_files": 1502,
+  "source_bytes": 5828227829,
+  "compressed_bytes": 943207966,
+  "file_manifest_sha256": "3dc87687f88665cea11f71a98fd608a28aca3ae3cdca4a802754a6543ffb0b3c",
+  "parts": [
+    {
+      "name": "best-model-081635.tar.zst.001",
+      "bytes": 943207966,
+      "sha256": "27bec8a1cb4756abb826100530d64e91dba63076140e272907335d4f905edbd1"
+    }
+  ],
+  "excluded_patterns": [
+    "unselected candidate weights",
+    "inferred day17 labels",
+    "large training feature caches",
+    "temporary document/slide previews",
+    "node_modules",
+    "__pycache__",
+    "Office lock files"
+  ]
+}

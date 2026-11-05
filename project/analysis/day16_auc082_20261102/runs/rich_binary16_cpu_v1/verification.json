@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "auc": 0.8091386168072296,
+  "best": {
+    "name": "binary_offset_trees1200",
+    "power": 0.125,
+    "auc": 0.8091386168072296
+  },
+  "records": [
+    {
+      "name": "binary_offset_trees300",
+      "power": 0.0,
+      "auc": 0.8090072740635226
+    },
+    {
+      "name": "binary_offset_trees300",
+      "power": 0.125,
+      "auc": 0.8088739770267951
+    },
+    {
+      "name": "binary_offset_trees300",
+      "power": 0.25,
+      "auc": 0.8084355213722114
+    },
+    {
+      "name": "binary_offset_trees300",
+      "power": 0.5,
+      "auc": 0.8064600514938491
+    },
+    {
+      "name": "binary_offset_trees300",
+      "power": 0.75,
+      "auc": 0.8027497324602387
+    },
+    {
+      "name": "binary_offset_trees700",
+      "power": 0.0,
+      "auc": 0.8090072740635226
+    },
+    {
+      "name": "binary_offset_trees700",
+      "power": 0.125,
+      "auc": 0.8090485620346624
+    },
+    {
+      "name": "binary_offset_trees700",
+      "power": 0.25,
+      "auc": 0.8088130356989063
+    },
+    {
+      "name": "binary_offset_trees700",
+      "power": 0.5,
+      "auc": 0.8073947152434438
+    },
+    {
+      "name": "binary_offset_trees700",
+      "power": 0.75,
+      "auc": 0.8044997665492981
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "power": 0.0,
+      "auc": 0.8090072740635226
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "power": 0.125,
+      "auc": 0.8091386168072296
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "power": 0.25,
+      "auc": 0.808996665411134
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "power": 0.5,
+      "auc": 0.8077835059179087
+    },
+    {
+      "name": "binary_offset_trees1200",
+      "power": 0.75,
+      "auc": 0.8051257001527602
+    }
+  ],
+  "rows": 421983,
+  "clicks": 3724,
+  "maximum_replay_error": 0.0,
+  "evaluation16_labels_fit": false,
+  "development16_model_selection": true,
+  "original_datasets_unchanged": true,
+  "target_met": false
+}

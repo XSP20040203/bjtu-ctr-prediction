@@ -1,0 +1,613 @@
+{
+  "sources": [
+    {
+      "kind": "group",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1",
+      "record": {
+        "name": "binary_7",
+        "objective": "binary",
+        "leaves": 7,
+        "cv_rounds": [
+          204,
+          71,
+          69
+        ],
+        "refit_rounds": 71,
+        "power": 0.5,
+        "oof15_auc": 0.7956762782780061,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7949809180876354
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7956762782780061
+          },
+          {
+            "power": 0.75,
+            "auc": 0.795608668424539
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7948594003945766
+          }
+        ],
+        "model_sha256": "29ab83d0bf0567ccf257b44c52b47294b699922018d7d20b8ffb6b51316900c0"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\binary_7_oof_groups.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\binary_7.txt"
+    },
+    {
+      "kind": "group",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1",
+      "record": {
+        "name": "poisson_15",
+        "objective": "poisson",
+        "leaves": 15,
+        "cv_rounds": [
+          125,
+          47,
+          39
+        ],
+        "refit_rounds": 47,
+        "power": 1.0,
+        "oof15_auc": 0.795299209771944,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7942683224011781
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7948308993971384
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7951703913008994
+          },
+          {
+            "power": 1.0,
+            "auc": 0.795299209771944
+          }
+        ],
+        "model_sha256": "b6ea3b264426e324c00349d57b5e0ca69ccc9aa8b703c088ab338c47b3b2872e"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\poisson_15_oof_groups.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\poisson_15.txt"
+    },
+    {
+      "kind": "pair",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1",
+      "record": {
+        "name": "t0.5_l3",
+        "temperature": 0.5,
+        "leaves": 3,
+        "rounds": [
+          65,
+          165,
+          1
+        ],
+        "refit_rounds": 65,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7939475477111586
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7943018325341535
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7946128322000623
+          }
+        ],
+        "power": 1.0,
+        "oof15_auc": 0.7946128322000623,
+        "model_sha256": "03f1a0b64fc52e71e442892b37214eb65c7cbe1f9f0f5dc4b4ca1daeab859c24",
+        "pair_a_sha256": "8a22b73da87351bbd51594b5eb1efcf88ba9aeca1b4ffe163b80854d05b53f14",
+        "pair_b_sha256": "534ca0ccd3aa93db1c11cf40b1331c3cc08e58a237e6fb02b9d2173dad7c8ace",
+        "pair_margin_sha256": "87cf9dd5b571a0fe33861bc199e6501b60ed108cc274d8b7d24b7dba786ab2e1"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t0.5_l3_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t0.5_l3.txt"
+    },
+    {
+      "kind": "pair",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1",
+      "record": {
+        "name": "t1_l3",
+        "temperature": 1.0,
+        "leaves": 3,
+        "rounds": [
+          139,
+          59,
+          116
+        ],
+        "refit_rounds": 116,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7943064259262651
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7949288477396512
+          },
+          {
+            "power": 1.0,
+            "auc": 0.795572388240959
+          }
+        ],
+        "power": 1.0,
+        "oof15_auc": 0.795572388240959,
+        "model_sha256": "442ef27e2e04ff893742cc31523b60953905cca3ff2a3a5758e200cce6a70633",
+        "pair_a_sha256": "8a22b73da87351bbd51594b5eb1efcf88ba9aeca1b4ffe163b80854d05b53f14",
+        "pair_b_sha256": "534ca0ccd3aa93db1c11cf40b1331c3cc08e58a237e6fb02b9d2173dad7c8ace",
+        "pair_margin_sha256": "87cf9dd5b571a0fe33861bc199e6501b60ed108cc274d8b7d24b7dba786ab2e1"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t1_l3_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t1_l3.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "slot_id_binary_7",
+        "field": "slot_id",
+        "objective": "binary",
+        "leaves": 7,
+        "rounds": [
+          206,
+          132,
+          79
+        ],
+        "refit_rounds": 132,
+        "power": 0.75,
+        "oof15_auc": 0.7963388951360796,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7952252977332899
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7961451708283706
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7963388951360796
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7959205400061573
+          }
+        ],
+        "model_sha256": "4324d05c6e54f65a074fda490a2adce0b79c3b2e411213bf87cccff76279358f",
+        "training_features_sha256": "1bc1130246fd78ec39adb97946c71cf294e2e3f926a392fe57c9aece7ad987c3",
+        "training_counts_sha256": "56e8b58b0963c554cca9c7a8590f8288fef7fbbf07a980f35aec8f3fa8062477",
+        "training_users_sha256": "710540a097bccfeea76cbeb0a47a7182421792ec5b7800ff314bd09579000a1f"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_binary_7_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_binary_7.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "slot_id_poisson_15",
+        "field": "slot_id",
+        "objective": "poisson",
+        "leaves": 15,
+        "rounds": [
+          44,
+          178,
+          107
+        ],
+        "refit_rounds": 107,
+        "power": 0.75,
+        "oof15_auc": 0.7960435003356414,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7948086042294417
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7956471897144947
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7960435003356414
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7960415651409598
+          }
+        ],
+        "model_sha256": "cd919fda873a953ad773661b1c197361d896bdf8f75443bf52fb9ac4f37b5089",
+        "training_features_sha256": "1bc1130246fd78ec39adb97946c71cf294e2e3f926a392fe57c9aece7ad987c3",
+        "training_counts_sha256": "56e8b58b0963c554cca9c7a8590f8288fef7fbbf07a980f35aec8f3fa8062477",
+        "training_users_sha256": "710540a097bccfeea76cbeb0a47a7182421792ec5b7800ff314bd09579000a1f"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_poisson_15_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_poisson_15.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "spread_app_id_binary_15",
+        "field": "spread_app_id",
+        "objective": "binary",
+        "leaves": 15,
+        "rounds": [
+          204,
+          195,
+          140
+        ],
+        "refit_rounds": 195,
+        "power": 0.5,
+        "oof15_auc": 0.7954543622536245,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7951476190726753
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7954543622536245
+          },
+          {
+            "power": 0.75,
+            "auc": 0.794599438793138
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7928191344794485
+          }
+        ],
+        "model_sha256": "812dd65f5c6283ab13ae79ac06ff6a5ea4479b5a69a40c4fd8eadc888e1cf6d7",
+        "training_features_sha256": "991e382f64912e34588986a420ad5614da7120ce3a7176cff0ddab7fb979081f",
+        "training_counts_sha256": "913d8c11f1915695ff206d751cb964b81ec7f56fe46d8b22279367d102d6f1e0",
+        "training_users_sha256": "7c279319cb3ab8627285e5e20cd3ab4e184157a98ce5b86f0b9f42fdc760a190"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_binary_15_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_binary_15.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "spread_app_id_poisson_15",
+        "field": "spread_app_id",
+        "objective": "poisson",
+        "leaves": 15,
+        "rounds": [
+          206,
+          124,
+          164
+        ],
+        "refit_rounds": 164,
+        "power": 0.5,
+        "oof15_auc": 0.7952777460910986,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7946974538432671
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7952777460910986
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7952665095637621
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7947421809629642
+          }
+        ],
+        "model_sha256": "0dda3bfd055c71d09025f4781648dd520e5b4c35c3c387f393d616c00e820773",
+        "training_features_sha256": "991e382f64912e34588986a420ad5614da7120ce3a7176cff0ddab7fb979081f",
+        "training_counts_sha256": "913d8c11f1915695ff206d751cb964b81ec7f56fe46d8b22279367d102d6f1e0",
+        "training_users_sha256": "7c279319cb3ab8627285e5e20cd3ab4e184157a98ce5b86f0b9f42fdc760a190"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_poisson_15_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_poisson_15.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "task_id_binary_7",
+        "field": "task_id",
+        "objective": "binary",
+        "leaves": 7,
+        "rounds": [
+          32,
+          43,
+          18
+        ],
+        "refit_rounds": 32,
+        "power": 0.5,
+        "oof15_auc": 0.7950565914768807,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7945613379633082
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7950565914768807
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7949948276363166
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7944208463332579
+          }
+        ],
+        "model_sha256": "a901dd2c38eb27733683070970bfa4b328a21fd7ab168b8fcae119d99c5e6e4d",
+        "training_features_sha256": "06c5a8699a693fad927a86b208797e2561c57ef8d8a575e77f0e4f4dc45bd63a",
+        "training_counts_sha256": "c1b93c80c132d057616f7a4ed747ff74cffdc7e935568f80cf392a2ccba5ba42",
+        "training_users_sha256": "45167641411bc625b6821fc37cab1ec6cee1c4130b71fbe6068ccd4c2e5433f4"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_binary_7_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_binary_7.txt"
+    },
+    {
+      "kind": "subgroup",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1",
+      "record": {
+        "name": "task_id_poisson_7",
+        "field": "task_id",
+        "objective": "poisson",
+        "leaves": 7,
+        "rounds": [
+          29,
+          31,
+          12
+        ],
+        "refit_rounds": 29,
+        "power": 0.75,
+        "oof15_auc": 0.7944873039642649,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7940001456557428
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7943358918257869
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7944873039642649
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7944563037895725
+          }
+        ],
+        "model_sha256": "42adeef6b733198a676b21b88d103ac23c09f4e8da1377b402f3932c6116bb9c",
+        "training_features_sha256": "06c5a8699a693fad927a86b208797e2561c57ef8d8a575e77f0e4f4dc45bd63a",
+        "training_counts_sha256": "c1b93c80c132d057616f7a4ed747ff74cffdc7e935568f80cf392a2ccba5ba42",
+        "training_users_sha256": "45167641411bc625b6821fc37cab1ec6cee1c4130b71fbe6068ccd4c2e5433f4"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_poisson_7_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_poisson_7.txt"
+    },
+    {
+      "kind": "extended",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1",
+      "record": {
+        "name": "binary_7",
+        "objective": "binary",
+        "leaves": 7,
+        "rounds": [
+          140,
+          61,
+          79
+        ],
+        "refit_rounds": 79,
+        "power": 0.5,
+        "oof15_auc": 0.7956380864832452,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7949391692271627
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7956380864832452
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7956322411441564
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7949700124031223
+          }
+        ],
+        "model_sha256": "00d452c12ab805a6a81171a57ab07fe9991ba078a2fe3b0d66c72c8f26413076"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\binary_7_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\binary_7.txt"
+    },
+    {
+      "kind": "extended",
+      "directory": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1",
+      "record": {
+        "name": "poisson_15",
+        "objective": "poisson",
+        "leaves": 15,
+        "rounds": [
+          144,
+          39,
+          36
+        ],
+        "refit_rounds": 39,
+        "power": 1.0,
+        "oof15_auc": 0.7950988531100389,
+        "scores": [
+          {
+            "power": 0.0,
+            "auc": 0.7934700801999592
+          },
+          {
+            "power": 0.25,
+            "auc": 0.7942106883684843
+          },
+          {
+            "power": 0.5,
+            "auc": 0.7947230035340529
+          },
+          {
+            "power": 0.75,
+            "auc": 0.7950138251568086
+          },
+          {
+            "power": 1.0,
+            "auc": 0.7950988531100389
+          }
+        ],
+        "model_sha256": "5076241006d911989eba386ec7ce078246521ea4c163e6cdb1166ce626b3f326"
+      },
+      "oof_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\poisson_15_oof.npy",
+      "model_path": "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\poisson_15.txt"
+    }
+  ],
+  "logistic_ridges": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "rank_ridges": [
+    0.03,
+    0.3,
+    3.0
+  ],
+  "inputs_sha256": {
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\group_meta_calibration.py": "f68af0fa51e3b606e474efa79a6a13886d45fbabd84c9ddb4e8ca0c2f3f33f44",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_group_residual.py": "5a4ab1d28fe72457975524d8d1c44af246a4a3bea3454be9388e5597c65bbfd8",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rich_userday_activity.py": "ef2b39bba9d393c1e81e8f06990fc5908bbd6da914ead48f283d0d5129fb4cbd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\subgroup_residual.py": "f194cc0ea5f2f8404595d716c93fa37a8c2426e54eafbe26bd633c1793f8b60a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\extended_history_residual.py": "047294c8d3213d7b749f900a198269dfbd0fefcdfe969a8e0047186d54884b76",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\fit_stacker.py": "2e8477c65c9516ae6cee457ce967df06c038eb6e38b5b93f8bd6ec7da89a99b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\rank_calibration.py": "a4035bf088e60e1d78aab67f474eb16169bc7dcf9959159c64f9f9171f3c4352",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\verify_stacker.py": "4a15a577ff70c74e75db269c4d3d0e96423b020286db63a849dd9539c9b00f1b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\binary_7_oof_groups.npy": "4aad3132db39c78b4620f2d0c399191f773d3cf1c6ba96760c5ceb2b9c645aae",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\binary_7.txt": "29ab83d0bf0567ccf257b44c52b47294b699922018d7d20b8ffb6b51316900c0",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\protocol.json": "bc816a98c35a344853b3018fae08dc180e28183cd81fe42854a266bd7ccc9e91",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\models_locked.json": "05febdaf1131747ca170d79ba71962f8d106098232e6b9ff128db3c7bad301cd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\verification.json": "0589cb7cb06821f221385b6c6d3be36578e43722200a5341519e51fb557187d3",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\weighted_v1_day16\\context.npz": "cfa87ec50f196c1f8bb000739d9b3526a9baeaf2a7cc17a36296af82bf52ff0f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\weighted_v1_day16\\context_manifest.json": "ae2e724e8345edf2b76d7647499f4889982cfa28ae8b21dc6bcc8f9f8e429d5b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\weighted_calibration_transfer_v1\\best_prediction.npy": "c72b61421263bcbfc67f162e1abb5aafa964dced7fab5c5936ef982c0d6b5939",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\weighted_calibration_transfer_v1\\verification.json": "34c7f2703ac481af62713070ecb1f1688785962c99120cafff92c501cc65ed7c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\reference_day_state_protected_seed42_v1\\day15_indices.npy": "d82f9999fec7aaa235312227f3d73826687f51a3e5e1981a40d26a0255e76a24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\reference_day_state_protected_seed42_v1\\day15_prediction.npy": "e259c0d3a52df8376ec663ed085b2ee59519cbe4624a1c7e393a781d954eac61",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\reference_day_state_protected_seed42_v1\\day16_indices.npy": "4476f254ab1c3b9062d9d9a58a80bb00f72e88388792467b2a9925b8cc6b1738",
+    "E:\\AI\\ml\\大作业上传\\analysis\\userday_aux_20261101\\reference_day_state_protected_seed42_v1\\day16_prediction.npy": "8689af8c3631e83ded6f1e1dad82c0b9ad00a6c875277f7f7a42e569119349ac",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\poisson_15_oof_groups.npy": "dc6972d531178a83f5b78a8b594577a69ac4043f0fd0ba30b248ca21901f8085",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\poisson_15.txt": "b6ea3b264426e324c00349d57b5e0ca69ccc9aa8b703c088ab338c47b3b2872e",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t0.5_l3_oof.npy": "10e14a074315dddb3279c16cfa02f4913fec2b2c0b74973c938d22dd45edee1f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t0.5_l3.txt": "03f1a0b64fc52e71e442892b37214eb65c7cbe1f9f0f5dc4b4ca1daeab859c24",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\protocol.json": "06df875dcfc5d26a7bb8c21a342c817fa981822f92355daa2e5a3aab20286b45",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\models_locked.json": "f97df9c482464335f44a2252905236c55c7831e99e3933c303f5f712ecfff201",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\verification.json": "fdb177a48ae34db9fec4d0a12dd8e71a4f5176a1da16d4291ee535a0943f0baf",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\pairwise_group_boost.py": "c7298614e37d8553834de36db1888891ce9b2cdb29cb86917cc33d17a2a76e25",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_userday_activity_v1\\prediction.npy": "74dafd93386242f27e232c1ab67245cefe46fb7e15856a4ca7c976be6de96d0a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_userday_activity_v1\\verification.json": "1d58d8f5f50a1951a11a5f9e16be1ca004ff761a071b84f13cf755ddd5637925",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t1_l3_oof.npy": "61a52b1a47aad7443c2687c7593bf2efb6c582773fad7466ce7f08b8c9fcba58",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\t1_l3.txt": "442ef27e2e04ff893742cc31523b60953905cca3ff2a3a5758e200cce6a70633",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_binary_7_oof.npy": "abbc9c7e628346b7f1b62e05d15aea7bdb85307ca7121600de41408b08b3a8fd",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_binary_7.txt": "4324d05c6e54f65a074fda490a2adce0b79c3b2e411213bf87cccff76279358f",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\protocol.json": "6b2ffc2945cad71362f39de20e18b908ec7c20fdc860ecaf2da8b43044ba254a",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\models_locked.json": "4076e0147b49596252ccd6ed17670c60f3487505f1eee153157f3431d2d0b601",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\verification.json": "5b558000964db4a298f6204054cb9fb0e35ac6861ab54498b8d5cbd8f93be980",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\poisson_7.txt": "e7cb3b7103bb4a1845df06ffb58a67b75b8e797386b5607d29113b9688e2f55b",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\rich_group_residual_v1\\prediction.npy": "f6c86622ebf43fe10d3a1b2f19faaeddab8db24621faac312f0d17f2b77072d7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_poisson_15_oof.npy": "c0c84a6255f865e52308d3620c985b1f9c99791161c251ae2c1333c65b2914b5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\slot_id_poisson_15.txt": "cd919fda873a953ad773661b1c197361d896bdf8f75443bf52fb9ac4f37b5089",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_binary_15_oof.npy": "9b7752224af5b07d3d1f82d9d8dcdfe7acb2c6b618b9befa3261f79f0a4f1d13",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_binary_15.txt": "812dd65f5c6283ab13ae79ac06ff6a5ea4479b5a69a40c4fd8eadc888e1cf6d7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_poisson_15_oof.npy": "525163a3cd1dd88294fbd0b54eaad09793b45b2c25de06af8a2199a8927dfcb7",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\spread_app_id_poisson_15.txt": "0dda3bfd055c71d09025f4781648dd520e5b4c35c3c387f393d616c00e820773",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_binary_7_oof.npy": "e8dc42e5b482ff6e34f736927de80c433636ded77dd8f07b0ffa96997a75b558",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_binary_7.txt": "a901dd2c38eb27733683070970bfa4b328a21fd7ab168b8fcae119d99c5e6e4d",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_poisson_7_oof.npy": "5b663897ab34e746e5b81eeb69c26a6b14818ce49de1ab422f8d43f36910ad22",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\subgroup_residual_v1\\task_id_poisson_7.txt": "42adeef6b733198a676b21b88d103ac23c09f4e8da1377b402f3932c6116bb9c",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\binary_7_oof.npy": "ee17b1198747f5f278f5bcff733f841d80b7ebb941ae25e72216bf487b02ccc5",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\binary_7.txt": "00d452c12ab805a6a81171a57ab07fe9991ba078a2fe3b0d66c72c8f26413076",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\protocol.json": "32f45c5e2465d80c1a382f553e1cd71942453de75fe8301217b20f3ceb9bbc99",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\models_locked.json": "46fa333ae1f72ea9bed8f9c9a425cd02aa51cedda349f6802f57cf2d9e0f10b3",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\verification.json": "4270940ef2db13d74a67e79c9382a207c6da702d6489e8e301dc818feb5b0275",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\pairwise_group_boost_v1\\prediction.npy": "74e760364ebc3f4e8d580728f4f8c18de74ce8ec03920d7c5651fc7ce7863a39",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\poisson_15_oof.npy": "ca31e6184cb998dbb9b7a36d3906bce787b9681f5ac1817a003d02817fc888ee",
+    "E:\\AI\\ml\\大作业上传\\analysis\\day16_auc082_20261102\\runs\\extended_history_residual_v1\\poisson_15.txt": "5076241006d911989eba386ec7ce078246521ea4c163e6cdb1166ce626b3f326"
+  },
+  "raw_datasets_sha256": {
+    "final_test.csv": "9478dfd16937919a30b4efe7b19b805c70196ca5d0c2c8561e37bdb0fdd42b59",
+    "test_feeds.csv": "cce1b0fa2929190642cdc724cd2342edc755b1847a87fc5acc8c26469ddcdbd2",
+    "train.csv": "3f1b4dc73a754c60df3df8fd6f4c13f76ee57bd3be03ded365aba69f6dca34ad",
+    "train_feeds.csv": "c9eea8f2637fdd5e42a7c341c7ff0ddca12f9d0a054a5fa40a05ebe2263f7c85"
+  },
+  "fit_date": 20191115,
+  "evaluation_date": 20191116,
+  "evaluation16_labels_fit": false,
+  "selection": "One source per15-only family/objective bucket; all6 meta fits on15 then locked before16",
+  "nested_meta_cv": false,
+  "note": "Base OOF predictions share folds. No nested-validation or unbiased15 performance claim.",
+  "development16_model_selection": true
+}

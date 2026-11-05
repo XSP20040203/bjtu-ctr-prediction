@@ -1,0 +1,1573 @@
+{
+  "status": "passed",
+  "dates": {
+    "20191115": {
+      "auc": 0.8014585496955275,
+      "best": {
+        "name": "day15_audience_row_d8_trees1600",
+        "mode": "add_global",
+        "weight": 0.2,
+        "auc": 0.8014585496955275
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.80123506570526
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8011287243317743
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010078966245631
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8007514557028638
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8001865978454837
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7992848314883849
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7983869308039493
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7969797902424292
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8011254940660001
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8009951642294713
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8006918426775587
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.7998887341894351
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7981593911253849
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7957310263640351
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7898836732443159
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8009907770245367
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8007044800648335
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8000265595362835
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7983261547751551
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7952436874732796
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7918700912893255
+        },
+        {
+          "name": "day15_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7862041626710068
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8012057891475577
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.801168525868908
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8010739809624455
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.800830004257745
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8003881592873647
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.799913134353018
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7991478551475597
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8012052783963152
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8011647895685913
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8010519869897428
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8006895577732531
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7997919650219545
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7984448673792656
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7951322433040682
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8010363140690275
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8007993187543326
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8002151392717802
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7987202458519839
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7959566342169894
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7928937425682788
+        },
+        {
+          "name": "day15_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7877193082535296
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8012449249561588
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8012428381532588
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8012090456920898
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8010477001831395
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8006663394799597
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8002212972607061
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7994544521108049
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8012448703772002
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8012425376320791
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.801194204258226
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009311485015026
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8001028474441743
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.798732312518543
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7952120027032541
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8010580775972382
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8008425277704024
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8002963359168769
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7988581358850055
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7961684127051646
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7931527911513353
+        },
+        {
+          "name": "day15_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.788048108071912
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8011656965226447
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8010855274443619
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8009070785069287
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8004951084413529
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.7998117293431247
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.7991141549989504
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7980076730752128
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8011631137924168
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8010763858056972
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8008630959520376
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8002738884671474
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.7989417751069549
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7970190931569777
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.792349891545646
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8010195697835687
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8007631046045545
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8001445356613596
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7985666209073309
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7956603317886835
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7924551521209877
+        },
+        {
+          "name": "day15_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7870288103071779
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8012363863812962
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8012309844120197
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8011943781023164
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8010419370493959
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8007091071476603
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8003224280281777
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.7996472896788897
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8012363857074819
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.801229396905519
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8011817979892574
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8009410117952872
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8002176276680055
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.799022620694799
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7959368099263461
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8010568458646902
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8008413027759975
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8003015465228911
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7988769689948074
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7962033789508515
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.793205695681428
+        },
+        {
+          "name": "day15_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7880994749577624
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8013119600460246
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8013733856318079
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8014455107149273
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8014585496955275
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8012597771710516
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8009244932376202
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8002719842679238
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8013134100944072
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8013783812910591
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8014575241501566
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8014154868971617
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8008299618074438
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.7996119238613204
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7961367158064817
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8011209781625335
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8009671625284324
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8005344255060017
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.7993071819088546
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.7968707145304971
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.7940595477771708
+        },
+        {
+          "name": "day15_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7891993959516203
+        }
+      ],
+      "rows": 424780,
+      "clicks": 3523,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 3.858025010572419e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    },
+    "20191116": {
+      "auc": 0.8131356512998261,
+      "best": {
+        "name": "base",
+        "mode": "base",
+        "weight": 0.0,
+        "auc": 0.8131356512998261
+      },
+      "records": [
+        {
+          "name": "base",
+          "mode": "base",
+          "weight": 0.0,
+          "auc": 0.8131356512998261
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8129699639749323
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8127949237785789
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8124108519128198
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8115861043053335
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8102774046651758
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8089765164189672
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8069556503168244
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.812965878834824
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8127752100724396
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8123235513837013
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8111513447298954
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8086511022344891
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8051694618068855
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.7970394211513503
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.812994569191756
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8128134105944547
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8123281970027211
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8109801694625773
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8083044245201688
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8052051841518115
+        },
+        {
+          "name": "day16_audience_row_d6_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.7997670832617605
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8130505727838955
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8129579544462721
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8127486415743883
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8122651402360995
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8114595188912197
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8106465785777348
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8093675669854926
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8130483880075654
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.812947673863441
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8126988347090011
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8120045104800427
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8104413309435009
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8082288465390994
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8030022343090552
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.813061273244399
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8129503812398101
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8125971312200855
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.811511507322863
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8092181630817156
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8064868485491656
+        },
+        {
+          "name": "day16_audience_row_d6_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8016059176264876
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8131076498247637
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8130726747850533
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8129700923778902
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8126740362457257
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121093399389704
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8114779537038975
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8104430342087385
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8131069731411752
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8130692194614539
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8129417686114033
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8124993292550482
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8113158545996645
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8094947417691836
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8049562897840996
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8131117086422656
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8130513817225308
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8127958078329446
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8118991359505583
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8098694607634831
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8073719140881797
+        },
+        {
+          "name": "day16_audience_row_d6_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8027997107435749
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8130104141167712
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8128802276417008
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8125893711873198
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8119441244949472
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8109140766080142
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8098883623209131
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8082831616323415
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8130070538113607
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8128656359295554
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.812522066850848
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.811603678176178
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8096320045312685
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8068661939020413
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8003528659022758
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8130192752049017
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8128635159967191
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8124324929473584
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8111864038735433
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.808674114612619
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8057284634424542
+        },
+        {
+          "name": "day16_audience_row_d8_trees200",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8005273205811408
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.813095241604919
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8130476336401872
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8129245754553293
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8126000549554387
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8120134672283769
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8113857892707305
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8103576764163744
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.813093911992289
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.813042166884251
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8128929819075174
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.8124145473499506
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.8112215580353802
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.8094273257221384
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8050174654473867
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8130879463908611
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8129991801419771
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8126935515692949
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8116894365857711
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8095103953737914
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8068735841342881
+        },
+        {
+          "name": "day16_audience_row_d8_trees600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8021174217238684
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.025,
+          "auc": 0.8131275420110147
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.05,
+          "auc": 0.8131031332507166
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.1,
+          "auc": 0.8130187044537535
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.2,
+          "auc": 0.8127474962200031
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.35,
+          "auc": 0.8121886294075403
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.5,
+          "auc": 0.8115555835642354
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_global",
+          "weight": 0.75,
+          "auc": 0.8104969557469144
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.025,
+          "auc": 0.8131268987121951
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.05,
+          "auc": 0.8130993139047314
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.1,
+          "auc": 0.8129952792601136
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.2,
+          "auc": 0.812576711939692
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.35,
+          "auc": 0.811390389948715
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.5,
+          "auc": 0.809517819632822
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "replace_global",
+          "weight": 0.75,
+          "auc": 0.8048215546342427
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.025,
+          "auc": 0.8131318582764473
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.05,
+          "auc": 0.8130840512871307
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.1,
+          "auc": 0.8128546061154647
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.2,
+          "auc": 0.8119912207738914
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.35,
+          "auc": 0.8099642645194515
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.5,
+          "auc": 0.8074501403802575
+        },
+        {
+          "name": "day16_audience_row_d8_trees1600",
+          "mode": "add_within",
+          "weight": 0.75,
+          "auc": 0.8028398219016047
+        }
+      ],
+      "rows": 421983,
+      "clicks": 3724,
+      "evaluation_day_labels_fit": false,
+      "held_labels_used_to_select_fixed_recipe": true,
+      "all_both_date_candidates_locked_before_scoring": true,
+      "independent_native_source_and_raw_news_features_replayed": true,
+      "all12_checkpoint_margins_replayed_exactly": true,
+      "maximum_independent_prediction_error": 1.5543122344752192e-15,
+      "candidate_hashes_replayed_exactly": true,
+      "target_met": false
+    }
+  },
+  "original_datasets_unchanged": true,
+  "both_targets_met": false
+}

@@ -1,0 +1,32 @@
+{
+  "20191116": {
+    "day": 20191116,
+    "rows": 421983,
+    "log_ids_sha256": "1ad0ade0e61ba4a81bd5a2c3cec55648864b502458b924013734b6ce558f47af",
+    "audience_frame_sha256": "10ac478917fd5d22d10f891039f0ae9d3163f5c9de79f0a5561728410fc4dd8e",
+    "audience_margin_sha256": "2c20ed38ad04235f573c08908907fa2286150b916bd45560582d4fdbbfe1579f",
+    "compact_frame_sha256": "7def970b6cccc34006a71840d89384620030e293735f4de014bc6cd77427b998",
+    "compact_margin_sha256": "c529947046f9869e6f154dab43d756c985e46223381c58a7edb83bcc4d2a8769",
+    "unordered_frame_sha256": "153c0492c9f3665066d7e816696c34949e6964cdfae2d8c377028d9289bb35d8",
+    "unordered_margin_sha256": "c2ab70283762f33483f8bdec0f69ec41694379bdfe1d47db912b4480dc453e16",
+    "mask_sha256": "bb307395f2b945765571d4d1b8305d272f83205d2170a6dbdedc58b0a062d322",
+    "mask_count": 24443,
+    "maximum_advertisement_history_date": 20191115,
+    "inferred17_labels_read": false
+  },
+  "20191117": {
+    "day": 20191117,
+    "rows": 404182,
+    "log_ids_sha256": "234f4d803462ca6dd792c10c612b5ab67fd4415928b5b23f0323c7e241d9f9d3",
+    "audience_frame_sha256": "0b456717549a715a0d4288e689f6a1e1379264b39e029bdd368e918ec3e28ed7",
+    "audience_margin_sha256": "55383827273cd4b6bee2303576a0ed86de397357cdbd61e4c7991e4f212bd6b3",
+    "compact_frame_sha256": "f7087fa887ae90ccbb7fffa190dfedbe002353cf70579b9d294b5ce47526b4e6",
+    "compact_margin_sha256": "dd2a9d959ae713991d60ac7b23604cddd2472f1e57d3dd0b20f7376d1f440a8a",
+    "unordered_frame_sha256": "2b9df96caa67a4db237bcca386c12d0d0e4717c2379748a7298ad26eec7ead01",
+    "unordered_margin_sha256": "dbd093d8c1bb5bae7042badec151a1c24328396518a818dfb65e5e466fdff0b8",
+    "mask_sha256": "f31f5a5fccdc56091947e060cab9205ddbb4d304ad289ecff2712949a6bcbc30",
+    "mask_count": 14830,
+    "maximum_advertisement_history_date": 20191116,
+    "inferred17_labels_read": false
+  }
+}

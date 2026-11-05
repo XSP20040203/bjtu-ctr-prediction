@@ -1,0 +1,113 @@
+{
+  "models": [
+    {
+      "name": "day15_all_quality_depth8_trees800",
+      "depth": 8,
+      "half_life": null,
+      "day": 15,
+      "trees": 800,
+      "model_sha256": "f600a3010e620fbbfe4841b1a0dd424577c9a78257a030f80567ee738cb86f5c",
+      "fitting_weights_sha256": "d82329e07140ebc7af2abb29ec305f1c39ceace3cb3de206834ed80efc29714d"
+    },
+    {
+      "name": "day15_all_quality_depth8_trees1800",
+      "depth": 8,
+      "half_life": null,
+      "day": 15,
+      "trees": 1800,
+      "model_sha256": "ba06be82ae4c9e7f7fbecd48c70762f668c01855b652e7d4a31387fd36aeb6b0",
+      "fitting_weights_sha256": "d82329e07140ebc7af2abb29ec305f1c39ceace3cb3de206834ed80efc29714d"
+    },
+    {
+      "name": "day15_all_quality_depth8_trees3600",
+      "depth": 8,
+      "half_life": null,
+      "day": 15,
+      "trees": 3600,
+      "model_sha256": "e54e286670fe93c846b20c2563304f3b989a0873b94d48f2692c1281014cc9ea",
+      "fitting_weights_sha256": "d82329e07140ebc7af2abb29ec305f1c39ceace3cb3de206834ed80efc29714d"
+    },
+    {
+      "name": "day15_recent2_quality_depth8_trees800",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 15,
+      "trees": 800,
+      "model_sha256": "331eaf0c36ae718d987fbf992f857bb59a234ba2ef846bffc414bf3c91dddc8a",
+      "fitting_weights_sha256": "f2500e2fd4677f0c6a352f56d5a68722d366966c23790ce4d518b1e33e794b11"
+    },
+    {
+      "name": "day15_recent2_quality_depth8_trees1800",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 15,
+      "trees": 1800,
+      "model_sha256": "9ccd93f0107a4baaa79b8342c2687060a616afde1a5b213a1d3bb4783eeecd9c",
+      "fitting_weights_sha256": "f2500e2fd4677f0c6a352f56d5a68722d366966c23790ce4d518b1e33e794b11"
+    },
+    {
+      "name": "day15_recent2_quality_depth8_trees3600",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 15,
+      "trees": 3600,
+      "model_sha256": "7577491dc7c57c181cef2862fd905e5ab70328eb63fd6b2e131c66c4e35cba38",
+      "fitting_weights_sha256": "f2500e2fd4677f0c6a352f56d5a68722d366966c23790ce4d518b1e33e794b11"
+    },
+    {
+      "name": "day16_all_quality_depth8_trees800",
+      "depth": 8,
+      "half_life": null,
+      "day": 16,
+      "trees": 800,
+      "model_sha256": "92da889f6a12db5ee48ca57513dfcbb26013200d66b890f94567f2595197ea39",
+      "fitting_weights_sha256": "740d2ffc04d72eb0bc03e1e0be697b102a6a2dab4c1d767b2a70d33fdf425e3c"
+    },
+    {
+      "name": "day16_all_quality_depth8_trees1800",
+      "depth": 8,
+      "half_life": null,
+      "day": 16,
+      "trees": 1800,
+      "model_sha256": "d7b492d362664cba4dba6880d8544a9b8e143d666c2ea0d1a0dbe5f863b6de9d",
+      "fitting_weights_sha256": "740d2ffc04d72eb0bc03e1e0be697b102a6a2dab4c1d767b2a70d33fdf425e3c"
+    },
+    {
+      "name": "day16_all_quality_depth8_trees3600",
+      "depth": 8,
+      "half_life": null,
+      "day": 16,
+      "trees": 3600,
+      "model_sha256": "dde95903ee10331c4cd99eafb01f2a77bed070b203e2b53ea2b8e31b359253bc",
+      "fitting_weights_sha256": "740d2ffc04d72eb0bc03e1e0be697b102a6a2dab4c1d767b2a70d33fdf425e3c"
+    },
+    {
+      "name": "day16_recent2_quality_depth8_trees800",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 16,
+      "trees": 800,
+      "model_sha256": "75b292873c6e92428192639bfb5dcd1c88af2ba659a2e170c082c2577c513882",
+      "fitting_weights_sha256": "40df8efae7aa9c596a3cbf8fb81a23dc27837691ddfb848ab7f987200aee61ad"
+    },
+    {
+      "name": "day16_recent2_quality_depth8_trees1800",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 16,
+      "trees": 1800,
+      "model_sha256": "ee8d0a349e284c24560a67f46b40311a6dfca4c9259b8f9afe63e19a3727730f",
+      "fitting_weights_sha256": "40df8efae7aa9c596a3cbf8fb81a23dc27837691ddfb848ab7f987200aee61ad"
+    },
+    {
+      "name": "day16_recent2_quality_depth8_trees3600",
+      "depth": 8,
+      "half_life": 2.0,
+      "day": 16,
+      "trees": 3600,
+      "model_sha256": "5cab082a64ab8fe30c13c8845c56a0e7b7dfbcb1741e298538ab778119bf9b6e",
+      "fitting_weights_sha256": "40df8efae7aa9c596a3cbf8fb81a23dc27837691ddfb848ab7f987200aee61ad"
+    }
+  ],
+  "protocol_sha256": "04ced4f7bfa2f20c5c201ebea45cba4b254ca89d354fbda6e39c7e742025a09c"
+}

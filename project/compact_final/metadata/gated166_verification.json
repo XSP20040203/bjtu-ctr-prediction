@@ -1,0 +1,17 @@
+{
+  "status": "complete_and_verified",
+  "model": "GatedCrossCTR",
+  "numeric_width": 166,
+  "train_rows": 2526320,
+  "final_rows": 404182,
+  "fixed_fractional_epochs": 0.8750761730652041,
+  "steps": 2160,
+  "maximum_reload_error": 0.0,
+  "final_labels_read": false,
+  "final_auc": null,
+  "model_sha256": "744458e3621a1cb1a28166aa3b187ce541ef507c0e0682c770a7d490555094c9",
+  "mean_probability": 0.008103541098535061,
+  "minimum_probability": 2.7084097382612526e-05,
+  "maximum_probability": 0.9471499919891357,
+  "seconds": 129.3103716999999
+}

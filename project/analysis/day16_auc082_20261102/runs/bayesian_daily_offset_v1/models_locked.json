@@ -1,0 +1,89 @@
+{
+  "models": [
+    {
+      "name": "day15_poisson_l15_trees250",
+      "objective": "poisson",
+      "day": 15,
+      "trees": 250,
+      "model_sha256": "8a8ef470cc3e0e42ad0c4146b8e879c2bfff209eb9910a98d2a7a1bb2c50dc5a"
+    },
+    {
+      "name": "day15_poisson_l15_trees600",
+      "objective": "poisson",
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "0f1a3a53c12fb59976f7e871aba8f0608cc1e66adad486b49ccd630082eaa516"
+    },
+    {
+      "name": "day15_poisson_l15_trees1000",
+      "objective": "poisson",
+      "day": 15,
+      "trees": 1000,
+      "model_sha256": "67764bbd4b14a0729c022f084d49efd433748e4bad493aabc1224f7a76a023d6"
+    },
+    {
+      "name": "day15_binary_l15_trees250",
+      "objective": "binary",
+      "day": 15,
+      "trees": 250,
+      "model_sha256": "aa9f3606e316fa5633c40ff075906f534e89f3dfb9636a5faf66c54ac1eb5a12"
+    },
+    {
+      "name": "day15_binary_l15_trees600",
+      "objective": "binary",
+      "day": 15,
+      "trees": 600,
+      "model_sha256": "c3c6e3fd2ca76f0e19fa9ddac2632781464657074be10bf068c797c042854f7d"
+    },
+    {
+      "name": "day15_binary_l15_trees1000",
+      "objective": "binary",
+      "day": 15,
+      "trees": 1000,
+      "model_sha256": "8c784bc85fe16d88aa576cbd9fc250c587dd63cd57908a56eb207229e513e22d"
+    },
+    {
+      "name": "day16_poisson_l15_trees250",
+      "objective": "poisson",
+      "day": 16,
+      "trees": 250,
+      "model_sha256": "f7a9a79ef5d045bdf39893b03bd1cc504e381841b1bf1ef06e7c9d7e938d7eb9"
+    },
+    {
+      "name": "day16_poisson_l15_trees600",
+      "objective": "poisson",
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "be4f53ba7d09d7ab8aa0075c44cf97ed111e0016c0a0ce47f3863ee4d98b0692"
+    },
+    {
+      "name": "day16_poisson_l15_trees1000",
+      "objective": "poisson",
+      "day": 16,
+      "trees": 1000,
+      "model_sha256": "974e96928be09fb58f1eadbf95975164a5cead3c921e78f2210fab216dd420d7"
+    },
+    {
+      "name": "day16_binary_l15_trees250",
+      "objective": "binary",
+      "day": 16,
+      "trees": 250,
+      "model_sha256": "628ed5830d5b4d8119cf56c3d2135d6f8d76ccc6569355950dd19800a842d2f7"
+    },
+    {
+      "name": "day16_binary_l15_trees600",
+      "objective": "binary",
+      "day": 16,
+      "trees": 600,
+      "model_sha256": "c2d7e883597f26da6d5d84be00ba65d37202645a92ec830cead5f364bcf59d34"
+    },
+    {
+      "name": "day16_binary_l15_trees1000",
+      "objective": "binary",
+      "day": 16,
+      "trees": 1000,
+      "model_sha256": "98e3ef2934a8288f45580b6930a49ea3e5543bc1242a1e7c9721c506e2dc0803"
+    }
+  ],
+  "protocol_sha256": "0b7fae5e7a5d2fdd111e6e635279f6d3f5d702c3f9f48fad952c4d88282481a6"
+}
